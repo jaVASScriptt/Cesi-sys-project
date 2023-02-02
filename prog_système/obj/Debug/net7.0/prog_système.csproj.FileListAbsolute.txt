@@ -1,0 +1,15 @@
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\bin\Debug\net7.0\prog_système.exe
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\bin\Debug\net7.0\prog_système.deps.json
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\bin\Debug\net7.0\prog_système.runtimeconfig.json
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\bin\Debug\net7.0\prog_système.dll
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\bin\Debug\net7.0\prog_système.pdb
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\obj\Debug\net7.0\prog_système.csproj.AssemblyReference.cache
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\obj\Debug\net7.0\prog_système.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\obj\Debug\net7.0\prog_système.AssemblyInfoInputs.cache
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\obj\Debug\net7.0\prog_système.AssemblyInfo.cs
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\obj\Debug\net7.0\prog_système.csproj.CoreCompileInputs.cache
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\obj\Debug\net7.0\prog_système.dll
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\obj\Debug\net7.0\refint\prog_système.dll
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\obj\Debug\net7.0\prog_système.pdb
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\obj\Debug\net7.0\prog_système.genruntimeconfig.cache
+C:\Users\vdelmas\RiderProjects\Cesi-sys-project\prog_système\obj\Debug\net7.0\ref\prog_système.dll
