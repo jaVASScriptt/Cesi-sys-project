@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using System.Collections;
+using Newtonsoft.Json;
 
 namespace EasySafe;
 
@@ -21,7 +22,7 @@ public class feature
         try
         {
             if (!File.Exists(_logPath))
-                File.Create(_logPath);
+                factoryFillLogs(_logPath);
 
             if (!File.Exists(_statePath))
                 factoryFillState(_statePath);
@@ -31,33 +32,45 @@ public class feature
             Console.WriteLine("Erreur lors de la création des fichiers log et state : " + ex.Message);
         }
         
-        setTask(task: 4, SourceFilePath: "source", TargetFilePath: "target");
+        addLog(3, "yes");
+        
     }
     
     public void factoryFillState(String filePath)
+     {
+         TaskData[] tasks = new TaskData[5];
+ 
+         for (int i = 0; i < 5; i++)
+         {
+             tasks[i] = new TaskData
+             {
+                 Name = "",
+                 SourceFilePath = "",
+                 TargetFilePath = "",
+                 State = "END",
+                 TotalFilesToCopy = 0,
+                 TotalFilesSize = 0,
+                 NbFilesLeftToDo = 0,
+                 Progression = 0,
+                 LastUsed = "17/12/2020 17:06:49"
+             };
+         }
+ 
+         string json = JsonConvert.SerializeObject(tasks, Formatting.Indented);
+ 
+         File.WriteAllText(filePath, json);
+     }
+    
+    public void factoryFillLogs(String filePath)
     {
-        TaskData[] tasks = new TaskData[5];
-
-        for (int i = 0; i < 5; i++)
-        {
-            tasks[i] = new TaskData
-            {
-                Name = "",
-                SourceFilePath = "",
-                TargetFilePath = "",
-                State = "END",
-                TotalFilesToCopy = 0,
-                TotalFilesSize = 0,
-                NbFilesLeftToDo = 0,
-                Progression = 0,
-                LastUsed = "17/12/2020 17:06:49"
-            };
-        }
-
-        string json = JsonConvert.SerializeObject(tasks, Formatting.Indented);
-
-        File.WriteAllText(filePath, json);
+        using (StreamWriter writer = new StreamWriter(filePath))  
+        {  
+            writer.WriteLine("[");  
+            writer.WriteLine("]");
+        }  
     }
+    
+    
     
     public TaskData[] getTasks()
     {
@@ -97,17 +110,34 @@ public class feature
         File.WriteAllText(_statePath, json);
     }
     
-}
+    public ArrayList getLogs()
+    {
+        string json = File.ReadAllText(_logPath);
+        ArrayList logs = JsonConvert.DeserializeObject<ArrayList>(json);
+        return logs;
+    }
+    
+    public void addLog(int task = 0,
+        string success = "",
+        int FileTransferTime = 0)
+    {
+        ArrayList logs = getLogs();
+        TaskData[] tasks = getTasks();
 
-public class TaskData
-{
-    public string Name { get; set; }
-    public string SourceFilePath { get; set; }
-    public string TargetFilePath { get; set; }
-    public string State { get; set; }
-    public int TotalFilesToCopy { get; set; }
-    public int TotalFilesSize { get; set; }
-    public int NbFilesLeftToDo { get; set; }
-    public int Progression { get; set; }
-    public string LastUsed { get; set; }
+        logs.Add(new LogData
+        {
+            Name = tasks[task].Name,
+            SourceFilePath = tasks[task].SourceFilePath,
+            TargetFilePath = tasks[task].TargetFilePath,
+            success = "success",
+            FileSize = tasks[task].TotalFilesSize,
+            FileTransferTime = FileTransferTime,
+            Time = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")
+        });
+        
+        string json = JsonConvert.SerializeObject(logs, Formatting.Indented);
+
+        File.WriteAllText(_logPath, json);
+    }
+    
 }
