@@ -30,6 +30,8 @@ public class feature
         {
             Console.WriteLine("Erreur lors de la création des fichiers log et state : " + ex.Message);
         }
+        
+        setTask(task: 4, SourceFilePath: "source", TargetFilePath: "target");
     }
     
     public void factoryFillState(String filePath)
@@ -56,7 +58,45 @@ public class feature
 
         File.WriteAllText(filePath, json);
     }
+    
+    public TaskData[] getTasks()
+    {
+        string json = File.ReadAllText(_statePath);
+        TaskData[] tasks = JsonConvert.DeserializeObject<TaskData[]>(json);
+        return tasks;
+    }
+    
+    public void setTask(int task = 0, 
+        string Name = "", 
+        string SourceFilePath = "", 
+        string TargetFilePath = "", 
+        string State = "", 
+        int TotalFilesToCopy = 0, 
+        int TotalFilesSize = 0, 
+        int NbFilesLeftToDo = 0, 
+        int Progression = 0, 
+        string LastUsed = "")
+    {
+        TaskData[] tasks = getTasks();
+        
+        tasks[task] = new TaskData
+        {
+            Name = Name == "" ? tasks[task].Name : Name ,
+            SourceFilePath = SourceFilePath == "" ? tasks[task].SourceFilePath : SourceFilePath,
+            TargetFilePath = TargetFilePath == "" ? tasks[task].TargetFilePath : TargetFilePath,
+            State = State == "" ? tasks[task].State : State,
+            TotalFilesToCopy = TotalFilesToCopy == 0 ? tasks[task].TotalFilesToCopy : TotalFilesToCopy,
+            TotalFilesSize = TotalFilesSize == 0 ? tasks[task].TotalFilesSize : TotalFilesSize,
+            NbFilesLeftToDo = NbFilesLeftToDo == 0 ? tasks[task].NbFilesLeftToDo : NbFilesLeftToDo,
+            Progression = Progression == 0 ? tasks[task].Progression : Progression,
+            LastUsed = LastUsed == "" ? tasks[task].LastUsed : LastUsed
+        };
+        
+        string json = JsonConvert.SerializeObject(tasks, Formatting.Indented);
 
+        File.WriteAllText(_statePath, json);
+    }
+    
 }
 
 public class TaskData
