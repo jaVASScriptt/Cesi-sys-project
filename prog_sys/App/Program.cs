@@ -32,9 +32,9 @@
         
         static void Main(string[] args)
         {
-            feature f = new feature(); 
-            f.CreateLog("C:/Users/vdelmas/Documents/Cesi/prog_sys/Cesi-sys-project/prog_sys/App/features");
-            f.CreateState("C:/Users/vdelmas/Documents/Cesi/prog_sys/Cesi-sys-project/prog_sys/App/features");
+            feature f = new feature();
+
+            Console.WriteLine(AppDomain.CurrentDomain.BaseDirectory);
             
             Console.WriteLine("Bienvenue dans EasySafe 1.0");
             Console.WriteLine("Welcome in EasySafe 1.0");
