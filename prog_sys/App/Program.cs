@@ -1,3 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Controler;
+using System;
+using System.Xml.Linq;
+using System.Xml.Serialization;
 
-Console.WriteLine("Hello, World!");
+public class program
+{
+	static void Main(string[] args)
+	{
+        Save save = new Save();
+        save.GetValues();
+        save.checkType();
+        Console.ReadLine();
+    }
+}

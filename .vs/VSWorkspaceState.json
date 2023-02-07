@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\prog_sys",
+    "\\prog_sys\\App"
   ],
-  "SelectedNode": "\\C:\\Users\\diddy\\Source\\Repos\\Cesi-sys-project",
+  "SelectedNode": "\\prog_sys\\App\\Save.cs",
   "PreviewInSolutionExplorer": false
 }
