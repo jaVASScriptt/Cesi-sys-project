@@ -8,8 +8,4 @@
         <RootNamespace>ConsoleApp2</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <PackageReference Include="Newtonsoft.Json" Version="13.0.3-beta1" />
-    </ItemGroup>
-
 </Project>

@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace EasySafe;
 
@@ -32,7 +32,7 @@ public class feature
             Console.WriteLine("Erreur lors de la création des fichiers log et state : " + ex.Message);
         }
         
-        addLog(3, "yes");
+        addLog(2, success: "yes");
         
     }
     
@@ -56,7 +56,7 @@ public class feature
              };
          }
  
-         string json = JsonConvert.SerializeObject(tasks, Formatting.Indented);
+         string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
  
          File.WriteAllText(filePath, json);
      }
@@ -75,7 +75,7 @@ public class feature
     public TaskData[] getTasks()
     {
         string json = File.ReadAllText(_statePath);
-        TaskData[] tasks = JsonConvert.DeserializeObject<TaskData[]>(json);
+        TaskData[] tasks = JsonSerializer.Deserialize<TaskData[]>(json);
         return tasks;
     }
     
@@ -105,15 +105,15 @@ public class feature
             LastUsed = LastUsed == "" ? tasks[task].LastUsed : LastUsed
         };
         
-        string json = JsonConvert.SerializeObject(tasks, Formatting.Indented);
+        string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
 
         File.WriteAllText(_statePath, json);
     }
     
-    public ArrayList getLogs()
+    public List<object> getLogs()
     {
         string json = File.ReadAllText(_logPath);
-        ArrayList logs = JsonConvert.DeserializeObject<ArrayList>(json);
+        List<object> logs = JsonSerializer.Deserialize<List<object>>(json);
         return logs;
     }
     
@@ -121,7 +121,7 @@ public class feature
         string success = "",
         int FileTransferTime = 0)
     {
-        ArrayList logs = getLogs();
+        List<object> logs = getLogs();
         TaskData[] tasks = getTasks();
 
         logs.Add(new LogData
@@ -129,14 +129,13 @@ public class feature
             Name = tasks[task].Name,
             SourceFilePath = tasks[task].SourceFilePath,
             TargetFilePath = tasks[task].TargetFilePath,
-            success = "success",
+            success = success,
             FileSize = tasks[task].TotalFilesSize,
             FileTransferTime = FileTransferTime,
             Time = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")
         });
         
-        string json = JsonConvert.SerializeObject(logs, Formatting.Indented);
-
+        string json = JsonSerializer.Serialize(logs, new JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(_logPath, json);
     }
     
