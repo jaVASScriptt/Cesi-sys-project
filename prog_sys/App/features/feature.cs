@@ -74,9 +74,11 @@ public class feature
     
     public TaskData[] getTasks()
     {
+        
         string json = File.ReadAllText(_statePath);
         TaskData[] tasks = JsonSerializer.Deserialize<TaskData[]>(json);
         return tasks;
+        
     }
     
     public TaskData getTask(int task = 0, String name = "") 
