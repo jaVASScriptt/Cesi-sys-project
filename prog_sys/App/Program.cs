@@ -8,16 +8,17 @@ public class Program
     public static string readCommand(string message)
     {
         Console.WriteLine(message);
-        return Console.ReadLine();
+        string userInput = Console.ReadLine();
+        return userInput;
     }
 
     static void Main(string[] args)
     {
         Language selectedLanguage = new Language(readCommand("Français : 1 , English : 2"));
 
-        string command = readCommand(selectedLanguage.defaultMessage());
+        string command;
 
-        while (command != "exit")
+        while ((command = readCommand(selectedLanguage.defaultMessage())) != "exit")
         {
             switch (command)
             {
@@ -25,11 +26,13 @@ public class Program
                     string saveName = readCommand(selectedLanguage.saveNameMessage());
                     string originPath = readCommand(selectedLanguage.originPathMessage());
                     string targetPath = readCommand(selectedLanguage.targetPathMessage());
-                    int numberOfFilesToCopy = Int32.Parse(readCommand(selectedLanguage.numberOfFilesToSaveMessage()));
-                    for (int i = 0; i < numberOfFilesToCopy; i++)
+                    string numberOfFilesToCopy = readCommand(selectedLanguage.numberOfFilesToSaveMessage());
+                    int.TryParse(numberOfFilesToCopy, out int filesNumber);
+                    for (int file = 0; file < filesNumber; file++)
                     {
                         string fileName = readCommand(selectedLanguage.fileNameMessage());
                         //lancer une sauvegarde
+                        //paramètres dispo : saveName, originPath, targetPath, fileName
                     }
                     break;
                 case "language":
@@ -39,7 +42,7 @@ public class Program
                     Console.WriteLine("unknown command");
                     break;
             }
-            command = readCommand(selectedLanguage.defaultMessage());
+            ;
         }
     }
 }

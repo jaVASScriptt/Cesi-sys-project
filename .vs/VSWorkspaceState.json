@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.idea\\.idea.Cesi-sys-project.dir",
     "\\prog_sys",
     "\\prog_sys\\App"
   ],
-  "SelectedNode": "\\prog_sys\\App\\log.cs",
+  "SelectedNode": "\\prog_sys\\App\\Language.cs",
   "PreviewInSolutionExplorer": false
 }
