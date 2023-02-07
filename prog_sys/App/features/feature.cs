@@ -13,7 +13,7 @@ public class feature
         
         if (string.IsNullOrEmpty(path))
         {
-            path = AppDomain.CurrentDomain.BaseDirectory + "/../../../features";
+            path = AppDomain.CurrentDomain.BaseDirectory + "/../../../features/files";
         }
         
         _logPath = path + "/log.json";
@@ -22,21 +22,21 @@ public class feature
         try
         {
             if (!File.Exists(_logPath))
-                factoryFillLogs(_logPath);
+                factoryFillLogs();
 
             if (!File.Exists(_statePath))
-                factoryFillState(_statePath);
+                factoryFillState();
         }
         catch (Exception ex)
         {
             Console.WriteLine("Erreur lors de la création des fichiers log et state : " + ex.Message);
         }
         
-        addLog(2, success: "yes");
-        
+        addNewTask(3, "timothé", "C:/Users/vassi/Documents/bot", "C:/Users/vassi/Documents/bot", 0, 3, 5, 10);
+
     }
     
-    public void factoryFillState(String filePath)
+    public void factoryFillState()
      {
          TaskData[] tasks = new TaskData[5];
  
@@ -58,12 +58,12 @@ public class feature
  
          string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
  
-         File.WriteAllText(filePath, json);
+         File.WriteAllText(_statePath, json);
      }
     
-    public void factoryFillLogs(String filePath)
+    public void factoryFillLogs()
     {
-        using (StreamWriter writer = new StreamWriter(filePath))  
+        using (StreamWriter writer = new StreamWriter(_logPath))  
         {  
             writer.WriteLine("[");  
             writer.WriteLine("]");
@@ -79,6 +79,83 @@ public class feature
         return tasks;
     }
     
+    public TaskData getTask(int task = 0, String name = "") 
+    {
+        TaskData[] tasks = getTasks();
+        
+        if (name != "")
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                if (tasks[i].Name == name)
+                    return tasks[i];
+            }
+        }
+        return tasks[task];
+        
+    }
+
+    public void addNewTask(int task,
+        string Name,
+        string SourceFilePath,
+        string TargetFilePath,
+        int TotalFilesToCopy,
+        int TotalFilesSize,
+        int NbFilesLeftToDo,
+        int Progression)
+    {
+        TaskData[] tasks = getTasks();
+        bool okToAdd = true;
+        String error = "";
+
+        if (task < 0 || task > 4)
+        {
+            okToAdd = false;
+            error = "Le numéro de tâche doit être compris entre 0 et 4";
+        }
+        else if (Name == "")
+        {
+            okToAdd = false;
+            error = "Le nom de la tâche ne peut pas être vide";
+        }
+        else if (SourceFilePath == "")
+        {
+            okToAdd = false;
+            error = "Le chemin source ne peut pas être vide";
+        }
+        else if (!File.Exists(SourceFilePath) && !Directory.Exists(SourceFilePath))
+        {
+            okToAdd = false;
+            error = "Le fichier ou dossier source n'existe pas";
+        }
+        else if (TargetFilePath == "")
+        {
+            okToAdd = false;
+            error = "Le chemin cible ne peut pas être vide";
+        }
+        else if (!File.Exists(TargetFilePath) && !Directory.Exists(TargetFilePath))
+        {
+            okToAdd = false;
+            error = "Le fichier ou dossier cible n'existe pas";
+        }
+
+        if (okToAdd)
+        {
+            if (getTask(task).Name != "")
+            {
+                Console.WriteLine("voulez vous écraser la tâche ? (y/n)");
+                if (Console.ReadLine() == "y")
+                    setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
+                        NbFilesLeftToDo, Progression);
+            }
+        }
+        else
+        {
+            Console.WriteLine(error);
+        }
+        
+    }
+
     public void setTask(int task = 0, 
         string Name = "", 
         string SourceFilePath = "", 
@@ -116,7 +193,7 @@ public class feature
         List<object> logs = JsonSerializer.Deserialize<List<object>>(json);
         return logs;
     }
-    
+
     public void addLog(int task = 0,
         string success = "",
         int FileTransferTime = 0)
@@ -136,6 +213,7 @@ public class feature
         });
         
         string json = JsonSerializer.Serialize(logs, new JsonSerializerOptions { WriteIndented = true });
+        setTask(task, LastUsed: DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"));
         File.WriteAllText(_logPath, json);
     }
     
