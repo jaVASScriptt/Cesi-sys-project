@@ -4,9 +4,16 @@ namespace Controler
 {
     class Save
     {
-        private String name;
-        private String sourcePath;
-        private String targetPath;
+        internal String name;
+        internal String sourcePath;
+        internal String targetPath;
+
+        public Save(String name, String sourcePath, String targetPath)
+        {
+            this.name = name;
+            this.sourcePath = sourcePath;
+            this.targetPath = targetPath;
+        }
 
         public String getName()
         {
@@ -23,24 +30,15 @@ namespace Controler
             return targetPath;
         }
 
-        public void GetValues()
-        {
-            Console.WriteLine("Enter file name: ");
-            name = Console.ReadLine();
-
-            Console.WriteLine("Enter source path: ");
-            sourcePath = Console.ReadLine();
-
-            Console.WriteLine("Enter target path: ");
-            targetPath = Console.ReadLine();
-        }
-        public void checkType()
+        
+        public void checkType(Save save)
         {
             Console.WriteLine("Choose the type save");
             Console.WriteLine("1: Complete save");
             Console.WriteLine("2: Differential save");
             String typeNumber = Console.ReadLine();
 
+            /*
             switch (typeNumber)
             {
                 case "1":
@@ -55,9 +53,27 @@ namespace Controler
                 default:
                     Console.WriteLine("Sorry we don't understand your request");
                     break;
+            }*/
+
+            if (typeNumber == "1")
+            {
+                Console.WriteLine("Ok for complete save");
+                /*name = save.getName();
+                sourcePath = save.getSourcePath();
+                targetPath = save.getTargetPath();*/
+                CompleteSave saveC = new CompleteSave(name, sourcePath, targetPath);
+                saveC.CopyFile(saveC);
+            }
+            else if (typeNumber == "2")
+            {
+                Console.WriteLine("Ok differential save");
+            }
+            else
+            {
+                Console.WriteLine("Sorry we don't understand your request");
             }
 
         }
-       
+
     }
 }

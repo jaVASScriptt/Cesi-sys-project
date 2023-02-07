@@ -7,9 +7,18 @@ public class program
 {
 	static void Main(string[] args)
 	{
-        Save save = new Save();
-        save.GetValues();
-        save.checkType();
+ 
+        Console.WriteLine("Enter file name: ");
+        String name = Console.ReadLine();
+
+        Console.WriteLine("Enter source path: ");
+        String sourcePath = Console.ReadLine();
+
+        Console.WriteLine("Enter target path: ");
+        String targetPath = Console.ReadLine();
+
+        Save save = new Save(name, sourcePath, targetPath);
+        save.checkType(save);
         Console.ReadLine();
     }
 }
