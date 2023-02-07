@@ -3,12 +3,12 @@ using System.Text.Json;
 
 namespace EasySafe;
 
-public class feature
+public class Feature
 {
     private string _logPath;
     private string _statePath;
 
-    public feature(string path = "")
+    public Feature(string path = "")
     {
         
         if (string.IsNullOrEmpty(path))

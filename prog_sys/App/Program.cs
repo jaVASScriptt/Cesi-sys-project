@@ -32,7 +32,7 @@
         
         static void Main(string[] args)
         {
-            feature f = new feature();
+            Feature f = new Feature();
 
             Console.WriteLine(AppDomain.CurrentDomain.BaseDirectory);
             
