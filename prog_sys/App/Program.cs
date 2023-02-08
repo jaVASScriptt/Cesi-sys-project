@@ -39,8 +39,7 @@ public class Program
                         //Avec les valeurs qu'il a rentré on crée un save
                         
                         Save save = new Save(fileName, originPath, targetPath);
-                            save.checkType();
-                            Console.WriteLine("All files have been copied successfully.");
+                        Console.WriteLine("All files have been copied successfully.");
                         
                         //paramètres dispo : saveName, originPath, targetPath, fileName
                     }
