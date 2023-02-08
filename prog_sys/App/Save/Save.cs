@@ -32,9 +32,7 @@ namespace Controler
         
         public void checkType(String[] fileNames)
         {
-            Console.WriteLine("Choose the type save");
-            Console.WriteLine("1: Complete save");
-            Console.WriteLine("2: Differential save");
+            Console.WriteLine(Language.saveType());
             String typeNumber = Console.ReadLine();
 
             if (typeNumber == "1")

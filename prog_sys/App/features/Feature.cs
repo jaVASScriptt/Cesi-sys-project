@@ -64,11 +64,11 @@ public class Feature
         
         if (index > 4 || index < 0)
         {
-            Console.WriteLine("l'index doit être compris entre 0 et 4");
+            Console.WriteLine(Language.indexNotExist());
         }
         else if(tasks[index].Name == "")
         {
-            Console.WriteLine("la tâche n'existe pas");
+            Console.WriteLine(Language.workDeleted());
         }
         else
         {
@@ -89,7 +89,7 @@ public class Feature
             string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(_statePath, json);
         
-            Console.WriteLine("tâche supprimée");
+            Console.WriteLine(Language.saveDeleted());
         }
 
     }
@@ -114,16 +114,16 @@ public class Feature
 
     public void showTasks()
     {
-        Console.WriteLine("Voici les configurations actuelles :");
+        Console.WriteLine(Language.taskConfig());
         TaskData[] tasks = getTasks();
 
         for (int i = 0; i < tasks.Length; i++)
         {
             if (tasks[i].Name != "")
-                Console.WriteLine(i + "] Nom : " + tasks[i].Name + " --- fichier source: " + tasks[i].SourceFilePath +
-                                  " / fichier target: " + tasks[i].TargetFilePath + " / type : " + tasks[i].Type + " / etat: " + tasks[i].State);
+                Console.WriteLine(i + "] Name : " + tasks[i].Name + " --- origin: " + tasks[i].SourceFilePath +
+                                  " / target: " + tasks[i].TargetFilePath + " / type : " + tasks[i].Type + " / state: " + tasks[i].State);
             else
-                Console.WriteLine(i + "] [vide]");
+                Console.WriteLine(i + Language.noTask());
         }
     }
 
@@ -176,49 +176,49 @@ public class Feature
         if (task < 0 || task > 4)
         {
             okToAdd = false;
-            error = "Le numéro de tâche doit être compris entre 0 et 4";
+            error = Language.unvalidMessage() + Language.unvalidMessageExample() + "0-4";
         }
         else if (Name == "")
         {
             okToAdd = false;
-            error = "Le nom de la tâche ne peut pas être vide";
+            error = Language.noEmpty();
         }
         else if (SourceFilePath == "")
         {
             okToAdd = false;
-            error = "Le chemin source ne peut pas être vide";
+            error = Language.noEmpty();
         }
         else if (!File.Exists(SourceFilePath) && !Directory.Exists(SourceFilePath))
         {
             okToAdd = false;
-            error = "Le fichier ou dossier source n'existe pas";
+            error = Language.noEmpty();
         }
         else if (TargetFilePath == "")
         {
             okToAdd = false;
-            error = "Le chemin cible ne peut pas être vide";
+            error = Language.noEmpty();
         }
         else if (!File.Exists(TargetFilePath) && !Directory.Exists(TargetFilePath))
         {
             okToAdd = false;
-            error = "Le fichier ou dossier cible n'existe pas";
+            error = Language.noEmpty();
         }
         else if (SourceFilePath == TargetFilePath)
         {
             okToAdd = false;
-            error = "Les deux chemins ne peuvent pas être identiques";
+            error = Language.unvalidMessage();
         }
         else if (Type != "complete" && Type != "differential")
         {
             okToAdd = false;
-            error = "Le type de tâche doit être 'complete' ou 'differential'";
+            error = Language.unvalidMessage() + Language.unvalidMessageExample() + " scomplete / differential";
         }
 
         if (okToAdd)
         {
             if (getTask(task).Name != "")
             {
-                Console.WriteLine("voulez vous écraser la tâche ? (y/n)");
+                Console.WriteLine(Language.confirmDelete());
                 if (Console.ReadLine() == "y")
                     setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
                         NbFilesLeftToDo, Progression, Type);
@@ -228,11 +228,11 @@ public class Feature
                 setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
                     NbFilesLeftToDo, Progression, Type);
             }
-            Console.WriteLine("Tâche ajoutée");
+            Console.WriteLine(Language.taskAdded());
         }
         else
         {
-            Console.WriteLine("Impossible d'ajouter la tache! : " + error);
+            Console.WriteLine(Language.taskNotAdded() + error);
         }
         
     }
@@ -299,5 +299,6 @@ public class Feature
         setTask(task, LastUsed: DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"));
         File.WriteAllText(_logPath, json);
     }
+    
     
 }
