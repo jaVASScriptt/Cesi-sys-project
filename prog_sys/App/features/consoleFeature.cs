@@ -9,98 +9,87 @@ public class consoleFeature
 
         Feature feature = f;
 
-        Console.WriteLine("Bienvenue dans le management des travaux sauvegarde !");
-        Console.WriteLine("");
 
         int choice = 0;
-        
+
         while (choice != 6)
         {
             feature.showTasks();
 
-            Console.WriteLine("");
-
-            Console.WriteLine("Que souhaitez-vous faire ?");
-            Console.WriteLine("1 - Créer un nouveau travail de sauvegarde");
-            Console.WriteLine("2 - Modifier un travail de sauvegarde");
-            Console.WriteLine("3 - Supprimer un travail de sauvegarde");
-            Console.WriteLine("4 - Supprimer tout les travaux de sauvegarde");
-            Console.WriteLine("5 - Effectuer une sauvegarde");
-            Console.WriteLine("6 - quitter le management des travaux sauvegarde");
-            Console.WriteLine("");
+            Console.WriteLine(Language.featureMenu());
 
             choice = Convert.ToInt32(Console.ReadLine());
-
+            Console.Clear();
             switch (choice)
             {
                 case 1:
-                    Console.WriteLine("veuillez indiquer quelle travail de sauvegarde vous souhaitez créer : ");
+                    Console.WriteLine(Language.numberSaveWork());
                     int index = Convert.ToInt32(Console.ReadLine());
 
-                    Console.WriteLine("veuillez indiquer le nom de la sauvegarde : ");
+                    Console.WriteLine(Language.saveNameMessage());
                     string name = Console.ReadLine();
 
-                    Console.WriteLine("veuillez indiquer le chemin d'accès du dossier source : ");
+                    Console.WriteLine(Language.originPathMessage());
                     string sourcePath = Console.ReadLine();
 
-                    Console.WriteLine("veuillez indiquer le chemin d'accès du dossier cible : ");
+                    Console.WriteLine(Language.targetPathMessage());
                     string targetPath = Console.ReadLine();
-                    
-                    Console.WriteLine("Quel sera le type de sauvegarde ? (1: complete, 2: differential)");
+
+                    Console.WriteLine(Language.saveType());
                     int type = Convert.ToInt32(Console.ReadLine());
 
-                    feature.addNewTask(index, name, sourcePath, targetPath, 0, 0, 0, 0, type == 1? "complete" : type == 2 ? "differential" : "bad type");
+                    feature.addNewTask(index, name, sourcePath, targetPath, 0, 0, 0, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
 
                     break;
-                
-                case 2 :
-                    Console.WriteLine("Quel travail de sauvegarde souhaitez-vous modifier ?");
+
+                case 2:
+                    Console.WriteLine(Language.numberSaveWork());
                     int indexToModify = Convert.ToInt32(Console.ReadLine());
-                    
-                    Console.WriteLine("Quel est le nouveau nom de la sauvegarde ? (laisser vide pour ne pas modifier)");
+
+                    Console.WriteLine(Language.saveNameMessage() + Language.editSaveWork());
                     string newName = Console.ReadLine();
-                    
-                    Console.WriteLine("Quel est le nouveau chemin d'accès du dossier source ? (laisser vide pour ne pas modifier)");
+
+                    Console.WriteLine(Language.originPathMessage() + Language.editSaveWork());
                     string newSourcePath = Console.ReadLine();
-                    
-                    Console.WriteLine("Quel est le nouveau chemin d'accès du dossier cible ? (laisser vide pour ne pas modifier)");
+
+                    Console.WriteLine(Language.targetPathMessage() + Language.editSaveWork());
                     string newTargetPath = Console.ReadLine();
-                    
-                    Console.WriteLine("Quel est le nouveau type de sauvegarde (1: complete, 2: differential) ? (laisser vide pour ne pas modifier)");
+
+                    Console.WriteLine(Language.saveType() + Language.editSaveWork());
                     int newType = Convert.ToInt32(Console.ReadLine());
-                    
+
                     TaskData task = feature.getTask(indexToModify);
-                    
-                    feature.addNewTask(indexToModify, 
-                        Name: newName == "" ? task.Name : newName, 
-                        SourceFilePath: newSourcePath == "" ? task.SourceFilePath : newSourcePath, 
+
+                    feature.addNewTask(indexToModify,
+                        Name: newName == "" ? task.Name : newName,
+                        SourceFilePath: newSourcePath == "" ? task.SourceFilePath : newSourcePath,
                         TargetFilePath: newTargetPath == "" ? task.TargetFilePath : newTargetPath,
                         task.TotalFilesToCopy, task.TotalFilesSize, task.NbFilesLeftToDo, task.Progression,
                         Type: newType == 1 ? "complete" : newType == 2 ? "differential" : task.Type);
-                break;
-                
-                case 3 :
-                    Console.WriteLine("Quel travail de sauvegarde souhaitez-vous supprimer ?");
+                    break;
+
+                case 3:
+                    Console.WriteLine(Language.deleteSaveWork());
                     int indexToDelete = Convert.ToInt32(Console.ReadLine());
 
                     feature.factoryFillOneState(indexToDelete);
-                break;
-                
-                case 4 :
-                    Console.WriteLine("Etes-vous sûr de vouloir supprimer tout les travaux de sauvegarde ? (1: oui, 2: non)");
+                    break;
+
+                case 4:
+                    Console.WriteLine(Language.deleteAllSaveWork());
                     int confirm = Convert.ToInt32(Console.ReadLine());
-                    
+
                     if (confirm == 1)
                     {
                         feature.factoryFillState();
                     }
                     break;
-                case 5 :
+                case 5:
                     Console.WriteLine("Quel travail de sauvegarde souhaitez-vous effectuer ?");
 
                     int ind = Convert.ToInt32(Console.ReadLine());
                     TaskData t = feature.getTask(ind);
-                    
+
                     string[] fileNames = Directory.GetFiles(t.SourceFilePath);
                     for (int i = 0; i < fileNames.Length; i++)
                     {
@@ -122,15 +111,14 @@ public class consoleFeature
 
                     Console.WriteLine("All files have been copied successfully.");
                     Console.ReadLine();
-                    
+
                     break;
             }
-            
-            Console.WriteLine("");
+            Console.Clear();
 
         }
 
 
     }
-    
+
 }
