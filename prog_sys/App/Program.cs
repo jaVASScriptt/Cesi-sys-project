@@ -8,7 +8,6 @@ using EasySafe;
 
 public class Program
 {
-
     public static string readCommand(string message)
     {
         Console.WriteLine(message);
@@ -20,7 +19,8 @@ public class Program
     {
 
         Feature f = new Feature();
-        
+        consoleFeature cf = new consoleFeature(f);
+
         Language selectedLanguage = new Language(readCommand("Français : 1 , English : 2"));
 
         string command;
@@ -31,6 +31,9 @@ public class Program
             switch (command)
             {
                 case "save":
+                    
+                    int choice = Console.Read();
+
                     string saveName = readCommand(selectedLanguage.saveNameMessage());
                     string originPath = readCommand(selectedLanguage.originPathMessage());
                     string targetPath = readCommand(selectedLanguage.targetPathMessage());

@@ -48,14 +48,51 @@ public class Feature
                  TotalFilesSize = 0,
                  NbFilesLeftToDo = 0,
                  Progression = 0,
+                 Type = "complete",
                  LastUsed = "17/12/2020 17:06:49"
              };
          }
  
          string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
- 
          File.WriteAllText(_statePath, json);
      }
+
+    public void factoryFillOneState(int index)
+    {
+        
+        TaskData[] tasks = getTasks();
+        
+        if (index > 4 || index < 0)
+        {
+            Console.WriteLine("l'index doit être compris entre 0 et 4");
+        }
+        else if(tasks[index].Name == "")
+        {
+            Console.WriteLine("la tâche n'existe pas");
+        }
+        else
+        {
+            tasks[index] = new TaskData
+            {
+                Name = "",
+                SourceFilePath = "",
+                TargetFilePath = "",
+                State = "END",
+                TotalFilesToCopy = 0,
+                TotalFilesSize = 0,
+                NbFilesLeftToDo = 0,
+                Progression = 0,
+                Type = "complete",
+                LastUsed = "17/12/2020 17:06:49"
+            };
+        
+            string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(_statePath, json);
+        
+            Console.WriteLine("tâche supprimée");
+        }
+
+    }
     
     public void factoryFillLogs()
     {
@@ -73,6 +110,21 @@ public class Feature
         TaskData[] tasks = JsonSerializer.Deserialize<TaskData[]>(json);
         return tasks;
         
+    }
+
+    public void showTasks()
+    {
+        Console.WriteLine("Voici les configurations actuelles :");
+        TaskData[] tasks = getTasks();
+
+        for (int i = 0; i < tasks.Length; i++)
+        {
+            if (tasks[i].Name != "")
+                Console.WriteLine(i + "] Nom : " + tasks[i].Name + " --- fichier source: " + tasks[i].SourceFilePath +
+                                  " / fichier target: " + tasks[i].TargetFilePath + " / type : " + tasks[i].Type + " / etat: " + tasks[i].State);
+            else
+                Console.WriteLine(i + "] [vide]");
+        }
     }
 
     public void changeState(int index = 0, String name = "")
@@ -114,7 +166,8 @@ public class Feature
         int TotalFilesToCopy,
         int TotalFilesSize,
         int NbFilesLeftToDo,
-        int Progression)
+        int Progression,
+        string Type)
     {
         TaskData[] tasks = getTasks();
         bool okToAdd = true;
@@ -150,6 +203,16 @@ public class Feature
             okToAdd = false;
             error = "Le fichier ou dossier cible n'existe pas";
         }
+        else if (SourceFilePath == TargetFilePath)
+        {
+            okToAdd = false;
+            error = "Les deux chemins ne peuvent pas être identiques";
+        }
+        else if (Type != "complete" && Type != "incremental")
+        {
+            okToAdd = false;
+            error = "Le type de tâche doit être 'complete' ou 'incremental'";
+        }
 
         if (okToAdd)
         {
@@ -165,10 +228,11 @@ public class Feature
                 setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
                     NbFilesLeftToDo, Progression);
             }
+            Console.WriteLine("Tâche ajoutée");
         }
         else
         {
-            Console.WriteLine(error);
+            Console.WriteLine("Impossible d'ajouter la tache! : " + error);
         }
         
     }
@@ -182,6 +246,7 @@ public class Feature
         int TotalFilesSize = 0, 
         int NbFilesLeftToDo = 0, 
         int Progression = 0, 
+        string Type = "complete",
         string LastUsed = "")
     {
         TaskData[] tasks = getTasks();
@@ -196,6 +261,7 @@ public class Feature
             TotalFilesSize = TotalFilesSize == 0 ? tasks[task].TotalFilesSize : TotalFilesSize,
             NbFilesLeftToDo = NbFilesLeftToDo == 0 ? tasks[task].NbFilesLeftToDo : NbFilesLeftToDo,
             Progression = Progression == 0 ? tasks[task].Progression : Progression,
+            Type = Type == "" ? tasks[task].Type : Type,
             LastUsed = LastUsed == "" ? tasks[task].LastUsed : LastUsed
         };
         
