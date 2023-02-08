@@ -3,8 +3,9 @@
     "",
     "\\prog_sys",
     "\\prog_sys\\App",
+    "\\prog_sys\\App\\features",
     "\\prog_sys\\App\\Save"
   ],
-  "SelectedNode": "\\prog_sys\\App\\obj",
+  "SelectedNode": "\\.idea",
   "PreviewInSolutionExplorer": false
 }
