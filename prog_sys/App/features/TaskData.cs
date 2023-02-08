@@ -10,5 +10,6 @@ public class TaskData
     public int TotalFilesSize { get; set; }
     public int NbFilesLeftToDo { get; set; }
     public int Progression { get; set; }
+    public string Type { get; set; }
     public string LastUsed { get; set; }
 }
