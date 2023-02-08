@@ -1,4 +1,6 @@
-﻿namespace EasySafe;
+﻿using Controler;
+
+namespace EasySafe;
 
 public class consoleFeature
 {
@@ -12,11 +14,20 @@ public class consoleFeature
 
         int choice = 0;
         
-        while ( choice != 5)
+        while (choice != 6)
         {
             feature.showTasks();
 
-            Console.WriteLine(Language.featureMenu());
+            Console.WriteLine("");
+
+            Console.WriteLine("Que souhaitez-vous faire ?");
+            Console.WriteLine("1 - Créer un nouveau travail de sauvegarde");
+            Console.WriteLine("2 - Modifier un travail de sauvegarde");
+            Console.WriteLine("3 - Supprimer un travail de sauvegarde");
+            Console.WriteLine("4 - Supprimer tout les travaux de sauvegarde");
+            Console.WriteLine("5 - Effectuer une sauvegarde");
+            Console.WriteLine("6 - quitter le management des travaux sauvegarde");
+            Console.WriteLine("");
 
             choice = Convert.ToInt32(Console.ReadLine());
 
@@ -84,7 +95,35 @@ public class consoleFeature
                         feature.factoryFillState();
                     }
                     break;
+                case 5 :
+                    Console.WriteLine("Quel travail de sauvegarde souhaitez-vous effectuer ?");
 
+                    int ind = Convert.ToInt32(Console.ReadLine());
+                    TaskData t = feature.getTask(ind);
+                    
+                    string[] fileNames = Directory.GetFiles(t.SourceFilePath);
+                    for (int i = 0; i < fileNames.Length; i++)
+                    {
+                        fileNames[i] = Path.GetFileName(fileNames[i]);
+                    };
+
+                    if (t.Type == "complete")
+                    {
+                        CompleteSave saveC = new CompleteSave(t.Name, t.SourceFilePath, t.TargetFilePath);
+                        saveC.CopyFileComplete(fileNames);
+                    }
+                    else
+                    {
+                        DifferentialSave saveD = new DifferentialSave(t.Name, t.SourceFilePath, t.TargetFilePath);
+                        saveD.CopyFileDifferential(fileNames);
+                    }
+
+                    feature.addLog(ind, "success");
+
+                    Console.WriteLine("All files have been copied successfully.");
+                    Console.ReadLine();
+                    
+                    break;
             }
             
             Console.WriteLine("");

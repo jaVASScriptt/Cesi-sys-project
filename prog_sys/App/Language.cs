@@ -16,8 +16,8 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = "pour créer une sauvegarde, entrer la commande 'save'\n" +
-                    "pour acceder au menu de sauvegarde pré-initialiser, entrer 'menu'\n" +
+                message = "pour crï¿½er une sauvegarde, entrer la commande 'save'\n" +
+                    "pour acceder au menu de sauvegarde prï¿½-initialiser, entrer 'menu'\n" +
                     "pour changer de langue, entrer 'language'\n" +
                     "pour stopper l'application, entrer 'exit'";
                 break;
@@ -94,7 +94,7 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = "Erreur lors de la création des fichiers log et state : ";
+                message = "Erreur lors de la crï¿½ation des fichiers log et state : ";
                 break;
             case "2":
                 message = "Error when creating log and state files";
@@ -113,7 +113,7 @@ static class Language
         {
             case "1":
                 message = "\nQue souhaitez-vous faire ?\n" +
-                    "1 - Créer un nouveau travail de sauvegarde\n" +
+                    "1 - Crï¿½er un nouveau travail de sauvegarde\n" +
                     "2 - Modifier un travail de sauvegarde\n" +
                     "3 - Supprimer un travail de sauvegarde\n" +
                     "4 - Supprimer tout les travaux de sauvegarde\n" +
