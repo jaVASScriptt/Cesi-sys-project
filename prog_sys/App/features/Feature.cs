@@ -10,7 +10,6 @@ public class Feature
 
     public Feature(string path = "")
     {
-        
         if (string.IsNullOrEmpty(path))
         {
             path = AppDomain.CurrentDomain.BaseDirectory + "/../../../features/files";
@@ -31,9 +30,6 @@ public class Feature
         {
             Console.WriteLine("Erreur lors de la création des fichiers log et state : " + ex.Message);
         }
-        
-        addNewTask(3, "timothé", "C:/Users/vassi/Documents/bot", "C:/Users/vassi/Documents/bot", 0, 3, 5, 10);
-
     }
     
     public void factoryFillState()
@@ -69,9 +65,7 @@ public class Feature
             writer.WriteLine("]");
         }  
     }
-    
-    
-    
+
     public TaskData[] getTasks()
     {
         
@@ -79,6 +73,22 @@ public class Feature
         TaskData[] tasks = JsonSerializer.Deserialize<TaskData[]>(json);
         return tasks;
         
+    }
+
+    public void changeState(int index = 0, String name = "")
+    {
+        TaskData task = getTask(index, name);
+        TaskData[] tasks = getTasks();
+
+        foreach (var i in tasks)
+        {
+            if (name == i.Name && name != "")
+            {
+                index = Array.IndexOf(tasks, i);
+            }
+        }
+
+        setTask(index, State : task.State == "END" ? "RUNNING" : "END");
     }
     
     public TaskData getTask(int task = 0, String name = "") 
@@ -149,6 +159,11 @@ public class Feature
                 if (Console.ReadLine() == "y")
                     setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
                         NbFilesLeftToDo, Progression);
+            }
+            else
+            {
+                setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
+                    NbFilesLeftToDo, Progression);
             }
         }
         else
