@@ -18,27 +18,19 @@ public class Program
     static void Main(string[] args)
     {
 
-        Feature f = new Feature();
-
-        Language.setLanguage(readCommand("Français : 1 , English : 2"));
+        Language selectedLanguage = new Language(readCommand("Français : 1 , English : 2"));
 
         string command;
 
-        while ((command = readCommand(Language.defaultMessage())) != "exit")
+        while ((command = readCommand(selectedLanguage.defaultMessage())) != "exit")
         {
             Console.Clear();
             switch (command)
             {
-                case "menu":
-                    consoleFeature cf = new consoleFeature(f);
-                    break;
                 case "save":
-                    
-                    int choice = Console.Read();
-
-                    string saveName = readCommand(Language.saveNameMessage());
-                    string originPath = readCommand(Language.originPathMessage());
-                    string targetPath = readCommand(Language.targetPathMessage());
+                    string saveName = readCommand(selectedLanguage.saveNameMessage());
+                    string originPath = readCommand(selectedLanguage.originPathMessage());
+                    string targetPath = readCommand(selectedLanguage.targetPathMessage());
 
                     //créer un tableau de fileName
                     string[] fileNames = Directory.GetFiles(originPath);
@@ -58,7 +50,7 @@ public class Program
 
                     break;
                 case "language":
-                    Language.setLanguage(readCommand("Français : 1 , English : 2"));
+                    selectedLanguage = new Language(readCommand("Français : 1 , English : 2"));
                     break;
                 default:
                     Console.WriteLine("unknown command");
