@@ -208,10 +208,10 @@ public class Feature
             okToAdd = false;
             error = "Les deux chemins ne peuvent pas être identiques";
         }
-        else if (Type != "complete" && Type != "incremental")
+        else if (Type != "complete" && Type != "differential")
         {
             okToAdd = false;
-            error = "Le type de tâche doit être 'complete' ou 'incremental'";
+            error = "Le type de tâche doit être 'complete' ou 'differential'";
         }
 
         if (okToAdd)
@@ -221,12 +221,12 @@ public class Feature
                 Console.WriteLine("voulez vous écraser la tâche ? (y/n)");
                 if (Console.ReadLine() == "y")
                     setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
-                        NbFilesLeftToDo, Progression);
+                        NbFilesLeftToDo, Progression, Type);
             }
             else
             {
                 setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
-                    NbFilesLeftToDo, Progression);
+                    NbFilesLeftToDo, Progression, Type);
             }
             Console.WriteLine("Tâche ajoutée");
         }
