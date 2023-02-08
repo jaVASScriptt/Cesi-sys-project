@@ -8,10 +8,10 @@ namespace Controler
         {
         }
 
-        public void CopyFile(CompleteSave save)
+        public void CopyFile()
         {
-            File.Copy(sourcePath + "\\" + name, targetPath + "\\" + name, true);
-            Console.WriteLine(sourcePath + "\\" + name, targetPath + "\\" + name);
+            File.Copy(Path.Combine(sourcePath, name), Path.Combine(targetPath, name), true);
+            Console.WriteLine(Path.Combine(sourcePath, name));
             Console.WriteLine("File has been copied successfully.");
             Console.ReadLine();
 

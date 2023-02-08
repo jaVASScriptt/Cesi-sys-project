@@ -5,6 +5,7 @@ namespace Controler
     class Save
     {
         internal String name;
+        internal String nameSave;
         internal String sourcePath;
         internal String targetPath;
 
@@ -20,6 +21,11 @@ namespace Controler
             return name;
         }
 
+        public String getNameSave()
+        {
+            return nameSave;
+        }
+
         public String getSourcePath()
         {
             return sourcePath;
@@ -31,38 +37,18 @@ namespace Controler
         }
 
         
-        public void checkType(Save save)
+        public void checkType()
         {
             Console.WriteLine("Choose the type save");
             Console.WriteLine("1: Complete save");
             Console.WriteLine("2: Differential save");
             String typeNumber = Console.ReadLine();
 
-            /*
-            switch (typeNumber)
-            {
-                case "1":
-                    Console.WriteLine("Ok for complete save");
-                    CompleteSave saveC = new CompleteSave();
-                    saveC.CopyFile();
-                    break;
-                case "2":
-                    Console.WriteLine("Ok differential save");
-                    DifferentialSave saveD = new DifferentialSave();
-                    break;
-                default:
-                    Console.WriteLine("Sorry we don't understand your request");
-                    break;
-            }*/
-
             if (typeNumber == "1")
             {
                 Console.WriteLine("Ok for complete save");
-                /*name = save.getName();
-                sourcePath = save.getSourcePath();
-                targetPath = save.getTargetPath();*/
                 CompleteSave saveC = new CompleteSave(name, sourcePath, targetPath);
-                saveC.CopyFile(saveC);
+                saveC.CopyFile();
             }
             else if (typeNumber == "2")
             {
