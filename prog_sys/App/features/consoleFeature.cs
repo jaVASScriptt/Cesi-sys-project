@@ -16,15 +16,7 @@ public class consoleFeature
         {
             feature.showTasks();
 
-            Console.WriteLine("");
-
-            Console.WriteLine("Que souhaitez-vous faire ?");
-            Console.WriteLine("1 - Créer un nouveau travail de sauvegarde");
-            Console.WriteLine("2 - Modifier un travail de sauvegarde");
-            Console.WriteLine("3 - Supprimer un travail de sauvegarde");
-            Console.WriteLine("4 - Supprimer tout les travaux de sauvegarde");
-            Console.WriteLine("5 - quitter le management des travaux sauvegarde");
-            Console.WriteLine("");
+            Console.WriteLine(Language.featureMenu());
 
             choice = Convert.ToInt32(Console.ReadLine());
 

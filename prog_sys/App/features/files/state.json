@@ -8,6 +8,7 @@
     "TotalFilesSize": 0,
     "NbFilesLeftToDo": 0,
     "Progression": 0,
+    "Type": null,
     "LastUsed": "17/12/2020 17:06:49"
   },
   {
@@ -19,6 +20,19 @@
     "TotalFilesSize": 0,
     "NbFilesLeftToDo": 0,
     "Progression": 0,
+    "Type": null,
+    "LastUsed": "17/12/2020 17:06:49"
+  },
+  {
+    "Name": "test",
+    "SourceFilePath": "C:/",
+    "TargetFilePath": "D:/",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": "complete",
     "LastUsed": "17/12/2020 17:06:49"
   },
   {
@@ -30,6 +44,7 @@
     "TotalFilesSize": 0,
     "NbFilesLeftToDo": 0,
     "Progression": 0,
+    "Type": null,
     "LastUsed": "17/12/2020 17:06:49"
   },
   {
@@ -41,17 +56,7 @@
     "TotalFilesSize": 0,
     "NbFilesLeftToDo": 0,
     "Progression": 0,
-    "LastUsed": "17/12/2020 17:06:49"
-  },
-  {
-    "Name": "",
-    "SourceFilePath": "",
-    "TargetFilePath": "",
-    "State": "END",
-    "TotalFilesToCopy": 0,
-    "TotalFilesSize": 0,
-    "NbFilesLeftToDo": 0,
-    "Progression": 0,
+    "Type": null,
     "LastUsed": "17/12/2020 17:06:49"
   }
 ]

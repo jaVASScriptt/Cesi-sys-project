@@ -1,27 +1,29 @@
 using System;
 using System.Globalization;
 
-class Language
+static class Language
 {
-    string selectedLanguage;
+    static string selectedLanguage;
 
-    public Language(string selectedLanguage)
+    public static void setLanguage(string inputLanguage)
     {
-        this.selectedLanguage = selectedLanguage;
+        selectedLanguage = inputLanguage;
     }
 
-    public string defaultMessage()
+    public static string defaultMessage()
     {
         string message;
         switch (selectedLanguage)
         {
             case "1":
                 message = "pour créer une sauvegarde, entrer la commande 'save'\n" +
+                    "pour acceder au menu de sauvegarde pré-initialiser, entrer 'menu'\n" +
                     "pour changer de langue, entrer 'language'\n" +
                     "pour stopper l'application, entrer 'exit'";
                 break;
             case "2":
                 message = "to create a backup, use the command 'save'\n" +
+                    "to acces pre-initialized saved menu, use 'menu'\n" +
                     "to change language, use 'language'\n" +
                     "to exit the app, use 'exit'";
                 break;
@@ -32,7 +34,7 @@ class Language
         return message;
     }
 
-    public string saveNameMessage()
+    public static string saveNameMessage()
     {
         string message;
         switch (selectedLanguage)
@@ -50,27 +52,7 @@ class Language
         return message;
     }
 
-    /*
-    public string numberOfFilesToSaveMessage()
-    {
-        string message;
-        switch (selectedLanguage)
-        {
-            case "1":
-                message = "combien de fichiers à sauvegarder ?";
-                break;
-            case "2":
-                message = "how many files to save ?";
-                break;
-            default:
-                message = "unknown language use 'language' to change language or 'exit' to exit the app";
-                break;
-        }
-        return message;
-    }
-    */
-
-    public string originPathMessage()
+    public static string originPathMessage()
     {
         string message;
         switch (selectedLanguage)
@@ -88,7 +70,7 @@ class Language
         return message;
     }
 
-    public string targetPathMessage()
+    public static string targetPathMessage()
     {
         string message;
         switch (selectedLanguage)
@@ -106,16 +88,44 @@ class Language
         return message;
     }
 
-    public string fileNameMessage()
+    public static string errorCreatingFiles()
     {
         string message;
         switch (selectedLanguage)
         {
             case "1":
-                message = "nom du fichier a sauvegarder";
+                message = "Erreur lors de la création des fichiers log et state : ";
                 break;
             case "2":
-                message = "name of the file to save";
+                message = "Error when creating log and state files";
+                break;
+            default:
+                message = "unknown language use 'language' to change language or 'exit' to exit the app";
+                break;
+        }
+        return message;
+    }
+
+    public static string featureMenu()
+    {
+        string message;
+        switch (selectedLanguage)
+        {
+            case "1":
+                message = "\nQue souhaitez-vous faire ?\n" +
+                    "1 - Créer un nouveau travail de sauvegarde\n" +
+                    "2 - Modifier un travail de sauvegarde\n" +
+                    "3 - Supprimer un travail de sauvegarde\n" +
+                    "4 - Supprimer tout les travaux de sauvegarde\n" +
+                    "5 - quitter le management des travaux sauvegarde\n";
+                break;
+            case "2":
+                message = "\nWhat do you want to do\n" +
+                    "1 - create a new save work\n" +
+                    "2 - edit a save work\n" +
+                    "3 - delete a save work\n" +
+                    "4 - delete all saves work\n" +
+                    "5 - leave save work manager\n";
                 break;
             default:
                 message = "unknown language use 'language' to change language or 'exit' to exit the app";

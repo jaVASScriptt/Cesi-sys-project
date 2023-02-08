@@ -28,7 +28,7 @@ public class Feature
         }
         catch (Exception ex)
         {
-            Console.WriteLine("Erreur lors de la création des fichiers log et state : " + ex.Message);
+            Console.WriteLine(Language.errorCreatingFiles() + ex.Message);
         }
     }
     
