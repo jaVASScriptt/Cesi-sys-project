@@ -114,6 +114,7 @@ public class Feature
 
     public void showTasks()
     {
+        Console.WriteLine("Voici les configurations actuelles :");
         TaskData[] tasks = getTasks();
 
         for (int i = 0; i < tasks.Length; i++)

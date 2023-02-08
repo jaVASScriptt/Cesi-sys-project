@@ -10,8 +10,6 @@ public class consoleFeature
         Console.WriteLine("Bienvenue dans le management des travaux sauvegarde !");
         Console.WriteLine("");
 
-        Console.WriteLine("Voici les configurations actuelles :");
-
         int choice = 0;
         
         while ( choice != 5)
