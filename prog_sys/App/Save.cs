@@ -5,7 +5,6 @@ namespace Controler
     class Save
     {
         internal String name;
-        internal String nameSave;
         internal String sourcePath;
         internal String targetPath;
 
@@ -20,12 +19,6 @@ namespace Controler
         {
             return name;
         }
-
-        public String getNameSave()
-        {
-            return nameSave;
-        }
-
         public String getSourcePath()
         {
             return sourcePath;
@@ -37,7 +30,7 @@ namespace Controler
         }
 
         
-        public void checkType()
+        public void checkType(String[] fileNames)
         {
             Console.WriteLine("Choose the type save");
             Console.WriteLine("1: Complete save");
@@ -48,7 +41,7 @@ namespace Controler
             {
                 Console.WriteLine("Ok for complete save");
                 CompleteSave saveC = new CompleteSave(name, sourcePath, targetPath);
-                saveC.CopyFile();
+                saveC.CopyFile(fileNames);
             }
             else if (typeNumber == "2")
             {
