@@ -1,43 +1,57 @@
-﻿using Controler;
+using Controler;
 using System;
 using System.Xml.Linq;
 using System.Xml.Serialization;
+using System.Data;
+using System.Globalization;
 
-public class program
+public class Program
 {
-	static void Main(string[] args)
-	{
-        Console.WriteLine("donner un nom pour la sauvegarde");
-        String nameSave = Console.ReadLine();
 
-        Console.WriteLine("combien de fichiers à sauvegarder ?");
-        int numFiles = int.Parse(Console.ReadLine());
+    public static string readCommand(string message)
+    {
+        Console.WriteLine(message);
+        string userInput = Console.ReadLine();
+        return userInput;
+    }
 
-        Console.WriteLine("donnez le chemin d'acces des fichiers a copier");
-        string sourcePath = Console.ReadLine();
+    static void Main(string[] args)
+    {
+        Language selectedLanguage = new Language(readCommand("Français : 1 , English : 2"));
 
-        Console.WriteLine("donnez le chemin d'acces ou les fichiers vont se copier");
-        string targetPath = Console.ReadLine();
+        string command;
 
-        string[] fileNames = new string[numFiles];
-        //string[] fileNames = Directory.GetFiles(sourcePath);
-
-        
-        for (int i = 0; i < numFiles; i++)
+        while ((command = readCommand(selectedLanguage.defaultMessage())) != "exit")
         {
-            Console.WriteLine("Enter file name " + (i + 1) + ": ");
-            fileNames[i] = Console.ReadLine();
+            switch (command)
+            {
+                case "save":
+                    string saveName = readCommand(selectedLanguage.saveNameMessage());
+                    string originPath = readCommand(selectedLanguage.originPathMessage());
+                    string targetPath = readCommand(selectedLanguage.targetPathMessage());
+                    string numberOfFilesToCopy = readCommand(selectedLanguage.numberOfFilesToSaveMessage());
+                    int.TryParse(numberOfFilesToCopy, out int filesNumber);
+                    for (int file = 0; file < filesNumber; file++)
+                    {
+                        string fileName = readCommand(selectedLanguage.fileNameMessage());
+                        //lancer une sauvegarde
+                        
+                        //Avec les valeurs qu'il a rentré on crée un save
+                        
+                        Save save = new Save(fileName, originPath, targetPath);
+                            save.checkType();
+                            Console.WriteLine("All files have been copied successfully.");
+                        
+                        //paramètres dispo : saveName, originPath, targetPath, fileName
+                    }
+                    break;
+                case "language":
+                    selectedLanguage = new Language(readCommand("Français : 1 , English : 2"));
+                    break;
+                default:
+                    Console.WriteLine("unknown command");
+                    break;
+            }
         }
-        
-
-        //Avec les valeurs qu'il a rentré on crée un save
-        foreach (string fileName in fileNames)
-        {
-            Save save = new Save(fileName, sourcePath, targetPath);
-            save.checkType();
-        }
-
-        Console.WriteLine("All files have been copied successfully.");
-        Console.ReadLine();
     }
 }
