@@ -50,6 +50,7 @@ class Language
         return message;
     }
 
+    /*
     public string numberOfFilesToSaveMessage()
     {
         string message;
@@ -67,6 +68,7 @@ class Language
         }
         return message;
     }
+    */
 
     public string originPathMessage()
     {
