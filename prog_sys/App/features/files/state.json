@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "",
+    "SourceFilePath": "",
+    "TargetFilePath": "",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": "complete",
+    "LastUsed": "08/02/2023 23:29:43"
+  },
+  {
+    "Name": "",
+    "SourceFilePath": "",
+    "TargetFilePath": "",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": null,
+    "LastUsed": "17/12/2020 17:06:49"
+  },
+  {
+    "Name": "tim",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\prog_sys\\Cesi-sys-project\\prog_sys",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\apps",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": "differential",
+    "LastUsed": "17/12/2020 17:06:49"
+  },
+  {
+    "Name": "",
+    "SourceFilePath": "",
+    "TargetFilePath": "",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": null,
+    "LastUsed": "17/12/2020 17:06:49"
+  },
+  {
+    "Name": "andrew",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\prog_sys\\Cesi-sys-project\\prog_sys\\App\\source",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\prog_sys\\Cesi-sys-project\\prog_sys\\App\\target",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": "complete",
+    "LastUsed": "08/02/2023 22:20:14"
+  }
+]
