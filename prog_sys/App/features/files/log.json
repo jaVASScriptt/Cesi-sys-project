@@ -52,5 +52,14 @@
     "FileSize": 0,
     "FileTransferTime": 0,
     "Time": "08/02/2023 22:20:14"
+  },
+  {
+    "Name": "eddy",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\prog_sys\\Cesi-sys-project\\prog_sys\\App\\source",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\prog_sys\\Cesi-sys-project\\prog_sys\\App\\target",
+    "success": "",
+    "FileSize": 0,
+    "FileTransferTime": 0,
+    "Time": "08/02/2023 22:52:49"
   }
 ]

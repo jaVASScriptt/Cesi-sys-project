@@ -46,6 +46,8 @@ public class Program
                     //lancer une sauvegarde
                     Save save = new Save(saveName, originPath, targetPath);
                     save.checkType(fileNames);
+                    
+                    f.addLog(name: saveName, SourceFilePath: originPath, TargetFilePath: targetPath, success: "success");
 
                     Console.WriteLine("All files have been copied successfully.");
                     Console.ReadLine();
