@@ -278,6 +278,9 @@ public class Feature
     }
 
     public void addLog(int task = 0,
+        string name = "",
+        string SourceFilePath = "",
+        string TargetFilePath = "",
         string success = "",
         int FileTransferTime = 0)
     {
@@ -286,9 +289,9 @@ public class Feature
 
         logs.Add(new LogData
         {
-            Name = tasks[task].Name,
-            SourceFilePath = tasks[task].SourceFilePath,
-            TargetFilePath = tasks[task].TargetFilePath,
+            Name = name == ""? tasks[task].Name : name,
+            SourceFilePath = SourceFilePath == ""? tasks[task].SourceFilePath : SourceFilePath,
+            TargetFilePath = TargetFilePath == ""? tasks[task].TargetFilePath : TargetFilePath,
             success = success,
             FileSize = tasks[task].TotalFilesSize,
             FileTransferTime = FileTransferTime,

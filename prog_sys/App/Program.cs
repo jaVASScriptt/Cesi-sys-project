@@ -19,7 +19,6 @@ public class Program
     {
 
         Feature f = new Feature();
-
         Language.setLanguage(readCommand("Français : 1 , English : 2"));
 
         string command;
@@ -33,9 +32,6 @@ public class Program
                     consoleFeature cf = new consoleFeature(f);
                     break;
                 case "save":
-                    
-                    int choice = Console.Read();
-
                     string saveName = readCommand(Language.saveNameMessage());
                     string originPath = readCommand(Language.originPathMessage());
                     string targetPath = readCommand(Language.targetPathMessage());
@@ -50,6 +46,8 @@ public class Program
                     //lancer une sauvegarde
                     Save save = new Save(saveName, originPath, targetPath);
                     save.checkType(fileNames);
+                    
+                    f.addLog(name: saveName, SourceFilePath: originPath, TargetFilePath: targetPath, success: "success");
 
                     Console.WriteLine("All files have been copied successfully.");
                     Console.ReadLine();

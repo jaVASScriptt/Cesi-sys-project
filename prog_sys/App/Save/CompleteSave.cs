@@ -8,7 +8,7 @@ namespace Controler
         {
         }
 
-        public void CopyFile(string[] fileNames)
+        public void CopyFileComplete(string[] fileNames)
         {
             foreach (string fileName in fileNames)
             {

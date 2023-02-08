@@ -39,11 +39,13 @@ namespace Controler
             {
                 Console.WriteLine("Ok for complete save");
                 CompleteSave saveC = new CompleteSave(name, sourcePath, targetPath);
-                saveC.CopyFile(fileNames);
+                saveC.CopyFileComplete(fileNames);
             }
             else if (typeNumber == "2")
             {
-                Console.WriteLine("Ok differential save");
+                Console.WriteLine("Ok for differential save");
+                DifferentialSave saveD = new DifferentialSave(name, sourcePath, targetPath);
+                saveD.CopyFileDifferential(fileNames);
             }
             else
             {
@@ -51,6 +53,8 @@ namespace Controler
             }
 
         }
+        
+        
 
     }
 }
