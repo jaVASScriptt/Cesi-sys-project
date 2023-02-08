@@ -10,6 +10,11 @@ class Language
         this.selectedLanguage = selectedLanguage;
     }
 
+    public static string selectLanguage() 
+    { 
+        return "Select language :\n" + "Français : 1 , English : 2"; 
+    }
+
     public string defaultMessage()
     {
         string message;
@@ -26,7 +31,8 @@ class Language
                     "to exit the app, use 'exit'";
                 break;
             default:
-                message = "unknown language use 'language' to change language or 'exit' to exit the app";
+                message = "unknown language use 'language' to change language or 'exit' to exit the app\n" +
+                    selectLanguage();
                 break;
         }
         return message;

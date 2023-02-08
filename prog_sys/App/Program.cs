@@ -14,12 +14,13 @@ public class Program
 
     static void Main(string[] args)
     {
-        Language selectedLanguage = new Language(readCommand("Français : 1 , English : 2"));
+        Language selectedLanguage = new Language(readCommand(Language.selectLanguage()));
+        Console.Clear();
 
         string command;
-
         while ((command = readCommand(selectedLanguage.defaultMessage())) != "exit")
         {
+            Console.Clear();
             switch (command)
             {
                 case "save":
@@ -36,13 +37,16 @@ public class Program
                     }
                     break;
                 case "language":
-                    selectedLanguage = new Language(readCommand("Français : 1 , English : 2"));
+                    selectedLanguage = new Language(readCommand(Language.selectLanguage()));
+                    break;
+                case "clear":
+                    Console.Clear();
                     break;
                 default:
                     Console.WriteLine("unknown command");
                     break;
             }
-            ;
+            Console.Clear();
         }
     }
 }
