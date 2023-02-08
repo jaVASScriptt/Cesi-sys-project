@@ -135,7 +135,8 @@ static class Language
                     "2 - Modifier un travail de sauvegarde\n" +
                     "3 - Supprimer un travail de sauvegarde\n" +
                     "4 - Supprimer tout les travaux de sauvegarde\n" +
-                    "5 - quitter le management des travaux sauvegarde\n";
+                    "5 - faire une sauvegarde\n"+
+                    "6 - quitter le management des travaux sauvegarde\n";
                 break;
             case "2":
                 message = "\nWhat do you want to do\n" +
@@ -143,7 +144,8 @@ static class Language
                     "2 - edit a save work\n" +
                     "3 - delete a save work\n" +
                     "4 - delete all saves work\n" +
-                    "5 - leave save work manager\n";
+                    "5 - do a save\n"+
+                    "6 - exit save work management\n";
                 break;
             default:
                 message = "unknown language use 'language' to change language or 'exit' to exit the app";
@@ -158,7 +160,7 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = "veuillez indiquer le numero (0-4) du travail de sauvegarde vous souhaitez éditer : ";
+                message = "veuillez indiquer le numero (0-4) du travail de sauvegarde vous souhaitez ï¿½diter : ";
                 break;
             case "2":
                 message = "select the number (0-4) where save work will be edited";
@@ -212,7 +214,7 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = "Etes-vous sûr de vouloir supprimer tout les travaux de sauvegarde ? (1: oui, 2: non)";
+                message = "Etes-vous sï¿½r de vouloir supprimer tout les travaux de sauvegarde ? (1: oui, 2: non)";
                 break;
             case "2":
                 message = "Are you sure you want to delete all saves works ? (1: yes, 2: no)";
@@ -230,7 +232,7 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = "l'index doit être compris entre 0 et 4";
+                message = "l'index doit ï¿½tre compris entre 0 et 4";
                 break;
             case "2":
                 message = "index must be between 0 and 4";
@@ -248,7 +250,7 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = "la tâche n'existe pas";
+                message = "la tï¿½che n'existe pas";
                 break;
             case "2":
                 message = "work doesn't exist";
@@ -266,7 +268,7 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = "tâche supprimée";
+                message = "tï¿½che supprimï¿½e";
                 break;
             case "2":
                 message = "work deleted";
@@ -284,7 +286,7 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = "entrée invalide";
+                message = "entrï¿½e invalide";
                 break;
             case "2":
                 message = "unvalid input";
@@ -302,7 +304,7 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = ", entrée attendu : ";
+                message = ", entrï¿½e attendu : ";
                 break;
             case "2":
                 message = ", required input : ";
@@ -320,7 +322,7 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = "L'entrée ne peut pas être vide";
+                message = "L'entrï¿½e ne peut pas ï¿½tre vide";
                 break;
             case "2":
                 message = "input can't be empty";
@@ -338,7 +340,7 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = "voulez vous écraser la tâche ? (y/n)";
+                message = "voulez vous ï¿½craser la tï¿½che ? (y/n)";
                 break;
             case "2":
                 message = "Do you want to erease the save work ? (y/n)";
@@ -356,7 +358,7 @@ static class Language
         switch (selectedLanguage)
         {
             case "1":
-                message = "Tâche ajoutée";
+                message = "Tï¿½che ajoutï¿½e";
                 break;
             case "2":
                 message = "save work added";
