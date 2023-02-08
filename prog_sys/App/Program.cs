@@ -4,6 +4,7 @@ using System.Xml.Linq;
 using System.Xml.Serialization;
 using System.Data;
 using System.Globalization;
+using EasySafe;
 
 public class Program
 {
@@ -17,6 +18,9 @@ public class Program
 
     static void Main(string[] args)
     {
+
+        Feature f = new Feature();
+        
         Language selectedLanguage = new Language(readCommand("Français : 1 , English : 2"));
 
         string command;
