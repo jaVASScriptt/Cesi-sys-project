@@ -1,42 +1,20 @@
-﻿using System.Collections;
-using System.Text.Json;
-using System.Xml.Linq;
+﻿using System.Text.Json;
 
 namespace EasySafe;
 
-public class Feature
+public class StateTool
 {
-    private string _logPath;
-    private string _logXmlPath;
     private string _statePath;
-    private string _savePath;
-
-    public Feature(string path = "")
+    
+    public StateTool(string path)
     {
         if (string.IsNullOrEmpty(path))
-        {
-            path = AppDomain.CurrentDomain.BaseDirectory + "../../../features/files";
-        }
-        _savePath = path;
-        _logPath = path + "/log.json";
-        _logXmlPath = path + "/log.xml";
+            path = AppDomain.CurrentDomain.BaseDirectory + "../../../Features/LogAndState/Data/Files";
+        
         _statePath = path + "/state.json";
-
-        try
-        {
-            if (!File.Exists(_logPath))
-                factoryFillLogs();
-
-            if (!File.Exists(_logXmlPath))
-                factoryFillXmlLogs();
-
-            if (!File.Exists(_statePath))
-                factoryFillState();
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(Language.errorCreatingFiles() + ex.Message);
-        }
+        
+        if (!File.Exists(_statePath))
+            factoryFillState();
     }
     
     public void factoryFillState()
@@ -99,24 +77,6 @@ public class Feature
             Console.WriteLine(Language.saveDeleted());
         }
 
-    }
-    
-    public void factoryFillLogs()
-    {
-        using (StreamWriter writer = new StreamWriter(_logPath))  
-        {  
-            writer.WriteLine("[");  
-            writer.WriteLine("]");
-        }  
-    }
-    
-    public void factoryFillXmlLogs()
-    {
-        using (StreamWriter writer = new StreamWriter(_logXmlPath))  
-        {  
-            writer.WriteLine("<logs>");  
-            writer.WriteLine("</logs>");
-        }  
     }
 
     public TaskData[] getTasks()
@@ -319,57 +279,5 @@ public class Feature
         string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(_statePath, json);
     }
-    
-    public List<object> getLogs()
-    {
-        string json = File.ReadAllText(_logPath);
-        List<object> logs = JsonSerializer.Deserialize<List<object>>(json);
-        return logs;
-    }
-
-    public void addLog(int task = 0,
-        string name = "",
-        string SourceFilePath = "",
-        string TargetFilePath = "",
-        string success = "",
-        int FileTransferTime = 0)
-    {
-        List<object> logs = getLogs();
-        TaskData[] tasks = getTasks();
-
-        LogData logData = new LogData
-        {
-            Name = name == ""? tasks[task].Name : name,
-            SourceFilePath = SourceFilePath == ""? tasks[task].SourceFilePath : SourceFilePath,
-            TargetFilePath = TargetFilePath == ""? tasks[task].TargetFilePath : TargetFilePath,
-            success = success,
-            FileSize = tasks[task].TotalFilesSize,
-            FileTransferTime = FileTransferTime,
-            Time = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")
-        };
-    
-        logs.Add(logData);
-        
-        string json = JsonSerializer.Serialize(logs, new JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(_logPath, json);
-        
-        Console.WriteLine(Directory.Exists(_savePath));
-        
-        XElement log = new XElement("log");
-        log.Add(new XElement("Name", logData.Name));
-        log.Add(new XElement("SourceFilePath", logData.SourceFilePath));
-        log.Add(new XElement("TargetFilePath", logData.TargetFilePath));
-        log.Add(new XElement("Success", logData.success));
-        log.Add(new XElement("FileSize", logData.FileSize.ToString()));
-        log.Add(new XElement("FileTransferTime", logData.FileTransferTime.ToString()));
-        log.Add(new XElement("Time", logData.Time));
-        
-        XDocument doc = XDocument.Load(_logXmlPath);
-        doc.Element("logs").Add(log);
-        doc.Save(_logXmlPath);
-
-        setTask(task, LastUsed: DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"));
-    }
-    
     
 }

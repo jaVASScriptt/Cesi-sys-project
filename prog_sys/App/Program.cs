@@ -1,4 +1,4 @@
-using Controler;
+﻿using Controler;
 using System;
 using System.Xml.Linq;
 using System.Xml.Serialization;
@@ -18,7 +18,7 @@ public class Program
     static void Main(string[] args)
     {
 
-        Feature f = new Feature();
+        LogAndStateTool t = new LogAndStateTool();
         Language.setLanguage(readCommand("Français : 1 , English : 2"));
 
         string command;
@@ -29,7 +29,7 @@ public class Program
             switch (command)
             {
                 case "menu":
-                    consoleFeature cf = new consoleFeature(f);
+                    LogAndStateConsole cf = new LogAndStateConsole(t);
                     break;
                 case "save":
                     string saveName = readCommand(Language.saveNameMessage());
@@ -46,8 +46,8 @@ public class Program
                     //lancer une sauvegarde
                     Save save = new Save(saveName, originPath, targetPath);
                     save.checkType(fileNames);
-                    
-                    f.addLog(name: saveName, SourceFilePath: originPath, TargetFilePath: targetPath, success: "success");
+
+                    t.addLog(name: saveName, SourceFilePath: originPath, TargetFilePath: targetPath, success: "success");
 
                     Console.WriteLine("All files have been copied successfully.");
                     Console.ReadLine();

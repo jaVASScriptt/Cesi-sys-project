@@ -2,19 +2,19 @@
 
 namespace EasySafe;
 
-public class consoleFeature
+public class LogAndStateConsole
 {
-    public consoleFeature(Feature f)
+    public LogAndStateConsole(LogAndStateTool f)
     {
 
-        Feature feature = f;
+        LogAndStateTool logAndStateTool = f;
 
 
         int choice = 0;
 
         while (choice != 8)
         {
-            feature.showTasks();
+            logAndStateTool.showTasks();
             Console.WriteLine(Language.featureMenu());
             choice = Convert.ToInt32(Console.ReadLine());
             
@@ -36,7 +36,7 @@ public class consoleFeature
                     Console.WriteLine(Language.saveType());
                     int type = Convert.ToInt32(Console.ReadLine());
 
-                    feature.addNewTask(index, name, sourcePath, targetPath, 0, 0, 0, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
+                    logAndStateTool.addNewTask(index, name, sourcePath, targetPath, 0, 0, 0, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
 
                     break;
 
@@ -56,9 +56,9 @@ public class consoleFeature
                     Console.WriteLine(Language.saveType() + Language.editSaveWork());
                     int newType = Convert.ToInt32(Console.ReadLine());
 
-                    TaskData task = feature.getTask(indexToModify);
+                    TaskData task = logAndStateTool.getTask(indexToModify);
 
-                    feature.addNewTask(indexToModify,
+                    logAndStateTool.addNewTask(indexToModify,
                         Name: newName == "" ? task.Name : newName,
                         SourceFilePath: newSourcePath == "" ? task.SourceFilePath : newSourcePath,
                         TargetFilePath: newTargetPath == "" ? task.TargetFilePath : newTargetPath,
@@ -70,7 +70,7 @@ public class consoleFeature
                     Console.WriteLine(Language.deleteSaveWork());
                     int indexToDelete = Convert.ToInt32(Console.ReadLine());
 
-                    feature.factoryFillOneState(indexToDelete);
+                    logAndStateTool.factoryFillOneState(indexToDelete);
                     break;
 
                 case 4:
@@ -79,14 +79,14 @@ public class consoleFeature
 
                     if (confirm == 1)
                     {
-                        feature.factoryFillState();
+                        logAndStateTool.factoryFillState();
                     }
                     break;
                 case 5:
                     Console.WriteLine("Quel travail de sauvegarde souhaitez-vous effectuer ?");
 
                     int ind = Convert.ToInt32(Console.ReadLine());
-                    TaskData t = feature.getTask(ind);
+                    TaskData t = logAndStateTool.getTask(ind);
 
                     string[] fileNames = Directory.GetFiles(t.SourceFilePath);
                     for (int i = 0; i < fileNames.Length; i++)
@@ -105,7 +105,7 @@ public class consoleFeature
                         saveD.CopyFileDifferential(fileNames);
                     }
 
-                    feature.addLog(ind, "success");
+                    logAndStateTool.addLog(ind, "success");
 
                     Console.WriteLine("All files have been copied successfully.");
                     Console.ReadLine();
@@ -113,11 +113,11 @@ public class consoleFeature
                     break;
                 
                 case 6:
-                    feature.addLocation();
+                    logAndStateTool.addLocation();
                     break;
                 case 7:
                     Console.WriteLine("Quel Emplacement souhaitez-vous supprimer ? (ne rien entrer ou entrer un numéro incorrecte supprime le dernier ");
-                    feature.deleteLocation(Convert.ToInt32(Console.ReadLine()));
+                    logAndStateTool.deleteLocation(Convert.ToInt32(Console.ReadLine()));
                     break;
             }
             Console.Clear();
