@@ -1,13 +1,11 @@
-﻿using System.Xml.Linq;
-
-namespace Controler
+﻿namespace Controler
 {
     class CompleteSave : ISave
     {
-        
-        private string saveName;
         private string originPath;
+
         private string targetPath;
+        private string saveName;
         public CompleteSave(string saveName, string originPath, string targetPath)
         {
             this.saveName = saveName;
@@ -15,22 +13,8 @@ namespace Controler
             this.targetPath = targetPath;
         }
 
-        /*
-        public void CopyFileComplete(string[] fileNames)
-        {
-            foreach (string fileName in fileNames)
-            {
-                File.Copy(Path.Combine(sourcePath, fileName), Path.Combine(targetPath, fileName), true);
-                Console.WriteLine(Path.Combine(sourcePath, fileName));
-            }
 
-            Console.WriteLine("File has been copied successfully.");
-            Console.ReadLine();
-
-        }
-        */
-
-        public string getName()
+        public string getSaveName()
         {
             return saveName;
         }
@@ -42,6 +26,7 @@ namespace Controler
         {
             return targetPath;
         }
+
 
         public void SaveData()
         {

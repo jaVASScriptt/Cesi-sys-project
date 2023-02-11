@@ -35,6 +35,7 @@ public class Program
                     string saveName = readCommand(Language.saveNameMessage());
                     string originPath = readCommand(Language.originPathMessage());
                     string targetPath = readCommand(Language.targetPathMessage());
+                    string saveType = readCommand(Language.saveType());
 
                     //créer un tableau de fileName
                     string[] fileNames = Directory.GetFiles(originPath);
@@ -44,9 +45,13 @@ public class Program
                     };
 
                     //lancer une sauvegarde
+                    /*
                     Save save = new Save(saveName, originPath, targetPath);
                     save.checkType(fileNames);
-                    
+                    */
+                    ISave save = FactorySave.GetSave(saveName, originPath, targetPath, saveType);
+                    save.SaveData();
+
                     f.addLog(name: saveName, SourceFilePath: originPath, TargetFilePath: targetPath, success: "success");
 
                     Console.WriteLine("All files have been copied successfully.");
