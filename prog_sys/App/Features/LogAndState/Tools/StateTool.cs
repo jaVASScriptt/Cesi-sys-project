@@ -145,10 +145,10 @@ public class StateTool
         bool okToAdd = true;
         String error = "";
 
-        if (task < 0 || task > 4)
+        if (task < 0 || task > tasks.Length - 1)
         {
             okToAdd = false;
-            error = Language.unvalidMessage() + Language.unvalidMessageExample() + "0-4";
+            error = Language.unvalidMessage() + Language.unvalidMessageExample();
         }
         else if (Name == "")
         {
