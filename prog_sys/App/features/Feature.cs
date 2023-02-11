@@ -121,11 +121,9 @@ public class Feature
 
     public TaskData[] getTasks()
     {
-        
         string json = File.ReadAllText(_statePath);
         TaskData[] tasks = JsonSerializer.Deserialize<TaskData[]>(json);
         return tasks;
-        
     }
 
     public void showTasks()
@@ -283,6 +281,42 @@ public class Feature
         
         string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
 
+        File.WriteAllText(_statePath, json);
+    }
+
+    public void addLocation()
+    {
+        List<TaskData> tasks = getTasks().ToList();
+        
+        TaskData taskData= new TaskData
+        {
+            Name = "",
+            SourceFilePath = "",
+            TargetFilePath = "",
+            State = "END",
+            TotalFilesToCopy = 0,
+            TotalFilesSize = 0,
+            NbFilesLeftToDo = 0,
+            Progression = 0,
+            Type = "complete",
+            LastUsed = "17/12/2020 17:06:49"
+        };
+        
+        tasks.Add(taskData);
+        
+        string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText(_statePath, json);
+    }
+    
+    public void deleteLocation(int task)
+    {
+        List<TaskData> tasks = getTasks().ToList();
+        if(task < 0 || task > tasks.Count)
+        {
+            task = tasks.Count - 1;
+        }
+        tasks.RemoveAt(task);
+        string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(_statePath, json);
     }
     

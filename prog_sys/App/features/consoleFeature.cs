@@ -12,14 +12,12 @@ public class consoleFeature
 
         int choice = 0;
 
-        while (choice != 6)
+        while (choice != 8)
         {
             feature.showTasks();
-
             Console.WriteLine(Language.featureMenu());
-
             choice = Convert.ToInt32(Console.ReadLine());
-            Console.Clear();
+            
             switch (choice)
             {
                 case 1:
@@ -112,6 +110,14 @@ public class consoleFeature
                     Console.WriteLine("All files have been copied successfully.");
                     Console.ReadLine();
 
+                    break;
+                
+                case 6:
+                    feature.addLocation();
+                    break;
+                case 7:
+                    Console.WriteLine("Quel Emplacement souhaitez-vous supprimer ? (ne rien entrer ou entrer un numéro incorrecte supprime le dernier ");
+                    feature.deleteLocation(Convert.ToInt32(Console.ReadLine()));
                     break;
             }
             Console.Clear();

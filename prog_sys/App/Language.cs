@@ -136,7 +136,9 @@ static class Language
                     "3 - Supprimer un travail de sauvegarde\n" +
                     "4 - Supprimer tout les travaux de sauvegarde\n" +
                     "5 - faire une sauvegarde\n"+
-                    "6 - quitter le management des travaux sauvegarde\n";
+                    "6 - Ajouter un emplacement de travail de sauvegarde\n"+
+                    "7 - Supprimer un emplacement de travail de sauvegarde\n"+
+                    "8 - quitter le management des travaux sauvegarde\n";
                 break;
             case "2":
                 message = "\nWhat do you want to do\n" +
@@ -145,7 +147,9 @@ static class Language
                     "3 - delete a save work\n" +
                     "4 - delete all saves work\n" +
                     "5 - do a save\n"+
-                    "6 - exit save work management\n";
+                    "6 - add a save work location\n"+
+                    "7 - delete a save work location\n"+
+                    "8 - quit save work management\n";
                 break;
             default:
                 message = "unknown language use 'language' to change language or 'exit' to exit the app";
