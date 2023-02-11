@@ -8,14 +8,14 @@ namespace Controler
 {
     public class FactorySave
     {
-        public Save getSave(string saveName, string originPath, string targetPath, string type)
+        public static ISave GetSave(string saveName, string originPath, string targetPath, string type)
         {
-            Save newSave;
+            ISave newSave;
             switch (type) {
-                case "Complete":
-                    newSave = new DifferentialSave(saveName, originPath, targetPath);
-                    break
                 case "Differential":
+                    newSave = new DifferentialSave(saveName, originPath, targetPath);
+                    break;
+                case "Complete":
                     newSave = new CompleteSave(saveName, originPath, targetPath);
                     break;
                 default:

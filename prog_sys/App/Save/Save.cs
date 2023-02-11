@@ -29,7 +29,7 @@ namespace Controler
             return targetPath;
         }
 
-        
+        /*
         public void checkType(String[] fileNames)
         {
             Console.WriteLine(Language.saveType());
@@ -53,7 +53,7 @@ namespace Controler
             }
 
         }
-        
+        */
         
 
     }

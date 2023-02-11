@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2.Save
+namespace Controler
 {
-    internal interface ISave
+
+    public interface ISave
     {
         void SaveData();
     }
