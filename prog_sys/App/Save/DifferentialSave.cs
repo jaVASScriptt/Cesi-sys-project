@@ -1,4 +1,7 @@
-﻿namespace Controler
+﻿using System.Diagnostics;
+using System.IO;
+
+namespace Controler
 {
     class DifferentialSave : ISave
     {
@@ -26,22 +29,29 @@
             return targetPath;
         }
 
-
         public void SaveData()
         {
-            FileInfo sourceFile = new FileInfo(Path.Combine(originPath));
-            FileInfo targetFile = new FileInfo(Path.Combine(targetPath, saveName));
-
-            if (!targetFile.Exists || targetFile.LastWriteTime < sourceFile.LastWriteTime)
+            string savePath = Path.Combine(targetPath, saveName);
+            Directory.CreateDirectory(savePath);
+            savePath = Path.Combine(savePath, new DirectoryInfo(originPath).Name);
+            //Now Create all of the directories
+            foreach (string dirPath in Directory.GetDirectories(originPath, "*", SearchOption.AllDirectories))
             {
-                File.Copy(sourceFile.FullName, targetFile.FullName, true);
-                Console.WriteLine(sourceFile.FullName + " has been copied successfully.");
+                Directory.CreateDirectory(dirPath.Replace(originPath, savePath));
             }
-            else
+
+            //Copy all the files & Replaces any files with the same name
+            foreach (string newPath in Directory.GetFiles(originPath, "*.*", SearchOption.AllDirectories))
             {
-                Console.WriteLine(sourceFile.FullName + " has not been modified and was not copied.");
+                FileInfo sourceFile = new FileInfo(newPath);
+                FileInfo targetFile = new FileInfo(newPath.Replace(originPath, savePath));
+                //test if files has been updated
+                if (!targetFile.Exists || targetFile.LastWriteTime < sourceFile.LastWriteTime)
+                {
+                    File.Copy(newPath, newPath.Replace(originPath, savePath), true);
+                    Console.WriteLine(newPath + " has been copied successfully.");
+                }
             }
         }
-
     }
 }

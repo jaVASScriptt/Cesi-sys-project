@@ -35,7 +35,7 @@ public class Program
                     string saveName = readCommand(Language.saveNameMessage());
                     string originPath = readCommand(Language.originPathMessage());
                     string targetPath = readCommand(Language.targetPathMessage());
-                    string saveType = readCommand(Language.saveType());
+                    string saveType = readCommand("'Complete' or 'Differential'");
 
                     //créer un tableau de fileName
                     string[] fileNames = Directory.GetFiles(originPath);

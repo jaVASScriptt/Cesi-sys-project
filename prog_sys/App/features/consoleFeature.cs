@@ -1,4 +1,5 @@
 ﻿using Controler;
+using System.Security.AccessControl;
 
 namespace EasySafe;
 
@@ -98,13 +99,19 @@ public class consoleFeature
 
                     if (t.Type == "complete")
                     {
+                        /*
                         CompleteSave saveC = new CompleteSave(t.Name, t.SourceFilePath, t.TargetFilePath);
-                        saveC.CopyFileComplete(fileNames);
+                        saveC.CopyFileComplete(fileNames);*/
+                        ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Complete");
+                        save.SaveData();
                     }
                     else
                     {
+                        /*
                         DifferentialSave saveD = new DifferentialSave(t.Name, t.SourceFilePath, t.TargetFilePath);
-                        saveD.CopyFileDifferential(fileNames);
+                        saveD.CopyFileDifferential(fileNames);*/
+                        ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Differential");
+                        save.SaveData();
                     }
 
                     feature.addLog(ind, "success");
