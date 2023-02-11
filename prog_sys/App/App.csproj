@@ -8,8 +8,4 @@
         <RootNamespace>ConsoleApp2</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="features" />
-    </ItemGroup>
-
 </Project>
