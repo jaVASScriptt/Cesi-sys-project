@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using ConsoleApp2.Features.utils;
 
 namespace EasySafe;
 
@@ -38,8 +39,7 @@ public class StateTool
              };
          }
  
-         string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
-         File.WriteAllText(_statePath, json);
+         utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
      }
 
     public void factoryFillOneState(int index)
@@ -71,9 +71,7 @@ public class StateTool
                 LastUsed = "17/12/2020 17:06:49"
             };
         
-            string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(_statePath, json);
-        
+            utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
             Console.WriteLine(Language.saveDeleted());
         }
 
@@ -239,9 +237,7 @@ public class StateTool
             LastUsed = LastUsed == "" ? tasks[task].LastUsed : LastUsed
         };
         
-        string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
-
-        File.WriteAllText(_statePath, json);
+        utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
     }
 
     public void addLocation()
@@ -263,9 +259,7 @@ public class StateTool
         };
         
         tasks.Add(taskData);
-        
-        string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(_statePath, json);
+        utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
     }
     
     public void deleteLocation(int task)
@@ -276,8 +270,7 @@ public class StateTool
             task = tasks.Count - 1;
         }
         tasks.RemoveAt(task);
-        string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(_statePath, json);
+        utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
     }
     
 }

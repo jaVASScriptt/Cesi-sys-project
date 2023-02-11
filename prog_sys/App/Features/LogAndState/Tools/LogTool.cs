@@ -1,5 +1,5 @@
-﻿using System.Text.Json;
-using System.Xml.Linq;
+﻿using System.Xml.Linq;
+using ConsoleApp2.Features.utils;
 
 namespace EasySafe;
 
@@ -44,12 +44,7 @@ public class LogTool
         }  
     }
     
-    public List<object> getLogs()
-    {
-        string json = File.ReadAllText(_logPath);
-        List<object> logs = JsonSerializer.Deserialize<List<object>>(json);
-        return logs;
-    }
+    public List<object> getLogs() { return utils.getJson(_logPath); }
 
     public void addLog(int task = 0,
         string name = "",
@@ -74,8 +69,7 @@ public class LogTool
     
         logs.Add(logData);
         
-        string json = JsonSerializer.Serialize(logs, new JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(_logPath, json);
+        utils.modifyJson(logs, _logPath);
 
         XElement log = new XElement("log");
         log.Add(new XElement("Name", logData.Name));
