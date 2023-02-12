@@ -1,9 +1,4 @@
-using Controler;
-using System;
-using System.Xml.Linq;
-using System.Xml.Serialization;
-using System.Data;
-using System.Globalization;
+﻿using Controler;
 using EasySafe;
 
 public class Program
@@ -18,23 +13,23 @@ public class Program
     static void Main(string[] args)
     {
 
-        Feature f = new Feature();
-        Language.setLanguage(readCommand("Français : 1 , English : 2"));
+        LogAndStateTool t = new LogAndStateTool();
+        LanguageTool.setLanguage(readCommand("Français : 1 , English : 2"));
 
         string command;
 
-        while ((command = readCommand(Language.defaultMessage())) != "exit")
+        while ((command = readCommand(LanguageTool.get("defaultMessage"))) != "exit")
         {
             Console.Clear();
             switch (command)
             {
                 case "menu":
-                    consoleFeature cf = new consoleFeature(f);
+                    LogAndStateConsole cf = new LogAndStateConsole(t);
                     break;
                 case "save":
-                    string saveName = readCommand(Language.saveNameMessage());
-                    string originPath = readCommand(Language.originPathMessage());
-                    string targetPath = readCommand(Language.targetPathMessage());
+                    string saveName = readCommand(LanguageTool.get("saveNameMessage"));
+                    string originPath = readCommand(LanguageTool.get("originPathMessage"));
+                    string targetPath = readCommand(LanguageTool.get("targetPathMessage"));
                     string saveType = readCommand("'Complete' or 'Differential'");
 
                     //créer un tableau de fileName
@@ -52,7 +47,7 @@ public class Program
                     ISave save = FactorySave.GetSave(saveName, originPath, targetPath, saveType);
                     save.SaveData();
 
-                    f.addLog(name: saveName, SourceFilePath: originPath, TargetFilePath: targetPath, success: "success");
+                    t.addLog(name: saveName, SourceFilePath: originPath, TargetFilePath: targetPath, success: "success");
 
                     Console.WriteLine("All files have been copied successfully.");
                     Console.ReadLine();
@@ -61,7 +56,7 @@ public class Program
 
                     break;
                 case "language":
-                    Language.setLanguage(readCommand("Français : 1 , English : 2"));
+                    LanguageTool.setLanguage(readCommand("Français : 1 , English : 2"));
                     break;
                 default:
                     Console.WriteLine("unknown command");
