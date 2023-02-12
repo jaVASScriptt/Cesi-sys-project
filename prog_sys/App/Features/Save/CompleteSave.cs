@@ -1,24 +1,48 @@
-﻿using System.Xml.Linq;
-
-namespace Controler
+﻿namespace Controler
 {
-    class CompleteSave : Save
+    class CompleteSave : ISave
     {
-        public CompleteSave(string name, string sourcePath, string targetPath) : base(name, sourcePath, targetPath)
+        private string originPath;
+        private string targetPath;
+        private string saveName;
+        public CompleteSave(string saveName, string originPath, string targetPath)
         {
+            this.saveName = saveName;
+            this.originPath = originPath;
+            this.targetPath = targetPath;
         }
 
-        public void CopyFileComplete(string[] fileNames)
+
+        public string getSaveName()
         {
-            foreach (string fileName in fileNames)
+            return saveName;
+        }
+        public string getSourcePath()
+        {
+            return originPath;
+        }
+        public string getTargetPath()
+        {
+            return targetPath;
+        }
+
+
+        public void SaveData()
+        {
+            string savePath = Path.Combine(targetPath, saveName);
+            Directory.CreateDirectory(savePath);
+            savePath = Path.Combine(savePath, new DirectoryInfo(originPath).Name);
+            //Now Create all of the directories
+            foreach (string dirPath in Directory.GetDirectories(originPath, "*", SearchOption.AllDirectories))
             {
-                File.Copy(Path.Combine(sourcePath, fileName), Path.Combine(targetPath, fileName), true);
-                Console.WriteLine(Path.Combine(sourcePath, fileName));
+                Directory.CreateDirectory(dirPath.Replace(originPath, savePath));
             }
 
-            Console.WriteLine("File has been copied successfully.");
-            Console.ReadLine();
-
+            //Copy all the files & Replaces any files with the same name
+            foreach (string newPath in Directory.GetFiles(originPath, "*.*", SearchOption.AllDirectories))
+            {
+                File.Copy(newPath, newPath.Replace(originPath, savePath), true);
+            }
         }
     }
 }

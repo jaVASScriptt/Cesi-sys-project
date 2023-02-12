@@ -30,6 +30,7 @@ public class Program
                     string saveName = readCommand(LanguageTool.get("saveNameMessage"));
                     string originPath = readCommand(LanguageTool.get("originPathMessage"));
                     string targetPath = readCommand(LanguageTool.get("targetPathMessage"));
+                    string saveType = readCommand("'Complete' or 'Differential'");
 
                     //créer un tableau de fileName
                     string[] fileNames = Directory.GetFiles(originPath);
@@ -39,8 +40,12 @@ public class Program
                     };
 
                     //lancer une sauvegarde
+                    /*
                     Save save = new Save(saveName, originPath, targetPath);
                     save.checkType(fileNames);
+                    */
+                    ISave save = FactorySave.GetSave(saveName, originPath, targetPath, saveType);
+                    save.SaveData();
 
                     t.addLog(name: saveName, SourceFilePath: originPath, TargetFilePath: targetPath, success: "success");
 
