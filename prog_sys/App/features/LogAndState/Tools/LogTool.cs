@@ -51,7 +51,8 @@ public class LogTool
         string SourceFilePath = "",
         string TargetFilePath = "",
         string success = "",
-        int FileTransferTime = 0)
+        long FileSize = 0,
+        double FileTransferTime = 0)
     {
         List<object> logs = getLogs();
         TaskData[] tasks = stateTool.getTasks();
@@ -62,7 +63,7 @@ public class LogTool
             SourceFilePath = SourceFilePath == ""? tasks[task].SourceFilePath : SourceFilePath,
             TargetFilePath = TargetFilePath == ""? tasks[task].TargetFilePath : TargetFilePath,
             success = success,
-            FileSize = tasks[task].TotalFilesSize,
+            FileSize = FileSize,
             FileTransferTime = FileTransferTime,
             Time = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")
         };

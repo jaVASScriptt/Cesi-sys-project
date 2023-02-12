@@ -11,9 +11,9 @@ public class LogAndStateTool
         logTool = new LogTool(path, stateTool);
     }
     
-    public void addLog(int task = 0, string name = "", string SourceFilePath = "", string TargetFilePath = "", string success = "", int FileTransferTime = 0)
+    public void addLog(int task = 0, string name = "", string SourceFilePath = "", string TargetFilePath = "", string success = "", long FileSize = 0, double FileTransferTime = 0)
     {
-        logTool.addLog(task, name, SourceFilePath, TargetFilePath, success, FileTransferTime);
+        logTool.addLog(task, name, SourceFilePath, TargetFilePath, success, FileSize, FileTransferTime);
     }
     
     public void showTasks(int task = 0) { stateTool.showTasks(); }
