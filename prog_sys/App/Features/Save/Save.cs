@@ -32,7 +32,7 @@ namespace Controler
         
         public void checkType(String[] fileNames)
         {
-            Console.WriteLine(Language.saveType());
+            Console.WriteLine(Language.get("taskNotAdded"));
             String typeNumber = Console.ReadLine();
 
             if (typeNumber == "1")

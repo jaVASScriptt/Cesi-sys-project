@@ -1,9 +1,4 @@
 ﻿using Controler;
-using System;
-using System.Xml.Linq;
-using System.Xml.Serialization;
-using System.Data;
-using System.Globalization;
 using EasySafe;
 
 public class Program
@@ -23,7 +18,7 @@ public class Program
 
         string command;
 
-        while ((command = readCommand(Language.defaultMessage())) != "exit")
+        while ((command = readCommand(Language.get("defaultMessage"))) != "exit")
         {
             Console.Clear();
             switch (command)
@@ -32,9 +27,9 @@ public class Program
                     LogAndStateConsole cf = new LogAndStateConsole(t);
                     break;
                 case "save":
-                    string saveName = readCommand(Language.saveNameMessage());
-                    string originPath = readCommand(Language.originPathMessage());
-                    string targetPath = readCommand(Language.targetPathMessage());
+                    string saveName = readCommand(Language.get("saveNameMessage"));
+                    string originPath = readCommand(Language.get("originPathMessage"));
+                    string targetPath = readCommand(Language.get("targetPathMessage"));
 
                     //créer un tableau de fileName
                     string[] fileNames = Directory.GetFiles(originPath);

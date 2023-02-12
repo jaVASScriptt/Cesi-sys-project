@@ -49,11 +49,11 @@ public class StateTool
         
         if (index > 4 || index < 0)
         {
-            Console.WriteLine(Language.indexNotExist());
+            Console.WriteLine(Language.get("indexNotExist"));
         }
         else if(tasks[index].Name == "")
         {
-            Console.WriteLine(Language.workDeleted());
+            Console.WriteLine(Language.get("workDeleted"));
         }
         else
         {
@@ -72,7 +72,7 @@ public class StateTool
             };
         
             utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
-            Console.WriteLine(Language.saveDeleted());
+            Console.WriteLine(Language.get("saveDeleted"));
         }
 
     }
@@ -86,7 +86,7 @@ public class StateTool
 
     public void showTasks()
     {
-        Console.WriteLine(Language.taskConfig());
+        Console.WriteLine(Language.get("taskConfig"));
         TaskData[] tasks = getTasks();
 
         for (int i = 0; i < tasks.Length; i++)
@@ -95,7 +95,7 @@ public class StateTool
                 Console.WriteLine(i + "] Name : " + tasks[i].Name + " --- origin: " + tasks[i].SourceFilePath +
                                   " / target: " + tasks[i].TargetFilePath + " / type : " + tasks[i].Type + " / state: " + tasks[i].State);
             else
-                Console.WriteLine(i + Language.noTask());
+                Console.WriteLine(i + Language.get("noTask"));
         }
     }
 
@@ -148,49 +148,49 @@ public class StateTool
         if (task < 0 || task > tasks.Length - 1)
         {
             okToAdd = false;
-            error = Language.unvalidMessage() + Language.unvalidMessageExample();
+            error = Language.get("unvalidMessage") + Language.get("unvalidMessageExample");
         }
         else if (Name == "")
         {
             okToAdd = false;
-            error = Language.noEmpty();
+            error = Language.get("noEmpty");
         }
         else if (SourceFilePath == "")
         {
             okToAdd = false;
-            error = Language.noEmpty();
+            error = Language.get("noEmpty");
         }
         else if (!File.Exists(SourceFilePath) && !Directory.Exists(SourceFilePath))
         {
             okToAdd = false;
-            error = Language.noEmpty();
+            error = Language.get("noEmpty");
         }
         else if (TargetFilePath == "")
         {
             okToAdd = false;
-            error = Language.noEmpty();
+            error = Language.get("noEmpty");
         }
         else if (!File.Exists(TargetFilePath) && !Directory.Exists(TargetFilePath))
         {
             okToAdd = false;
-            error = Language.noEmpty();
+            error = Language.get("noEmpty");
         }
         else if (SourceFilePath == TargetFilePath)
         {
             okToAdd = false;
-            error = Language.unvalidMessage();
+            error = Language.get("unvalidMessage");
         }
         else if (Type != "complete" && Type != "differential")
         {
             okToAdd = false;
-            error = Language.unvalidMessage() + Language.unvalidMessageExample() + " scomplete / differential";
+            error = Language.get("unvalidMessage") + Language.get("unvalidMessageExample") + " complete / differential";
         }
 
         if (okToAdd)
         {
             if (getTask(task).Name != "")
             {
-                Console.WriteLine(Language.confirmDelete());
+                Console.WriteLine(Language.get("confirmDelete"));
                 if (Console.ReadLine() == "y")
                     setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
                         NbFilesLeftToDo, Progression, Type);
@@ -200,11 +200,11 @@ public class StateTool
                 setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
                     NbFilesLeftToDo, Progression, Type);
             }
-            Console.WriteLine(Language.taskAdded());
+            Console.WriteLine(Language.get("taskAdded"));
         }
         else
         {
-            Console.WriteLine(Language.taskNotAdded() + error);
+            Console.WriteLine(Language.get("taskNotAdded") + error);
         }
         
     }
