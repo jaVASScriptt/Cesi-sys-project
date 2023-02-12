@@ -12,12 +12,36 @@ public class Errors
         return true;
     }
     
-    public static Boolean fileNotExist(String path)
+    public static Boolean EmptyEntry(String entry)
     {
-        if (File.Exists(path))
+        if (entry != "")
+            return false;
+        Console.WriteLine("Champ vide");
+        return true;
+    }
+    
+    public static Boolean isGoodType(String type)
+    {
+        if (type == "complete" || type == "differential")
+            return false;
+        Console.WriteLine("Type incorrect");
+        return true;
+    }
+    
+    public static Boolean fileOrDirectoryNotExist(String path)
+    {
+        if (File.Exists(path) || Directory.Exists(path))
             return false;
         Console.WriteLine("Le chemin n'existe pas");
         return true;
     }
     
+    public static Boolean sourceIsTarget(String source, String target)
+    {
+        if (source != target)
+            return false;
+        Console.WriteLine("Le chemin source et cible sont identiques");
+        return true;
+    }
+
 }

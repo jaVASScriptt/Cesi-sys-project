@@ -145,44 +145,14 @@ public class StateTool
         bool okToAdd = true;
         String error = "";
 
-        
-        if (Name == "")
-        {
-            okToAdd = false;
-            error = LanguageTool.get("noEmpty");
-        }
-        else if (SourceFilePath == "")
-        {
-            okToAdd = false;
-            error = LanguageTool.get("noEmpty");
-        }
-        else if (!File.Exists(SourceFilePath) && !Directory.Exists(SourceFilePath))
-        {
-            okToAdd = false;
-            error = LanguageTool.get("noEmpty");
-        }
-        else if (TargetFilePath == "")
-        {
-            okToAdd = false;
-            error = LanguageTool.get("noEmpty");
-        }
-        else if (!File.Exists(TargetFilePath) && !Directory.Exists(TargetFilePath))
-        {
-            okToAdd = false;
-            error = LanguageTool.get("noEmpty");
-        }
-        else if (SourceFilePath == TargetFilePath)
-        {
-            okToAdd = false;
-            error = LanguageTool.get("unvalidMessage");
-        }
-        else if (Type != "complete" && Type != "differential")
-        {
-            okToAdd = false;
-            error = LanguageTool.get("unvalidMessage") + LanguageTool.get("unvalidMessageExample") + " complete / differential";
-        }
-
-        if (!Errors.outOfRange(task, tasks))
+        if (!Errors.outOfRange(task, tasks) 
+            && !Errors.EmptyEntry(Name) 
+            && !Errors.EmptyEntry(SourceFilePath) 
+            && !Errors.EmptyEntry(TargetFilePath)
+            && !Errors.isGoodType(Type)
+            && !Errors.fileOrDirectoryNotExist(TargetFilePath)
+            && !Errors.fileOrDirectoryNotExist(SourceFilePath)
+            && !Errors.sourceIsTarget(SourceFilePath, TargetFilePath))
         {
             if (getTask(task).Name != "")
             {

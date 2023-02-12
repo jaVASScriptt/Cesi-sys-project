@@ -120,7 +120,7 @@ public class LogAndStateConsole
                     logAndStateTool.deleteLocation(Convert.ToInt32(Console.ReadLine()));
                     break;
             }
-            Console.Clear();
+            
 
         }
 
