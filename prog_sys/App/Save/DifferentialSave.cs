@@ -48,8 +48,12 @@ namespace Controler
                 //test if files has been updated
                 if (!targetFile.Exists || targetFile.LastWriteTime < sourceFile.LastWriteTime)
                 {
+                    // mesure de l'heure actuel
+                    // mesure de la taille du fichier
                     File.Copy(newPath, newPath.Replace(originPath, savePath), true);
                     Console.WriteLine(newPath + " has been copied successfully.");
+                    // temps de sauvegarde : soutstratction de l'heure actuel - l'heure mesuré précédemment
+                    // creation d'une log
                 }
             }
         }
