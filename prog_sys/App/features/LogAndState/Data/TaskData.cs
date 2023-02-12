@@ -12,4 +12,18 @@ public class TaskData
     public int Progression { get; set; }
     public string Type { get; set; }
     public string LastUsed { get; set; }
+    
+    public TaskData()
+    {
+        Name = "";
+        SourceFilePath = "";
+        TargetFilePath = "";
+        State = "END";
+        TotalFilesToCopy = 0;
+        TotalFilesSize = 0;
+        NbFilesLeftToDo = 0;
+        Progression = 0;
+        Type = "complete";
+        LastUsed = "";
+    }
 }

@@ -44,8 +44,9 @@ public class Errors
         return true;
     }
     
-    public static int NumberEntry(String number)
+    public static int NumberEntry()
     {
+        string number = Console.ReadLine();
         while (true)
         {
             try

@@ -17,13 +17,13 @@ public class LogAndStateConsole
         {
             logAndStateTool.showTasks();
             Console.WriteLine(LanguageTool.get("featureMenu"));
-            choice = Errors.NumberEntry(Console.ReadLine());
+            choice = Errors.NumberEntry();
             
             switch (choice)
             {
                 case 1:
                     Console.WriteLine(LanguageTool.get("numberSaveWork"));
-                    int index = Errors.NumberEntry(Console.ReadLine());
+                    int index = Errors.NumberEntry();
 
                     Console.WriteLine(LanguageTool.get("saveNameMessage"));
                     string name = Console.ReadLine();
@@ -35,7 +35,7 @@ public class LogAndStateConsole
                     string targetPath = Console.ReadLine();
 
                     Console.WriteLine(LanguageTool.get("saveType"));
-                    int type = Errors.NumberEntry(Console.ReadLine());
+                    int type = Errors.NumberEntry();
 
                     logAndStateTool.addNewTask(index, name, sourcePath, targetPath, 0, 0, 0, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
 
@@ -43,7 +43,7 @@ public class LogAndStateConsole
 
                 case 2:
                     Console.WriteLine(LanguageTool.get("numberSaveWork"));
-                    int indexToModify = Errors.NumberEntry(Console.ReadLine());
+                    int indexToModify = Errors.NumberEntry();
 
                     Console.WriteLine(LanguageTool.get("saveNameMessage") + LanguageTool.get("editSaveWork"));
                     string newName = Console.ReadLine();
@@ -55,7 +55,7 @@ public class LogAndStateConsole
                     string newTargetPath = Console.ReadLine();
 
                     Console.WriteLine(LanguageTool.get("saveType") + LanguageTool.get("editSaveWork"));
-                    int newType = Errors.NumberEntry(Console.ReadLine());
+                    int newType = Errors.NumberEntry();
 
                     TaskData task = logAndStateTool.getTask(indexToModify);
 
@@ -69,14 +69,14 @@ public class LogAndStateConsole
 
                 case 3:
                     Console.WriteLine(LanguageTool.get("deleteSaveWork"));
-                    int indexToDelete = Errors.NumberEntry(Console.ReadLine());
+                    int indexToDelete = Errors.NumberEntry();
 
                     logAndStateTool.factoryFillOneState(indexToDelete);
                     break;
 
                 case 4:
                     Console.WriteLine(LanguageTool.get("deleteAllSaveWork"));
-                    int confirm = Errors.NumberEntry(Console.ReadLine());
+                    int confirm = Errors.NumberEntry();
 
                     if (confirm == 1)
                     {
@@ -86,7 +86,7 @@ public class LogAndStateConsole
                 case 5:
                     Console.WriteLine("Quel travail de sauvegarde souhaitez-vous effectuer ?");
 
-                    int ind = Errors.NumberEntry(Console.ReadLine());
+                    int ind = Errors.NumberEntry();
                     TaskData t = logAndStateTool.getTask(ind);
 
                     string[] fileNames = Directory.GetFiles(t.SourceFilePath);
@@ -123,8 +123,8 @@ public class LogAndStateConsole
                     logAndStateTool.addLocation();
                     break;
                 case 7:
-                    Console.WriteLine("Quel Emplacement souhaitez-vous supprimer ? (entrer un numéro incorrecte supprime le dernier ");
-                    logAndStateTool.deleteLocation(Errors.NumberEntry(Console.ReadLine()));
+                    Console.WriteLine("Quel Emplacement souhaitez-vous supprimer ? (entrer un numéro incorrecte supprime le dernier) ");
+                    logAndStateTool.deleteLocation(Errors.NumberEntry());
                     break;
             }
             
