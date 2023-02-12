@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Controler
 {
-
     public interface ISave
     {
         void SaveData();
