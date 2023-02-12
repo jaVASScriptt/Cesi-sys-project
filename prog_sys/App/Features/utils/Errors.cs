@@ -12,4 +12,12 @@ public class Errors
         return true;
     }
     
+    public static Boolean fileNotExist(String path)
+    {
+        if (File.Exists(path))
+            return false;
+        Console.WriteLine("Le chemin n'existe pas");
+        return true;
+    }
+    
 }
