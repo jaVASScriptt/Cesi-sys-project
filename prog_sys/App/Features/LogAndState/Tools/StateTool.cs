@@ -145,12 +145,8 @@ public class StateTool
         bool okToAdd = true;
         String error = "";
 
-        if (task < 0 || task > tasks.Length - 1)
-        {
-            okToAdd = false;
-            error = LanguageTool.get("unvalidMessage") + LanguageTool.get("unvalidMessageExample");
-        }
-        else if (Name == "")
+        
+        if (Name == "")
         {
             okToAdd = false;
             error = LanguageTool.get("noEmpty");
@@ -186,7 +182,7 @@ public class StateTool
             error = LanguageTool.get("unvalidMessage") + LanguageTool.get("unvalidMessageExample") + " complete / differential";
         }
 
-        if (okToAdd)
+        if (!Errors.outOfRange(task, tasks))
         {
             if (getTask(task).Name != "")
             {
@@ -202,11 +198,7 @@ public class StateTool
             }
             Console.WriteLine(LanguageTool.get("taskAdded"));
         }
-        else
-        {
-            Console.WriteLine(LanguageTool.get("taskNotAdded") + error);
-        }
-        
+
     }
 
     public void setTask(int task = 0, 
