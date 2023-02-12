@@ -1,4 +1,5 @@
-﻿using Controler;
+﻿using ConsoleApp2.Features.utils;
+using Controler;
 
 namespace EasySafe;
 
@@ -16,13 +17,13 @@ public class LogAndStateConsole
         {
             logAndStateTool.showTasks();
             Console.WriteLine(LanguageTool.get("featureMenu"));
-            choice = Convert.ToInt32(Console.ReadLine());
+            choice = Errors.NumberEntry(Console.ReadLine());
             
             switch (choice)
             {
                 case 1:
                     Console.WriteLine(LanguageTool.get("numberSaveWork"));
-                    int index = Convert.ToInt32(Console.ReadLine());
+                    int index = Errors.NumberEntry(Console.ReadLine());
 
                     Console.WriteLine(LanguageTool.get("saveNameMessage"));
                     string name = Console.ReadLine();
@@ -34,7 +35,7 @@ public class LogAndStateConsole
                     string targetPath = Console.ReadLine();
 
                     Console.WriteLine(LanguageTool.get("saveType"));
-                    int type = Convert.ToInt32(Console.ReadLine());
+                    int type = Errors.NumberEntry(Console.ReadLine());
 
                     logAndStateTool.addNewTask(index, name, sourcePath, targetPath, 0, 0, 0, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
 
@@ -42,7 +43,7 @@ public class LogAndStateConsole
 
                 case 2:
                     Console.WriteLine(LanguageTool.get("numberSaveWork"));
-                    int indexToModify = Convert.ToInt32(Console.ReadLine());
+                    int indexToModify = Errors.NumberEntry(Console.ReadLine());
 
                     Console.WriteLine(LanguageTool.get("saveNameMessage") + LanguageTool.get("editSaveWork"));
                     string newName = Console.ReadLine();
@@ -54,7 +55,7 @@ public class LogAndStateConsole
                     string newTargetPath = Console.ReadLine();
 
                     Console.WriteLine(LanguageTool.get("saveType") + LanguageTool.get("editSaveWork"));
-                    int newType = Convert.ToInt32(Console.ReadLine());
+                    int newType = Errors.NumberEntry(Console.ReadLine());
 
                     TaskData task = logAndStateTool.getTask(indexToModify);
 
@@ -68,14 +69,14 @@ public class LogAndStateConsole
 
                 case 3:
                     Console.WriteLine(LanguageTool.get("deleteSaveWork"));
-                    int indexToDelete = Convert.ToInt32(Console.ReadLine());
+                    int indexToDelete = Errors.NumberEntry(Console.ReadLine());
 
                     logAndStateTool.factoryFillOneState(indexToDelete);
                     break;
 
                 case 4:
                     Console.WriteLine(LanguageTool.get("deleteAllSaveWork"));
-                    int confirm = Convert.ToInt32(Console.ReadLine());
+                    int confirm = Errors.NumberEntry(Console.ReadLine());
 
                     if (confirm == 1)
                     {
@@ -85,7 +86,7 @@ public class LogAndStateConsole
                 case 5:
                     Console.WriteLine("Quel travail de sauvegarde souhaitez-vous effectuer ?");
 
-                    int ind = Convert.ToInt32(Console.ReadLine());
+                    int ind = Errors.NumberEntry(Console.ReadLine());
                     TaskData t = logAndStateTool.getTask(ind);
 
                     string[] fileNames = Directory.GetFiles(t.SourceFilePath);
@@ -116,8 +117,8 @@ public class LogAndStateConsole
                     logAndStateTool.addLocation();
                     break;
                 case 7:
-                    Console.WriteLine("Quel Emplacement souhaitez-vous supprimer ? (ne rien entrer ou entrer un numéro incorrecte supprime le dernier ");
-                    logAndStateTool.deleteLocation(Convert.ToInt32(Console.ReadLine()));
+                    Console.WriteLine("Quel Emplacement souhaitez-vous supprimer ? (entrer un numéro incorrecte supprime le dernier ");
+                    logAndStateTool.deleteLocation(Errors.NumberEntry(Console.ReadLine()));
                     break;
             }
             

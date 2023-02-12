@@ -43,5 +43,21 @@ public class Errors
         Console.WriteLine("Le chemin source et cible sont identiques");
         return true;
     }
+    
+    public static int NumberEntry(String number)
+    {
+        while (true)
+        {
+            try
+            {
+                return Convert.ToInt32(number);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Ce n'est pas un nombre! veuillez réessayer!");
+                number = Console.ReadLine();
+            }
+        }
+    }
 
 }
