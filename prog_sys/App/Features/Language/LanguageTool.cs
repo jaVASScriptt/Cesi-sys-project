@@ -1,7 +1,7 @@
 using ConsoleApp2.Features.utils;
 using System.Text.Json;
 
-static class Language
+static class LanguageTool
 {
     static List<object> strings;
     static string selectedLanguage = "";
@@ -13,8 +13,6 @@ static class Language
             strings = utils.getJson(path + "en.json");
         else
             strings = utils.getJson(path + "fr.json");
-        
-        Console.WriteLine(get("defaultMessage"));
     }
 
     public static string get(string key)

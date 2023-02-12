@@ -15,25 +15,25 @@ public class LogAndStateConsole
         while (choice != 8)
         {
             logAndStateTool.showTasks();
-            Console.WriteLine(Language.get("featureMenu"));
+            Console.WriteLine(LanguageTool.get("featureMenu"));
             choice = Convert.ToInt32(Console.ReadLine());
             
             switch (choice)
             {
                 case 1:
-                    Console.WriteLine(Language.get("numberSaveWork"));
+                    Console.WriteLine(LanguageTool.get("numberSaveWork"));
                     int index = Convert.ToInt32(Console.ReadLine());
 
-                    Console.WriteLine(Language.get("saveNameMessage"));
+                    Console.WriteLine(LanguageTool.get("saveNameMessage"));
                     string name = Console.ReadLine();
 
-                    Console.WriteLine(Language.get("originPathMessage"));
+                    Console.WriteLine(LanguageTool.get("originPathMessage"));
                     string sourcePath = Console.ReadLine();
 
-                    Console.WriteLine(Language.get("targetPathMessage"));
+                    Console.WriteLine(LanguageTool.get("targetPathMessage"));
                     string targetPath = Console.ReadLine();
 
-                    Console.WriteLine(Language.get("saveType"));
+                    Console.WriteLine(LanguageTool.get("saveType"));
                     int type = Convert.ToInt32(Console.ReadLine());
 
                     logAndStateTool.addNewTask(index, name, sourcePath, targetPath, 0, 0, 0, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
@@ -41,19 +41,19 @@ public class LogAndStateConsole
                     break;
 
                 case 2:
-                    Console.WriteLine(Language.get("numberSaveWork"));
+                    Console.WriteLine(LanguageTool.get("numberSaveWork"));
                     int indexToModify = Convert.ToInt32(Console.ReadLine());
 
-                    Console.WriteLine(Language.get("saveNameMessage") + Language.get("editSaveWork"));
+                    Console.WriteLine(LanguageTool.get("saveNameMessage") + LanguageTool.get("editSaveWork"));
                     string newName = Console.ReadLine();
 
-                    Console.WriteLine(Language.get("originPathMessage") + Language.get("editSaveWork"));
+                    Console.WriteLine(LanguageTool.get("originPathMessage") + LanguageTool.get("editSaveWork"));
                     string newSourcePath = Console.ReadLine();
 
-                    Console.WriteLine(Language.get("targetPathMessage") + Language.get("editSaveWork"));
+                    Console.WriteLine(LanguageTool.get("targetPathMessage") + LanguageTool.get("editSaveWork"));
                     string newTargetPath = Console.ReadLine();
 
-                    Console.WriteLine(Language.get("saveType") + Language.get("editSaveWork"));
+                    Console.WriteLine(LanguageTool.get("saveType") + LanguageTool.get("editSaveWork"));
                     int newType = Convert.ToInt32(Console.ReadLine());
 
                     TaskData task = logAndStateTool.getTask(indexToModify);
@@ -67,14 +67,14 @@ public class LogAndStateConsole
                     break;
 
                 case 3:
-                    Console.WriteLine(Language.get("deleteSaveWork"));
+                    Console.WriteLine(LanguageTool.get("deleteSaveWork"));
                     int indexToDelete = Convert.ToInt32(Console.ReadLine());
 
                     logAndStateTool.factoryFillOneState(indexToDelete);
                     break;
 
                 case 4:
-                    Console.WriteLine(Language.get("deleteAllSaveWork"));
+                    Console.WriteLine(LanguageTool.get("deleteAllSaveWork"));
                     int confirm = Convert.ToInt32(Console.ReadLine());
 
                     if (confirm == 1)

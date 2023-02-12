@@ -14,11 +14,11 @@ public class Program
     {
 
         LogAndStateTool t = new LogAndStateTool();
-        Language.setLanguage(readCommand("Français : 1 , English : 2"));
+        LanguageTool.setLanguage(readCommand("Français : 1 , English : 2"));
 
         string command;
 
-        while ((command = readCommand(Language.get("defaultMessage"))) != "exit")
+        while ((command = readCommand(LanguageTool.get("defaultMessage"))) != "exit")
         {
             Console.Clear();
             switch (command)
@@ -27,9 +27,9 @@ public class Program
                     LogAndStateConsole cf = new LogAndStateConsole(t);
                     break;
                 case "save":
-                    string saveName = readCommand(Language.get("saveNameMessage"));
-                    string originPath = readCommand(Language.get("originPathMessage"));
-                    string targetPath = readCommand(Language.get("targetPathMessage"));
+                    string saveName = readCommand(LanguageTool.get("saveNameMessage"));
+                    string originPath = readCommand(LanguageTool.get("originPathMessage"));
+                    string targetPath = readCommand(LanguageTool.get("targetPathMessage"));
 
                     //créer un tableau de fileName
                     string[] fileNames = Directory.GetFiles(originPath);
@@ -51,7 +51,7 @@ public class Program
 
                     break;
                 case "language":
-                    Language.setLanguage(readCommand("Français : 1 , English : 2"));
+                    LanguageTool.setLanguage(readCommand("Français : 1 , English : 2"));
                     break;
                 default:
                     Console.WriteLine("unknown command");
