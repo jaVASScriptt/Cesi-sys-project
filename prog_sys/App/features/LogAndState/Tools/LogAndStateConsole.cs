@@ -126,6 +126,9 @@ public class LogAndStateConsole
                     Console.WriteLine("Quel Emplacement souhaitez-vous supprimer ? (entrer un numéro incorrecte supprime le dernier) ");
                     logAndStateTool.deleteLocation(Errors.NumberEntry());
                     break;
+                default:
+                    Console.WriteLine("Veuillez entrer un nombre valide");
+                    break;
             }
             
 
