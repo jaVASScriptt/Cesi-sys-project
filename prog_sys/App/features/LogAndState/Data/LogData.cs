@@ -6,7 +6,7 @@ public class LogData
     public string SourceFilePath { get; set; }
     public string TargetFilePath { get; set; }
     public string success { get; set; }
-    public int FileSize { get; set; }
-    public int FileTransferTime { get; set; }
+    public long FileSize { get; set; }
+    public double FileTransferTime { get; set; }
     public string Time { get; set; }
 }

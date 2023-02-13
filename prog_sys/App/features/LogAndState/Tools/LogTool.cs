@@ -8,36 +8,40 @@ public class LogTool
     
     private string _logPath;
     private string _logXmlPath;
+    private string _dayPathJson;
+    private string _dayPathXml;
+    private string generalPath;
     private StateTool stateTool;
     
     public LogTool(string path, StateTool stateTool)
     {
         if (string.IsNullOrEmpty(path))
-            path = AppDomain.CurrentDomain.BaseDirectory + "../../../Features/LogAndState/Data/Files";
-        
+            path = AppDomain.CurrentDomain.BaseDirectory + "../../../Features/LogAndState/Data/Files/Log";
+        else 
+            generalPath = path;
         _logPath = path + "/log.json";
         _logXmlPath = path + "/log.xml";
         this.stateTool = stateTool;
         
         if (!File.Exists(_logPath))
-            factoryFillLogs();
+            factoryFillLogs(_logPath);
 
         if (!File.Exists(_logXmlPath))
-            factoryFillXmlLogs();
+            factoryFillXmlLogs(_logXmlPath);
     }
     
-    public void factoryFillLogs()
+    public void factoryFillLogs(string path)
     {
-        using (StreamWriter writer = new StreamWriter(_logPath))  
+        using (StreamWriter writer = new StreamWriter(path))  
         {  
             writer.WriteLine("[");  
             writer.WriteLine("]");
         }  
     }
     
-    public void factoryFillXmlLogs()
+    public void factoryFillXmlLogs(string path)
     {
-        using (StreamWriter writer = new StreamWriter(_logXmlPath))  
+        using (StreamWriter writer = new StreamWriter(path))  
         {  
             writer.WriteLine("<logs>");  
             writer.WriteLine("</logs>");
@@ -45,15 +49,30 @@ public class LogTool
     }
     
     public List<object> getLogs() { return utils.getJson(_logPath); }
+    public List<object> getDailyLogs() { return utils.getJson(_dayPathJson); }
 
     public void addLog(int task = 0,
         string name = "",
         string SourceFilePath = "",
         string TargetFilePath = "",
         string success = "",
-        int FileTransferTime = 0)
+        long FileSize = 0,
+        double FileTransferTime = 0)
     {
-        List<object> logs = getLogs();
+        addClassicLog(task , name, SourceFilePath, TargetFilePath, success, FileTransferTime);
+        checkAndCreateDayFolder();
+        addClassicLog(task , name, SourceFilePath, TargetFilePath, success, FileTransferTime, FileSize, true);
+    }
+    public void addClassicLog(int task = 0,
+        string name = "",
+        string SourceFilePath = "",
+        string TargetFilePath = "",
+        string success = "",
+        double FileTransferTime = 0,
+        long FileSize = 0,
+        bool daily = false)
+    {
+        List<object> logs = daily ? getDailyLogs() : getLogs();
         TaskData[] tasks = stateTool.getTasks();
 
         LogData logData = new LogData
@@ -62,14 +81,14 @@ public class LogTool
             SourceFilePath = SourceFilePath == ""? tasks[task].SourceFilePath : SourceFilePath,
             TargetFilePath = TargetFilePath == ""? tasks[task].TargetFilePath : TargetFilePath,
             success = success,
-            FileSize = tasks[task].TotalFilesSize,
+            FileSize = FileSize,
             FileTransferTime = FileTransferTime,
             Time = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")
         };
     
         logs.Add(logData);
         
-        utils.modifyJson(logs, _logPath);
+        utils.modifyJson(logs, daily ? _dayPathJson : _logPath);
 
         XElement log = new XElement("log");
         log.Add(new XElement("Name", logData.Name));
@@ -80,11 +99,31 @@ public class LogTool
         log.Add(new XElement("FileTransferTime", logData.FileTransferTime.ToString()));
         log.Add(new XElement("Time", logData.Time));
         
-        XDocument doc = XDocument.Load(_logXmlPath);
+        XDocument doc = XDocument.Load(daily? _dayPathXml : _logXmlPath);
         doc.Element("logs").Add(log);
-        doc.Save(_logXmlPath);
+        doc.Save(daily? _dayPathXml : _logXmlPath);
 
         stateTool.setTask(task, LastUsed: DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"));
     }
     
+    public void checkAndCreateDayFolder()
+    {
+        string day = DateTime.Now.ToString("dd-MM-yyyy");
+        string path;
+        
+        if (generalPath == null) 
+            path = AppDomain.CurrentDomain.BaseDirectory + "../../../Features/LogAndState/Data/Files/Log/DailyLogs";
+        else
+            path = generalPath + "Log/DailyLogs";
+
+
+        _dayPathJson = path + "/Json/" + day + "-log.json";
+        _dayPathXml = path + "/XML/" + day + "-log.xml";
+        if (!File.Exists(_dayPathJson))
+            factoryFillLogs(_dayPathJson);
+
+        if (!File.Exists(_dayPathXml))
+            factoryFillXmlLogs(_dayPathXml);
+    }
+
 }
