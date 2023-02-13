@@ -47,8 +47,6 @@ public class Program
                     ISave save = FactorySave.GetSave(saveName, originPath, targetPath, saveType);
                     save.SaveData();
 
-                    t.addLog(name: saveName, SourceFilePath: originPath, TargetFilePath: targetPath, success: "success");
-
                     Console.WriteLine("All files have been copied successfully.");
                     Console.ReadLine();
 
