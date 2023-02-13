@@ -56,18 +56,20 @@ public class LogTool
         string SourceFilePath = "",
         string TargetFilePath = "",
         string success = "",
-        int FileTransferTime = 0)
+        long FileSize = 0,
+        double FileTransferTime = 0)
     {
         addClassicLog(task , name, SourceFilePath, TargetFilePath, success, FileTransferTime);
         checkAndCreateDayFolder();
-        addClassicLog(task , name, SourceFilePath, TargetFilePath, success, FileTransferTime, true);
+        addClassicLog(task , name, SourceFilePath, TargetFilePath, success, FileTransferTime, FileSize, true);
     }
     public void addClassicLog(int task = 0,
         string name = "",
         string SourceFilePath = "",
         string TargetFilePath = "",
         string success = "",
-        int FileTransferTime = 0,
+        double FileTransferTime = 0,
+        long FileSize = 0,
         bool daily = false)
     {
         List<object> logs = daily ? getDailyLogs() : getLogs();
@@ -79,7 +81,7 @@ public class LogTool
             SourceFilePath = SourceFilePath == ""? tasks[task].SourceFilePath : SourceFilePath,
             TargetFilePath = TargetFilePath == ""? tasks[task].TargetFilePath : TargetFilePath,
             success = success,
-            FileSize = tasks[task].TotalFilesSize,
+            FileSize = FileSize,
             FileTransferTime = FileTransferTime,
             Time = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")
         };

@@ -13,7 +13,7 @@ public class Program
     static void Main(string[] args)
     {
 
-        LogAndStateTool t = new LogAndStateTool();
+        LogAndStateTool t = LogAndStateTool.Instance;
         LanguageTool.setLanguage(readCommand("Français : 1 , English : 2"));
 
         string command;

@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using EasySafe;
+using System.Diagnostics;
 using System.IO;
 
 namespace Controler
@@ -16,7 +17,7 @@ namespace Controler
         }
 
 
-        public string getName()
+        public string getSaveName()
         {
             return saveName;
         }
@@ -28,6 +29,8 @@ namespace Controler
         {
             return targetPath;
         }
+
+        LogAndStateTool logFile = LogAndStateTool.Instance;
 
         public void SaveData()
         {
@@ -48,12 +51,35 @@ namespace Controler
                 //test if files has been updated
                 if (!targetFile.Exists || targetFile.LastWriteTime < sourceFile.LastWriteTime)
                 {
-                    // mesure de l'heure actuel
-                    // mesure de la taille du fichier
+                    //Measurement of the current time
+                    DateTime startTimeFile = DateTime.Now;
+
+                    //Measurement of the file size
+                    FileInfo fileInfo = new FileInfo(newPath);
+                    long size = fileInfo.Length;
+
+                    //Copy all the files
                     File.Copy(newPath, newPath.Replace(originPath, savePath), true);
                     Console.WriteLine(newPath + " has been copied successfully.");
-                    // temps de sauvegarde : soutstratction de l'heure actuel - l'heure mesuré précédemment
-                    // creation d'une log
+
+                    //Save time: subtract current time - previously measured time
+                    DateTime endTimeFile = DateTime.Now;
+                    TimeSpan timeSave = endTimeFile - startTimeFile;
+                    Double fileSaveTime = timeSave.TotalMilliseconds;
+
+                    //Just take the file name
+                    string fileName = Path.GetFileName(newPath);
+
+                    Console.WriteLine(fileName + ": " + fileSaveTime + " ms, " + size + " octet");
+
+                    //Create a log for each file
+                    logFile.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+
+                }
+                else
+                {
+                    Console.WriteLine(newPath + " has ALREADY been copied.");
+
                 }
             }
         }
