@@ -19,26 +19,11 @@ public class StateTool
     }
     
     public void factoryFillState()
-     {
-         TaskData[] tasks = new TaskData[5];
- 
+    {
+        List<TaskData> tasks = new List<TaskData>();
          for (int i = 0; i < 5; i++)
-         {
-             tasks[i] = new TaskData
-             {
-                 Name = "",
-                 SourceFilePath = "",
-                 TargetFilePath = "",
-                 State = "END",
-                 TotalFilesToCopy = 0,
-                 TotalFilesSize = 0,
-                 NbFilesLeftToDo = 0,
-                 Progression = 0,
-                 Type = "complete",
-                 LastUsed = "17/12/2020 17:06:49"
-             };
-         }
- 
+             tasks.Add(new TaskData());
+         
          utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
      }
 
@@ -47,29 +32,10 @@ public class StateTool
         
         TaskData[] tasks = getTasks();
         
-        if (index > 4 || index < 0)
+        if(!Errors.EmptyEntry(tasks[index].Name)
+           && !Errors.outOfRange(index, tasks))
         {
-            Console.WriteLine(LanguageTool.get("indexNotExist"));
-        }
-        else if(tasks[index].Name == "")
-        {
-            Console.WriteLine(LanguageTool.get("workDeleted"));
-        }
-        else
-        {
-            tasks[index] = new TaskData
-            {
-                Name = "",
-                SourceFilePath = "",
-                TargetFilePath = "",
-                State = "END",
-                TotalFilesToCopy = 0,
-                TotalFilesSize = 0,
-                NbFilesLeftToDo = 0,
-                Progression = 0,
-                Type = "complete",
-                LastUsed = "17/12/2020 17:06:49"
-            };
+            tasks[index] = new TaskData();
         
             utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
             Console.WriteLine(LanguageTool.get("saveDeleted"));
@@ -142,8 +108,6 @@ public class StateTool
         string Type)
     {
         TaskData[] tasks = getTasks();
-        bool okToAdd = true;
-        String error = "";
 
         if (!Errors.outOfRange(task, tasks) 
             && !Errors.EmptyEntry(Name) 
@@ -183,7 +147,7 @@ public class StateTool
         string Type = "complete",
         string LastUsed = "")
     {
-        TaskData[] tasks = getTasks();
+        List<TaskData> tasks = getTasks().ToList();
         
         tasks[task] = new TaskData
         {
@@ -205,32 +169,15 @@ public class StateTool
     public void addLocation()
     {
         List<TaskData> tasks = getTasks().ToList();
-        
-        TaskData taskData= new TaskData
-        {
-            Name = "",
-            SourceFilePath = "",
-            TargetFilePath = "",
-            State = "END",
-            TotalFilesToCopy = 0,
-            TotalFilesSize = 0,
-            NbFilesLeftToDo = 0,
-            Progression = 0,
-            Type = "complete",
-            LastUsed = "17/12/2020 17:06:49"
-        };
-        
-        tasks.Add(taskData);
+        tasks.Add(new TaskData());
         utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
     }
     
     public void deleteLocation(int task)
     {
         List<TaskData> tasks = getTasks().ToList();
-        if(task < 0 || task > tasks.Count)
-        {
+        if(Errors.outOfRange(task, getTasks()))
             task = tasks.Count - 1;
-        }
         tasks.RemoveAt(task);
         utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
     }
