@@ -29,7 +29,7 @@ namespace Controler
             return targetPath;
         }
 
-        LogAndStateTool logFile = new LogAndStateTool();
+        LogAndStateTool logFile = LogAndStateTool.Instance;
 
         public void SaveData()
         {

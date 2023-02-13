@@ -1,14 +1,29 @@
-﻿namespace EasySafe;
+﻿using System.IO;
 
-public class LogAndStateTool
+namespace EasySafe;
+
+public sealed class LogAndStateTool
 {
+
+    private static readonly LogAndStateTool instance = new LogAndStateTool();
+    private static readonly Object lockObject = new Object();
 
     private LogTool logTool;
     private StateTool stateTool;
-    public LogAndStateTool(string path = "")
-    {
+
+    private LogAndStateTool(string path = "") {
         stateTool = new StateTool(path);
         logTool = new LogTool(path, stateTool);
+    }
+    public static LogAndStateTool Instance
+    {
+        get
+        {
+            lock(lockObject) 
+            {
+                return instance;
+            }
+        }
     }
     
     public void addLog(int task = 0, string name = "", string SourceFilePath = "", string TargetFilePath = "", string success = "", long FileSize = 0, double FileTransferTime = 0)
@@ -32,5 +47,7 @@ public class LogAndStateTool
     public void addLocation() { stateTool.addLocation(); }
     
     public void deleteLocation(int index) { stateTool.deleteLocation(index); }
+
+    public void changeState(int index = 0, String name = "") { stateTool.changeState(index,name); }
 
 }

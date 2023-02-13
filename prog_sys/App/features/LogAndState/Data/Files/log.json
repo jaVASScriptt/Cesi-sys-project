@@ -1,83 +1,110 @@
 [
   {
-    "Name": "saveTest",
+    "Name": "savetest",
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\caca.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\caca.txt",
     "success": "success",
     "FileSize": 28,
-    "FileTransferTime": 19.7762,
-    "Time": "12/02/2023 23:38:46"
+    "FileTransferTime": 15.6564,
+    "Time": "13/02/2023 10:08:26"
   },
   {
-    "Name": "saveTest",
+    "Name": "savetest",
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\prout.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\prout.txt",
     "success": "success",
     "FileSize": 0,
-    "FileTransferTime": 1.4252,
-    "Time": "12/02/2023 23:38:46"
+    "FileTransferTime": 1.3827,
+    "Time": "13/02/2023 10:08:26"
   },
   {
-    "Name": "saveTest",
+    "Name": "savetest",
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test.txt",
     "success": "success",
     "FileSize": 30,
-    "FileTransferTime": 1.3415,
-    "Time": "12/02/2023 23:38:46"
+    "FileTransferTime": 1.6768,
+    "Time": "13/02/2023 10:08:26"
   },
   {
-    "Name": "saveTest",
+    "Name": "savetest",
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test2.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test2.txt",
     "success": "success",
     "FileSize": 18,
-    "FileTransferTime": 1.6748,
-    "Time": "12/02/2023 23:38:46"
+    "FileTransferTime": 1.7842,
+    "Time": "13/02/2023 10:08:26"
   },
   {
-    "Name": "saveTest",
+    "Name": "savetest",
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test3.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test3.txt",
     "success": "success",
     "FileSize": 14,
-    "FileTransferTime": 2.4422,
-    "Time": "12/02/2023 23:38:46"
+    "FileTransferTime": 1.79,
+    "Time": "13/02/2023 10:08:26"
   },
   {
-    "Name": "saveTest",
+    "Name": "savetest",
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\dsdsd.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\dsdsd.txt",
     "success": "success",
     "FileSize": 0,
-    "FileTransferTime": 1.2011,
-    "Time": "12/02/2023 23:38:46"
+    "FileTransferTime": 1.2664,
+    "Time": "13/02/2023 10:08:26"
   },
   {
-    "Name": "saveTest",
+    "Name": "savetest",
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\vvvv.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\vvvv.txt",
     "success": "success",
     "FileSize": 0,
-    "FileTransferTime": 1.4236,
-    "Time": "12/02/2023 23:38:46"
+    "FileTransferTime": 1.4384,
+    "Time": "13/02/2023 10:08:26"
   },
   {
-    "Name": "saveTest",
+    "Name": "savetest",
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\xxxx.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\xxxx.txt",
     "success": "success",
     "FileSize": 0,
-    "FileTransferTime": 1.5326,
-    "Time": "12/02/2023 23:38:46"
+    "FileTransferTime": 1.5424,
+    "Time": "13/02/2023 10:08:26"
   },
   {
-    "Name": "saveTest",
+    "Name": "savetest",
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target",
     "success": "success",
     "FileSize": 0,
     "FileTransferTime": 0,
-    "Time": "12/02/2023 23:38:46"
+    "Time": "13/02/2023 10:08:26"
+  },
+  {
+    "Name": "savetest",
+    "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test2.txt",
+    "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test2.txt",
+    "success": "success",
+    "FileSize": 18,
+    "FileTransferTime": 1.54,
+    "Time": "13/02/2023 10:12:23"
+  },
+  {
+    "Name": "savetest",
+    "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test3.txt",
+    "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test3.txt",
+    "success": "success",
+    "FileSize": 14,
+    "FileTransferTime": 4.0519,
+    "Time": "13/02/2023 10:12:23"
+  },
+  {
+    "Name": "savetest",
+    "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source",
+    "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0,
+    "Time": "13/02/2023 10:12:23"
   }
 ]
