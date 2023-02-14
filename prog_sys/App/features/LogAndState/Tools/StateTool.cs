@@ -10,7 +10,7 @@ public class StateTool
     public StateTool(string path)
     {
         if (string.IsNullOrEmpty(path))
-            path = AppDomain.CurrentDomain.BaseDirectory + "../../../Features/LogAndState/Data/Files/State";
+            path = AppDomain.CurrentDomain.BaseDirectory + "../../../features/LogAndState/Data/Files/State";
         
         _statePath = path + "/state.json";
         

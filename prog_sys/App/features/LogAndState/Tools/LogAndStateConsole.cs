@@ -5,10 +5,10 @@ namespace EasySafe;
 
 public class LogAndStateConsole
 {
-    public LogAndStateConsole(LogAndStateTool f)
+    public LogAndStateConsole()
     {
 
-        LogAndStateTool logAndStateTool = f;
+        LogAndStateTool logAndStateTool = LogAndStateTool.Instance;
 
 
         int choice = 0;

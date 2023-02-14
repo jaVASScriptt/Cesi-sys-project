@@ -9,7 +9,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="features\LogAndState\Data\Files\Log\DailyLogs\Json" />
+      <Folder Include="features\
+			  
+			  \Data\Files\Log\DailyLogs\Json" />
       <Folder Include="features\LogAndState\Data\Files\Log\DailyLogs\XML" />
       <Folder Include="Tests" />
     </ItemGroup>

@@ -24,7 +24,7 @@ public class Program
             switch (command)
             {
                 case "menu":
-                    LogAndStateConsole cf = new LogAndStateConsole(t);
+                    LogAndStateTool cf = LogAndStateTool.Instance;
                     break;
                 case "save":
                     string saveName = readCommand(LanguageTool.get("saveNameMessage"));
