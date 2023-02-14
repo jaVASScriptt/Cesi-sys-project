@@ -1,0 +1,44 @@
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.exe
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.deps.json
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.runtimeconfig.json
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.runtimeconfig.dev.json
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.dll
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\ref\Prog.Sys - Workshop 1 v2.dll
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.pdb
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.csproj.AssemblyReference.cache
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2_MarkupCompile.cache
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2_MarkupCompile.lref
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.g.resources
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.AssemblyInfoInputs.cache
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.AssemblyInfo.cs
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.csproj.CoreCompileInputs.cache
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.dll
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\ref\Prog.Sys - Workshop 1 v2.dll
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.pdb
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.genruntimeconfig.cache
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\View\MainWindow.g.cs
+C:\Users\alaumond\source\repos\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\View\MainWindow.baml
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.exe
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.deps.json
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.runtimeconfig.json
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.runtimeconfig.dev.json
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.dll
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\bin\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.pdb
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.csproj.AssemblyReference.cache
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\View\MainWindow.g.cs
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\App.g.cs
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2_MarkupCompile.cache
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2_MarkupCompile.lref
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\View\MainWindow.baml
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.g.resources
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.AssemblyInfoInputs.cache
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.AssemblyInfo.cs
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.csproj.CoreCompileInputs.cache
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.dll
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\refint\Prog.Sys - Workshop 1 v2.dll
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.pdb
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\Prog.Sys - Workshop 1 v2.genruntimeconfig.cache
+D:\Projets\VisualStudio\Projet\Cesi-sys-project\Prog.Sys - Workshop 1 v2\Prog.Sys - Workshop 1 v2\obj\Debug\net5.0-windows\ref\Prog.Sys - Workshop 1 v2.dll
