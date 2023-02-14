@@ -23,7 +23,6 @@ static class LanguageTool
     
     public static void print(string key)
     {
-        
         Console.WriteLine(get(key));
     }
 }
