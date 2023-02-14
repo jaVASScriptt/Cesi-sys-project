@@ -20,4 +20,10 @@ static class LanguageTool
         var item = (JsonElement)strings[0];
         return item.GetProperty(key).GetString();
     }
+    
+    public static void print(string key)
+    {
+        
+        Console.WriteLine(get(key));
+    }
 }

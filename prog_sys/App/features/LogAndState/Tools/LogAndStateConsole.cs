@@ -112,8 +112,6 @@ public class LogAndStateConsole
                         save.SaveData();
                     }
 
-                    logAndStateTool.addLog(ind, "success");
-
                     Console.WriteLine("All files have been copied successfully.");
                     Console.ReadLine();
 

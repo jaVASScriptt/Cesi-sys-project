@@ -13,7 +13,7 @@ public class Program
     static void Main(string[] args)
     {
 
-        LogAndStateTool t = new LogAndStateTool();
+        LogAndStateTool t = LogAndStateTool.Instance;
         LanguageTool.setLanguage(readCommand("Français : 1 , English : 2"));
 
         string command;
@@ -46,8 +46,6 @@ public class Program
                     */
                     ISave save = FactorySave.GetSave(saveName, originPath, targetPath, saveType);
                     save.SaveData();
-
-                    t.addLog(name: saveName, SourceFilePath: originPath, TargetFilePath: targetPath, success: "success");
 
                     Console.WriteLine("All files have been copied successfully.");
                     Console.ReadLine();

@@ -1,4 +1,7 @@
-﻿namespace Controler
+﻿using EasySafe;
+using System.Security.Cryptography.X509Certificates;
+
+namespace Controler
 {
     class CompleteSave : ISave
     {
@@ -26,6 +29,7 @@
             return targetPath;
         }
 
+        LogAndStateTool logFile = LogAndStateTool.Instance;
 
         public void SaveData()
         {
@@ -41,7 +45,28 @@
             //Copy all the files & Replaces any files with the same name
             foreach (string newPath in Directory.GetFiles(originPath, "*.*", SearchOption.AllDirectories))
             {
+                //Measurement of the current time
+                DateTime startTimeFile = DateTime.Now;
+
+                //Measurement of the file size
+                FileInfo fileInfo = new FileInfo(newPath);
+                long size = fileInfo.Length;
+
                 File.Copy(newPath, newPath.Replace(originPath, savePath), true);
+
+                //Save time: subtract current time - previously measured time
+                DateTime endTimeFile = DateTime.Now;
+                TimeSpan timeSave = endTimeFile - startTimeFile;
+                Double fileSaveTime = timeSave.TotalMilliseconds;
+
+                //Just take the file name
+                string fileName = Path.GetFileName(newPath);
+
+                Console.WriteLine(fileName + ": " + fileSaveTime + " ms, " + size + " octet");
+
+                //Create a log for each file
+                logFile.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName) , TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+
             }
         }
     }

@@ -1,4 +1,5 @@
-﻿using EasySafe;
+﻿using System.Text.RegularExpressions;
+using EasySafe;
 
 namespace ConsoleApp2.Features.utils;
 
@@ -60,5 +61,24 @@ public class Errors
             }
         }
     }
+    
 
+    public static bool IsValidFileName(string fileName)
+    {
+        string pattern = @"^[\w\d\s]+$";
+        return Regex.IsMatch(fileName, pattern);
+    }
+
+    public static bool ValidateFileName(string fileName)
+    {
+        if (!IsValidFileName(fileName))
+        {
+            Console.WriteLine("Le nom de fichier contient des caractères non valides. Veuillez entrer un nom de fichier valide.");
+            return false;
+        }
+        return true;
+    }
+    
+    
+    
 }
