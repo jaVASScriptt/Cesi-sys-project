@@ -8,23 +8,23 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\theot\\.nuget\\packages\\": {},
+    "C:\\Users\\moise\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projets\\VisualStudio\\Projet\\Cesi-sys-project\\Prog.Sys - Workshop 1 v2\\Prog.Sys - Workshop 1 v2\\Cesi-sys-project-V2.csproj",
+      "projectUniqueName": "C:\\Users\\moise\\OneDrive\\Documents\\CESI\\prog systeme\\Git Projet\\Prog.Sys - Workshop 1 v2\\Prog.Sys - Workshop 1 v2\\Cesi-sys-project-V2.csproj",
       "projectName": "Cesi-sys-project-V2",
-      "projectPath": "D:\\Projets\\VisualStudio\\Projet\\Cesi-sys-project\\Prog.Sys - Workshop 1 v2\\Prog.Sys - Workshop 1 v2\\Cesi-sys-project-V2.csproj",
-      "packagesPath": "C:\\Users\\theot\\.nuget\\packages\\",
-      "outputPath": "D:\\Projets\\VisualStudio\\Projet\\Cesi-sys-project\\Prog.Sys - Workshop 1 v2\\Prog.Sys - Workshop 1 v2\\obj\\",
+      "projectPath": "C:\\Users\\moise\\OneDrive\\Documents\\CESI\\prog systeme\\Git Projet\\Prog.Sys - Workshop 1 v2\\Prog.Sys - Workshop 1 v2\\Cesi-sys-project-V2.csproj",
+      "packagesPath": "C:\\Users\\moise\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\moise\\OneDrive\\Documents\\CESI\\prog systeme\\Git Projet\\Prog.Sys - Workshop 1 v2\\Prog.Sys - Workshop 1 v2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\theot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\moise\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -62,6 +62,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -70,7 +88,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
