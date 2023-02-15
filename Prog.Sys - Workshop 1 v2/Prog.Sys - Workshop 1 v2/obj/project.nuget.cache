@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "LL8m/QGPWJ/ruinIdl2lpdzo8+jL+EJy+VnqZYSzZVkdxQh8rugwKjvB8sI8I6EB5ZQvCnCGBFOkTTdCHsNNaA==",
+  "dgSpecHash": "alxpou2x8akw5ns7RAMbeNKnGIhn0Gp5Ly3oH52jYXSG2eB5nzZe3i8UFCI/TWiWOwLbaJY/QOyPkIQbtgX4dA==",
   "success": true,
-  "projectFilePath": "D:\\Projets\\VisualStudio\\Projet\\Cesi-sys-project\\Prog.Sys - Workshop 1 v2\\Prog.Sys - Workshop 1 v2\\Cesi-sys-project-V2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\moise\\OneDrive\\Documents\\CESI\\prog systeme\\Git Projet\\Prog.Sys - Workshop 1 v2\\Prog.Sys - Workshop 1 v2\\Cesi-sys-project-V2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moise\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\moise\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\moise\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\moise\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

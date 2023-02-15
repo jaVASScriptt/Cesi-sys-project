@@ -6,18 +6,22 @@
         xmlns:local="clr-namespace:Prog.Sys___Workshop_1_v2"
         DataContext="{Binding UpperModelView}"
         mc:Ignorable="d"
-        Title="Majusculator" Height="470" Width="780">
+        Title="EasySave - Accueil" Height="470" Width="780">
     <Grid Margin="10,0,0,0">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="27*"/>
-            <ColumnDefinition Width="28*"/>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="316*"/>
+            <ColumnDefinition Width="392*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="validation_text" Content="Validation" HorizontalAlignment="Left" Margin="372,153,0,0" VerticalAlignment="Top" Height="47" Width="130" FontFamily="Stencil" FontSize="20" Click="validation_text_Click" Grid.ColumnSpan="2" Drop="validation_text_Drop"/>
-        <TextBox Text="{Binding DisplayText}" x:Name="input_text" HorizontalAlignment="Left" Margin="51,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" Height="47" FontFamily="Times New Roman" FontSize="24"/>
-        <Label x:Name="explication_label" Content="Veuillez taper votre texte à majusculer :" HorizontalAlignment="Left" Margin="51,110,0,0" VerticalAlignment="Top" Width="512" FontSize="24" FontFamily="Times New Roman" Grid.ColumnSpan="2"/>
-        <Label x:Name="explication_result_label" Content="Si vous parlez trop fort, cela va donner :&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="51,217,0,0" VerticalAlignment="Top" Width="512" FontSize="24" FontFamily="Times New Roman" Height="37" Grid.ColumnSpan="2"/>
-        <Label x:Name="result_label" Content="" HorizontalAlignment="Left" Height="48" Margin="157,266,0,0" VerticalAlignment="Top" Width="589" FontFamily="Impact" FontSize="36" Background="#FFC2CFEA" Grid.ColumnSpan="2"/>
-        <Label x:Name="title" Content="Majusculator 2.0" HorizontalAlignment="Left" Height="69" Margin="10,10,0,0" VerticalAlignment="Top" Width="390" FontFamily="Copperplate Gothic Bold" FontSize="36" Grid.ColumnSpan="2">
+        <Button x:Name="validation_text" Content="Validation" HorizontalAlignment="Left" Margin="310,153,0,0" VerticalAlignment="Top" Height="47" Width="130" FontFamily="Stencil" FontSize="20" Click="validation_text_Click" Grid.ColumnSpan="2" Drop="validation_text_Drop" Grid.Column="4"/>
+        <TextBox Text="{Binding DisplayText}" x:Name="input_text" HorizontalAlignment="Left" Margin="4,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" Height="47" FontFamily="Times New Roman" FontSize="24" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Label x:Name="explication_label" Content="Langue :" HorizontalAlignment="Center" Margin="263,84,0,0" VerticalAlignment="Top" Width="127" FontSize="24" FontFamily="Times New Roman" Grid.ColumnSpan="2" Grid.Column="4" Height="64"/>
+        <Label x:Name="explication_result_label" Content="Si vous parlez trop fort, cela va donner :&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="4,217,0,0" VerticalAlignment="Top" Width="512" FontSize="24" FontFamily="Times New Roman" Height="37" Grid.ColumnSpan="3" Grid.Column="3"/>
+        <Label x:Name="result_label" Content="" HorizontalAlignment="Left" Height="48" Margin="95,266,0,0" VerticalAlignment="Top" Width="589" FontFamily="Impact" FontSize="36" Background="#FFC2CFEA" Grid.ColumnSpan="2" Grid.Column="4"/>
+        <Label x:Name="title" Content="EasySave" HorizontalAlignment="Left" Height="69" Margin="10,10,0,0" VerticalAlignment="Top" Width="390" FontFamily="Copperplate Gothic Bold" FontSize="36" Grid.ColumnSpan="6">
             <!--
             <Label.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -27,11 +31,11 @@
             </Label.Background>
             -->
         </Label>
-        <Button x:Name="info_button" Content="Info Serveur" HorizontalAlignment="Left" Height="26" Margin="10,398,0,0" VerticalAlignment="Top" Width="96" Click="info_button_Click"/>
-        <Label x:Name="info_label" Content="" HorizontalAlignment="Left" Height="26" Margin="111,398,0,0" VerticalAlignment="Top" Width="651" Cursor="Help" Grid.ColumnSpan="2"/>
-        <Label x:Name="result_label_mvvm" Content="{Binding DisplayText}" HorizontalAlignment="Left" Height="48" Margin="157,319,0,0" VerticalAlignment="Top" Width="589" FontFamily="Impact" FontSize="36" Background="#FFE7C2C2" Grid.ColumnSpan="2"/>
-        <Label Content="Variable ViewModel :" HorizontalAlignment="Left" Height="24" Margin="32,331,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Result :" HorizontalAlignment="Left" Height="24" Margin="106,278,0,0" VerticalAlignment="Top" Width="46"/>
+        <Button x:Name="info_button" Content="Info Serveur" HorizontalAlignment="Left" Height="26" Margin="10,398,0,0" VerticalAlignment="Top" Width="96" Click="info_button_Click" Grid.ColumnSpan="5"/>
+        <Label x:Name="info_label" Content="" HorizontalAlignment="Left" Height="26" Margin="49,398,0,0" VerticalAlignment="Top" Width="651" Cursor="Help" Grid.ColumnSpan="2" Grid.Column="4"/>
+        <Label x:Name="result_label_mvvm" Content="{Binding DisplayText}" HorizontalAlignment="Left" Height="48" Margin="95,319,0,0" VerticalAlignment="Top" Width="589" FontFamily="Impact" FontSize="36" Background="#FFE7C2C2" Grid.ColumnSpan="2" Grid.Column="4"/>
+        <Label Content="Variable ViewModel :" HorizontalAlignment="Left" Height="24" Margin="1,331,0,0" VerticalAlignment="Top" Width="120" Grid.Column="2" Grid.ColumnSpan="3"/>
+        <Label Content="Result :" HorizontalAlignment="Left" Height="24" Margin="44,278,0,0" VerticalAlignment="Top" Width="46" Grid.Column="4"/>
 
     </Grid>
 </Window>
