@@ -9,7 +9,11 @@
     "NbFilesLeftToDo": 0,
     "Progression": 0,
     "Type": "complete",
+<<<<<<< HEAD
     "LastUsed": "15/02/2023 23:15:13"
+=======
+    "LastUsed": "15/02/2023 22:03:43"
+>>>>>>> cf27b5b7ecd5b00d6a5512425c084090ce669162
   },
   {
     "Name": "saveTest2",
@@ -21,7 +25,11 @@
     "NbFilesLeftToDo": 10,
     "Progression": 0,
     "Type": "complete",
+<<<<<<< HEAD
     "LastUsed": "15/02/2023 23:23:47"
+=======
+    "LastUsed": ""
+>>>>>>> cf27b5b7ecd5b00d6a5512425c084090ce669162
   },
   {
     "Name": "saveTest",

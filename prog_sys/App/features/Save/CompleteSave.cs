@@ -78,6 +78,7 @@ namespace Controler
                 }
                 //Create a log for each file
 
+<<<<<<< HEAD
                 logFile.setTask(index:(int)i, NbFilesLeftToDo: logFile.getTask((int)i).NbFilesLeftToDo - 1, Progression: 100 - (logFile.getTask((int)i).NbFilesLeftToDo*100/logFile.getTask((int)i).TotalFilesToCopy));
 
                 //Thread.Sleep(2000);
@@ -86,6 +87,13 @@ namespace Controler
             
 
             //Thread.Sleep(2000);
+=======
+                logFile.setTask(task:(int)i, NbFilesLeftToDo: 167);
+
+                Thread.Sleep(2000);
+            }
+            Thread.Sleep(2000);
+>>>>>>> cf27b5b7ecd5b00d6a5512425c084090ce669162
             if (i != null)
             {
                 logFile.changeState((int)i);
