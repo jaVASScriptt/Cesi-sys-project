@@ -31,8 +31,10 @@ namespace Controler
 
         LogAndStateTool logFile = LogAndStateTool.Instance;
 
-        public void SaveData()
+        public void SaveData(int? i = null)
         {
+            if (i != null)
+                logFile.changeState((int)i);
             string savePath = Path.Combine(targetPath, saveName);
             Directory.CreateDirectory(savePath);
             savePath = Path.Combine(savePath, new DirectoryInfo(originPath).Name);
@@ -68,6 +70,9 @@ namespace Controler
                 logFile.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName) , TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
 
             }
+            Thread.Sleep(5000);
+            if (i != null)
+                logFile.changeState((int)i);
         }
     }
 }

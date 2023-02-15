@@ -62,8 +62,9 @@ public class LogAndStateConsole
                         logAndStateTool.factoryFillState();
                     break;
                 case 5:
-                    
-                    TaskData t = logAndStateTool.getTask(LanguageTool.printInt("whatWork"));
+
+                    int ind = LanguageTool.printInt("whatWork");
+                    TaskData t = logAndStateTool.getTask(ind);
                     
                     if (t == null)
                     {
@@ -84,7 +85,7 @@ public class LogAndStateConsole
                             CompleteSave saveC = new CompleteSave(t.Name, t.SourceFilePath, t.TargetFilePath);
                             saveC.CopyFileComplete(fileNames);*/
                             ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Complete");
-                            save.SaveData();
+                            save.SaveData(ind);
                         }
                         else
                         {
@@ -92,7 +93,7 @@ public class LogAndStateConsole
                             DifferentialSave saveD = new DifferentialSave(t.Name, t.SourceFilePath, t.TargetFilePath);
                             saveD.CopyFileDifferential(fileNames);*/
                             ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Differential");
-                            save.SaveData();
+                            save.SaveData(ind);
                         }
 
                         LanguageTool.print("AllFilesCopy");
