@@ -100,7 +100,7 @@ public class StateTool
             if (task >= 0 && task < tasks.Length - 1)
                 return tasks[task];
             else
-                return tasks[0];
+                return null;
     }
     
     public int getTaskIndex(String name)

@@ -47,7 +47,7 @@ public class Errors
     
     public static int NumberEntry()
     {
-        string number = Console.ReadLine();
+        string? number = Console.ReadLine();
         while (true)
         {
             try

@@ -64,33 +64,41 @@ public class LogAndStateConsole
                 case 5:
                     
                     TaskData t = logAndStateTool.getTask(LanguageTool.printInt("whatWork"));
-
-                    string[] fileNames = Directory.GetFiles(t.SourceFilePath);
-                    for (int i = 0; i < fileNames.Length; i++)
+                    
+                    if (t == null)
                     {
-                        fileNames[i] = Path.GetFileName(fileNames[i]);
-                    };
-
-                    if (t.Type == "complete")
-                    {
-                        /*
-                        CompleteSave saveC = new CompleteSave(t.Name, t.SourceFilePath, t.TargetFilePath);
-                        saveC.CopyFileComplete(fileNames);*/
-                        ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Complete");
-                        save.SaveData();
+                        LanguageTool.print("invalidChoice");
+                        break;
                     }
                     else
                     {
-                        /*
-                        DifferentialSave saveD = new DifferentialSave(t.Name, t.SourceFilePath, t.TargetFilePath);
-                        saveD.CopyFileDifferential(fileNames);*/
-                        ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Differential");
-                        save.SaveData();
+                        string[] fileNames = Directory.GetFiles(t.SourceFilePath);
+                        for (int i = 0; i < fileNames.Length; i++)
+                        {
+                            fileNames[i] = Path.GetFileName(fileNames[i]);
+                        };
+
+                        if (t.Type == "complete")
+                        {
+                            /*
+                            CompleteSave saveC = new CompleteSave(t.Name, t.SourceFilePath, t.TargetFilePath);
+                            saveC.CopyFileComplete(fileNames);*/
+                            ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Complete");
+                            save.SaveData();
+                        }
+                        else
+                        {
+                            /*
+                            DifferentialSave saveD = new DifferentialSave(t.Name, t.SourceFilePath, t.TargetFilePath);
+                            saveD.CopyFileDifferential(fileNames);*/
+                            ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Differential");
+                            save.SaveData();
+                        }
+
+                        LanguageTool.print("AllFilesCopy");
+                        break;
                     }
 
-                    LanguageTool.print("AllFilesCopy");
-                    break;
-                
                 case 6:
                     logAndStateTool.addLocation();
                     break;
