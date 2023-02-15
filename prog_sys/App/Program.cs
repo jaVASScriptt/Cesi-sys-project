@@ -7,7 +7,7 @@ public class Program
     {
 
         LogAndStateTool t = LogAndStateTool.Instance;
-        LanguageTool.setLanguage(LanguageTool.print(entry:"Français : 1 , English : 2"));
+        LanguageTool.setLanguage(LanguageTool.print(entry:" Français(default) : 1 , English : 2"));
 
         int command;
         
@@ -45,7 +45,7 @@ public class Program
 
                     break;
                 case 3:
-                    LanguageTool.print(entry: "Français : 1 , English : 2");
+                    LanguageTool.setLanguage(LanguageTool.print(entry:" Français(default) : 1 , English : 2 "));
                     break;
                 default:
                     LanguageTool.print("invalidChoice");

@@ -56,8 +56,7 @@ public class Errors
             }
             catch (Exception e)
             {
-                LanguageTool.print("NumberEntry");
-                number = Console.ReadLine();
+                number = LanguageTool.print("NumberEntry");
             }
         }
     }

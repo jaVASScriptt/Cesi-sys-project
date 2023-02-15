@@ -85,18 +85,35 @@ public class StateTool
     
     public TaskData getTask(int task = 0, String name = "") 
     {
-        TaskData[] tasks = getTasks();
-        
-        if (name != "")
-        {
-            for (int i = 0; i < 5; i++)
+       
+            TaskData[] tasks = getTasks();
+                    
+            if (name != "")
             {
-                if (tasks[i].Name == name)
-                    return tasks[i];
+                foreach (var t in tasks)
+                {
+                    if (t.Name == name)
+                        return t;
+                }
             }
+
+            if (task >= 0 && task < tasks.Length - 1)
+                return tasks[task];
+            else
+                return tasks[0];
+    }
+    
+    public int getTaskIndex(String name)
+    {
+        TaskData[] tasks = getTasks();
+        int index = 0;
+        foreach (var t in tasks)
+        {
+            if (t.Name == name)
+                return index;
+            index++;
         }
-        return tasks[task];
-        
+        return -1;
     }
 
     public void addNewTask(int task,

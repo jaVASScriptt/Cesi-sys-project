@@ -35,12 +35,13 @@
       "AllFilesCopy": "Tous les fichiers ont été copiés avec succès. (appuyer sur une touche pour continuer)",
       "whatStateDelete": " Quel Emplacement souhaitez-vous supprimer ? (entrer un numéro incorrecte supprime le dernier) ",
       "invalidChoice": "Veuillez entrer un nombre valide (appuyez sur une touche pour continuer)",
-      "outOfRange": "Indice cesi en dehors de la liste. (appuyez sur une touche pour continuer)",
+      "outOfRange": "Indice saisi en dehors de la liste. (appuyez sur une touche pour continuer)",
       "EmptyEntry": "Champ vide (appuyez sur une touche pour continuer)",
       "isGoodType": "Type incorrect (appuyez sur une touche pour continuer)",
       "fileOrDirectoryNotExist": "Le chemin n'existe pas (appuyez sur une touche pour continuer)",
       "sourceIsTarget" : "Le chemin source et cible sont identiques (appuyez sur une touche pour continuer)",
-      "NumberEntry": "Ce n'est pas un nombre! veuillez réessayer! (appuyez sur une touche pour continuer)",
-      "ValidateFileName": "Le nom de fichier contient des caractères non valides. Veuillez entrer un nom de fichier valide. (appuyez sur une touche pour continuer)"
+      "NumberEntry": "Ce n'est pas un nombre! veuillez réessayer!",
+      "ValidateFileName": "Le nom de fichier contient des caractères non valides. Veuillez entrer un nom de fichier valide. (appuyez sur une touche pour continuer)",
+      "taskOutOfRange": "La tâche n'existe pas (appuyez sur une touche pour continuer)"
   }
 ]

@@ -40,7 +40,8 @@
     "isGoodType": "Incorrect type (press any key to continue)",
     "fileOrDirectoryNotExist": "Path does not exist (press any key to continue)",
     "sourceIsTarget" : "Source and target path are the same (press any key to continue)",
-    "NumberEntry": "This is not a number! Please try again! (press any key to continue)",
-    "ValidateFileName": "The file name contains invalid characters. Please enter a valid file name. (press any key to continue)"
+    "NumberEntry": "This is not a number! Please try again!",
+    "ValidateFileName": "The file name contains invalid characters. Please enter a valid file name. (press any key to continue)",
+    "taskOutOfRange": "task ask not exist"
   }
 ]

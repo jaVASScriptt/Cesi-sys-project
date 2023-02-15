@@ -25,8 +25,7 @@ public class LogAndStateConsole
                     string name = LanguageTool.print("saveNameMessage");
                     string sourcePath = LanguageTool.print("originPathMessage");
                     string targetPath = LanguageTool.print("targetPathMessage");
-                    LanguageTool.printAndRescueChoice("saveType");
-                    int type = Errors.NumberEntry();
+                    int type = LanguageTool.printAndRescueChoice("saveType");
                     
                     logAndStateTool.addNewTask(index, name, sourcePath, targetPath, 0, 0, 0, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
 
@@ -37,12 +36,11 @@ public class LogAndStateConsole
                     string newName = LanguageTool.print(entry:LanguageTool.get("saveNameMessage") + LanguageTool.get("editSaveWork"));
                     string newSourcePath = LanguageTool.print(entry:LanguageTool.get("originPathMessage") + LanguageTool.get("editSaveWork"));
                     string newTargetPath = LanguageTool.print(entry:LanguageTool.get("targetPathMessage") + LanguageTool.get("editSaveWork"));
-                    LanguageTool.printAndRescueChoice("saveType");
-                    int newType = LanguageTool.printInt("editSaveWork");
+                    int newType = LanguageTool.printAndRescueChoice("saveType");
 
                     TaskData task = logAndStateTool.getTask(indexToModify);
 
-                    logAndStateTool.addNewTask(indexToModify,
+                    logAndStateTool.addNewTask(logAndStateTool.getTaskIndex(task.Name),
                         Name: newName == "" ? task.Name : newName,
                         SourceFilePath: newSourcePath == "" ? task.SourceFilePath : newSourcePath,
                         TargetFilePath: newTargetPath == "" ? task.TargetFilePath : newTargetPath,
@@ -64,9 +62,8 @@ public class LogAndStateConsole
                         logAndStateTool.factoryFillState();
                     break;
                 case 5:
-
-                    int ind = LanguageTool.printInt("whatWork");
-                    TaskData t = logAndStateTool.getTask(ind);
+                    
+                    TaskData t = logAndStateTool.getTask(LanguageTool.printInt("whatWork"));
 
                     string[] fileNames = Directory.GetFiles(t.SourceFilePath);
                     for (int i = 0; i < fileNames.Length; i++)
@@ -92,7 +89,6 @@ public class LogAndStateConsole
                     }
 
                     LanguageTool.print("AllFilesCopy");
-
                     break;
                 
                 case 6:
@@ -100,6 +96,8 @@ public class LogAndStateConsole
                     break;
                 case 7:
                     logAndStateTool.deleteLocation(LanguageTool.printInt("whatStateDelete"));
+                    break;
+                case 8 :
                     break;
                 default:
                     LanguageTool.print("invalidChoice");
