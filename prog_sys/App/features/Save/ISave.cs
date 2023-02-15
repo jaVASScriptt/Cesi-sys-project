@@ -8,6 +8,6 @@ namespace Controler
 {
     public interface ISave
     {
-        void SaveData();
+        void SaveData(int? i = null);
     }
 }

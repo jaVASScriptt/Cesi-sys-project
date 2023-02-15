@@ -7,9 +7,9 @@ public class Errors
 {
     public static Boolean outOfRange(int index, TaskData[] t)
     {
-        if (index > 0 && index < t.Length - 1)
+        if (index >= 0 && index < t.Length - 1)
             return false;
-        Console.WriteLine("Indice cesi en dehors de la liste");
+        LanguageTool.print("outOfRange");
         return true;
     }
     
@@ -17,7 +17,7 @@ public class Errors
     {
         if (entry != "")
             return false;
-        Console.WriteLine("Champ vide");
+        LanguageTool.print("EmptyEntry");
         return true;
     }
     
@@ -25,7 +25,7 @@ public class Errors
     {
         if (type == "complete" || type == "differential")
             return false;
-        Console.WriteLine("Type incorrect");
+        LanguageTool.print("isGoodType");
         return true;
     }
     
@@ -33,7 +33,7 @@ public class Errors
     {
         if (File.Exists(path) || Directory.Exists(path))
             return false;
-        Console.WriteLine("Le chemin n'existe pas");
+        LanguageTool.print("fileOrDirectoryNotExist");
         return true;
     }
     
@@ -41,13 +41,13 @@ public class Errors
     {
         if (source != target)
             return false;
-        Console.WriteLine("Le chemin source et cible sont identiques");
+        LanguageTool.print("sourceIsTarget");
         return true;
     }
     
     public static int NumberEntry()
     {
-        string number = Console.ReadLine();
+        string? number = Console.ReadLine();
         while (true)
         {
             try
@@ -56,8 +56,7 @@ public class Errors
             }
             catch (Exception e)
             {
-                Console.WriteLine("Ce n'est pas un nombre! veuillez réessayer!");
-                number = Console.ReadLine();
+                number = LanguageTool.print("NumberEntry");
             }
         }
     }
@@ -73,7 +72,8 @@ public class Errors
     {
         if (!IsValidFileName(fileName))
         {
-            Console.WriteLine("Le nom de fichier contient des caractères non valides. Veuillez entrer un nom de fichier valide.");
+            Console.WriteLine(
+                "Le nom de fichier contient des caractères non valides. Veuillez entrer un nom de fichier valide. (appuyez sur une touche pour continuer)");
             return false;
         }
         return true;

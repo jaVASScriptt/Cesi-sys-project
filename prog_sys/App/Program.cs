@@ -3,34 +3,27 @@ using EasySafe;
 
 public class Program
 {
-    public static string readCommand(string message)
-    {
-        Console.WriteLine(message);
-        string userInput = Console.ReadLine();
-        return userInput;
-    }
-
     static void Main(string[] args)
     {
 
         LogAndStateTool t = LogAndStateTool.Instance;
-        LanguageTool.setLanguage(readCommand("Français : 1 , English : 2"));
+        LanguageTool.setLanguage(LanguageTool.print(entry:" Français(default) : 1 , English : 2"));
 
-        string command;
-
-        while ((command = readCommand(LanguageTool.get("defaultMessage"))) != "exit")
+        int command;
+        
+        while ((command = LanguageTool.printAndRescueChoice("starterChoice")) != 4)
         {
             Console.Clear();
             switch (command)
             {
-                case "menu":
-                    new LogAndStateConsole();
+                case 1:
+                    LogAndStateConsole cf = new LogAndStateConsole(t);
                     break;
-                case "save":
-                    string saveName = readCommand(LanguageTool.get("saveNameMessage"));
-                    string originPath = readCommand(LanguageTool.get("originPathMessage"));
-                    string targetPath = readCommand(LanguageTool.get("targetPathMessage"));
-                    string saveType = readCommand("'Complete' or 'Differential'");
+                case 2:
+                    string saveName = LanguageTool.print("saveNameMessage");
+                    string originPath = LanguageTool.print("originPathMessage");
+                    string targetPath = LanguageTool.print("targetPathMessage");
+                    int saveType = LanguageTool.printAndRescueChoice("saveType");
 
                     //créer un tableau de fileName
                     string[] fileNames = Directory.GetFiles(originPath);
@@ -44,20 +37,18 @@ public class Program
                     Save save = new Save(saveName, originPath, targetPath);
                     save.checkType(fileNames);
                     */
-                    ISave save = FactorySave.GetSave(saveName, originPath, targetPath, saveType);
+                    ISave save = FactorySave.GetSave(saveName, originPath, targetPath, saveType == 1 ? "Complete" : saveType == 2 ? "Differential" : "Complete");
                     save.SaveData();
-
-                    Console.WriteLine("All files have been copied successfully.");
-                    Console.ReadLine();
+                    LanguageTool.print("AllFilesCopy");
 
                     //paramètres dispo : saveName, originPath, targetPath, fileName
 
                     break;
-                case "language":
-                    LanguageTool.setLanguage(readCommand("Français : 1 , English : 2"));
+                case 3:
+                    LanguageTool.setLanguage(LanguageTool.print(entry:" Français(default) : 1 , English : 2 "));
                     break;
                 default:
-                    Console.WriteLine("unknown command");
+                    LanguageTool.print("invalidChoice");
                     break;
             }
             Console.Clear();

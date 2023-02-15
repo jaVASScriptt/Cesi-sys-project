@@ -5,10 +5,10 @@ namespace EasySafe;
 
 public class LogAndStateConsole
 {
-    public LogAndStateConsole()
+    public LogAndStateConsole(LogAndStateTool f)
     {
 
-        LogAndStateTool logAndStateTool = LogAndStateTool.Instance;
+        LogAndStateTool logAndStateTool = f;
 
 
         int choice = 0;
@@ -16,119 +16,142 @@ public class LogAndStateConsole
         while (choice != 8)
         {
             logAndStateTool.showTasks();
-            Console.WriteLine(LanguageTool.get("featureMenu"));
-            choice = Errors.NumberEntry();
-            
+            choice = LanguageTool.printAndRescueChoice("featureMenu");
+
             switch (choice)
             {
                 case 1:
-                    Console.WriteLine(LanguageTool.get("numberSaveWork"));
-                    int index = Errors.NumberEntry();
+                    int index = LanguageTool.printInt("numberSaveWork");
+                    string name = LanguageTool.print("saveNameMessage");
+                    string sourcePath = LanguageTool.print("originPathMessage");
+                    string targetPath = LanguageTool.print("targetPathMessage");
+                    int type = LanguageTool.printAndRescueChoice("saveType");
 
-                    Console.WriteLine(LanguageTool.get("saveNameMessage"));
-                    string name = Console.ReadLine();
+                    //Count all the files in the directory and its subdirectories
+                    int filesCountCase1 = 0;
 
-                    Console.WriteLine(LanguageTool.get("originPathMessage"));
-                    string sourcePath = Console.ReadLine();
+                    //Measurement of the file size
+                    long filesSizeCase1 = 0;
 
-                    Console.WriteLine(LanguageTool.get("targetPathMessage"));
-                    string targetPath = Console.ReadLine();
+                    foreach (string filePath in Directory.GetFiles(sourcePath, "*.*", SearchOption.AllDirectories))
+                    {
+                        filesCountCase1++;
 
-                    Console.WriteLine(LanguageTool.get("saveType"));
-                    int type = Errors.NumberEntry();
+                        //Get the file size and add it to the total size
+                        FileInfo fileInfo = new FileInfo(filePath);
+                        filesSizeCase1 += fileInfo.Length;
+                    }
 
-                    logAndStateTool.addNewTask(index, name, sourcePath, targetPath, 0, 0, 0, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
+                    logAndStateTool.addNewTask(index, name, sourcePath, targetPath, filesCountCase1, filesSizeCase1, filesCountCase1, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
 
                     break;
 
                 case 2:
-                    Console.WriteLine(LanguageTool.get("numberSaveWork"));
-                    int indexToModify = Errors.NumberEntry();
-
-                    Console.WriteLine(LanguageTool.get("saveNameMessage") + LanguageTool.get("editSaveWork"));
-                    string newName = Console.ReadLine();
-
-                    Console.WriteLine(LanguageTool.get("originPathMessage") + LanguageTool.get("editSaveWork"));
-                    string newSourcePath = Console.ReadLine();
-
-                    Console.WriteLine(LanguageTool.get("targetPathMessage") + LanguageTool.get("editSaveWork"));
-                    string newTargetPath = Console.ReadLine();
-
-                    Console.WriteLine(LanguageTool.get("saveType") + LanguageTool.get("editSaveWork"));
-                    int newType = Errors.NumberEntry();
+                    int indexToModify = LanguageTool.printInt("numberSaveWork");
+                    string newName = LanguageTool.print(entry:LanguageTool.get("saveNameMessage") + LanguageTool.get("editSaveWork"));
+                    string newSourcePath = LanguageTool.print(entry:LanguageTool.get("originPathMessage") + LanguageTool.get("editSaveWork"));
+                    string newTargetPath = LanguageTool.print(entry:LanguageTool.get("targetPathMessage") + LanguageTool.get("editSaveWork"));
+                    int newType = LanguageTool.printAndRescueChoice("saveType");
 
                     TaskData task = logAndStateTool.getTask(indexToModify);
 
-                    logAndStateTool.addNewTask(indexToModify,
+                    //Count all the files in the directory and its subdirectories
+                    int filesCountCase2 = 0;
+
+                    //Measurement of the file size
+                    long filesSizeCase2 = 0;
+
+                    if (newSourcePath == "")
+                    {
+                        foreach (string filePath in Directory.GetFiles(task.SourceFilePath, "*.*", SearchOption.AllDirectories))
+                        {
+                            filesCountCase2++;
+
+                            //Get the file size and add it to the total size
+                            FileInfo fileInfo = new FileInfo(filePath);
+                            filesSizeCase2 += fileInfo.Length;
+                        }
+                    }
+                    else
+                    {
+                        foreach (string filePath in Directory.GetFiles(newSourcePath, "*.*", SearchOption.AllDirectories))
+                        {
+                            filesCountCase2++;
+
+                            //Get the file size and add it to the total size
+                            FileInfo fileInfo = new FileInfo(filePath);
+                            filesSizeCase2 += fileInfo.Length;
+                        }
+                    }
+
+                    int filesLeftTodo = filesCountCase2;
+
+                    logAndStateTool.addNewTask(logAndStateTool.getTaskIndex(task.Name),
                         Name: newName == "" ? task.Name : newName,
                         SourceFilePath: newSourcePath == "" ? task.SourceFilePath : newSourcePath,
                         TargetFilePath: newTargetPath == "" ? task.TargetFilePath : newTargetPath,
-                        task.TotalFilesToCopy, task.TotalFilesSize, task.NbFilesLeftToDo, task.Progression,
+                        TotalFilesToCopy: filesCountCase2 == 0 ? task.NbFilesLeftToDo : filesCountCase2,
+                        TotalFilesSize: filesSizeCase2 == 0 ? task.TotalFilesSize : filesSizeCase2,
+                        NbFilesLeftToDo: filesLeftTodo == 0 ? task.NbFilesLeftToDo : filesLeftTodo,
+                        task.Progression,
                         Type: newType == 1 ? "complete" : newType == 2 ? "differential" : task.Type);
                     break;
 
                 case 3:
-                    Console.WriteLine(LanguageTool.get("deleteSaveWork"));
-                    int indexToDelete = Errors.NumberEntry();
+                    int indexToDelete = LanguageTool.printInt("deleteSaveWork");
 
                     logAndStateTool.factoryFillOneState(indexToDelete);
                     break;
 
                 case 4:
-                    Console.WriteLine(LanguageTool.get("deleteAllSaveWork"));
+                    LanguageTool.printAndRescueChoice("deleteAllSaveWork");
                     int confirm = Errors.NumberEntry();
 
                     if (confirm == 1)
-                    {
                         logAndStateTool.factoryFillState();
-                    }
                     break;
                 case 5:
-                    Console.WriteLine("Quel travail de sauvegarde souhaitez-vous effectuer ?");
 
-                    int ind = Errors.NumberEntry();
+                    int ind = LanguageTool.printInt("whatWork");
                     TaskData t = logAndStateTool.getTask(ind);
-
-                    string[] fileNames = Directory.GetFiles(t.SourceFilePath);
-                    for (int i = 0; i < fileNames.Length; i++)
+                    
+                    if (t == null)
                     {
-                        fileNames[i] = Path.GetFileName(fileNames[i]);
-                    };
-
-                    if (t.Type == "complete")
-                    {
-                        /*
-                        CompleteSave saveC = new CompleteSave(t.Name, t.SourceFilePath, t.TargetFilePath);
-                        saveC.CopyFileComplete(fileNames);*/
-                        ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Complete");
-                        save.SaveData();
+                        LanguageTool.print("invalidChoice");
+                        break;
                     }
                     else
-                    {
-                        /*
-                        DifferentialSave saveD = new DifferentialSave(t.Name, t.SourceFilePath, t.TargetFilePath);
-                        saveD.CopyFileDifferential(fileNames);*/
-                        ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Differential");
-                        save.SaveData();
+                    {             
+                        if (t.Type == "complete")
+                        {
+                            
+                            ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Complete");
+                            save.SaveData(ind);
+                        }
+                        else
+                        {
+                            ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Differential");
+                            save.SaveData(ind);
+                        }
+
+                        LanguageTool.print("AllFilesCopy");
+                        break;
                     }
 
-                    Console.WriteLine("All files have been copied successfully.");
-                    Console.ReadLine();
-
-                    break;
-                
                 case 6:
                     logAndStateTool.addLocation();
                     break;
                 case 7:
-                    Console.WriteLine("Quel Emplacement souhaitez-vous supprimer ? (entrer un numéro incorrecte supprime le dernier) ");
-                    logAndStateTool.deleteLocation(Errors.NumberEntry());
+                    logAndStateTool.deleteLocation(LanguageTool.printInt("whatStateDelete"));
+                    break;
+                case 8 :
                     break;
                 default:
-                    Console.WriteLine("Veuillez entrer un nombre valide");
+                    LanguageTool.print("invalidChoice");
                     break;
             }
             
+            Console.Clear();
 
         }
 

@@ -10,7 +10,7 @@ public class StateTool
     public StateTool(string path)
     {
         if (string.IsNullOrEmpty(path))
-            path = AppDomain.CurrentDomain.BaseDirectory + "../../../features/LogAndState/Data/Files/State";
+            path = AppDomain.CurrentDomain.BaseDirectory + "../../../Features/LogAndState/Data/Files/State";
         
         _statePath = path + "/state.json";
         
@@ -38,7 +38,7 @@ public class StateTool
             tasks[index] = new TaskData();
         
             utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
-            Console.WriteLine(LanguageTool.get("saveDeleted"));
+            LanguageTool.print("saveDeleted");
         }
 
     }
@@ -52,6 +52,7 @@ public class StateTool
 
     public void showTasks()
     {
+        Console.WriteLine("");
         Console.WriteLine(LanguageTool.get("taskConfig"));
         TaskData[] tasks = getTasks();
 
@@ -63,6 +64,7 @@ public class StateTool
             else
                 Console.WriteLine(i + LanguageTool.get("noTask"));
         }
+        Console.WriteLine("");
     }
 
     public void changeState(int index = 0, String name = "")
@@ -83,18 +85,35 @@ public class StateTool
     
     public TaskData getTask(int task = 0, String name = "") 
     {
-        TaskData[] tasks = getTasks();
-        
-        if (name != "")
-        {
-            for (int i = 0; i < 5; i++)
+       
+            TaskData[] tasks = getTasks();
+                    
+            if (name != "")
             {
-                if (tasks[i].Name == name)
-                    return tasks[i];
+                foreach (var t in tasks)
+                {
+                    if (t.Name == name)
+                        return t;
+                }
             }
+
+            if (task >= 0 && task < tasks.Length - 1)
+                return tasks[task];
+            else
+                return null;
+    }
+    
+    public int getTaskIndex(String name)
+    {
+        TaskData[] tasks = getTasks();
+        int index = 0;
+        foreach (var t in tasks)
+        {
+            if (t.Name == name)
+                return index;
+            index++;
         }
-        return tasks[task];
-        
+        return -1;
     }
 
     public void addNewTask(int task,
@@ -102,7 +121,7 @@ public class StateTool
         string SourceFilePath,
         string TargetFilePath,
         int TotalFilesToCopy,
-        int TotalFilesSize,
+        long TotalFilesSize,
         int NbFilesLeftToDo,
         int Progression,
         string Type)
@@ -120,8 +139,7 @@ public class StateTool
         {
             if (getTask(task).Name != "")
             {
-                Console.WriteLine(LanguageTool.get("confirmDelete"));
-                if (Console.ReadLine() == "y")
+                if (LanguageTool.print("confirmDelete") == "y")
                     setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
                         NbFilesLeftToDo, Progression, Type);
             }
@@ -130,7 +148,7 @@ public class StateTool
                 setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
                     NbFilesLeftToDo, Progression, Type);
             }
-            Console.WriteLine(LanguageTool.get("taskAdded"));
+            LanguageTool.print("taskAdded");
         }
 
     }
@@ -141,7 +159,7 @@ public class StateTool
         string TargetFilePath = "", 
         string State = "", 
         int TotalFilesToCopy = 0, 
-        int TotalFilesSize = 0, 
+        long TotalFilesSize = 0, 
         int NbFilesLeftToDo = 0, 
         int Progression = 0, 
         string Type = "complete",

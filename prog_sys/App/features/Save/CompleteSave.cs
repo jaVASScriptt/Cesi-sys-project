@@ -31,11 +31,15 @@ namespace Controler
 
         LogAndStateTool logFile = LogAndStateTool.Instance;
 
-        public void SaveData()
+        public void SaveData(int? i = null)
         {
+            if (i != null)
+                logFile.changeState((int)i);
+
             string savePath = Path.Combine(targetPath, saveName);
             Directory.CreateDirectory(savePath);
             savePath = Path.Combine(savePath, new DirectoryInfo(originPath).Name);
+
             //Now Create all of the directories
             foreach (string dirPath in Directory.GetDirectories(originPath, "*", SearchOption.AllDirectories))
             {
@@ -67,7 +71,13 @@ namespace Controler
                 //Create a log for each file
                 logFile.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName) , TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
 
+                logFile.setTask(task:(int)i, NbFilesLeftToDo: 167);
+
+                Thread.Sleep(2000);
             }
+            Thread.Sleep(2000);
+            if (i != null)
+                logFile.changeState((int)i);
         }
     }
 }

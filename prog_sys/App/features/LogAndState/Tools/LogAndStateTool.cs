@@ -33,7 +33,7 @@ public sealed class LogAndStateTool
     
     public void showTasks(int task = 0) { stateTool.showTasks(); }
     
-    public void addNewTask(int task, string Name, string SourceFilePath, string TargetFilePath, int TotalFilesToCopy, int TotalFilesSize, int NbFilesLeftToDo, int Progression, string Type)
+    public void addNewTask(int task, string Name, string SourceFilePath, string TargetFilePath, int TotalFilesToCopy, long TotalFilesSize, int NbFilesLeftToDo, int Progression, string Type)
     {
         stateTool.addNewTask(task, Name, SourceFilePath, TargetFilePath, TotalFilesToCopy, TotalFilesSize, NbFilesLeftToDo, Progression, Type);
     }
@@ -48,6 +48,33 @@ public sealed class LogAndStateTool
     
     public void deleteLocation(int index) { stateTool.deleteLocation(index); }
 
-    public void changeState(int index = 0, String name = "") { stateTool.changeState(index,name); }
+    public void setTask(int task = 0,
+            string Name = "",
+            string SourceFilePath = "",
+            string TargetFilePath = "",
+            string State = "",
+            int TotalFilesToCopy = 0,
+            long TotalFilesSize = 0,
+            int NbFilesLeftToDo = 0,
+            int Progression = 0,
+            string Type = "complete",
+            string LastUsed = "")
+    {
+        stateTool.setTask(task = 0,
+            Name = "",
+            SourceFilePath = "",
+            TargetFilePath = "",
+            State = "",
+            TotalFilesToCopy = 0,
+            TotalFilesSize = 0,
+            NbFilesLeftToDo = 0,
+            Progression = 0,
+            Type = "complete",
+            LastUsed = "");
+    }
+    
+        public void changeState(int index = 0, String name = "") { stateTool.changeState(index,name); }
+    
+    public int getTaskIndex(String name) { return stateTool.getTaskIndex(name); }
 
 }

@@ -5,7 +5,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>28</FileSize>
     <FileTransferTime>10,8616</FileTransferTime>
     <Time>15/02/2023 16:55:35</Time>
   </log>
@@ -23,7 +23,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>30</FileSize>
     <FileTransferTime>17,6683</FileTransferTime>
     <Time>15/02/2023 16:55:39</Time>
   </log>
@@ -32,7 +32,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>18</FileSize>
     <FileTransferTime>2,3652</FileTransferTime>
     <Time>15/02/2023 16:55:41</Time>
   </log>
@@ -41,7 +41,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>14</FileSize>
     <FileTransferTime>2,0104</FileTransferTime>
     <Time>15/02/2023 16:55:43</Time>
   </log>
@@ -77,7 +77,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>28</FileSize>
     <FileTransferTime>31,0241</FileTransferTime>
     <Time>15/02/2023 21:03:23</Time>
   </log>
@@ -95,7 +95,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>30</FileSize>
     <FileTransferTime>1,8524</FileTransferTime>
     <Time>15/02/2023 21:03:27</Time>
   </log>
@@ -104,7 +104,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>18</FileSize>
     <FileTransferTime>2,9726</FileTransferTime>
     <Time>15/02/2023 21:03:29</Time>
   </log>
@@ -113,7 +113,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>14</FileSize>
     <FileTransferTime>1,5965</FileTransferTime>
     <Time>15/02/2023 21:03:31</Time>
   </log>
@@ -149,16 +149,16 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>28</FileSize>
     <FileTransferTime>18,6727</FileTransferTime>
-    <Time>15/02/2023 22:01:22</Time>
+    <Time>15/02/2023 22:01:23</Time>
   </log>
   <log>
     <Name>saveTest2</Name>
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>38</FileSize>
     <FileTransferTime>2,7733</FileTransferTime>
     <Time>15/02/2023 22:01:25</Time>
   </log>
@@ -176,7 +176,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>30</FileSize>
     <FileTransferTime>2,312</FileTransferTime>
     <Time>15/02/2023 22:01:29</Time>
   </log>
@@ -185,7 +185,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>18</FileSize>
     <FileTransferTime>1,6146</FileTransferTime>
     <Time>15/02/2023 22:01:31</Time>
   </log>
@@ -194,7 +194,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>14</FileSize>
     <FileTransferTime>1,9399</FileTransferTime>
     <Time>15/02/2023 22:01:33</Time>
   </log>
@@ -203,7 +203,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>82</FileSize>
     <FileTransferTime>2,1595</FileTransferTime>
     <Time>15/02/2023 22:01:35</Time>
   </log>
@@ -239,7 +239,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>28</FileSize>
     <FileTransferTime>1,2227</FileTransferTime>
     <Time>15/02/2023 22:02:33</Time>
   </log>
@@ -248,7 +248,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>38</FileSize>
     <FileTransferTime>1,5762</FileTransferTime>
     <Time>15/02/2023 22:02:35</Time>
   </log>
@@ -266,7 +266,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>30</FileSize>
     <FileTransferTime>1,9045</FileTransferTime>
     <Time>15/02/2023 22:02:39</Time>
   </log>
@@ -275,7 +275,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>18</FileSize>
     <FileTransferTime>2,1679</FileTransferTime>
     <Time>15/02/2023 22:02:41</Time>
   </log>
@@ -284,7 +284,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>14</FileSize>
     <FileTransferTime>1,77</FileTransferTime>
     <Time>15/02/2023 22:02:43</Time>
   </log>
@@ -293,7 +293,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>82</FileSize>
     <FileTransferTime>1,4676</FileTransferTime>
     <Time>15/02/2023 22:02:45</Time>
   </log>
@@ -329,7 +329,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>28</FileSize>
     <FileTransferTime>1,1637</FileTransferTime>
     <Time>15/02/2023 22:03:25</Time>
   </log>
@@ -338,7 +338,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>38</FileSize>
     <FileTransferTime>1,6441</FileTransferTime>
     <Time>15/02/2023 22:03:27</Time>
   </log>
@@ -356,7 +356,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>30</FileSize>
     <FileTransferTime>1,6378</FileTransferTime>
     <Time>15/02/2023 22:03:31</Time>
   </log>
@@ -365,7 +365,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>18</FileSize>
     <FileTransferTime>2,2011</FileTransferTime>
     <Time>15/02/2023 22:03:33</Time>
   </log>
@@ -374,7 +374,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>14</FileSize>
     <FileTransferTime>1,7163</FileTransferTime>
     <Time>15/02/2023 22:03:35</Time>
   </log>
@@ -383,7 +383,7 @@
     <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
     <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
     <Success>success</Success>
-    <FileSize>0</FileSize>
+    <FileSize>82</FileSize>
     <FileTransferTime>2,027</FileTransferTime>
     <Time>15/02/2023 22:03:37</Time>
   </log>

@@ -4,7 +4,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\caca.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\caca.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 28,
     "FileTransferTime": 10.8616,
     "Time": "15/02/2023 16:55:35"
   },
@@ -22,7 +22,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 30,
     "FileTransferTime": 17.6683,
     "Time": "15/02/2023 16:55:39"
   },
@@ -31,7 +31,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test2.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test2.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 18,
     "FileTransferTime": 2.3652,
     "Time": "15/02/2023 16:55:41"
   },
@@ -40,7 +40,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test3.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test3.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 14,
     "FileTransferTime": 2.0104,
     "Time": "15/02/2023 16:55:43"
   },
@@ -76,7 +76,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\caca.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\caca.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 28,
     "FileTransferTime": 31.0241,
     "Time": "15/02/2023 21:03:23"
   },
@@ -94,7 +94,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 30,
     "FileTransferTime": 1.8524,
     "Time": "15/02/2023 21:03:27"
   },
@@ -103,7 +103,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test2.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test2.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 18,
     "FileTransferTime": 2.9726,
     "Time": "15/02/2023 21:03:29"
   },
@@ -112,7 +112,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test3.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test3.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 14,
     "FileTransferTime": 1.5965,
     "Time": "15/02/2023 21:03:31"
   },
@@ -148,16 +148,16 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\caca.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\caca.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 28,
     "FileTransferTime": 18.6727,
-    "Time": "15/02/2023 22:01:22"
+    "Time": "15/02/2023 22:01:23"
   },
   {
     "Name": "saveTest2",
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\ncnicsc.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\ncnicsc.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 38,
     "FileTransferTime": 2.7733,
     "Time": "15/02/2023 22:01:25"
   },
@@ -175,7 +175,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 30,
     "FileTransferTime": 2.312,
     "Time": "15/02/2023 22:01:29"
   },
@@ -184,7 +184,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test2.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test2.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 18,
     "FileTransferTime": 1.6146,
     "Time": "15/02/2023 22:01:31"
   },
@@ -193,7 +193,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test3.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test3.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 14,
     "FileTransferTime": 1.9399,
     "Time": "15/02/2023 22:01:33"
   },
@@ -202,7 +202,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\vdvc.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\vdvc.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 82,
     "FileTransferTime": 2.1595,
     "Time": "15/02/2023 22:01:35"
   },
@@ -238,7 +238,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\caca.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\caca.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 28,
     "FileTransferTime": 1.2227,
     "Time": "15/02/2023 22:02:33"
   },
@@ -247,7 +247,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\ncnicsc.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\ncnicsc.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 38,
     "FileTransferTime": 1.5762,
     "Time": "15/02/2023 22:02:35"
   },
@@ -265,7 +265,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 30,
     "FileTransferTime": 1.9045,
     "Time": "15/02/2023 22:02:39"
   },
@@ -274,7 +274,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test2.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test2.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 18,
     "FileTransferTime": 2.1679,
     "Time": "15/02/2023 22:02:41"
   },
@@ -283,7 +283,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test3.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test3.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 14,
     "FileTransferTime": 1.77,
     "Time": "15/02/2023 22:02:43"
   },
@@ -292,7 +292,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\vdvc.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\vdvc.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 82,
     "FileTransferTime": 1.4676,
     "Time": "15/02/2023 22:02:45"
   },
@@ -328,7 +328,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\caca.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\caca.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 28,
     "FileTransferTime": 1.1637,
     "Time": "15/02/2023 22:03:25"
   },
@@ -337,7 +337,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\ncnicsc.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\ncnicsc.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 38,
     "FileTransferTime": 1.6441,
     "Time": "15/02/2023 22:03:27"
   },
@@ -355,7 +355,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 30,
     "FileTransferTime": 1.6378,
     "Time": "15/02/2023 22:03:31"
   },
@@ -364,7 +364,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test2.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test2.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 18,
     "FileTransferTime": 2.2011,
     "Time": "15/02/2023 22:03:33"
   },
@@ -373,7 +373,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\test3.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\test3.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 14,
     "FileTransferTime": 1.7163,
     "Time": "15/02/2023 22:03:35"
   },
@@ -382,7 +382,7 @@
     "SourceFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\source\\vdvc.txt",
     "TargetFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\Tests\\target\\vdvc.txt",
     "success": "success",
-    "FileSize": 0,
+    "FileSize": 82,
     "FileTransferTime": 2.027,
     "Time": "15/02/2023 22:03:37"
   },
