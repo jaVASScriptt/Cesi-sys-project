@@ -1,0 +1,26 @@
+﻿[
+  {
+      "defaultMessage" : "Pour cr�er une sauvegarde, entrer la commande 'save'\n pour acceder au menu de sauvegarde pr�-initialiser, entrer 'menu'\n pour changer de langue, entrer 'language'\n pour stopper l'application, entrer 'exit'",
+      "saveNameMessage" : "Donner un nom pour la sauvegarde",
+      "originPathMessage" : "Donnez le chemin d'acces des fichiers a copier",
+      "targetPathMessage" : "Donnez le chemin d'acces ou les fichiers vont se copier",
+      "saveType" : "Quel sera le type de sauvegarde ? (1: complete, 2: differential)",
+      "errorCreatingFiles" : "Erreur lors de la cr�ation des fichiers log et state :",
+      "featureMenu" : "\nQue souhaitez-vous faire ?\n 1 - Cr�er un nouveau travail de sauvegarde\n 2 - Modifier un travail de sauvegarde\n 3 - Supprimer un travail de sauvegarde\n 4 - Supprimer tout les travaux de sauvegarde\n 5 - faire une sauvegarde\n 6 - Ajouter un emplacement de travail de sauvegarde\n 7 - Supprimer un emplacement de travail de sauvegarde\n 8 - quitter le management des travaux sauvegarde\n",
+      "numberSaveWork": "Veuillez indiquer le numero du travail de sauvegarde vous souhaitez �diter :",
+      "editSaveWork" : "(laisser vide pour ne pas modifier)",
+      "deleteSaveWork" : "Quel travail de sauvegarde souhaitez-vous supprimer ?",
+      "deleteAllSaveWork" : "Etes-vous s�r de vouloir supprimer tout les travaux de sauvegarde ? (1: oui, 2: non)",
+      "indexNotExist": "L'index choisi n'existe pas, veuillez recommencer",
+      "workDeleted": "La t�che n'existe pas",
+      "saveDeleted": "T�che supprim�e",
+      "unvalidMessage": "Entr�e invalide",
+      "unvalidMessageExample": ", entr�e attendu :",
+      "noEmpty": "L'entr�e ne peut pas �tre vide",
+      "confirmDelete": "Voulez vous �craser la t�che ? (y/n)",
+      "taskAdded" : "T�che ajout�e",
+      "taskNotAdded" : "Impossible d'ajouter la tache! : ",
+      "taskConfig": "Voici les configurations actuelles :",
+      "noTask": "] [vide]"
+  }
+]

@@ -16,13 +16,18 @@ using System.Windows.Shapes;
 namespace Prog.Sys___Workshop_1_v2.View
 {
     /// <summary>
-    /// Logique d'interaction pour modifier_sauvegarde.xaml
+    /// Logique d'interaction pour Page1.xaml
     /// </summary>
-    public partial class modifier_sauvegarde : Page
+    public partial class Page1 : Page
     {
-        public modifier_sauvegarde()
+        public Page1()
         {
             InitializeComponent();
+        }
+
+        private void input_pathtocopy_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
