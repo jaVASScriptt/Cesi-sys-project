@@ -33,7 +33,7 @@ public sealed class LogAndStateTool
     
     public void showTasks(int task = 0) { stateTool.showTasks(); }
     
-    public void addNewTask(int task, string Name, string SourceFilePath, string TargetFilePath, int TotalFilesToCopy, int TotalFilesSize, int NbFilesLeftToDo, int Progression, string Type)
+    public void addNewTask(int task, string Name, string SourceFilePath, string TargetFilePath, int TotalFilesToCopy, long TotalFilesSize, int NbFilesLeftToDo, int Progression, string Type)
     {
         stateTool.addNewTask(task, Name, SourceFilePath, TargetFilePath, TotalFilesToCopy, TotalFilesSize, NbFilesLeftToDo, Progression, Type);
     }
@@ -47,6 +47,11 @@ public sealed class LogAndStateTool
     public void addLocation() { stateTool.addLocation(); }
     
     public void deleteLocation(int index) { stateTool.deleteLocation(index); }
+
+    public void setTask(int index, string Name = "", string SourceFilePath = "", string TargetFilePath = "", string State = "", int TotalFilesToCopy = 0, long TotalFilesSize = 0, int NbFilesLeftToDo = 0, int Progression = 0, string Type = "", string LastUsed = "")
+    {
+        stateTool.setTask(index, Name, SourceFilePath, TargetFilePath, State, TotalFilesToCopy, TotalFilesSize, NbFilesLeftToDo, Progression, Type, LastUsed);
+    }
 
     public void changeState(int index = 0, String name = "") { stateTool.changeState(index,name); }
     

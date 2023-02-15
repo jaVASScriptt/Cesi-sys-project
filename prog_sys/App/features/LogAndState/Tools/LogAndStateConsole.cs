@@ -26,8 +26,23 @@ public class LogAndStateConsole
                     string sourcePath = LanguageTool.print("originPathMessage");
                     string targetPath = LanguageTool.print("targetPathMessage");
                     int type = LanguageTool.printAndRescueChoice("saveType");
-                    
-                    logAndStateTool.addNewTask(index, name, sourcePath, targetPath, 0, 0, 0, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
+
+                    //Count all the files in the directory and its subdirectories
+                    int filesCountCase1 = 0;
+
+                    //Measurement of the file size
+                    long filesSizeCase1 = 0;
+
+                    foreach (string filePath in Directory.GetFiles(sourcePath, "*.*", SearchOption.AllDirectories))
+                    {
+                        filesCountCase1++;
+
+                        //Get the file size and add it to the total size
+                        FileInfo fileInfo = new FileInfo(filePath);
+                        filesSizeCase1 += fileInfo.Length;
+                    }
+
+                    logAndStateTool.addNewTask(index, name, sourcePath, targetPath, filesCountCase1, filesSizeCase1, filesCountCase1, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
 
                     break;
 
@@ -40,11 +55,45 @@ public class LogAndStateConsole
 
                     TaskData task = logAndStateTool.getTask(indexToModify);
 
+                    //Count all the files in the directory and its subdirectories
+                    int filesCountCase2 = 0;
+
+                    //Measurement of the file size
+                    long filesSizeCase2 = 0;
+
+                    if (newSourcePath == "")
+                    {
+                        foreach (string filePath in Directory.GetFiles(task.SourceFilePath, "*.*", SearchOption.AllDirectories))
+                        {
+                            filesCountCase2++;
+
+                            //Get the file size and add it to the total size
+                            FileInfo fileInfo = new FileInfo(filePath);
+                            filesSizeCase2 += fileInfo.Length;
+                        }
+                    }
+                    else
+                    {
+                        foreach (string filePath in Directory.GetFiles(newSourcePath, "*.*", SearchOption.AllDirectories))
+                        {
+                            filesCountCase2++;
+
+                            //Get the file size and add it to the total size
+                            FileInfo fileInfo = new FileInfo(filePath);
+                            filesSizeCase2 += fileInfo.Length;
+                        }
+                    }
+
+                    int filesLeftTodo = filesCountCase2;
+
                     logAndStateTool.addNewTask(logAndStateTool.getTaskIndex(task.Name),
                         Name: newName == "" ? task.Name : newName,
                         SourceFilePath: newSourcePath == "" ? task.SourceFilePath : newSourcePath,
                         TargetFilePath: newTargetPath == "" ? task.TargetFilePath : newTargetPath,
-                        task.TotalFilesToCopy, task.TotalFilesSize, task.NbFilesLeftToDo, task.Progression,
+                        TotalFilesToCopy: filesCountCase2 == 0 ? task.NbFilesLeftToDo : filesCountCase2,
+                        TotalFilesSize: filesSizeCase2 == 0 ? task.TotalFilesSize : filesSizeCase2,
+                        NbFilesLeftToDo: filesLeftTodo == 0 ? task.NbFilesLeftToDo : filesLeftTodo,
+                        task.Progression,
                         Type: newType == 1 ? "complete" : newType == 2 ? "differential" : task.Type);
                     break;
 
@@ -72,26 +121,15 @@ public class LogAndStateConsole
                         break;
                     }
                     else
-                    {
-                        string[] fileNames = Directory.GetFiles(t.SourceFilePath);
-                        for (int i = 0; i < fileNames.Length; i++)
-                        {
-                            fileNames[i] = Path.GetFileName(fileNames[i]);
-                        };
-
+                    {             
                         if (t.Type == "complete")
                         {
-                            /*
-                            CompleteSave saveC = new CompleteSave(t.Name, t.SourceFilePath, t.TargetFilePath);
-                            saveC.CopyFileComplete(fileNames);*/
+                            
                             ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Complete");
                             save.SaveData(ind);
                         }
                         else
                         {
-                            /*
-                            DifferentialSave saveD = new DifferentialSave(t.Name, t.SourceFilePath, t.TargetFilePath);
-                            saveD.CopyFileDifferential(fileNames);*/
                             ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Differential");
                             save.SaveData(ind);
                         }

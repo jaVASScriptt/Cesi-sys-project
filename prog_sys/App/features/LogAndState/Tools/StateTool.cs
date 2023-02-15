@@ -82,7 +82,23 @@ public class StateTool
 
         setTask(index, State : task.State == "END" ? "RUNNING" : "END");
     }
-    
+
+    public void changeNbFilesLeftToDo(int index = 0, String name = "")
+    {
+        TaskData task = getTask(index, name);
+        TaskData[] tasks = getTasks();
+
+        foreach (var i in tasks)
+        {
+            if (name == i.Name && name != "")
+            {
+                index = Array.IndexOf(tasks, i);
+            }
+        }
+
+        setTask(index, NbFilesLeftToDo: task.NbFilesLeftToDo);
+    }
+
     public TaskData getTask(int task = 0, String name = "") 
     {
        
@@ -121,7 +137,7 @@ public class StateTool
         string SourceFilePath,
         string TargetFilePath,
         int TotalFilesToCopy,
-        int TotalFilesSize,
+        long TotalFilesSize,
         int NbFilesLeftToDo,
         int Progression,
         string Type)
@@ -159,7 +175,7 @@ public class StateTool
         string TargetFilePath = "", 
         string State = "", 
         int TotalFilesToCopy = 0, 
-        int TotalFilesSize = 0, 
+        long TotalFilesSize = 0, 
         int NbFilesLeftToDo = 0, 
         int Progression = 0, 
         string Type = "complete",

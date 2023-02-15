@@ -74,8 +74,20 @@ namespace Controler
 
                     Console.WriteLine(fileName + ": " + fileSaveTime + " ms, " + size + " octet");
 
-                    //Create a log for each file
-                    logFile.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+                    if (i == null)
+                    {
+                        //Create a log for each file
+                        logFile.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+                    }
+                    else
+                    {
+                        //Create a log for each file
+                        logFile.addLog(task: (int)i, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+                    }
+
+                    logFile.setTask(index: (int)i, NbFilesLeftToDo: 0);
+                    //Thread.Sleep(2000);
+
 
                 }
                 else
@@ -85,7 +97,12 @@ namespace Controler
                 }
             }
             if (i != null)
+            {
                 logFile.changeState((int)i);
+                logFile.setTask(index: (int)i, NbFilesLeftToDo: logFile.getTask((int)i).TotalFilesToCopy);
+                logFile.setTask(index: (int)i, Progression: 0);
+            }
         }
+                
     }
 }

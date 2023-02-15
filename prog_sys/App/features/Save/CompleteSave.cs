@@ -35,9 +35,11 @@ namespace Controler
         {
             if (i != null)
                 logFile.changeState((int)i);
+
             string savePath = Path.Combine(targetPath, saveName);
             Directory.CreateDirectory(savePath);
             savePath = Path.Combine(savePath, new DirectoryInfo(originPath).Name);
+
             //Now Create all of the directories
             foreach (string dirPath in Directory.GetDirectories(originPath, "*", SearchOption.AllDirectories))
             {
@@ -66,13 +68,32 @@ namespace Controler
 
                 Console.WriteLine(fileName + ": " + fileSaveTime + " ms, " + size + " octet");
 
+                if (i== null)
+                {
+                    logFile.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+                }
+                else
+                {
+                    logFile.addLog(task:(int)i, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+                }
                 //Create a log for each file
-                logFile.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName) , TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
 
+                logFile.setTask(index:(int)i, NbFilesLeftToDo: logFile.getTask((int)i).NbFilesLeftToDo - 1, Progression: 100 - (logFile.getTask((int)i).NbFilesLeftToDo*100/logFile.getTask((int)i).TotalFilesToCopy));
+
+                //Thread.Sleep(2000);
             }
-            Thread.Sleep(5000);
+            logFile.setTask(index: (int)i, NbFilesLeftToDo: 0);
+            
+
+            //Thread.Sleep(2000);
             if (i != null)
+            {
                 logFile.changeState((int)i);
+                logFile.setTask(index: (int)i, NbFilesLeftToDo: logFile.getTask((int)i).TotalFilesToCopy);
+                logFile.setTask(index: (int)i, Progression: 0);
+            }
+
+
         }
     }
 }

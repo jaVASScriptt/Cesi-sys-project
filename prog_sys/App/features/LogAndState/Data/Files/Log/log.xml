@@ -1,0 +1,1137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logs>
+  <log>
+    <Name>saveEddy</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>10,8616</FileTransferTime>
+    <Time>15/02/2023 16:55:35</Time>
+  </log>
+  <log>
+    <Name>saveEddy</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,3996</FileTransferTime>
+    <Time>15/02/2023 16:55:37</Time>
+  </log>
+  <log>
+    <Name>saveEddy</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>17,6683</FileTransferTime>
+    <Time>15/02/2023 16:55:39</Time>
+  </log>
+  <log>
+    <Name>saveEddy</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,3652</FileTransferTime>
+    <Time>15/02/2023 16:55:41</Time>
+  </log>
+  <log>
+    <Name>saveEddy</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,0104</FileTransferTime>
+    <Time>15/02/2023 16:55:43</Time>
+  </log>
+  <log>
+    <Name>saveEddy</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,7243</FileTransferTime>
+    <Time>15/02/2023 16:55:45</Time>
+  </log>
+  <log>
+    <Name>saveEddy</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,3764</FileTransferTime>
+    <Time>15/02/2023 16:55:48</Time>
+  </log>
+  <log>
+    <Name>saveEddy</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8794</FileTransferTime>
+    <Time>15/02/2023 16:55:50</Time>
+  </log>
+  <log>
+    <Name>saveVass</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>31,0241</FileTransferTime>
+    <Time>15/02/2023 21:03:23</Time>
+  </log>
+  <log>
+    <Name>saveVass</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,1823</FileTransferTime>
+    <Time>15/02/2023 21:03:25</Time>
+  </log>
+  <log>
+    <Name>saveVass</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8524</FileTransferTime>
+    <Time>15/02/2023 21:03:27</Time>
+  </log>
+  <log>
+    <Name>saveVass</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,9726</FileTransferTime>
+    <Time>15/02/2023 21:03:29</Time>
+  </log>
+  <log>
+    <Name>saveVass</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,5965</FileTransferTime>
+    <Time>15/02/2023 21:03:31</Time>
+  </log>
+  <log>
+    <Name>saveVass</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,2316</FileTransferTime>
+    <Time>15/02/2023 21:03:33</Time>
+  </log>
+  <log>
+    <Name>saveVass</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,354</FileTransferTime>
+    <Time>15/02/2023 21:03:35</Time>
+  </log>
+  <log>
+    <Name>saveVass</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,4706</FileTransferTime>
+    <Time>15/02/2023 21:03:37</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>18,6727</FileTransferTime>
+    <Time>15/02/2023 22:01:22</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,7733</FileTransferTime>
+    <Time>15/02/2023 22:01:25</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,6727</FileTransferTime>
+    <Time>15/02/2023 22:01:27</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,312</FileTransferTime>
+    <Time>15/02/2023 22:01:29</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,6146</FileTransferTime>
+    <Time>15/02/2023 22:01:31</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,9399</FileTransferTime>
+    <Time>15/02/2023 22:01:33</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,1595</FileTransferTime>
+    <Time>15/02/2023 22:01:35</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,2528</FileTransferTime>
+    <Time>15/02/2023 22:01:37</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,332</FileTransferTime>
+    <Time>15/02/2023 22:01:39</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,099</FileTransferTime>
+    <Time>15/02/2023 22:01:41</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,2227</FileTransferTime>
+    <Time>15/02/2023 22:02:33</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,5762</FileTransferTime>
+    <Time>15/02/2023 22:02:35</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,6025</FileTransferTime>
+    <Time>15/02/2023 22:02:37</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,9045</FileTransferTime>
+    <Time>15/02/2023 22:02:39</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,1679</FileTransferTime>
+    <Time>15/02/2023 22:02:41</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,77</FileTransferTime>
+    <Time>15/02/2023 22:02:43</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,4676</FileTransferTime>
+    <Time>15/02/2023 22:02:45</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,9711</FileTransferTime>
+    <Time>15/02/2023 22:02:47</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,2632</FileTransferTime>
+    <Time>15/02/2023 22:02:49</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,1819</FileTransferTime>
+    <Time>15/02/2023 22:02:51</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,1637</FileTransferTime>
+    <Time>15/02/2023 22:03:25</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,6441</FileTransferTime>
+    <Time>15/02/2023 22:03:27</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,861</FileTransferTime>
+    <Time>15/02/2023 22:03:29</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,6378</FileTransferTime>
+    <Time>15/02/2023 22:03:31</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,2011</FileTransferTime>
+    <Time>15/02/2023 22:03:33</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,7163</FileTransferTime>
+    <Time>15/02/2023 22:03:35</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,027</FileTransferTime>
+    <Time>15/02/2023 22:03:37</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,2672</FileTransferTime>
+    <Time>15/02/2023 22:03:39</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,4398</FileTransferTime>
+    <Time>15/02/2023 22:03:41</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,505</FileTransferTime>
+    <Time>15/02/2023 22:03:43</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>20,2899</FileTransferTime>
+    <Time>15/02/2023 22:47:10</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>5,9612</FileTransferTime>
+    <Time>15/02/2023 22:47:12</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,9553</FileTransferTime>
+    <Time>15/02/2023 22:47:14</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,9802</FileTransferTime>
+    <Time>15/02/2023 22:47:16</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,503</FileTransferTime>
+    <Time>15/02/2023 22:47:18</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,4864</FileTransferTime>
+    <Time>15/02/2023 22:47:20</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,0312</FileTransferTime>
+    <Time>15/02/2023 22:47:22</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,0175</FileTransferTime>
+    <Time>15/02/2023 22:47:24</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,7808</FileTransferTime>
+    <Time>15/02/2023 22:47:26</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,637</FileTransferTime>
+    <Time>15/02/2023 22:47:28</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>19,989</FileTransferTime>
+    <Time>15/02/2023 22:54:24</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,7265</FileTransferTime>
+    <Time>15/02/2023 22:54:26</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,3124</FileTransferTime>
+    <Time>15/02/2023 22:54:28</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,216</FileTransferTime>
+    <Time>15/02/2023 22:54:30</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8811</FileTransferTime>
+    <Time>15/02/2023 22:54:32</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,6027</FileTransferTime>
+    <Time>15/02/2023 22:54:34</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8441</FileTransferTime>
+    <Time>15/02/2023 22:54:36</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,3649</FileTransferTime>
+    <Time>15/02/2023 22:54:38</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,3685</FileTransferTime>
+    <Time>15/02/2023 22:54:40</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,6364</FileTransferTime>
+    <Time>15/02/2023 22:54:42</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>12,0422</FileTransferTime>
+    <Time>15/02/2023 23:02:48</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,5655</FileTransferTime>
+    <Time>15/02/2023 23:02:50</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,2132</FileTransferTime>
+    <Time>15/02/2023 23:02:52</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,0094</FileTransferTime>
+    <Time>15/02/2023 23:02:54</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8755</FileTransferTime>
+    <Time>15/02/2023 23:02:56</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,849</FileTransferTime>
+    <Time>15/02/2023 23:02:58</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,418</FileTransferTime>
+    <Time>15/02/2023 23:03:01</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,6756</FileTransferTime>
+    <Time>15/02/2023 23:03:03</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,0587</FileTransferTime>
+    <Time>15/02/2023 23:03:05</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,84</FileTransferTime>
+    <Time>15/02/2023 23:03:07</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>14,511</FileTransferTime>
+    <Time>15/02/2023 23:05:00</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8722</FileTransferTime>
+    <Time>15/02/2023 23:05:02</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>0,9462</FileTransferTime>
+    <Time>15/02/2023 23:05:04</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,7335</FileTransferTime>
+    <Time>15/02/2023 23:05:06</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,839</FileTransferTime>
+    <Time>15/02/2023 23:05:08</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,6712</FileTransferTime>
+    <Time>15/02/2023 23:05:10</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,5907</FileTransferTime>
+    <Time>15/02/2023 23:05:12</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,7935</FileTransferTime>
+    <Time>15/02/2023 23:05:14</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,3006</FileTransferTime>
+    <Time>15/02/2023 23:05:16</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,4303</FileTransferTime>
+    <Time>15/02/2023 23:05:18</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>9,9108</FileTransferTime>
+    <Time>15/02/2023 23:08:10</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,7038</FileTransferTime>
+    <Time>15/02/2023 23:08:12</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,1981</FileTransferTime>
+    <Time>15/02/2023 23:08:14</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,856</FileTransferTime>
+    <Time>15/02/2023 23:08:16</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,7343</FileTransferTime>
+    <Time>15/02/2023 23:08:18</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8025</FileTransferTime>
+    <Time>15/02/2023 23:08:20</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8567</FileTransferTime>
+    <Time>15/02/2023 23:08:22</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,2049</FileTransferTime>
+    <Time>15/02/2023 23:08:24</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,1399</FileTransferTime>
+    <Time>15/02/2023 23:08:26</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,1207</FileTransferTime>
+    <Time>15/02/2023 23:08:28</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>10,3974</FileTransferTime>
+    <Time>15/02/2023 23:12:15</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,438</FileTransferTime>
+    <Time>15/02/2023 23:12:17</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,1054</FileTransferTime>
+    <Time>15/02/2023 23:12:19</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,7898</FileTransferTime>
+    <Time>15/02/2023 23:12:21</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,7225</FileTransferTime>
+    <Time>15/02/2023 23:12:23</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8556</FileTransferTime>
+    <Time>15/02/2023 23:12:25</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,9694</FileTransferTime>
+    <Time>15/02/2023 23:12:27</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,5557</FileTransferTime>
+    <Time>15/02/2023 23:12:29</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,4955</FileTransferTime>
+    <Time>15/02/2023 23:12:31</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,7334</FileTransferTime>
+    <Time>15/02/2023 23:12:33</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>8,7039</FileTransferTime>
+    <Time>15/02/2023 23:14:55</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,6018</FileTransferTime>
+    <Time>15/02/2023 23:14:57</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,0996</FileTransferTime>
+    <Time>15/02/2023 23:14:59</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,89</FileTransferTime>
+    <Time>15/02/2023 23:15:01</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,6329</FileTransferTime>
+    <Time>15/02/2023 23:15:03</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8012</FileTransferTime>
+    <Time>15/02/2023 23:15:05</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8434</FileTransferTime>
+    <Time>15/02/2023 23:15:07</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,6126</FileTransferTime>
+    <Time>15/02/2023 23:15:09</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,4178</FileTransferTime>
+    <Time>15/02/2023 23:15:11</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,0882</FileTransferTime>
+    <Time>15/02/2023 23:15:13</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>11,6816</FileTransferTime>
+    <Time>15/02/2023 23:23:29</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>10,0972</FileTransferTime>
+    <Time>15/02/2023 23:23:31</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,9602</FileTransferTime>
+    <Time>15/02/2023 23:23:33</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,869</FileTransferTime>
+    <Time>15/02/2023 23:23:35</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,9346</FileTransferTime>
+    <Time>15/02/2023 23:23:37</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,1289</FileTransferTime>
+    <Time>15/02/2023 23:23:39</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,2515</FileTransferTime>
+    <Time>15/02/2023 23:23:41</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,8186</FileTransferTime>
+    <Time>15/02/2023 23:23:43</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,7008</FileTransferTime>
+    <Time>15/02/2023 23:23:45</Time>
+  </log>
+  <log>
+    <Name>saveTest2</Name>
+    <SourceFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\diddy\source\repos\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,314</FileTransferTime>
+    <Time>15/02/2023 23:23:47</Time>
+  </log>
+</logs>
