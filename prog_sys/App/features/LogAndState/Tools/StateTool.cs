@@ -38,7 +38,7 @@ public class StateTool
             tasks[index] = new TaskData();
         
             utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
-            Console.WriteLine(LanguageTool.get("saveDeleted"));
+            LanguageTool.print("saveDeleted");
         }
 
     }
@@ -52,6 +52,7 @@ public class StateTool
 
     public void showTasks()
     {
+        Console.WriteLine("");
         Console.WriteLine(LanguageTool.get("taskConfig"));
         TaskData[] tasks = getTasks();
 
@@ -63,6 +64,7 @@ public class StateTool
             else
                 Console.WriteLine(i + LanguageTool.get("noTask"));
         }
+        Console.WriteLine("");
     }
 
     public void changeState(int index = 0, String name = "")
@@ -120,8 +122,7 @@ public class StateTool
         {
             if (getTask(task).Name != "")
             {
-                Console.WriteLine(LanguageTool.get("confirmDelete"));
-                if (Console.ReadLine() == "y")
+                if (LanguageTool.print("confirmDelete") == "y")
                     setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
                         NbFilesLeftToDo, Progression, Type);
             }
@@ -130,7 +131,7 @@ public class StateTool
                 setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
                     NbFilesLeftToDo, Progression, Type);
             }
-            Console.WriteLine(LanguageTool.get("taskAdded"));
+            LanguageTool.print("taskAdded");
         }
 
     }

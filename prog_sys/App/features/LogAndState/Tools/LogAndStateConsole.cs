@@ -16,46 +16,29 @@ public class LogAndStateConsole
         while (choice != 8)
         {
             logAndStateTool.showTasks();
-            Console.WriteLine(LanguageTool.get("featureMenu"));
-            choice = Errors.NumberEntry();
-            
+            choice = LanguageTool.printAndRescueChoice("featureMenu");
+
             switch (choice)
             {
                 case 1:
-                    Console.WriteLine(LanguageTool.get("numberSaveWork"));
-                    int index = Errors.NumberEntry();
-
-                    Console.WriteLine(LanguageTool.get("saveNameMessage"));
-                    string name = Console.ReadLine();
-
-                    Console.WriteLine(LanguageTool.get("originPathMessage"));
-                    string sourcePath = Console.ReadLine();
-
-                    Console.WriteLine(LanguageTool.get("targetPathMessage"));
-                    string targetPath = Console.ReadLine();
-
-                    Console.WriteLine(LanguageTool.get("saveType"));
+                    int index = LanguageTool.printInt("numberSaveWork");
+                    string name = LanguageTool.print("saveNameMessage");
+                    string sourcePath = LanguageTool.print("originPathMessage");
+                    string targetPath = LanguageTool.print("targetPathMessage");
+                    LanguageTool.printAndRescueChoice("saveType");
                     int type = Errors.NumberEntry();
-
+                    
                     logAndStateTool.addNewTask(index, name, sourcePath, targetPath, 0, 0, 0, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
 
                     break;
 
                 case 2:
-                    Console.WriteLine(LanguageTool.get("numberSaveWork"));
-                    int indexToModify = Errors.NumberEntry();
-
-                    Console.WriteLine(LanguageTool.get("saveNameMessage") + LanguageTool.get("editSaveWork"));
-                    string newName = Console.ReadLine();
-
-                    Console.WriteLine(LanguageTool.get("originPathMessage") + LanguageTool.get("editSaveWork"));
-                    string newSourcePath = Console.ReadLine();
-
-                    Console.WriteLine(LanguageTool.get("targetPathMessage") + LanguageTool.get("editSaveWork"));
-                    string newTargetPath = Console.ReadLine();
-
-                    Console.WriteLine(LanguageTool.get("saveType") + LanguageTool.get("editSaveWork"));
-                    int newType = Errors.NumberEntry();
+                    int indexToModify = LanguageTool.printInt("numberSaveWork");
+                    string newName = LanguageTool.print(entry:LanguageTool.get("saveNameMessage") + LanguageTool.get("editSaveWork"));
+                    string newSourcePath = LanguageTool.print(entry:LanguageTool.get("originPathMessage") + LanguageTool.get("editSaveWork"));
+                    string newTargetPath = LanguageTool.print(entry:LanguageTool.get("targetPathMessage") + LanguageTool.get("editSaveWork"));
+                    LanguageTool.printAndRescueChoice("saveType");
+                    int newType = LanguageTool.printInt("editSaveWork");
 
                     TaskData task = logAndStateTool.getTask(indexToModify);
 
@@ -68,25 +51,21 @@ public class LogAndStateConsole
                     break;
 
                 case 3:
-                    Console.WriteLine(LanguageTool.get("deleteSaveWork"));
-                    int indexToDelete = Errors.NumberEntry();
+                    int indexToDelete = LanguageTool.printInt("deleteSaveWork");
 
                     logAndStateTool.factoryFillOneState(indexToDelete);
                     break;
 
                 case 4:
-                    Console.WriteLine(LanguageTool.get("deleteAllSaveWork"));
+                    LanguageTool.printAndRescueChoice("deleteAllSaveWork");
                     int confirm = Errors.NumberEntry();
 
                     if (confirm == 1)
-                    {
                         logAndStateTool.factoryFillState();
-                    }
                     break;
                 case 5:
-                    Console.WriteLine("Quel travail de sauvegarde souhaitez-vous effectuer ?");
 
-                    int ind = Errors.NumberEntry();
+                    int ind = LanguageTool.printInt("whatWork");
                     TaskData t = logAndStateTool.getTask(ind);
 
                     string[] fileNames = Directory.GetFiles(t.SourceFilePath);
@@ -112,8 +91,7 @@ public class LogAndStateConsole
                         save.SaveData();
                     }
 
-                    Console.WriteLine("All files have been copied successfully.");
-                    Console.ReadLine();
+                    LanguageTool.print("AllFilesCopy");
 
                     break;
                 
@@ -121,14 +99,14 @@ public class LogAndStateConsole
                     logAndStateTool.addLocation();
                     break;
                 case 7:
-                    Console.WriteLine("Quel Emplacement souhaitez-vous supprimer ? (entrer un numéro incorrecte supprime le dernier) ");
-                    logAndStateTool.deleteLocation(Errors.NumberEntry());
+                    logAndStateTool.deleteLocation(LanguageTool.printInt("whatStateDelete"));
                     break;
                 default:
-                    Console.WriteLine("Veuillez entrer un nombre valide");
+                    LanguageTool.print("invalidChoice");
                     break;
             }
             
+            Console.Clear();
 
         }
 
