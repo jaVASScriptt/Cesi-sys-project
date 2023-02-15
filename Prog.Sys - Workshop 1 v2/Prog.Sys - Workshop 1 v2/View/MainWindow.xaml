@@ -18,12 +18,14 @@
         <Label x:Name="explication_result_label" Content="Si vous parlez trop fort, cela va donner :&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="51,217,0,0" VerticalAlignment="Top" Width="512" FontSize="24" FontFamily="Times New Roman" Height="37" Grid.ColumnSpan="2"/>
         <Label x:Name="result_label" Content="" HorizontalAlignment="Left" Height="48" Margin="157,266,0,0" VerticalAlignment="Top" Width="589" FontFamily="Impact" FontSize="36" Background="#FFC2CFEA" Grid.ColumnSpan="2"/>
         <Label x:Name="title" Content="Majusculator 2.0" HorizontalAlignment="Left" Height="69" Margin="10,10,0,0" VerticalAlignment="Top" Width="390" FontFamily="Copperplate Gothic Bold" FontSize="36" Grid.ColumnSpan="2">
+            <!--
             <Label.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF0833F3" Offset="0.702"/>
                     <GradientStop Color="White" Offset="0.641"/>
                 </LinearGradientBrush>
             </Label.Background>
+            -->
         </Label>
         <Button x:Name="info_button" Content="Info Serveur" HorizontalAlignment="Left" Height="26" Margin="10,398,0,0" VerticalAlignment="Top" Width="96" Click="info_button_Click"/>
         <Label x:Name="info_label" Content="" HorizontalAlignment="Left" Height="26" Margin="111,398,0,0" VerticalAlignment="Top" Width="651" Cursor="Help" Grid.ColumnSpan="2"/>
