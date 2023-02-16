@@ -78,11 +78,13 @@ namespace Controler
                 }
                 //Create a log for each file
                 
-                logFile.setTask(index:(int)i, NbFilesLeftToDo: logFile.getTask((int)i).NbFilesLeftToDo - 1, Progression: 100 - (logFile.getTask((int)i).NbFilesLeftToDo*100/logFile.getTask((int)i).TotalFilesToCopy));
+                if (i != null)
+                    logFile.setTask(index:(int)i, NbFilesLeftToDo: logFile.getTask((int)i).NbFilesLeftToDo - 1, Progression: 100 - (logFile.getTask((int)i).NbFilesLeftToDo*100/logFile.getTask((int)i).TotalFilesToCopy));
 
                 //Thread.Sleep(2000);
             }
-            logFile.setTask(index: (int)i, NbFilesLeftToDo: 0);
+            if (i != null)
+                logFile.setTask(index: (int)i, NbFilesLeftToDo: 0);
 
             //Thread.Sleep(2000);
             

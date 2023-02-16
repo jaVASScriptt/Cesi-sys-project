@@ -77,15 +77,17 @@ namespace Controler
                     if (i == null)
                     {
                         //Create a log for each file
-                        logFile.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+                        
+                        if (i != null)
+                            logFile.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
                     }
                     else
                     {
                         //Create a log for each file
                         logFile.addLog(task: (int)i, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
                     }
-
-                    logFile.setTask(index: (int)i, NbFilesLeftToDo: 0);
+                    if (i != null)
+                        logFile.setTask(index: (int)i, NbFilesLeftToDo: 0);
                     //Thread.Sleep(2000);
 
 

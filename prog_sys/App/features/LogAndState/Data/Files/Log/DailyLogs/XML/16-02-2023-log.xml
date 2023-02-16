@@ -90,4 +90,103 @@
     <FileTransferTime>4,1155</FileTransferTime>
     <Time>16/02/2023 14:43:10</Time>
   </log>
+  <log>
+    <Name>oui</Name>
+    <SourceFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>28</FileSize>
+    <FileTransferTime>7,9699</FileTransferTime>
+    <Time>16/02/2023 14:57:41</Time>
+  </log>
+  <log>
+    <Name>andrewtest</Name>
+    <SourceFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>28</FileSize>
+    <FileTransferTime>8,5396</FileTransferTime>
+    <Time>16/02/2023 15:00:09</Time>
+  </log>
+  <log>
+    <Name>andrewtest</Name>
+    <SourceFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>38</FileSize>
+    <FileTransferTime>1,8477</FileTransferTime>
+    <Time>16/02/2023 15:00:09</Time>
+  </log>
+  <log>
+    <Name>andrewtest</Name>
+    <SourceFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,2563</FileTransferTime>
+    <Time>16/02/2023 15:00:09</Time>
+  </log>
+  <log>
+    <Name>andrewtest</Name>
+    <SourceFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>30</FileSize>
+    <FileTransferTime>1,6142</FileTransferTime>
+    <Time>16/02/2023 15:00:09</Time>
+  </log>
+  <log>
+    <Name>andrewtest</Name>
+    <SourceFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>18</FileSize>
+    <FileTransferTime>1,1857</FileTransferTime>
+    <Time>16/02/2023 15:00:09</Time>
+  </log>
+  <log>
+    <Name>andrewtest</Name>
+    <SourceFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>14</FileSize>
+    <FileTransferTime>1,8731</FileTransferTime>
+    <Time>16/02/2023 15:00:09</Time>
+  </log>
+  <log>
+    <Name>andrewtest</Name>
+    <SourceFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>82</FileSize>
+    <FileTransferTime>2,2865</FileTransferTime>
+    <Time>16/02/2023 15:00:09</Time>
+  </log>
+  <log>
+    <Name>andrewtest</Name>
+    <SourceFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>0,9078</FileTransferTime>
+    <Time>16/02/2023 15:00:09</Time>
+  </log>
+  <log>
+    <Name>andrewtest</Name>
+    <SourceFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1,6029</FileTransferTime>
+    <Time>16/02/2023 15:00:09</Time>
+  </log>
+  <log>
+    <Name>andrewtest</Name>
+    <SourceFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>D:\Workspace\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>0,8754</FileTransferTime>
+    <Time>16/02/2023 15:00:09</Time>
+  </log>
 </logs>
