@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "",
+    "SourceFilePath": "",
+    "TargetFilePath": "",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": "complete",
+    "LastUsed": ""
+  },
+  {
+    "Name": "",
+    "SourceFilePath": "",
+    "TargetFilePath": "",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": "complete",
+    "LastUsed": ""
+  },
+  {
+    "Name": "vass",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Downloads\\Cesi-sys-project\\Cesi-sys-project\\prog_sys\\App\\Tests\\source",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Downloads\\Cesi-sys-project\\Cesi-sys-project\\prog_sys\\App\\Tests\\target",
+    "State": "END",
+    "TotalFilesToCopy": 10,
+    "TotalFilesSize": 210,
+    "NbFilesLeftToDo": 10,
+    "Progression": 90,
+    "Type": "complete",
+    "LastUsed": "16/02/2023 14:43:10"
+  },
+  {
+    "Name": "",
+    "SourceFilePath": "",
+    "TargetFilePath": "",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": "complete",
+    "LastUsed": ""
+  },
+  {
+    "Name": "",
+    "SourceFilePath": "",
+    "TargetFilePath": "",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": "complete",
+    "LastUsed": ""
+  }
+]

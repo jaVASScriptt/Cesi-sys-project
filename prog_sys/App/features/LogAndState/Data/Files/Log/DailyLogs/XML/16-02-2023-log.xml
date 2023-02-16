@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logs>
+  <log>
+    <Name>vass</Name>
+    <SourceFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>28</FileSize>
+    <FileTransferTime>20,7889</FileTransferTime>
+    <Time>16/02/2023 14:43:10</Time>
+  </log>
+  <log>
+    <Name>vass</Name>
+    <SourceFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>38</FileSize>
+    <FileTransferTime>4,5791</FileTransferTime>
+    <Time>16/02/2023 14:43:10</Time>
+  </log>
+  <log>
+    <Name>vass</Name>
+    <SourceFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,9793</FileTransferTime>
+    <Time>16/02/2023 14:43:10</Time>
+  </log>
+  <log>
+    <Name>vass</Name>
+    <SourceFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>30</FileSize>
+    <FileTransferTime>4,4368</FileTransferTime>
+    <Time>16/02/2023 14:43:10</Time>
+  </log>
+  <log>
+    <Name>vass</Name>
+    <SourceFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>18</FileSize>
+    <FileTransferTime>4,0518</FileTransferTime>
+    <Time>16/02/2023 14:43:10</Time>
+  </log>
+  <log>
+    <Name>vass</Name>
+    <SourceFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>14</FileSize>
+    <FileTransferTime>4,7209</FileTransferTime>
+    <Time>16/02/2023 14:43:10</Time>
+  </log>
+  <log>
+    <Name>vass</Name>
+    <SourceFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>82</FileSize>
+    <FileTransferTime>3,9812</FileTransferTime>
+    <Time>16/02/2023 14:43:10</Time>
+  </log>
+  <log>
+    <Name>vass</Name>
+    <SourceFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,3043</FileTransferTime>
+    <Time>16/02/2023 14:43:10</Time>
+  </log>
+  <log>
+    <Name>vass</Name>
+    <SourceFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,0729</FileTransferTime>
+    <Time>16/02/2023 14:43:10</Time>
+  </log>
+  <log>
+    <Name>vass</Name>
+    <SourceFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Downloads\Cesi-sys-project\Cesi-sys-project\prog_sys\App\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,1155</FileTransferTime>
+    <Time>16/02/2023 14:43:10</Time>
+  </log>
+</logs>
