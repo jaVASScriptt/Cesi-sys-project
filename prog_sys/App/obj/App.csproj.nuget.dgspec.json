@@ -1,37 +1,23 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\App.csproj": {}
+    "C:\\Users\\vdelmas\\Downloads\\Cesi-sys-project\\Cesi-sys-project\\prog_sys\\App\\App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\App.csproj": {
+    "C:\\Users\\vdelmas\\Downloads\\Cesi-sys-project\\Cesi-sys-project\\prog_sys\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\App.csproj",
+        "projectUniqueName": "C:\\Users\\vdelmas\\Downloads\\Cesi-sys-project\\Cesi-sys-project\\prog_sys\\App\\App.csproj",
         "projectName": "App",
-        "projectPath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\App.csproj",
-        "packagesPath": "C:\\Users\\diddy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\obj\\",
-=======
-    "C:\\Users\\diddy\\OneDrive\\Documents\\testGrosporc\\Cesi-sys-project\\prog_sys\\App\\App.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\diddy\\OneDrive\\Documents\\testGrosporc\\Cesi-sys-project\\prog_sys\\App\\App.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\diddy\\OneDrive\\Documents\\testGrosporc\\Cesi-sys-project\\prog_sys\\App\\App.csproj",
-        "projectName": "App",
-        "projectPath": "C:\\Users\\diddy\\OneDrive\\Documents\\testGrosporc\\Cesi-sys-project\\prog_sys\\App\\App.csproj",
-        "packagesPath": "C:\\Users\\diddy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diddy\\OneDrive\\Documents\\testGrosporc\\Cesi-sys-project\\prog_sys\\App\\obj\\",
->>>>>>> cf27b5b7ecd5b00d6a5512425c084090ce669162
+        "projectPath": "C:\\Users\\vdelmas\\Downloads\\Cesi-sys-project\\Cesi-sys-project\\prog_sys\\App\\App.csproj",
+        "packagesPath": "C:\\Users\\vdelmas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vdelmas\\Downloads\\Cesi-sys-project\\Cesi-sys-project\\prog_sys\\App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\diddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vdelmas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -40,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\vdelmas\\.dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

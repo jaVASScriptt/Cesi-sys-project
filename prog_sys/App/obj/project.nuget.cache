@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "5FgzNhqGO9o/v7ruIn00LD+LkNmFN0oW3Dj9707GW+klu4b/P6hkt72e5/l9Q1hjg2ZszDXHTpIpDnNdVbgcUA==",
+  "dgSpecHash": "426ysz/zy4Z3Oaz5zJ7xvbMB62G8sYYvOgIX1RK0Z47JjUOEy9j6Z1g41cKZqq1Vq22blm3xGGo7nly3+ntunA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diddy\\source\\repos\\Cesi-sys-project\\prog_sys\\App\\App.csproj",
-=======
-  "dgSpecHash": "3o1H8Ogj1TO28qBlzy1K0Y7Nt1cXh8J1OKdnqMcRddDjvADKJyf8fOGAy6vEe0tPFNSVqU6AAv1nY8EBapDEIg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\diddy\\OneDrive\\Documents\\testGrosporc\\Cesi-sys-project\\prog_sys\\App\\App.csproj",
->>>>>>> cf27b5b7ecd5b00d6a5512425c084090ce669162
+  "projectFilePath": "C:\\Users\\vdelmas\\Downloads\\Cesi-sys-project\\Cesi-sys-project\\prog_sys\\App\\App.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
