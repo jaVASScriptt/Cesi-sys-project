@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kOIJBwjaTDd8IrpXb1oBhm/RApS8VynZK8BBoK2JDzmsgfsPP+pTkeP1NtxER0hKU+JdJn2E9imjJSz1QKDUeA==",
+  "dgSpecHash": "cmwu027oR+yKYLElYQFCBzGqcZZkSY1wLHoX+u6p90uaSKs0FlRRbq3aJ0al/b/XE78zeJL6EuKm64c1w8ip+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\WpfApp1\\WpfApp1.csproj",
+  "projectFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\EasySave.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vdelmas\\.nuget\\packages\\devexpress.data\\22.2.4\\devexpress.data.22.2.4.nupkg.sha512",
     "C:\\Users\\vdelmas\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
