@@ -1,0 +1,10 @@
+C:\Users\moise\source\repos\local app\app locale\app locale\obj\Debug\net6.0-windows\app locale.csproj.AssemblyReference.cache
+C:\Users\moise\source\repos\local app\app locale\app locale\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\moise\source\repos\local app\app locale\app locale\obj\Debug\net6.0-windows\menu general.g.cs
+C:\Users\moise\source\repos\local app\app locale\app locale\obj\Debug\net6.0-windows\Menu.g.cs
+C:\Users\moise\source\repos\local app\app locale\app locale\obj\Debug\net6.0-windows\modifier sauvegarde.g.cs
+C:\Users\moise\source\repos\local app\app locale\app locale\obj\Debug\net6.0-windows\Page1.g.cs
+C:\Users\moise\source\repos\local app\app locale\app locale\obj\Debug\net6.0-windows\save.g.cs
+C:\Users\moise\source\repos\local app\app locale\app locale\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\moise\source\repos\local app\app locale\app locale\obj\Debug\net6.0-windows\app locale_MarkupCompile.cache
+C:\Users\moise\source\repos\local app\app locale\app locale\obj\Debug\net6.0-windows\app locale_MarkupCompile.lref
