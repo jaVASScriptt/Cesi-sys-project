@@ -16,23 +16,13 @@ using System.Windows.Shapes;
 namespace app_locale
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logique d'interaction pour Do_save.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Do_save : Page
     {
-        public MainWindow()
+        public Do_save()
         {
             InitializeComponent();
-        }
-
-        private void BtnClickLanguage(object sender, RoutedEventArgs e)
-        {
-            Main.Content = new choix_langue();
-        }
-
-        private void BtnClickMenu(object sender, RoutedEventArgs e)
-        {
-            Main.Content = new choix_save();
         }
     }
 }

@@ -14,7 +14,7 @@
 
         <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" TextAlignment="Center" Text="Choix de la sauvegarde" Foreground="White" VerticalAlignment="Top" Width="641" Height="55" FontSize="30" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" Margin="159,10,0,0"/>
 
-        <TextBox HorizontalAlignment="Left" Margin="74,138,0,0" TextWrapping="Wrap" Text="Veuillez choisir la sauvegarde à effectuer :" Foreground="White" VerticalAlignment="Top" Width="690" Height="59" FontSize="36" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Margin="74,138,0,0" TextWrapping="Wrap" Text="Sélectionnez la sauvegarde à effectuer :" Foreground="White" VerticalAlignment="Top" Width="690" Height="59" FontSize="36" BorderBrush="{x:Null}" Background="{x:Null}" TextChanged="TextBox_TextChanged"/>
 
         <Button Content="Sauvegarde rapide" FontSize="25" Foreground="White" HorizontalAlignment="Left" Height="75" Margin="25,240,0,0" VerticalAlignment="Top" Width="346" Background="#FF07044A" BorderBrush="#FF001A6C"/>
         <Button Content="Plus d'options de sauvegarde" FontSize="25" Foreground="White" HorizontalAlignment="Left" Height="75" Margin="419,240,0,0" VerticalAlignment="Top" Width="346" Background="#FF07044A" BorderBrush="#FF001A6C"/>

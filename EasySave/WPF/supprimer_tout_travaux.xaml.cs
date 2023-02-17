@@ -16,23 +16,13 @@ using System.Windows.Shapes;
 namespace app_locale
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logique d'interaction pour supprimer_tout_travaux.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class supprimer_tout_travaux : Page
     {
-        public MainWindow()
+        public supprimer_tout_travaux()
         {
             InitializeComponent();
-        }
-
-        private void BtnClickLanguage(object sender, RoutedEventArgs e)
-        {
-            Main.Content = new choix_langue();
-        }
-
-        private void BtnClickMenu(object sender, RoutedEventArgs e)
-        {
-            Main.Content = new choix_save();
         }
     }
 }

@@ -11,10 +11,11 @@
     <Grid Background="#FF001A6C">
 
         <Button Content="Accueil" Foreground="White" FontSize="25" HorizontalAlignment="Left" Height="55" Margin="10,0,0,0" VerticalAlignment="Top" Width="129" Background="{x:Null}" BorderBrush="{x:Null}"/>
-        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" TextAlignment="Center" Text="Modifier un nouveau travail de sauvegarde" Foreground="White" VerticalAlignment="Top" Width="641" Height="55" FontSize="30" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" Margin="159,10,0,0"/>
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" TextAlignment="Center" Text="Modifier un  travail de sauvegarde" Foreground="White" VerticalAlignment="Top" Width="641" Height="55" FontSize="30" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" Margin="159,10,0,0"/>
 
-        <ScrollViewer HorizontalAlignment="Left" Height="105" Margin="70,92,0,0" VerticalAlignment="Top" Width="363"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="105" Margin="70,92,0,0" VerticalAlignment="Top" Width="493"/>
 
+        <TextBox HorizontalAlignment="Left" Margin="70,202,0,0" TextWrapping="Wrap" Text="Sélectionnez le travail de sauvegarde a modifier : " Foreground="White" VerticalAlignment="Top" Width="493" Height="39" FontSize="20" BorderBrush="{x:Null}" Background="{x:Null}"/>
         <ComboBox Margin="70,246,351,513">
             <ComboBoxItem IsSelected="True">ComboBox Item #1</ComboBoxItem>
             <ComboBoxItem>ComboBox Item #2</ComboBoxItem>
@@ -44,6 +45,5 @@
 
 
         <Button Content="Quitter" FontSize="30" Foreground="White" HorizontalAlignment="Left" Height="70" Margin="625,730,0,0" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}"/>
-        <TextBox HorizontalAlignment="Left" Margin="70,202,0,0" TextWrapping="Wrap" Text="Sélectionner le travail de sauvegarde a modifier : " Foreground="White" VerticalAlignment="Top" Width="493" Height="39" FontSize="20" BorderBrush="{x:Null}" Background="{x:Null}"/>
-         </Grid>
+        </Grid>
 </Page>
