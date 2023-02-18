@@ -4,28 +4,15 @@
     <projectFile>WpfApp1/WpfApp1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c071d4e-c95a-43df-859e-3a6dd7c0383a" name="Changes" comment="ajouts de petits trucs">
-      <change afterPath="$PROJECT_DIR$/EasySave/WPF/Do_save.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EasySave/WPF/Do_save.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EasySave/WPF/add_save_slot.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EasySave/WPF/add_save_slot.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EasySave/WPF/suppr_save_slot.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EasySave/WPF/suppr_save_slot.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EasySave/WPF/supprimer_1_travail.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EasySave/WPF/supprimer_1_travail.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EasySave/WPF/supprimer_tout_travaux.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EasySave/WPF/supprimer_tout_travaux.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySave/EasySave.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/EasySave.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySave/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySave/WPF/Menu.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/WPF/Menu.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySave/WPF/choix_save.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/WPF/choix_save.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySave/WPF/choix_save.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/WPF/choix_save.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySave/WPF/modifier sauvegarde.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/WPF/modifier sauvegarde.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/EasySave_MarkupCompile.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/EasySave_MarkupCompile.lref" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/WPF/Menu.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/WPF/Menu.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/WPF/choix_save.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/WPF/choix_save.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/WPF/modifier sauvegarde.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/WPF/modifier sauvegarde.g.cs" afterDir="false" />
+    <list default="true" id="5c071d4e-c95a-43df-859e-3a6dd7c0383a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasySave/bin/Debug/net7.0-windows/EasySave.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/bin/Debug/net7.0-windows/EasySave.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasySave/bin/Debug/net7.0-windows/EasySave.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/bin/Debug/net7.0-windows/EasySave.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/EasySave_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/EasySave_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/EasySave_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/EasySave_MarkupCompile.lref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/apphost.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +31,11 @@
     <setting file="file://$PROJECT_DIR$/EasySave/features/Save/DifferentialSave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EasySave/features/utils/Errors.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EasySave/features/utils/utilsTool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/WPF/Do_save.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/WPF/add_save_slot.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/WPF/suppr_save_slot.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/WPF/supprimer_1_travail.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/WPF/supprimer_tout_travaux.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EasySave/obj/Debug/net7.0-windows/creer_travail.g.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -105,7 +97,7 @@
       <workItem from="1676471830522" duration="9593000" />
       <workItem from="1676541990179" duration="1454000" />
       <workItem from="1676626368257" duration="6070000" />
-      <workItem from="1676640136417" duration="2090000" />
+      <workItem from="1676640136417" duration="3968000" />
     </task>
     <task id="LOCAL-00001" summary="correction wpf">
       <created>1676640213224</created>
@@ -128,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676642269923</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nouveaux trucs de moussa">
+      <created>1676643146582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676643146582</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +140,7 @@
     <MESSAGE value="correction wpf" />
     <MESSAGE value="Correction de la nomenclature + ajout des trucs a moussa" />
     <MESSAGE value="ajouts de petits trucs" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajouts de petits trucs" />
+    <MESSAGE value="nouveaux trucs de moussa" />
+    <option name="LAST_COMMIT_MESSAGE" value="nouveaux trucs de moussa" />
   </component>
 </project>

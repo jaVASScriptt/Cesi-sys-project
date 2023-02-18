@@ -56,5 +56,7 @@ public sealed class LogAndStateTool
     public void changeState(int index = 0, String name = "") { stateTool.changeState(index,name); }
 
     public int getTaskIndex(String name) { return stateTool.getTaskIndex(name); }
+    
+    public void doASave() { stateTool.doASave(); }
 
 }

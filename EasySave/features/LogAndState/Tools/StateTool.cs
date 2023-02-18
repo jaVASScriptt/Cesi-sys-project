@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using ConsoleApp2.Features.utils;
+using Controler;
 
 namespace EasySafe;
 
@@ -218,6 +219,30 @@ public class StateTool
             task = tasks.Count - 1;
         tasks.RemoveAt(task);
         utils.modifyJson(tasks.Cast<object>().ToList(), _statePath);
+    }
+
+    public void doASave()
+    {
+        int ind = LanguageTool.printInt("whatWork");
+        TaskData t = getTask(ind);
+                    
+        if (t == null)
+            LanguageTool.print("invalidChoice");
+        else
+        {             
+            if (t.Type == "complete")
+            {
+                ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Complete");
+                save.SaveData(ind);
+            }
+            else
+            {
+                ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Differential");
+                save.SaveData(ind);
+            }
+
+            LanguageTool.print("AllFilesCopy");
+        }
     }
     
 }

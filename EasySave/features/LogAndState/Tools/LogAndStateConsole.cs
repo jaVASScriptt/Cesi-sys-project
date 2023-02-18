@@ -112,33 +112,8 @@ public class LogAndStateConsole
                         logAndStateTool.factoryFillState();
                     break;
                 case 5:
-
-                    int ind = LanguageTool.printInt("whatWork");
-                    TaskData t = logAndStateTool.getTask(ind);
-                    
-                    if (t == null)
-                    {
-                        LanguageTool.print("invalidChoice");
-                        break;
-                    }
-                    else
-                    {             
-                        if (t.Type == "complete")
-                        {
-                            
-                            ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Complete");
-                            save.SaveData(ind);
-                        }
-                        else
-                        {
-                            ISave save = FactorySave.GetSave(t.Name, t.SourceFilePath, t.TargetFilePath, "Differential");
-                            save.SaveData(ind);
-                        }
-
-                        LanguageTool.print("AllFilesCopy");
-                        break;
-                    }
-
+                    logAndStateTool.doASave();
+                    break;
                 case 6:
                     logAndStateTool.addLocation();
                     break;
