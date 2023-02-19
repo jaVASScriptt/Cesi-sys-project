@@ -1,0 +1,24 @@
+﻿<Page x:Class="app_locale.add_save_slot"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:app_locale"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="add_save_slot">
+
+    <Grid Background="#FF001A6C">
+
+        <Button Content="Accueil" Foreground="White" FontSize="25" HorizontalAlignment="Left" Height="55" Margin="10,0,0,0" VerticalAlignment="Top" Width="129" Background="{x:Null}" BorderBrush="{x:Null}"/>
+
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" TextAlignment="Center" Text="Ajouter un emplacement de sauvegarde" Foreground="White" VerticalAlignment="Top" Width="641" Height="55" FontSize="30" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" Margin="159,10,0,0"/>
+
+        <TextBox HorizontalAlignment="Center" Margin="0,70,0,0" TextWrapping="Wrap" Text="Voulez-vous ajouter un emplacement de sauvegarde :" Foreground="White" VerticalAlignment="Top" Width="690" Height="111" FontSize="36" BorderBrush="{x:Null}" Background="{x:Null}"/>
+
+        <Button Content="OUI" FontSize="25" Foreground="White" HorizontalAlignment="Left" Height="74" Margin="98,0,0,0" VerticalAlignment="Center" Width="231" Background="#FF07044A" BorderBrush="#FF001A6C"/>
+        <Button Content="NON" FontSize="25" Foreground="White" HorizontalAlignment="Left" Height="75" Margin="424,0,0,0" VerticalAlignment="Center" Width="231" Background="#FF07044A" BorderBrush="#FF001A6C"/>
+
+
+    </Grid>
+</Page>
