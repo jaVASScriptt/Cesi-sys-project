@@ -25,15 +25,25 @@ namespace EasySave
         {
             InitializeComponent();
         }
+        
+        private void BtnAccueil(object sender, RoutedEventArgs e)
+        {
+            Main.NavigationService.Navigate(new Uri("MainWindow.xaml", UriKind.Relative));
+        }
 
         private void BtnClickLanguage(object sender, RoutedEventArgs e)
         {
-            Main.Content = new choix_langue();
+            Main.NavigationService.Navigate(new Uri("WPF/choix_langue.xaml", UriKind.Relative));
         }
 
         private void BtnClickMenu(object sender, RoutedEventArgs e)
         {
             Main.Content = new choix_save();
+        }
+        
+        private void BtnClickExit(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }
