@@ -11,7 +11,7 @@
     <Grid Background="#FF001A6C">
         <TextBlock HorizontalAlignment="Left" Height="99" Margin="275,10,0,0" TextWrapping="Wrap" Text="EasySave" VerticalAlignment="Top" Width="411" FontSize="72" FontWeight="Bold" Foreground="White" FontFamily="Rockwell Extra Bold"/>
         <Rectangle HorizontalAlignment="Left" Height="450" Margin="26,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="175" Fill="#FF07044A"/>
-        <Button Content="Accueil" FontSize="30" Foreground="White" HorizontalAlignment="Left" Height="69" Margin="26,10,0,0" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}"/>
+ 
         
         <!--lien vers sauvegarde eddy-->
         <Button Content="Save" FontSize="30" Foreground="White" HorizontalAlignment="Left" Height="70" Margin="26,80,0,0" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}"/>
@@ -21,8 +21,7 @@
        
         <Button Content="Langues" FontSize="30" Foreground="White" HorizontalAlignment="Left" Height="70" Margin="26,225,0,0" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" RenderTransformOrigin="0.521,-0.061"/>
        
-        <!--quitter l'application-->
-        <Button Content="Quitter" FontSize="30" Foreground="White" HorizontalAlignment="Left" Height="70" Margin="26,380,0,0" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}"/>
+       
         <!--<Button Content="Paramètres" FontSize="30" Foreground="White" HorizontalAlignment="Left" Height="70" Margin="26,300,0,0" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}"/>-->
         
         <!--mettre lien vers release notes-->

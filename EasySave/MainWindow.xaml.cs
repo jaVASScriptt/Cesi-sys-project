@@ -38,7 +38,7 @@ namespace EasySave
 
         private void BtnClickMenu(object sender, RoutedEventArgs e)
         {
-            Main.Content = new choix_save();
+            Main.NavigationService.Navigate(new Uri("WPF/choix_save.xaml", UriKind.Relative));
         }
         
         private void BtnClickExit(object sender, RoutedEventArgs e)

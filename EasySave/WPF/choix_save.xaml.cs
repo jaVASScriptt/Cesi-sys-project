@@ -25,9 +25,22 @@ namespace app_locale
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
+         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+         {
 
+         }
+        
+
+        private void BtnClickFastSave(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("WPF/save_rapide.xaml", UriKind.Relative));
         }
+
+
+        private void BtnClickOption(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("WPF/Menu.xaml", UriKind.Relative));
+        }
+
     }
 }

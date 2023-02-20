@@ -24,5 +24,40 @@ namespace app_locale
         {
             InitializeComponent();
         }
+
+        private void BtnClickCreer(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("WPF/creer_travail.xaml", UriKind.Relative));
+        }
+
+        private void BtnClickModifier(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("WPF/modifier sauvegarde.xaml", UriKind.Relative));
+        }
+
+        private void BtnClickSupprimerUnTravail(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("WPF/supprimer_1_travail.xaml", UriKind.Relative));
+        }
+
+        private void BtnClickSupprimerToutTravaux(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("WPF/supprimer_tout_travaux.xaml", UriKind.Relative));
+        }
+
+        private void BtnClickEffectuer(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("WPF/Do_save.xaml", UriKind.Relative));
+        }
+
+        private void BtnClickAjoutEmplacement(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("WPF/add_save_slot.xaml", UriKind.Relative));
+        }
+
+        private void BtnClickRetirer(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("WPF/suppr_save_slot.xaml", UriKind.Relative));
+        }
     }
 }

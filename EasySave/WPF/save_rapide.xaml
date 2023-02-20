@@ -10,7 +10,7 @@
     
     <!--Page qui s'affiche après click du bouton save rapide (save eddy)-->
     <Grid Background="#FF001A6C" Margin="0,0,0,-189">
-        <Button Content="Accueil" Foreground="White" FontSize="25" HorizontalAlignment="Left" Height="55" Margin="10,0,0,0" VerticalAlignment="Top" Width="129" Background="{x:Null}" BorderBrush="{x:Null}"/>
+       
 
         <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" TextAlignment="Center" Text="Sauvegarde rapide" Foreground="White" VerticalAlignment="Top" Width="641" Height="55" FontSize="30" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" Margin="130,10,0,0"/>
 
@@ -24,6 +24,6 @@
         <Button Content="Complète" Foreground="White" HorizontalAlignment="Left" Height="66" Margin="74,497,0,0" VerticalAlignment="Top" Width="180" FontSize="25" Background="#FF07044A"/>
         <Button Content="Différentielle" Foreground="White" HorizontalAlignment="Left" Height="66" Margin="308,497,0,0" VerticalAlignment="Top" Width="178" FontSize="25" Background="#FF07044A"/>
 
-        <Button Content="Quitter" FontSize="40" Foreground="White" HorizontalAlignment="Left" Height="74" Margin="649,565,0,0" VerticalAlignment="Top" Width="151" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        
     </Grid>
 </Page>
