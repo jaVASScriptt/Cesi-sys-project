@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace app_locale
+namespace Easysave
 {
     /// <summary>
-    /// Logique d'interaction pour creer_travail.xaml
+    /// Logique d'interaction pour choix_langue.xaml
     /// </summary>
-    public partial class creer_travail : Page
+    public partial class ChoiceLog : Page
     {
-        public creer_travail()
+        public ChoiceLog()
         {
             InitializeComponent();
         }

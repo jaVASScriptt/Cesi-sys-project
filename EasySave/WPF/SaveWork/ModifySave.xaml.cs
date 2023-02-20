@@ -13,16 +13,26 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace app_locale
+namespace Easysave
 {
     /// <summary>
-    /// Logique d'interaction pour suppr_save_slot.xaml
+    /// Logique d'interaction pour modifier_sauvegarde.xaml
     /// </summary>
-    public partial class suppr_save_slot : Page
+    public partial class ModifySave : Page
     {
-        public suppr_save_slot()
+        public ModifySave()
         {
             InitializeComponent();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

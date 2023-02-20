@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace app_locale
+namespace Easysave
 {
     /// <summary>
-    /// Logique d'interaction pour save_rapide.xaml
+    /// Logique d'interaction pour suppr_save_slot.xaml
     /// </summary>
-    public partial class save_rapide : Page
+    public partial class DelSaveSlot : Page
     {
-        public save_rapide()
+        public DelSaveSlot()
         {
             InitializeComponent();
         }

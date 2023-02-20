@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace app_locale
+namespace Easysave
 {
     /// <summary>
     /// Logique d'interaction pour Do_save.xaml
     /// </summary>
-    public partial class Do_save : Page
+    public partial class DoSave : Page
     {
-        public Do_save()
+        public DoSave()
         {
             InitializeComponent();
         }

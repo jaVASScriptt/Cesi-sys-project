@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace app_locale
+namespace Easysave
 {
     /// <summary>
-    /// Logique d'interaction pour supprimer_1_travail.xaml
+    /// Logique d'interaction pour creer_travail.xaml
     /// </summary>
-    public partial class supprimer_1_travail : Page
+    public partial class CreateJob : Page
     {
-        public supprimer_1_travail()
+        public CreateJob()
         {
             InitializeComponent();
         }

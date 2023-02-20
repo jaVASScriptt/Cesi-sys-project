@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace app_locale
+namespace Easysave
 {
     /// <summary>
-    /// Logique d'interaction pour choix_save.xaml
+    /// Logique d'interaction pour choix_langue.xaml
     /// </summary>
-    public partial class choix_save : Page
+    public partial class ChoiceLanguage : Page
     {
-        public choix_save()
+        public ChoiceLanguage()
         {
             InitializeComponent();
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }

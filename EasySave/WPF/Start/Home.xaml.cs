@@ -14,13 +14,13 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using EasySave;
 
-namespace app_locale
+namespace Easysave
 {
     /// <summary>
     /// Logique d'interaction pour menu_general.xam
-    public partial class menu_general : Page
+    public partial class Home : Page
     {
-        public menu_general()
+        public Home()
         {
             InitializeComponent();
         }
@@ -32,7 +32,7 @@ namespace app_locale
 
         private void BtnClickLanguage(object sender, RoutedEventArgs e)
         {
-            MainWindow.MainFrame.Content = new choix_langue();
+            MainWindow.MainFrame.Content = new ChoiceLanguage();
         }
 
         private void BtnClickMenu(object sender, RoutedEventArgs e)

@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace app_locale
+namespace Easysave
 {
     /// <summary>
-    /// Logique d'interaction pour choix_langue.xaml
+    /// Logique d'interaction pour supprimer_tout_travaux.xaml
     /// </summary>
-    public partial class choix_langue : Page
+    public partial class DelAllJob : Page
     {
-        public choix_langue()
+        public DelAllJob()
         {
             InitializeComponent();
         }

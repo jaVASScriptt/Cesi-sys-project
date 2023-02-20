@@ -13,26 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace app_locale
+namespace Easysave
 {
     /// <summary>
-    /// Logique d'interaction pour modifier_sauvegarde.xaml
+    /// Logique d'interaction pour Menu.xaml
     /// </summary>
-    public partial class modifier_sauvegarde : Page
+    public partial class Menu : Page
     {
-        public modifier_sauvegarde()
+        public Menu()
         {
             InitializeComponent();
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

@@ -12,22 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using app_locale;
 
-namespace EasySave
+namespace Easysave
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logique d'interaction pour add_save_slot.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AddSaveSlot : Page
     {
-        public static Frame MainFrame { get; set; }
-        public MainWindow()
+        public AddSaveSlot()
         {
             InitializeComponent();
-            MainFrame = Main;
-            Main.Content = new menu_general();
         }
-        
     }
 }
