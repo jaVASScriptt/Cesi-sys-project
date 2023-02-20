@@ -5,31 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EasySave"
         mc:Ignorable="d"
-        Title="MainWindow" Height="470" Width="800">
-    <Grid Background="#FF001A6C">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        
-        <TextBlock Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="EasySave" FontSize="72" FontWeight="Bold" Foreground="White" FontFamily="Rockwell Extra Bold"/>
-        
-        <Grid Grid.Row="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            
-            <Rectangle Grid.Column="0" Fill="#FF07044A"/>
-            <Button Grid.Column="0" Content="Accueil" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 10 0 0" Click="BtnAccueil"/>
-            <Button Grid.Column="0" Content="Menu" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 84 0 0" Click="BtnClickMenu"/>
-            <Button Grid.Column="0" Content="Langues" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 154 0 0" RenderTransformOrigin="0.521,-0.061" Click="BtnClickLanguage"/>
-            <Button Grid.Column="0" Content="Quitter" FontSize="30" Foreground="White" VerticalAlignment="Bottom" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 0 0 10" Click="BtnClickExit"/>
+        Title="MainWindow" Height="600" Width="1000">
+    
             <!--<Button Grid.Column="0" Content="Paramètres" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 300 0 0"/>-->
             
-            <Frame x:Name="Main" Grid.Column="1" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="Main" Grid.Column="1"/>
             
-            <Button Grid.Column="1" Content="Version 2.0" FontSize="24" Foreground="Black" VerticalAlignment="Bottom" Width="148" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Margin="0 0 10 10" HorizontalAlignment="Right"/>
-        </Grid>
-    </Grid>
 </Window>

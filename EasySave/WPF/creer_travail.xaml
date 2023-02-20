@@ -10,7 +10,7 @@
 
     <Grid Background="#FF001A6C" Margin="0,0,0,10">
 
-       
+        <Button Content="Accueil" Foreground="White" FontSize="25" HorizontalAlignment="Left" Height="55" Margin="10,0,0,0" VerticalAlignment="Top" Width="129" Background="{x:Null}" BorderBrush="{x:Null}"/>
         <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" TextAlignment="Center" Text="Créer un nouveau travail de sauvegarde" Foreground="White" VerticalAlignment="Top" Width="641" Height="55" FontSize="30" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" Margin="159,10,0,0"/>
 
 
@@ -25,7 +25,7 @@
         <Button Content="Différentielle" Foreground="White" HorizontalAlignment="Left" Height="66" Margin="308,624,0,0" VerticalAlignment="Top" Width="178" FontSize="25" Background="#FF07044A"/>
 
 
-        
+        <Button Content="Quitter" FontSize="30" Foreground="White" HorizontalAlignment="Left" Height="70" Margin="625,730,0,0" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}"/>
 
         
     </Grid>
