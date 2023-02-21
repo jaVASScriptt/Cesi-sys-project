@@ -25,20 +25,5 @@ namespace Easysave
             InitializeComponent();
         }
 
-        private void BtnClickLanguage(object sender, RoutedEventArgs e)
-        {
-            MainWindow.MainFrame.Content = new ChoiceLanguage();
-        }
-        
-        private void BtnClickLogsAndState(object sender, RoutedEventArgs e)
-        {
-            MainWindow.MainFrame.Content = new ChoiceLog();
-        }
-
-        private void BtnClickSave(object sender, RoutedEventArgs e)
-        {
-           MainWindow.MainFrame.Content = new ChoiceSave();
-        }
-        
     }
 }

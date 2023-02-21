@@ -48,5 +48,7 @@ public sealed class LogAndStateTool
     public static void changeState(int index = 0, String name = "") { stateTool.changeState(index,name); }
 
     public static int getTaskIndex(String name) { return stateTool.getTaskIndex(name); }
+    
+    public static TaskData[]? getTasks() { return stateTool.getTasks();}
 
 }

@@ -20,7 +20,13 @@
 
         <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Langue" Foreground="White" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Background="{x:Null}" Margin="0,10,0,0" Grid.ColumnSpan="3"/>
         
-        <Button Content="Francais" Foreground="White" FontSize="25" Height="165" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="0" />
-        <Button Content="English" Foreground="White" FontSize="25" Height="165" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="1" />
+        <Button FontSize="25" Height="165" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="0" >
+            <Image Source="../Images/drapeau-france.jpg" Height="160"/>
+        </Button> 
+        
+        <Button FontSize="25" Height="165" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="1" >
+            <Image Source="../Images/drapeau-anglais.png" Height="100"/>
+        </Button> 
+        
     </Grid>
 </Page>

@@ -1,0 +1,68 @@
+﻿<Page x:Class="Easysave.MenuJob"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="MenuJob">
+    
+    <Page.Resources>
+        
+        <Style x:Key="GroupBoxHeaderStyle" TargetType="{x:Type GroupBox}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type GroupBox}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Border Grid.Row="0" Background="LightGray" CornerRadius="4,4,0,0">
+                                <ContentPresenter ContentSource="Header" HorizontalAlignment="Center"/>
+                            </Border>
+                            <Border Grid.Row="1" Background="White" CornerRadius="0,0,4,4">
+                                <ContentPresenter ContentSource="Content"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <DataTemplate x:Key="ListBoxDataTemplate">
+            <GroupBox Header="{Binding Name}" Style="{StaticResource GroupBoxHeaderStyle}" Margin="30,15,20,15">
+                <ItemsControl Name="icTodoList" ItemsSource="{Binding Tests}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="0,0,0,5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Label Content="{Binding Name}"/>
+                                <TextBlock Grid.Column="1" Text="{Binding Value}"/>
+                                <Label Grid.Column="2" Content="{Binding Symbole}"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </GroupBox>
+        </DataTemplate>
+        <ItemsPanelTemplate x:Key="ListBoxItemsPanelTemplate">
+            <StackPanel Orientation="Vertical"/>
+        </ItemsPanelTemplate>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Menu des travaux de sauvegarde" Foreground="White" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Background="{x:Null}" Margin="0,15,0,15" Grid.ColumnSpan="3"/>
+        <ScrollViewer Grid.Row="1">
+            <ItemsControl Name="Measure"
+                          ItemsSource="{Binding}"
+                          ItemTemplate="{StaticResource ListBoxDataTemplate}"
+                          ItemsPanel="{StaticResource ListBoxItemsPanelTemplate}"
+                          VerticalAlignment="Center"/>
+        </ScrollViewer>
+    </Grid>
+</Page>

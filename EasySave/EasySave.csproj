@@ -8,37 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Page Update="WPF\SaveWork\EditSaveSlot.xaml">
-        <Generator>MSBuild:Compile</Generator>
-        <XamlRuntime>Wpf</XamlRuntime>
-        <SubType>Designer</SubType>
-      </Page>
-      <Page Update="WPF\SaveWork\CreateJob.xaml">
+      <Page Update="WPF\SaveWork\MenuJob.xaml">
         <Generator>MSBuild:Compile</Generator>
         <XamlRuntime>Wpf</XamlRuntime>
         <SubType>Designer</SubType>
       </Page>
       <Page Update="WPF\SaveWork\DoSave.xaml">
-        <Generator>MSBuild:Compile</Generator>
-        <XamlRuntime>Wpf</XamlRuntime>
-        <SubType>Designer</SubType>
-      </Page>
-      <Page Update="WPF\SaveWork\Menu.xaml">
-        <Generator>MSBuild:Compile</Generator>
-        <XamlRuntime>Wpf</XamlRuntime>
-        <SubType>Designer</SubType>
-      </Page>
-      <Page Update="WPF\SaveWork\ModifySave.xaml">
-        <Generator>MSBuild:Compile</Generator>
-        <XamlRuntime>Wpf</XamlRuntime>
-        <SubType>Designer</SubType>
-      </Page>
-      <Page Update="WPF\SaveWork\DelOneJob.xaml">
-        <Generator>MSBuild:Compile</Generator>
-        <XamlRuntime>Wpf</XamlRuntime>
-        <SubType>Designer</SubType>
-      </Page>
-      <Page Update="WPF\SaveWork\DelAllJob.xaml">
         <Generator>MSBuild:Compile</Generator>
         <XamlRuntime>Wpf</XamlRuntime>
         <SubType>Designer</SubType>
@@ -86,6 +61,14 @@
       </Content>
       <None Remove="WPF\Images\exit_logo.png" />
       <Content Include="WPF\Images\exit_logo.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="WPF\Images\drapeau-anglais.png" />
+      <Content Include="WPF\Images\drapeau-anglais.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="WPF\Images\drapeau-france.jpg" />
+      <Content Include="WPF\Images\drapeau-france.jpg">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
     </ItemGroup>

@@ -38,7 +38,7 @@ namespace Easysave
 
         private void Menu(object sender, RoutedEventArgs e)
         {
-            MainWindow.MainFrame.Content = new Menu();
+            MainWindow.MainFrame.Content = new MenuJob();
         }
     }
 }
