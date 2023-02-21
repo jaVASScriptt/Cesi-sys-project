@@ -57,6 +57,7 @@ static class Server
 
                 Console.WriteLine("Reponse au client : ");
                 while ((input = Console.ReadLine()) == "") ;
+                if (input == null) input = "";
 
                 Console.WriteLine("Server : " + input);
 

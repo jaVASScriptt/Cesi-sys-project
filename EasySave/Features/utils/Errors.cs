@@ -58,6 +58,7 @@ public class Errors
             }
             catch (Exception e)
             {
+                Console.WriteLine(e);
                 number = LanguageTool.print("NumberEntry");
             }
         }

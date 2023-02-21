@@ -77,7 +77,7 @@ namespace Easysave {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EasySave;V1.0.0.0;component/wpf/savework/createjob.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EasySave;component/wpf/savework/createjob.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\WPF\SaveWork\CreateJob.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

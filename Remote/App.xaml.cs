@@ -20,7 +20,7 @@ namespace Remote
 
         private static Socket SeConnecter(string adresseServeur, int port)
         {
-            IPAddress adresseIP;
+            IPAddress? adresseIP;
             if (!IPAddress.TryParse(adresseServeur, out adresseIP))
             {
                 // La chaîne passée en paramètre n'est pas une adresse IP valide, on tente de la résoudre en nom de domaine
@@ -64,9 +64,9 @@ namespace Remote
 
                 // On lit les données à envoyer au serveur depuis la console
                 Console.Write("Données à envoyer : ");
-                string message;
+                string? message;
                 while ((message = Console.ReadLine()) == "") ;
-
+                if (message == null) message = "";
 
                 // On envoie les données au serveur
                 client.Send(Encoding.UTF8.GetBytes(message));
