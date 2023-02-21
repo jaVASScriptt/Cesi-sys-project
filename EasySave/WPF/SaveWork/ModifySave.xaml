@@ -3,7 +3,6 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Easysave"
       mc:Ignorable="d" 
       d:DesignHeight="800" d:DesignWidth="800"
       Title="modifier_sauvegarde">
@@ -21,17 +20,6 @@
             <ComboBoxItem>ComboBox Item #2</ComboBoxItem>
             <ComboBoxItem>ComboBox Item #3</ComboBoxItem>
         </ComboBox>
-        <!-- Combobox avec databinding (données des emplacement)
-        <ComboBox Name="cmbColors">
-            <ComboBox.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal">
-                        <Rectangle Fill="{Binding Name}" Width="16" Height="16" Margin="0,2,5,2" />
-                        <TextBlock Text="{Binding Name}" />
-                    </StackPanel>
-                </DataTemplate>
-            </ComboBox.ItemTemplate>
-        </ComboBox>-->
 
         <TextBox HorizontalAlignment="Left" Margin="70,321,0,0" TextWrapping="Wrap" Text="Donnez le nom de la sauvegarde " Foreground="White" VerticalAlignment="Top" Width="493" Height="39" FontSize="20" BorderBrush="{x:Null}" Background="{x:Null}"/>
         <TextBox Text="{Binding DisplayText}" x:Name="input_savename" HorizontalAlignment="Left" Margin="70,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="493" Height="46" FontFamily="Times New Roman" FontSize="24" Background="White" BorderBrush="Black"/>
