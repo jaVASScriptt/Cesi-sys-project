@@ -1,4 +1,4 @@
-﻿<Page x:Class="Easysave.ChoiceLanguage"
+﻿<Page x:Class="Easysave.ChoiceLog"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -18,9 +18,9 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Langue" Foreground="White" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Background="{x:Null}" Margin="0,10,0,0" Grid.ColumnSpan="3"/>
+        <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Log and state config" Foreground="White" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Background="{x:Null}" Margin="0,10,0,0" Grid.ColumnSpan="3"/>
         
-        <Button Content="Francais" Foreground="White" FontSize="25" Height="165" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="0" />
-        <Button Content="English" Foreground="White" FontSize="25" Height="165" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="1" />
+        <TextBox TextAlignment="Center" Foreground="White" FontSize="25" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="0" />
+        <Button Content="Valider" Foreground="White" FontSize="25" Height="50" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="1" />
     </Grid>
 </Page>

@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Easysave
 {
     /// <summary>
-    /// Logique d'interaction pour suppr_save_slot.xaml
+    /// Logique d'interaction pour add_save_slot.xaml
     /// </summary>
-    public partial class DelSaveSlot : Page
+    public partial class EditSaveSlot : Page
     {
-        public DelSaveSlot()
+        public EditSaveSlot()
         {
             InitializeComponent();
         }

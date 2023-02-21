@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using EasySave;
 
 namespace Easysave
 {
@@ -28,6 +29,16 @@ namespace Easysave
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void FastSave(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new FastSave();
+        }
+
+        private void Menu(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new Menu();
         }
     }
 }

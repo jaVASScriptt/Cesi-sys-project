@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using EasySave;
 
 namespace Easysave
 {
@@ -23,6 +24,38 @@ namespace Easysave
         public Menu()
         {
             InitializeComponent();
+        }
+
+        private void CreateJob(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new CreateJob();
+        }
+
+
+        private void ModifySave(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new ModifySave();
+        }
+
+        private void DelOneJob(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new DelOneJob();
+        }
+
+        private void DelAllJob(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new DelAllJob();
+        }
+
+
+        private void DoSave(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new DoSave();
+        }
+
+        private void AddOrRemoveSlot(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new EditSaveSlot();
         }
     }
 }

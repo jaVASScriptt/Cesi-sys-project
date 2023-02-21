@@ -28,6 +28,15 @@ namespace EasySave
             MainFrame = Main;
             Main.Content = new Home();
         }
+
+        private void BtnClickExit(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
         
+        private void BtnClickHome(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Home();
+        }
     }
 }

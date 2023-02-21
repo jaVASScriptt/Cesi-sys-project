@@ -7,28 +7,17 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="menu_general">
-
-    <Grid Background="#FF001A6C">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        
-        <TextBlock Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="EasySave" FontSize="72" FontWeight="Bold" Foreground="White" FontFamily="Rockwell Extra Bold"/>
-        
-        <Grid Grid.Row="1">
+    
+        <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             
             <Rectangle Grid.Column="0" Fill="#FF07044A"/>
-            <Button Grid.Column="0" Content="Accueil" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 10 0 0" Click="BtnAccueil"/>
-            <Button Grid.Column="0" Content="Menu" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 84 0 0" Click="BtnClickMenu"/>
-            <Button Grid.Column="0" Content="Langues" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 154 0 0" RenderTransformOrigin="0.521,-0.061" Click="BtnClickLanguage"/>
-            <Button Grid.Column="0" Content="Quitter" FontSize="30" Foreground="White" VerticalAlignment="Bottom" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 0 0 10" Click="BtnClickExit"/>
-            
-            <Button Grid.Column="1" Content="Version 2.0" FontSize="24" Foreground="Black" VerticalAlignment="Bottom" Width="148" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Margin="0 0 10 10" HorizontalAlignment="Right"/>
+            <Button Grid.Column="0" Content="Save" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 84 0 0" Click="BtnClickSave"/>
+            <Button Grid.Column="0" Content="Languages" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 154 0 0" RenderTransformOrigin="0.521,-0.061" Click="BtnClickLanguage"/>
+            <Button Grid.Column="0" Content="Logs and State" FontSize="25" Foreground="White" VerticalAlignment="Top" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 224 0 0" Click="BtnClickLogsAndState"/> 
         </Grid>
-    </Grid>
+    
 </Page>
