@@ -14,7 +14,7 @@
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
-                            <Border Grid.Row="0" Background="LightGray" CornerRadius="4,4,0,0">
+                            <Border Grid.Row="0" Background="LightBlue" CornerRadius="4,4,0,0">
                                 <ContentPresenter ContentSource="Header" HorizontalAlignment="Center"/>
                             </Border>
                             <Border Grid.Row="1" Background="White" CornerRadius="0,0,4,4">
@@ -27,25 +27,33 @@
         </Style>
         
         <DataTemplate x:Key="ListBoxDataTemplate">
-            <GroupBox Header="{Binding Name}" Style="{StaticResource GroupBoxHeaderStyle}" Margin="30,15,20,15">
-                <ItemsControl Name="icTodoList" ItemsSource="{Binding Tests}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <Grid Margin="0,0,0,5">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition/>
-                                    <ColumnDefinition/>
-                                    <ColumnDefinition/>
-                                </Grid.ColumnDefinitions>
-                                <Label Content="{Binding Name}"/>
-                                <TextBlock Grid.Column="1" Text="{Binding Value}"/>
-                                <Label Grid.Column="2" Content="{Binding Symbole}"/>
-                            </Grid>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
+            <GroupBox Header="{Binding Name}" Style="{StaticResource GroupBoxHeaderStyle}" Margin="30,15,20, 0">
+                <StackPanel>
+                    <ItemsControl Name="icTodoList" ItemsSource="{Binding Tests}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0,0,0,5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Content="{Binding Name}"/>
+                                    <TextBlock Grid.Column="1" Text="{Binding Value}"/>
+                                    <Label Grid.Column="2" Content="{Binding Symbole}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}"><Image Source="../Images/start.png"/></Button>
+                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}"><Image Source="../Images/edit.png"/></Button>
+                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}"><Image Source="../Images/del.png"/></Button>
+                    </StackPanel>
+                </StackPanel>
             </GroupBox>
         </DataTemplate>
+        
         <ItemsPanelTemplate x:Key="ListBoxItemsPanelTemplate">
             <StackPanel Orientation="Vertical"/>
         </ItemsPanelTemplate>
@@ -55,14 +63,27 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Menu des travaux de sauvegarde" Foreground="White" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Background="{x:Null}" Margin="0,15,0,15" Grid.ColumnSpan="3"/>
-        <ScrollViewer Grid.Row="1">
-            <ItemsControl Name="Measure"
-                          ItemsSource="{Binding}"
-                          ItemTemplate="{StaticResource ListBoxDataTemplate}"
-                          ItemsPanel="{StaticResource ListBoxItemsPanelTemplate}"
-                          VerticalAlignment="Center"/>
+        <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Menu des travaux de sauvegarde" Foreground="White" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Background="{x:Null}" Margin="0,15,0,10"/>
+        
+        <ScrollViewer Grid.Row="1" HorizontalAlignment="Stretch" Margin="0,0,0,0">
+                        <ItemsControl Name="Measure"
+                                      ItemsSource="{Binding}"
+                                      ItemTemplate="{StaticResource ListBoxDataTemplate}"
+                                      ItemsPanel="{StaticResource ListBoxItemsPanelTemplate}"/>
         </ScrollViewer>
+        
+        <Grid Grid.Row="2" VerticalAlignment="Bottom" Margin="0,15,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Button Grid.Column="0" FontSize="15" Content="Add Job" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C"/>
+            <Button Grid.Column="1" FontSize="15" Content="Delete all jobs" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C" />
+        
+        </Grid>
+        
     </Grid>
 </Page>

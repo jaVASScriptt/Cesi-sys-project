@@ -71,6 +71,19 @@
       <Content Include="WPF\Images\drapeau-france.jpg">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
+      <None Remove="WPF\Images\edit.png" />
+      <Content Include="WPF\Images\edit.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="WPF\Images\moins.png" />
+      <None Remove="WPF\Images\start.png" />
+      <Content Include="WPF\Images\start.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="WPF\Images\del.png" />
+      <Content Include="WPF\Images\del.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>
