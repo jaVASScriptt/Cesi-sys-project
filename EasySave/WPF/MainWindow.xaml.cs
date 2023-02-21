@@ -24,6 +24,7 @@ namespace EasySave
         public static Frame MainFrame { get; set; }
         public MainWindow()
         {
+            LanguageTool.setLanguage(2);
             InitializeComponent();
             MainFrame = Main;
             Main.Content = new Home();

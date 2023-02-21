@@ -8,34 +8,33 @@ static class LanguageTool
 {
     static List<object>? _strings;
 
-    public static void setLanguage()
+    public static void setLanguage(int Language)
     {
         string path = AppDomain.CurrentDomain.BaseDirectory + "../../../Features/Language/Data/";
-        while (true)
-        {
-            Console.WriteLine("");
-            Console.WriteLine("What language do you want to use ? (1) French (2) English");
-            Console.WriteLine("");
-            string imputLanguage = Console.ReadLine();
-            switch (imputLanguage)
+        switch (Language)
             {
-                case "1":
+                case 1:
                     _strings = UtilsTool.getJson(path + "fr.json");
                     return;
-                case "2":
+                case 2:
                     _strings = UtilsTool.getJson(path + "en.json");
                     return;
-                default:
-                    Console.WriteLine("please enter a valid number");
-                    break;
             }
-        }
     }
 
-    public static string? get(string key)
+    public static string get(string key)
     {
-        var item = (JsonElement)_strings[0];
-        return item.GetProperty(key).GetString();
+        try
+        {
+            var item = (JsonElement)_strings[0];
+            return item.GetProperty(key).GetString();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+        
     }
     
     public static string?[] getChoice(string key)

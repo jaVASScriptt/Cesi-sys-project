@@ -38,11 +38,11 @@ namespace Easysave
                          new Test { Name = "Name", Value = l[i].Name, Symbole = "" },
                          new Test { Name = "Source file path", Value = l[i].SourceFilePath, Symbole = "" },
                          new Test { Name = "Target file path", Value = l[i].TargetFilePath, Symbole = "" },
-                        new Test { Name = "State", Value = l[i].State, Symbole = "" },
-                        new Test { Name = "Total file to copy",Value = l[i].TotalFilesToCopy.ToString(), Symbole = "" },
-                        new Test { Name = "Total file size",Value = l[i].TotalFilesSize.ToString(), Symbole = "o" },
-                        new Test { Name = "Number Files left to do",Value = l[i].NbFilesLeftToDo.ToString(), Symbole = "" },
-                        new Test { Name = "Progression", Value = l[i].Progression.ToString(), Symbole = "%" }
+                         new Test { Name = "State", Value = l[i].State, Symbole = "" },
+                         new Test { Name = "Total file to copy",Value = l[i].TotalFilesToCopy.ToString(), Symbole = "" },
+                         new Test { Name = "Total file size",Value = l[i].TotalFilesSize.ToString(), Symbole = "o" },
+                         new Test { Name = "Number Files left to do",Value = l[i].NbFilesLeftToDo.ToString(), Symbole = "" },
+                         new Test { Name = "Progression", Value = l[i].Progression.ToString(), Symbole = "%" }
                      }
                  });
             }
