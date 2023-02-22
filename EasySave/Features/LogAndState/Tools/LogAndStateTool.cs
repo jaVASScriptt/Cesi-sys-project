@@ -51,4 +51,6 @@ public sealed class LogAndStateTool
     
     public static TaskData[]? getTasks() { return stateTool.getTasks();}
 
+    public static void delAllSave() { stateTool.delAllSave(); }
+
 }

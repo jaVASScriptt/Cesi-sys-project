@@ -46,12 +46,12 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     
-                    <Button Grid.Row="0" Grid.Column="0" Content="Complète" Foreground="White" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="180" FontSize="25" Margin="5,0,5,0" Background="#FF07044A" Click="Complete"/>
-                    <Button Grid.Row="0" Grid.Column="1" Content="Différentielle" Foreground="White" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="178" FontSize="25" Margin="5,0,5,0" Background="#FF07044A" Click="Differential"/>
+                    <Button Grid.Row="0" Grid.Column="0" Name="CompleteButton" Content="Complète" Foreground="White" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="180" FontSize="25" Margin="5,0,5,0" Background="#FF07044A" Click="Complete"/>
+                    <Button Grid.Row="0" Grid.Column="1" Name="DifferentialButton" Content="Différentielle" Foreground="White" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="178" FontSize="25" Margin="5,0,5,0" Background="#FF07044A" Click="Differential"/>
                     
                 </Grid>
                 
-                <Button Grid.Row="9" Content="Validate" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="15" Margin="0,40,0,0" Background="LimeGreen" Click="BtnClickSave"/>
+                <Button Grid.Row="9" Content="Validate" Foreground="White" Height="40" Width="80" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="15" Margin="0,40,0,0" Background="LimeGreen" Click="BtnClickSave"/>
                 
             </Grid>
 </Page>

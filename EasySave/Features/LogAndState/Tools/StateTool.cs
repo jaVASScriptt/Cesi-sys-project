@@ -36,6 +36,15 @@ public class StateTool
          UtilsTool.modifyJson(tasks.Cast<object>().ToList(), _statePath);
      }
 
+    public void delAllSave()
+    {
+        using (StreamWriter writer = new StreamWriter(_statePath))  
+        {  
+            writer.WriteLine("[");  
+            writer.WriteLine("]");
+        }  
+    }
+
     public void factoryFillOneState(int index)
     {
         

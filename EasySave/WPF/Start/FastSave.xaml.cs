@@ -25,6 +25,7 @@ namespace Easysave
         public FastSave()
         {
             InitializeComponent();
+            CompleteButton.BorderBrush = Brushes.White;
         }
         
         private void BtnClickSave(object sender, RoutedEventArgs e)
@@ -35,11 +36,15 @@ namespace Easysave
         private void Complete(object sender, RoutedEventArgs e)
         {
             TypeSave = "Complete";
+            CompleteButton.BorderBrush = Brushes.White;
+            DifferentialButton.BorderBrush = null;
         }
         
         private void Differential(object sender, RoutedEventArgs e)
         {
             TypeSave = "Differential";
+            DifferentialButton.BorderBrush = Brushes.White;
+            CompleteButton.BorderBrush = null;
         }
     }
 }

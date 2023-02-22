@@ -22,11 +22,13 @@ namespace EasySave
     public partial class MainWindow : Window
     {
         public static Frame MainFrame { get; set; }
+        public static Button saveChangeLanguage;
         public MainWindow()
         {
             LanguageTool.setLanguage(2);
             InitializeComponent();
             MainFrame = Main;
+            saveChangeLanguage = Save;
             Main.Content = new Home();
         }
 

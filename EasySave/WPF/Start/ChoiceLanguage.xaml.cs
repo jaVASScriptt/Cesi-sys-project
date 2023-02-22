@@ -32,12 +32,14 @@ namespace Easysave
         {
             LanguageTool.setLanguage(1);
             TitleLang.Text = LanguageTool.get("language");
+            MainWindow.saveChangeLanguage.Content = "coucou";
         }
 
         private void English(object sender, RoutedEventArgs e)
         {
             LanguageTool.setLanguage(2);
             TitleLang.Text = LanguageTool.get("language");
+            MainWindow.saveChangeLanguage.Content = "caca";
         }
     }
 }

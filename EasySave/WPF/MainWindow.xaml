@@ -31,7 +31,7 @@
                         </Grid.ColumnDefinitions>
                         
                         <Rectangle Grid.Column="0" Fill="#FF07044A"/>
-                        <Button Grid.Column="0" Content="Save" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Height="85" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 0 0 0" Click="BtnClickSave"/>
+                        <Button x:Name="Save" Grid.Column="0" Content="Save" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Height="85" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 0 0 0" Click="BtnClickSave"/>
                         <Button Grid.Column="0" Content="Languages" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Height="85" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 100 0 0" RenderTransformOrigin="0.521,-0.061" Click="BtnClickLanguage"/>
                         <Button Grid.Column="0" Content="Paramètres" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Height="85" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 200 0 0" Click="BtnClickLogsAndState"/>
                         
