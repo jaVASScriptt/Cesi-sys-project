@@ -46,9 +46,9 @@
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}"><Image Source="../Images/start.png"/></Button>
-                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}"><Image Source="../Images/edit.png"/></Button>
-                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}"><Image Source="../Images/del.png"/></Button>
+                        <Button Margin="5" Height="25" Background="{x:Null}" ToolTip="Run the job" BorderBrush="{x:Null}"><Image Source="../Images/start.png"/></Button>
+                        <Button Margin="5" Height="25" Background="{x:Null}" ToolTip="Edit the job" BorderBrush="{x:Null}"><Image Source="../Images/edit.png"/></Button>
+                        <Button Margin="5" Height="25" Background="{x:Null}" ToolTip="Delete the job" BorderBrush="{x:Null}"><Image Source="../Images/del.png"/></Button>
                     </StackPanel>
                 </StackPanel>
             </GroupBox>
@@ -65,7 +65,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Menu des travaux de sauvegarde" Foreground="White" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Background="{x:Null}" Margin="0,15,0,10"/>
+        <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Name="title_job_menu" Foreground="White" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Background="{x:Null}" Margin="0,15,0,10"/>
         
         <ScrollViewer Grid.Row="1" HorizontalAlignment="Stretch" Margin="0,0,0,0">
                         <ItemsControl Name="Measure"
@@ -79,9 +79,9 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            
-            <Button Grid.Column="0" FontSize="15" Content="Add Job" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C"/>
-            <Button Grid.Column="1" FontSize="15" Content="Delete all jobs" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C" />
+
+            <Button Grid.Column="0" FontSize="15" Name="add_job_button" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C"/>
+            <Button Grid.Column="1" FontSize="15" Name="del_job_button" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C" />
         
         </Grid>
         

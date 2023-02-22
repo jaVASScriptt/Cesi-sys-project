@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -25,6 +26,14 @@ namespace Easysave
         public FastSave()
         {
             InitializeComponent();
+            save_fast_title.Text = LanguageTool.get("save_fast_title");
+            save_name.Text = LanguageTool.get("save_name");
+            source_path.Text = LanguageTool.get("source_path");
+            destination_path.Text = LanguageTool.get("destination_path");
+            save_type.Text = LanguageTool.get("save_type?");
+            complete.Content = LanguageTool.get("complete");
+            differential.Content = LanguageTool.get("differential");
+            validate_button.Content = LanguageTool.get("validate_button");
         }
         
         private void BtnClickSave(object sender, RoutedEventArgs e)

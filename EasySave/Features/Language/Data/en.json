@@ -1,5 +1,46 @@
 ﻿[
   {
-    "language" : "language"
+
+    "language_button": "Language",
+    "save_button": "Save",
+    "settings_button": "Settings",
+
+
+    "save_choice": "Save choice",
+    "fast_save_button": "Quick Save",
+    "job_save_button": "Job Save",
+
+
+    "save_fast_title": "Quick save",
+    "save_name": "Backup name",
+    "source_path": "Source folder/file path",
+    "destination_path": "Destination folder/file path",
+    "save_type?": "What type of backup do you want to perform?",
+    "complete": "Full",
+    "differential": "Differential",
+    "validate_button": "Validate",
+
+
+    "add_job_button": "Add",
+    "del_job_button": "Delete",
+    "title_job_menu": "Job Save Menu",
+    "job_name": "Name",
+    "source_path_job": "Source path",
+    "target_path_job": "Destination path",
+    "state": "Status",
+    "total_file": "Total number of files to copy",
+    "file_size": "Total size of files",
+    "nb_file_left": "Number of remaining files to back up",
+    "progression": "Progress",
+    "job_number": "Backup Job n°",
+
+
+    "title_settings": "Settings",
+    "log/job_location_button": "Location of logs and backup jobs",
+    "encryption_button": "Encryption",
+    "business_soft_button": "Management of business software",
+    "file_priority_button": "File priority management",
+    "file_size_button": "File size management"
+
   }
 ]

@@ -18,9 +18,9 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Choix de la sauvegarde" Foreground="White" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Background="{x:Null}" Margin="0,10,0,0" Grid.ColumnSpan="3"/>
-            
-            <Button Content="Sauvegarde rapide" Foreground="White" FontSize="25" Height="165" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="0" Click="FastSave"/>
-            <Button Content="Travaux de Sauvegarde" Foreground="White" FontSize="25" Height="165" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="1" Click="Menu"/>
+        <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Name="save_choice" Foreground="White" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Background="{x:Null}" Margin="0,10,0,0" Grid.ColumnSpan="3"/>
+
+        <Button Name="fast_save_button" Foreground="White" FontSize="25" Height="165" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="0" Click="FastSave"/>
+        <Button Name="job_save_button" Foreground="White" FontSize="25" Height="165" Background="#FF07044A" BorderBrush="#FF001A6C" Margin="10,30,10,0" Grid.Row="1" Grid.Column="1" Click="Menu"/>
         </Grid>
 </Page>

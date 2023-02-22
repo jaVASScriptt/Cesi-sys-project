@@ -24,17 +24,17 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                
-                
-                <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Sauvegarde rapide" Foreground="White" VerticalAlignment="Top" Width="641" Height="55" FontSize="30" Margin="0,30,0,0" FontWeight="Bold" Background="{x:Null}"/>
 
-                <TextBlock Grid.Row="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Nom sauvegarde " Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
+
+                <TextBlock Name="save_fast_title" Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Sauvegarde rapide" Foreground="White" VerticalAlignment="Top" Width="641" Height="55" FontSize="30" Margin="0,30,0,0" FontWeight="Bold" Background="{x:Null}"/>
+
+                <TextBlock Name="save_name" Grid.Row="1" HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
                 <TextBox Grid.Row="2" Name="NameSave" TextAlignment="Center" Foreground="White" FontSize="25" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
-                <TextBlock Grid.Row="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Chemin du dossier/fichier source " Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
+                <TextBlock Name="source_path" Grid.Row="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Chemin du dossier/fichier source " Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
                 <TextBox Grid.Row="4" Name="SourcePath" TextAlignment="Center" Foreground="White" FontSize="25" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
-                <TextBlock Grid.Row="5" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Chemin du dossier/fichier cible " Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
+                <TextBlock Name="destination_path" Grid.Row="5" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Chemin du dossier/fichier cible " Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
                 <TextBox Grid.Row="6" Name="TargetPath" TextAlignment="Center" Foreground="White" FontSize="25" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
-                <TextBlock Grid.Row="7" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Quel type de sauvegarde souhaitez-vous effectuer ?" Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}" Margin="0,25,0,0"/>
+                <TextBlock Name="save_type" Grid.Row="7" HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}" Margin="0,25,0,0"/>
                 
                 <Grid Grid.Row="8" HorizontalAlignment="Center" Margin="0,15,0,0">
                     <Grid.RowDefinitions>
@@ -45,13 +45,13 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    
-                    <Button Grid.Row="0" Grid.Column="0" Content="Complète" Foreground="White" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="180" FontSize="25" Margin="5,0,5,0" Background="#FF07044A" Click="Complete"/>
-                    <Button Grid.Row="0" Grid.Column="1" Content="Différentielle" Foreground="White" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="178" FontSize="25" Margin="5,0,5,0" Background="#FF07044A" Click="Differential"/>
+
+                    <Button Grid.Row="0" Name="complete" Grid.Column="0" Foreground="White" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="180" FontSize="25" Margin="5,0,5,0" Background="#FF07044A" Click="Complete"/>
+                    <Button Grid.Row="0" Name="differential" Grid.Column="1" Foreground="White" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="178" FontSize="25" Margin="5,0,5,0" Background="#FF07044A" Click="Differential"/>
                     
                 </Grid>
-                
-                <Button Grid.Row="9" Content="Validate" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="15" Margin="0,40,0,0" Background="LimeGreen" Click="BtnClickSave"/>
+
+                <Button Grid.Row="9" Name="validate_button" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="15" Margin="0,40,0,0" Background="LimeGreen" Click="BtnClickSave"/>
                 
             </Grid>
 </Page>
