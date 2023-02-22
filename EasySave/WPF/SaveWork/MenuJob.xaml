@@ -46,7 +46,7 @@
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}"><Image Source="../Images/start.png"/></Button>
+                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="doSave"><Image Source="../Images/start.png"/></Button>
                         <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}"><Image Source="../Images/edit.png"/></Button>
                         <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="DeleteButton_Click"><Image Source="../Images/del.png"/></Button>
                     </StackPanel>

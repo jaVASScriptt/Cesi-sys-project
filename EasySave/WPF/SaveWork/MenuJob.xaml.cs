@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Controler;
 using EasySafe;
 using EasySave;
 
@@ -63,19 +64,26 @@ namespace Easysave
             Refresh();
         }
         
+        private int GetIndexFromButton(Button btn)
+        {
+            Test test = btn.CommandParameter as Test;
+            Group group = btn.DataContext as Group;
+            return GroupList.IndexOf(group);
+        }
+        
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
             LogAndStateTool.deleteLocation(GetIndexFromButton(btn));
             Refresh();
         }
-        
 
-        private int GetIndexFromButton(Button btn)
+        private void doSave(object sender, RoutedEventArgs e)
         {
-            Test test = btn.CommandParameter as Test;
-            Group group = btn.DataContext as Group;
-            return GroupList.IndexOf(group);
+            Button btn = sender as Button;
+            TaskData task = LogAndStateTool.getTask(GetIndexFromButton(btn));
+            FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, task.Type == "complete"? "Complete" : "Differential")?.saveData();
+            Refresh();
         }
     }
 
