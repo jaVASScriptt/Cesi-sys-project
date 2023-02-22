@@ -12,7 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Controler;
 using EasySafe;
+using EasySave;
 
 namespace Easysave
 {
@@ -21,6 +23,7 @@ namespace Easysave
     /// </summary>
     public partial class MenuJob : Page
     {
+        private List<Group> GroupList;
         public MenuJob()
         {
             InitializeComponent();
@@ -28,10 +31,12 @@ namespace Easysave
             add_job_button.Content = LanguageTool.get("add_job_button");
             del_job_button.Content = LanguageTool.get("del_job_button");
 
-            List<Group> GroupList = new List<Group>();
+            GroupList = new List<Group>();
+
+            GroupList = new List<Group>();
             TaskData[] l = LogAndStateTool.getTasks();
 
-            for (int i = 0; i<l.Length; i++)
+            for (int i = 0; i < l.Length; i++)
             {
                 GroupList.Add(new Group
                  {
@@ -51,6 +56,39 @@ namespace Easysave
             }
 
             DataContext = GroupList;
+        }
+
+        private void Refresh()
+        {
+            MainWindow.MainFrame.Content = new MenuJob();
+        }
+
+        private void DeleteAllJobs(object sender, RoutedEventArgs e)
+        {
+            LogAndStateTool.delAllSave();
+            Refresh();
+        }
+        
+        private int GetIndexFromButton(Button btn)
+        {
+            Test test = btn.CommandParameter as Test;
+            Group group = btn.DataContext as Group;
+            return GroupList.IndexOf(group);
+        }
+        
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            LogAndStateTool.deleteLocation(GetIndexFromButton(btn));
+            Refresh();
+        }
+
+        private void doSave(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            TaskData task = LogAndStateTool.getTask(GetIndexFromButton(btn));
+            FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, task.Type == "complete"? "Complete" : "Differential")?.saveData();
+            Refresh();
         }
     }
 

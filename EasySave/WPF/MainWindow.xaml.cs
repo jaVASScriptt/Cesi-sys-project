@@ -34,6 +34,7 @@ namespace EasySave
             saveButtonAccess = SaveButton;
             LanguageButtonAccess = LangageButton;
             SettingButtonAccess = settingButton;
+
             Main.Content = new Home();
         }
 

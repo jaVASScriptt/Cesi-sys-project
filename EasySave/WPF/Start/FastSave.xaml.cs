@@ -26,6 +26,7 @@ namespace Easysave
         public FastSave()
         {
             InitializeComponent();
+
             save_fast_title.Text = LanguageTool.get("save_fast_title");
             save_name.Text = LanguageTool.get("save_name");
             source_path.Text = LanguageTool.get("source_path");
@@ -34,6 +35,8 @@ namespace Easysave
             complete.Content = LanguageTool.get("complete");
             differential.Content = LanguageTool.get("differential");
             validate_button.Content = LanguageTool.get("validate_button");
+
+            complete.BorderBrush = Brushes.White;
         }
         
         private void BtnClickSave(object sender, RoutedEventArgs e)
@@ -44,11 +47,15 @@ namespace Easysave
         private void Complete(object sender, RoutedEventArgs e)
         {
             TypeSave = "Complete";
+            complete.BorderBrush = Brushes.White;
+            differential.BorderBrush = null;
         }
         
         private void Differential(object sender, RoutedEventArgs e)
         {
             TypeSave = "Differential";
+            differential.BorderBrush = Brushes.White;
+            complete.BorderBrush = null;
         }
     }
 }

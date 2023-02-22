@@ -46,9 +46,11 @@
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                        <Button Margin="5" Height="25" Background="{x:Null}" ToolTip="Run the job" BorderBrush="{x:Null}"><Image Source="../Images/start.png"/></Button>
-                        <Button Margin="5" Height="25" Background="{x:Null}" ToolTip="Edit the job" BorderBrush="{x:Null}"><Image Source="../Images/edit.png"/></Button>
-                        <Button Margin="5" Height="25" Background="{x:Null}" ToolTip="Delete the job" BorderBrush="{x:Null}"><Image Source="../Images/del.png"/></Button>
+                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="doSave"><Image Source="../Images/start.png"/></Button>
+                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}"><Image Source="../Images/edit.png"/></Button>
+                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="DeleteButton_Click">
+                            <Image Source="../Images/del.png"/>
+                        </Button>
                     </StackPanel>
                 </StackPanel>
             </GroupBox>
@@ -80,9 +82,9 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="0" FontSize="15" Name="add_job_button" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C"/>
-            <Button Grid.Column="1" FontSize="15" Name="del_job_button" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C" />
-        
+            <Button Name="add_job_button" Grid.Column="0" FontSize="15" Content="Add Job" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C"/>
+            <Button Name="del_job_button" Grid.Column="1" FontSize="15" Content="Delete all jobs" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C" Click="DeleteAllJobs"/>
+
         </Grid>
         
     </Grid>
