@@ -1,7 +1,31 @@
 [
   {
-    "Name": "blabla",
-    "SourceFilePath": "aigri",
+    "Name": "",
+    "SourceFilePath": "",
+    "TargetFilePath": "",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": "complete",
+    "LastUsed": "22/02/2023 09:04:10"
+  },
+  {
+    "Name": "",
+    "SourceFilePath": "",
+    "TargetFilePath": "",
+    "State": "END",
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "Progression": 0,
+    "Type": "complete",
+    "LastUsed": ""
+  },
+  {
+    "Name": "",
+    "SourceFilePath": "",
     "TargetFilePath": "",
     "State": "END",
     "TotalFilesToCopy": 0,

@@ -22,21 +22,21 @@ namespace Easysave
     /// </summary>
     public partial class MenuJob : Page
     {
+        private List<Group> GroupList;
         public MenuJob()
         {
             InitializeComponent();
 
-            List<Group> GroupList = new List<Group>();
+            GroupList = new List<Group>();
             TaskData[] l = LogAndStateTool.getTasks();
 
             for (int i = 0; i < l.Length; i++)
             {
                 GroupList.Add(new Group
                 {
-                    Name = "Job n°" + i,
+                    Name = "Job n°" + (i+1),
                     Tests = new List<Test>
                     {
-                        new Test { Name = "Id", Value = i.ToString(), Symbole = "" },
                         new Test { Name = "Name", Value = l[i].Name, Symbole = "" },
                         new Test { Name = "Source file path", Value = l[i].SourceFilePath, Symbole = "" },
                         new Test { Name = "Target file path", Value = l[i].TargetFilePath, Symbole = "" },
@@ -66,9 +66,16 @@ namespace Easysave
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
-            Test testToDelete = btn.DataContext as Test;
-            LogAndStateTool.deleteLocation(LogAndStateTool.getTaskIndex(testToDelete.Name));
+            LogAndStateTool.deleteLocation(GetIndexFromButton(btn));
             Refresh();
+        }
+        
+
+        private int GetIndexFromButton(Button btn)
+        {
+            Test test = btn.CommandParameter as Test;
+            Group group = btn.DataContext as Group;
+            return GroupList.IndexOf(group);
         }
     }
 
