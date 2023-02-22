@@ -40,7 +40,7 @@ public class LogAndStateConsole
                         filesSizeCase1 += fileInfo.Length;
                     }
 
-                    LogAndStateTool.addNewTask(index, name, sourcePath, targetPath, filesCountCase1, filesSizeCase1, filesCountCase1, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
+                    // LogAndStateTool.addNewTask(index, name, sourcePath, targetPath, filesCountCase1, filesSizeCase1, filesCountCase1, 0, type == 1 ? "complete" : type == 2 ? "differential" : "bad type");
 
                     break;
 
@@ -84,15 +84,12 @@ public class LogAndStateConsole
 
                     int filesLeftTodo = filesCountCase2;
 
-                    LogAndStateTool.addNewTask(LogAndStateTool.getTaskIndex(task.Name),
-                        Name: newName == "" ? task.Name : newName,
-                        SourceFilePath: newSourcePath == "" ? task.SourceFilePath : newSourcePath,
-                        TargetFilePath: newTargetPath == "" ? task.TargetFilePath : newTargetPath,
-                        TotalFilesToCopy: filesCountCase2 == 0 ? task.NbFilesLeftToDo : filesCountCase2,
-                        TotalFilesSize: filesSizeCase2 == 0 ? task.TotalFilesSize : filesSizeCase2,
-                        NbFilesLeftToDo: filesLeftTodo == 0 ? task.NbFilesLeftToDo : filesLeftTodo,
-                        task.Progression,
-                        Type: newType == 1 ? "complete" : newType == 2 ? "differential" : task.Type);
+                    //LogAndStateTool.addNewTask(LogAndStateTool.getTaskIndex(task.Name),
+                    //    Name: newName == "" ? task.Name : newName,
+                      //  SourceFilePath: newSourcePath == "" ? task.SourceFilePath : newSourcePath,
+                      //  TargetFilePath: newTargetPath == "" ? task.TargetFilePath : newTargetPath,
+                      //  task.Progression,
+                      //  Type: newType == 1 ? "complete" : newType == 2 ? "differential" : task.Type);
                     break;
 
                 case 3:

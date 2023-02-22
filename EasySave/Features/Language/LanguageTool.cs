@@ -57,7 +57,7 @@ static class LanguageTool
         Console.WriteLine("");
         Console.WriteLine(key == "" ? entry : get(key));
         Console.WriteLine("");
-        return Errors.numberEntry();
+        return 0;
     }
     
     public static int printAndRescueChoice(string key)
@@ -97,7 +97,7 @@ static class LanguageTool
         Console.WriteLine(separatorRow);
         Console.WriteLine("");
 
-        return Errors.numberEntry();
+        return 0;
     }
     
 }

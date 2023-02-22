@@ -133,40 +133,37 @@ public class StateTool
         return -1;
     }
 
-    public void addNewTask(int task,
+    public void addNewTask(
         string Name,
         string SourceFilePath,
         string TargetFilePath,
-        int TotalFilesToCopy,
-        long TotalFilesSize,
-        int NbFilesLeftToDo,
-        int Progression,
         string Type)
     {
+        
+        addLocation();
         TaskData[] tasks = getTasks();
 
-        if (!Errors.outOfRange(task, tasks)
-            && !Errors.emptyEntry(Name)
-            && !Errors.emptyEntry(SourceFilePath)
-            && !Errors.emptyEntry(TargetFilePath)
-            && !Errors.isGoodType(Type)
-            && !Errors.fileOrDirectoryNotExist(TargetFilePath)
-            && !Errors.fileOrDirectoryNotExist(SourceFilePath)
-            && !Errors.sourceIsTarget(SourceFilePath, TargetFilePath))
-        {
-            if (getTask(task).Name != "")
+        
+            
+            
+            //Count all the files in the directory and its subdirectories
+            int filesCountCase1 = 0;
+
+            //Measurement of the file size
+            long filesSizeCase1 = 0;
+
+            foreach (string filePath in Directory.GetFiles(SourceFilePath, "*.*", SearchOption.AllDirectories))
             {
-                if (LanguageTool.print("confirmDelete") == "y")
-                    setTask(task, Name, SourceFilePath, TargetFilePath, State: "END", TotalFilesToCopy, TotalFilesSize,
-                        NbFilesLeftToDo, Progression, Type);
+                filesCountCase1++;
+
+                //Get the file size and add it to the total size
+                FileInfo fileInfo = new FileInfo(filePath);
+                filesSizeCase1 += fileInfo.Length;
             }
-            else
-            {
-                setTask(task, Name, SourceFilePath, TargetFilePath, State: "END", TotalFilesToCopy, TotalFilesSize,
-                    NbFilesLeftToDo, Progression, Type);
-            }
-            LanguageTool.print("taskAdded");
-        }
+            
+            setTask(tasks.Length-1, Name, SourceFilePath, TargetFilePath, State: "END", filesCountCase1, filesSizeCase1,
+                filesCountCase1, 0, Type);
+        
 
     }
 

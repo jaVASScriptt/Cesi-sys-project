@@ -15,8 +15,8 @@
     "save_name": "Backup name",
     "source_path": "Source folder/file path",
     "destination_path": "Destination folder/file path",
-    "save_type?": "What type of backup do you want to perform?",
-    "complete": "Full",
+    "save_type": "What type of backup do you want to perform?",
+    "complete": "Complete",
     "differential": "Differential",
     "validate_button": "Validate",
 
@@ -40,7 +40,10 @@
     "encryption_button": "Encryption",
     "business_soft_button": "Management of business software",
     "file_priority_button": "File priority management",
-    "file_size_button": "File size management"
+    "file_size_button": "File size management",
+
+    "add_save_title": "Add a backup job",
+    "add_save_button": "Add"
 
   }
 ]

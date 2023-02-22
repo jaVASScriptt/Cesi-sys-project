@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -13,28 +12,29 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Controler;
+using EasySafe;
+using EasySave;
 
 namespace Easysave
 {
     /// <summary>
-    /// Logique d'interaction pour save_rapide.xaml
+    /// Logique d'interaction pour Do_save.xaml
     /// </summary>
-    public partial class FastSave : Page
+    public partial class AddWork : Page
     {
         private SaveTemplate s = new SaveTemplate();
-        public FastSave()
+        public AddWork()
         {
             InitializeComponent();
-            
             SaveInfo.Content = s;
-            SaveFastTitle.Text = LanguageTool.get("save_fast_title");
-            ValidateButton.Content = LanguageTool.get("validate_button");
+            SaveAddTitle.Text = LanguageTool.get("add_save_title");
+            ValidateButton.Content = LanguageTool.get("add_save_button");
         }
         
-        private void BtnClickSave(object sender, RoutedEventArgs e)
+        private void BtnClickAddSave(object sender, RoutedEventArgs e)
         {
-            FactorySave.GetSave(s.SaveNameEntry.Text, s.SourcePathEntry.Text, s.TargetPathEntry.Text, s.TypeSave)?.saveData();
+            LogAndStateTool.addNewTask(s.SaveNameEntry.Text, s.SourcePathEntry.Text, s.TargetPathEntry.Text, s.TypeSave);
+            MainWindow.MainFrame.Content = new MenuJob();
         }
         
     }

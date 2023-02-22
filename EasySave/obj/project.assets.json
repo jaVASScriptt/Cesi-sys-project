@@ -8,23 +8,23 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\moise\\.nuget\\packages\\": {},
+    "C:\\Users\\vdelmas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moise\\OneDrive\\Documents\\CESI\\prog systeme\\Git Projet\\EasySave\\EasySave.csproj",
+      "projectUniqueName": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\EasySave.csproj",
       "projectName": "EasySave",
-      "projectPath": "C:\\Users\\moise\\OneDrive\\Documents\\CESI\\prog systeme\\Git Projet\\EasySave\\EasySave.csproj",
-      "packagesPath": "C:\\Users\\moise\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moise\\OneDrive\\Documents\\CESI\\prog systeme\\Git Projet\\EasySave\\obj\\",
+      "projectPath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\EasySave.csproj",
+      "packagesPath": "C:\\Users\\vdelmas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\moise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vdelmas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -70,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\vdelmas\\.dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,7 +13,7 @@
         <XamlRuntime>Wpf</XamlRuntime>
         <SubType>Designer</SubType>
       </Page>
-      <Page Update="WPF\SaveWork\DoSave.xaml">
+      <Page Update="WPF\SaveWork\AddWork.xaml">
         <Generator>MSBuild:Compile</Generator>
         <XamlRuntime>Wpf</XamlRuntime>
         <SubType>Designer</SubType>
@@ -44,6 +44,11 @@
         <SubType>Designer</SubType>
       </Page>
       <Page Update="WPF\Start\ChoiceLogAndState.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+      <Page Update="WPF\SaveWork\SaveTemplate.xaml">
         <Generator>MSBuild:Compile</Generator>
         <XamlRuntime>Wpf</XamlRuntime>
         <SubType>Designer</SubType>

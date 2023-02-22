@@ -43,14 +43,14 @@ namespace Easysave
                      Name = LanguageTool.get("job_number") + i,
                      Tests = new List<Test>
                      {
-                         new Test { Name = LanguageTool.get("job_name"), Value = l[i].Name, Symbole = "" },
-                         new Test { Name = LanguageTool.get("source_path_job"), Value = l[i].SourceFilePath, Symbole = "" },
-                         new Test { Name = LanguageTool.get("target_path_job"), Value = l[i].TargetFilePath, Symbole = "" },
-                         new Test { Name = LanguageTool.get("state"), Value = l[i].State, Symbole = "" },
-                         new Test { Name = LanguageTool.get("total_file"), Value = l[i].TotalFilesToCopy.ToString(), Symbole = "" },
-                         new Test { Name = LanguageTool.get("file_size"), Value = l[i].TotalFilesSize.ToString(), Symbole = "o" },
-                         new Test { Name = LanguageTool.get("nb_file_left"), Value = l[i].NbFilesLeftToDo.ToString(), Symbole = "" },
-                         new Test { Name = LanguageTool.get("progression"), Value = l[i].Progression.ToString(), Symbole = "%" }
+                         new Test { Name = LanguageTool.get("job_name"), Value = l[i].Name},
+                         new Test { Name = LanguageTool.get("source_path_job"), Value = l[i].SourceFilePath },
+                         new Test { Name = LanguageTool.get("target_path_job"), Value = l[i].TargetFilePath },
+                         new Test { Name = LanguageTool.get("target_path_job"), Value = l[i].Type },
+                         new Test { Name = LanguageTool.get("state"), Value = l[i].State },
+                         new Test { Name = LanguageTool.get("total_file"), Value = l[i].TotalFilesToCopy.ToString() },
+                         new Test { Name = LanguageTool.get("file_size"), Value = l[i].TotalFilesSize.ToString() },
+                         new Test { Name = LanguageTool.get("nb_file_left"), Value = l[i].NbFilesLeftToDo.ToString() },
                      }
                  });
             }
@@ -88,7 +88,11 @@ namespace Easysave
             Button btn = sender as Button;
             TaskData task = LogAndStateTool.getTask(GetIndexFromButton(btn));
             FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, task.Type == "complete"? "Complete" : "Differential")?.saveData();
-            Refresh();
+        }
+
+        private void Add_job_button_OnClick(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new AddWork();
         }
     }
 
@@ -102,7 +106,7 @@ namespace Easysave
     {
         public string Name { get; set; }
         public string Value { get; set; }
-        public string Symbole { get; set; }
+        
     }
 
 }

@@ -26,9 +26,9 @@ public sealed class LogAndStateTool
     
     public static void showTasks(int task = 0) { stateTool.showTasks(); }
     
-    public static void addNewTask(int task, string Name, string SourceFilePath, string TargetFilePath, int TotalFilesToCopy, long TotalFilesSize, int NbFilesLeftToDo, int Progression, string Type)
+    public static void addNewTask(string Name, string SourceFilePath, string TargetFilePath, string Type)
     {
-        stateTool.addNewTask(task, Name, SourceFilePath, TargetFilePath, TotalFilesToCopy, TotalFilesSize, NbFilesLeftToDo, Progression, Type);
+        stateTool.addNewTask(Name, SourceFilePath, TargetFilePath, Type);
     }
     
     public static TaskData getTask(int task = 0, string name = "") { return stateTool.getTask(task, name); }

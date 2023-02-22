@@ -95,7 +95,6 @@ C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\bin\Debug\net7.0-windo
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\EasySave.csproj.AssemblyReference.cache
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\SaveWork\MenuJob.baml
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\MainWindow.g.cs
-C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\SaveWork\DoSave.g.cs
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\SaveWork\MenuJob.g.cs
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\Start\ChoiceLanguage.g.cs
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\Start\ChoiceLogAndState.g.cs
@@ -107,7 +106,6 @@ C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windo
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\EasySave_MarkupCompile.cache
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\EasySave_MarkupCompile.lref
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\MainWindow.baml
-C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\SaveWork\DoSave.baml
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\Start\ChoiceLanguage.baml
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\Start\ChoiceLogAndState.baml
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\Start\ChoiceSave.baml
@@ -169,3 +167,7 @@ C:\Users\moise\OneDrive\Documents\CESI\prog systeme\Git Projet\EasySave\obj\Debu
 C:\Users\moise\OneDrive\Documents\CESI\prog systeme\Git Projet\EasySave\obj\Debug\net7.0-windows\EasySave.pdb
 C:\Users\moise\OneDrive\Documents\CESI\prog systeme\Git Projet\EasySave\obj\Debug\net7.0-windows\EasySave.genruntimeconfig.cache
 C:\Users\moise\OneDrive\Documents\CESI\prog systeme\Git Projet\EasySave\obj\Debug\net7.0-windows\ref\EasySave.dll
+C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\SaveWork\SaveTemplate.g.cs
+C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\SaveWork\SaveTemplate.baml
+C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\SaveWork\AddWork.g.cs
+C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\SaveWork\AddWork.baml

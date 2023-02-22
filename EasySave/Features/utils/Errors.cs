@@ -11,7 +11,6 @@ public class Errors
     {
         if (index >= 0 && index < t.Length)
             return false;
-        LanguageTool.print("outOfRange");
         return true;
     }
     
@@ -19,7 +18,6 @@ public class Errors
     {
         if (entry != "")
             return false;
-        LanguageTool.print("EmptyEntry");
         return true;
     }
     
@@ -27,7 +25,6 @@ public class Errors
     {
         if (type == "complete" || type == "differential")
             return false;
-        LanguageTool.print("isGoodType");
         return true;
     }
     
@@ -35,7 +32,6 @@ public class Errors
     {
         if (File.Exists(path) || Directory.Exists(path))
             return false;
-        LanguageTool.print("fileOrDirectoryNotExist");
         return true;
     }
     
@@ -43,26 +39,9 @@ public class Errors
     {
         if (source != target)
             return false;
-        LanguageTool.print("sourceIsTarget");
         return true;
     }
-    
-    public static int numberEntry()
-    {
-        string? number = Console.ReadLine();
-        while (true)
-        {
-            try
-            {
-                return Convert.ToInt32(number);
-            }
-            catch (Exception e)
-            {
-                number = LanguageTool.print("NumberEntry");
-            }
-        }
-    }
-    
+
 
     public static bool isValidFileName(string fileName)
     {
@@ -74,8 +53,6 @@ public class Errors
     {
         if (!isValidFileName(fileName))
         {
-            Console.WriteLine(
-                "Le nom de fichier contient des caractères non valides. Veuillez entrer un nom de fichier valide. (appuyez sur une touche pour continuer)");
             return false;
         }
         return true;

@@ -28,7 +28,7 @@
         
         <DataTemplate x:Key="ListBoxDataTemplate">
             <GroupBox Header="{Binding Name}" Style="{StaticResource GroupBoxHeaderStyle}" Margin="30,15,20, 0">
-                <StackPanel>
+                <StackPanel Margin="0,20,0,0">
                     <ItemsControl Name="icTodoList" ItemsSource="{Binding Tests}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
@@ -36,11 +36,9 @@
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition/>
                                         <ColumnDefinition/>
-                                        <ColumnDefinition/>
                                     </Grid.ColumnDefinitions>
-                                    <Label Content="{Binding Name}"/>
+                                    <Label Content="{Binding Name}" Margin="20,0,0,0"/>
                                     <TextBlock Grid.Column="1" Text="{Binding Value}"/>
-                                    <Label Grid.Column="2" Content="{Binding Symbole}"/>
                                 </Grid>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
@@ -82,7 +80,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Button Name="add_job_button" Grid.Column="0" FontSize="15" Content="Add Job" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C"/>
+            <Button Name="add_job_button" Grid.Column="0" FontSize="15" Content="Add Job" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C" Click="Add_job_button_OnClick"/>
             <Button Name="del_job_button" Grid.Column="1" FontSize="15" Content="Delete all jobs" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C" Click="DeleteAllJobs"/>
 
         </Grid>
