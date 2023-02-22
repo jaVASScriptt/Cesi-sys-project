@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Remote"
   ],
-  "SelectedNode": "\\EasySaveSol.sln",
+  "SelectedNode": "\\Remote\\App.xaml.cs",
   "PreviewInSolutionExplorer": false
 }
