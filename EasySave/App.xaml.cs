@@ -22,7 +22,7 @@ namespace EasySave
             }
             else
             {
-                //Server.startServer();
+                Server.ServerStart();
             }
             base.OnStartup(e);
         }

@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Remote"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Remote" Height="349" Width="448" Foreground="#FF34BFE8" Grid.IsSharedSizeScope="True" FlowDirection="LeftToRight" HorizontalContentAlignment="Right" HorizontalAlignment="Right" Closing="Window_Closing">
+    <Window.OpacityMask>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="#FF41D1FB" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.OpacityMask>
+    <Grid Margin="0,0,0,25">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="49*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lb_etat_prog_client" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="86" Width="249" FontSize="48" FontWeight="Normal" Margin="97,97,0,0"/>
+        <Button Content="Suivre la progression" HorizontalAlignment="Right" Margin="0,222,112,0" VerticalAlignment="Top" Click="Button_Click_1" Height="35" Width="137" FontStyle="Normal" FontWeight="Bold"/>
+        <Label x:Name="lb_titre" Content="" HorizontalAlignment="Left" Margin="31,34,0,0" VerticalAlignment="Top" Width="295" FontSize="18" FontFamily="Arial Rounded MT Bold"/>
 
     </Grid>
 </Window>

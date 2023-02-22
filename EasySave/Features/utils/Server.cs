@@ -1,102 +1,119 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
 
-static class Server
+namespace EasySave
 {
-
-    private static Socket SeConnecter()
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public static class Server
     {
-        // Création du socket serveur
-        Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+        static Socket client;
+        static Socket newsock;
 
-        // Association du socket à une adresse IP et un port
-        IPEndPoint endPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 12345);
-        socket.Bind(endPoint);
-
-        // Mise à l'écoute des connexions clientes
-        socket.Listen(10);
-
-        // Renvoi du socket créé
-        return socket;
-    }
-
-    private static Socket AccepterConnexion(Socket socketServeur)
-    {
-        // Accepter une connexion cliente et créer un nouveau socket pour le client
-        Socket socketClient = socketServeur.Accept();
-
-        // Renvoyer le socket créé pour communiquer avec le client
-        return socketClient;
-    }
-
-    private static void EcouterReseau(Socket client)
-    {
-        string? input; int recv;
-        string welcome = "Bienvenue sur le serveur ...";
-
-        byte[] data = new byte[1024];
-
-        data = Encoding.UTF8.GetBytes(welcome);
-
-        client.Send(data, data.Length, SocketFlags.None);
-
-
-        while (true)
+        public static void ServerStart()
         {
+            //Création du point de communication avec adresse IP locale et un numéro de port
+
+            IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 1050);
+
+            // Création du socket d'écoute
+
+            newsock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
+            // relier le socket au point de communication
+            newsock.Bind(ipep);
+
+            //créer un nouveau thread qui écoute le réseau et accepte les demandes du client
+            Thread t = new Thread(new ThreadStart(ecouterReseau));
+            t.Start();
+
+
+        }
+
+        // Méthode qui initialise la barre de progression 
+        static void worker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            for (int i = 0; i < 101; i++)
+            {
+                (sender as BackgroundWorker).ReportProgress(i);
+
+                Thread.Sleep(200);
+
+            }
+        }
+
+        static void worker_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            /*
+            //initialisation de la barre de progression avec le pourcentage de progression
+            pbstatus1.Value = e.ProgressPercentage;
+
+            //Affichage de la progression sur un label
+            lb_etat_prog_server.Content = pbstatus1.Value.ToString() + "%";
+            */
+
+            //envoi au client du pourcentage de progression
             try
             {
-                recv = client.Receive(data);
 
-                if (Encoding.UTF8.GetString(data, 0, recv) == "exit")
-
-                    break;
-
-                Console.WriteLine("Client: " + Encoding.UTF8.GetString(data, 0, recv));
-
-                Console.WriteLine("Reponse au client : ");
-                while ((input = Console.ReadLine()) == "") ;
-                if (input == null) input = "";
-
-                Console.WriteLine("Server : " + input);
-
-                client.Send(Encoding.UTF8.GetBytes(input));
+                client.Send(Encoding.UTF8.GetBytes("Bonjour client"));
             }
-            catch (Exception e)
+            catch (SocketException exp)
             {
-                Console.WriteLine("Le client est HS.");
-                Console.WriteLine(e.ToString());
-                Console.ReadKey();
-                Environment.Exit(1);
+                Console.WriteLine(exp.Message);
+
             }
-        }
-    }
 
-    private static void Deconnecter(Socket socket)
-    {
-        if (socket != null)
+
+        }
+
+
+        // lancer la barre de progression en créant un objet de type BackgroundWorker
+        //BackgroundWorker :
+        private static void Button_Click()
         {
-            socket.Shutdown(SocketShutdown.Both);
-            socket.Close();
+            //création, initialisation et mise à jour de l'objet BackgroundWorker
+            BackgroundWorker worker = new BackgroundWorker();
+            worker.WorkerReportsProgress = true;
+            worker.DoWork += worker_DoWork;
+            worker.ProgressChanged += worker_ProgressChanged;
+            worker.RunWorkerAsync();
         }
+
+        // méthode ecouter réseau appelé par le thread, permet d'écouter le réseau et accepter les demandes de connexion émises par le client.
+        private static void ecouterReseau()
+        {
+            newsock.Listen(1);
+            client = newsock.Accept();
+            if (client != null) Button_Click();
+
+
+        }
+
+        private static void Window_Closing(object sender, CancelEventArgs e)
+        {
+            client.Shutdown(SocketShutdown.Both);
+
+            client.Close();
+        }
+
+
     }
-
-
-
-    public static void startServer()
-    {
-        // Appel de SeConnecter() pour obtenir le socket
-        Socket socketServeur = SeConnecter();
-
-        // Appel de AccepterConnexion() pour accepter une connexion cliente
-        Socket socketClient = AccepterConnexion(socketServeur);
-
-        // Gérer l'échange de données entre le serveur et le client
-        EcouterReseau(socketClient);
-
-        // Fermeture de la connexion
-        Deconnecter(socketServeur);
-    }
-
 }
