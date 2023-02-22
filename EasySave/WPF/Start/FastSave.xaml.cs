@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -21,30 +22,20 @@ namespace Easysave
     /// </summary>
     public partial class FastSave : Page
     {
-        string TypeSave = "Complete";
+        private SaveTemplate s = new SaveTemplate();
         public FastSave()
         {
             InitializeComponent();
-            CompleteButton.BorderBrush = Brushes.White;
+            
+            SaveInfo.Content = s;
+            SaveFastTitle.Text = LanguageTool.get("save_fast_title");
+            ValidateButton.Content = LanguageTool.get("validate_button");
         }
         
         private void BtnClickSave(object sender, RoutedEventArgs e)
         {
-            FactorySave.GetSave(NameSave.Text, SourcePath.Text, TargetPath.Text, TypeSave)?.saveData();
-        }
-
-        private void Complete(object sender, RoutedEventArgs e)
-        {
-            TypeSave = "Complete";
-            CompleteButton.BorderBrush = Brushes.White;
-            DifferentialButton.BorderBrush = null;
+            FactorySave.GetSave(s.SaveNameEntry.Text, s.SourcePathEntry.Text, s.TargetPathEntry.Text, s.TypeSave)?.saveData();
         }
         
-        private void Differential(object sender, RoutedEventArgs e)
-        {
-            TypeSave = "Differential";
-            DifferentialButton.BorderBrush = Brushes.White;
-            CompleteButton.BorderBrush = null;
-        }
     }
 }

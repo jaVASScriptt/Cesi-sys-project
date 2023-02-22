@@ -10,51 +10,51 @@ namespace EasySafe;
 public class StateTool
 {
     private string _statePath;
-    
+
     public StateTool(string path)
     {
         if (string.IsNullOrEmpty(path))
             path = AppDomain.CurrentDomain.BaseDirectory + "../../../Features/LogAndState/Data/Files/State";
-        else 
+        else
             path += "/State";
 
-        if(!Directory.Exists(path))
+        if (!Directory.Exists(path))
             Directory.CreateDirectory(path);
-        
+
         _statePath = path + "/state.json";
-        
+
         if (!File.Exists(_statePath))
             factoryFillState();
     }
-    
+
     public void factoryFillState()
     {
         List<TaskData> tasks = new List<TaskData>();
-         for (int i = 0; i < 5; i++)
-             tasks.Add(new TaskData());
-         
-         UtilsTool.modifyJson(tasks.Cast<object>().ToList(), _statePath);
-     }
+        for (int i = 0; i < 5; i++)
+            tasks.Add(new TaskData());
+
+        UtilsTool.modifyJson(tasks.Cast<object>().ToList(), _statePath);
+    }
 
     public void delAllSave()
     {
-        using (StreamWriter writer = new StreamWriter(_statePath))  
-        {  
-            writer.WriteLine("[");  
+        using (StreamWriter writer = new StreamWriter(_statePath))
+        {
+            writer.WriteLine("[");
             writer.WriteLine("]");
-        }  
+        }
     }
 
     public void factoryFillOneState(int index)
     {
-        
+
         TaskData[]? tasks = getTasks();
-        
-        if(!Errors.emptyEntry(tasks[index].Name)
+
+        if (!Errors.emptyEntry(tasks[index].Name)
            && !Errors.outOfRange(index, tasks))
         {
             tasks[index] = new TaskData();
-        
+
             UtilsTool.modifyJson(tasks.Cast<object>().ToList(), _statePath);
             LanguageTool.print("saveDeleted");
         }
@@ -98,28 +98,28 @@ public class StateTool
             }
         }
 
-        setTask(index, State : task.State == "END" ? "RUNNING" : "END");
+        setTask(index, State: task.State == "END" ? "RUNNING" : "END");
     }
 
-    public TaskData? getTask(int task = 0, String name = "") 
+    public TaskData? getTask(int task = 0, String name = "")
     {
-       
-            TaskData[] tasks = getTasks();
-                    
-            if (name != "")
-            {
-                foreach (var t in tasks)
-                {
-                    if (t.Name == name)
-                        return t;
-                }
-            }
 
-            if (task >= 0 && task < tasks.Length)
-                return tasks[task];
-            return null;
+        TaskData[] tasks = getTasks();
+
+        if (name != "")
+        {
+            foreach (var t in tasks)
+            {
+                if (t.Name == name)
+                    return t;
+            }
+        }
+
+        if (task >= 0 && task < tasks.Length)
+            return tasks[task];
+        return null;
     }
-    
+
     public int getTaskIndex(String name)
     {
         TaskData[] tasks = getTasks();
@@ -133,60 +133,57 @@ public class StateTool
         return -1;
     }
 
-    public void addNewTask(int task,
+    public void addNewTask(
         string Name,
         string SourceFilePath,
         string TargetFilePath,
-        int TotalFilesToCopy,
-        long TotalFilesSize,
-        int NbFilesLeftToDo,
-        int Progression,
         string Type)
     {
+        
+        addLocation();
         TaskData[] tasks = getTasks();
 
-        if (!Errors.outOfRange(task, tasks) 
-            && !Errors.emptyEntry(Name) 
-            && !Errors.emptyEntry(SourceFilePath) 
-            && !Errors.emptyEntry(TargetFilePath)
-            && !Errors.isGoodType(Type)
-            && !Errors.fileOrDirectoryNotExist(TargetFilePath)
-            && !Errors.fileOrDirectoryNotExist(SourceFilePath)
-            && !Errors.sourceIsTarget(SourceFilePath, TargetFilePath))
-        {
-            if (getTask(task).Name != "")
+        
+            
+            
+            //Count all the files in the directory and its subdirectories
+            int filesCountCase1 = 0;
+
+            //Measurement of the file size
+            long filesSizeCase1 = 0;
+
+            foreach (string filePath in Directory.GetFiles(SourceFilePath, "*.*", SearchOption.AllDirectories))
             {
-                if (LanguageTool.print("confirmDelete") == "y")
-                    setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
-                        NbFilesLeftToDo, Progression, Type);
+                filesCountCase1++;
+
+                //Get the file size and add it to the total size
+                FileInfo fileInfo = new FileInfo(filePath);
+                filesSizeCase1 += fileInfo.Length;
             }
-            else
-            {
-                setTask(task, Name, SourceFilePath, TargetFilePath, State:  "END", TotalFilesToCopy, TotalFilesSize,
-                    NbFilesLeftToDo, Progression, Type);
-            }
-            LanguageTool.print("taskAdded");
-        }
+            
+            setTask(tasks.Length-1, Name, SourceFilePath, TargetFilePath, State: "END", filesCountCase1, filesSizeCase1,
+                filesCountCase1, 0, Type);
+        
 
     }
 
-    public void setTask(int task = 0, 
-        string Name = "", 
-        string SourceFilePath = "", 
-        string TargetFilePath = "", 
-        string State = "", 
-        int TotalFilesToCopy = 0, 
-        long TotalFilesSize = 0, 
-        int NbFilesLeftToDo = 0, 
-        int Progression = 0, 
+    public void setTask(int task = 0,
+        string Name = "",
+        string SourceFilePath = "",
+        string TargetFilePath = "",
+        string State = "",
+        int TotalFilesToCopy = 0,
+        long TotalFilesSize = 0,
+        int NbFilesLeftToDo = 0,
+        int Progression = 0,
         string type = "",
         string LastUsed = "")
     {
         List<TaskData> tasks = getTasks().ToList();
-        
+
         tasks[task] = new TaskData
         {
-            Name = Name == "" ? tasks[task].Name : Name ,
+            Name = Name == "" ? tasks[task].Name : Name,
             SourceFilePath = SourceFilePath == "" ? tasks[task].SourceFilePath : SourceFilePath,
             TargetFilePath = TargetFilePath == "" ? tasks[task].TargetFilePath : TargetFilePath,
             State = State == "" ? tasks[task].State : State,
@@ -197,7 +194,7 @@ public class StateTool
             Type = type == "" ? tasks[task].Type : type,
             LastUsed = LastUsed == "" ? tasks[task].LastUsed : LastUsed
         };
-        
+
         UtilsTool.modifyJson(tasks.Cast<object>().ToList(), _statePath);
     }
 
@@ -207,14 +204,14 @@ public class StateTool
         tasks.Add(new TaskData());
         UtilsTool.modifyJson(tasks.Cast<object>().ToList(), _statePath);
     }
-    
+
     public void deleteLocation(int task)
     {
         List<TaskData> tasks = getTasks().ToList();
-        if(Errors.outOfRange(task, getTasks()))
+        if (Errors.outOfRange(task, getTasks()))
             task = tasks.Count - 1;
         tasks.RemoveAt(task);
         UtilsTool.modifyJson(tasks.Cast<object>().ToList(), _statePath);
     }
-    
+
 }

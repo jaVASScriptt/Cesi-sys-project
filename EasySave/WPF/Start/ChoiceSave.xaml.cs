@@ -24,6 +24,9 @@ namespace Easysave
         public ChoiceSave()
         {
             InitializeComponent();
+            save_choice.Text = LanguageTool.get("save_choice");
+            fast_save_button.Content = LanguageTool.get("fast_save_button");
+            job_save_button.Content = LanguageTool.get("job_save_button");
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)

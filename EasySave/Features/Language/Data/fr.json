@@ -1,5 +1,48 @@
 ﻿[
   {
-      "language" : "langue"
+
+    "language_button": "Langue",
+    "save_button": "Sauvegarde",
+    "settings_button": "Paramètres",
+
+
+    "save_choice": "Choix de la sauvegarde",
+    "fast_save_button": "Sauvegarde rapide",
+    "job_save_button": "Travaux de sauvegarde",
+
+
+    "save_fast_title":  "Sauvegarde rapide",
+    "save_name": "Nom de la sauvegarde",
+    "source_path": "Chemin du dossier/fichier source",
+    "destination_path": "Chemin du dossier/fichier de destination",
+    "save_type": "Quel type de sauvegarde souhaitez-vous effectuer ?",
+    "complete": "Complète",
+    "differential": "Différentielle",
+    "validate_button": "Valider",
+
+
+    "add_job_button": "Ajouter",
+    "del_job_button": "Supprimer",
+    "title_job_menu": "Menu des travaux de sauvegarde",
+    "job_name": "Nom",
+    "source_path_job": "Chemin source",
+    "target_path_job": "Chemin de destination",
+    "state": "Etat",
+    "total_file": "Nombre total de fichier à copier",
+    "file_size": "Taille totale des fichiers",
+    "nb_file_left": "Nombre de fichiers restants a sauvegarder",
+    "progression": "Progression",
+    "job_number": "Travail de sauvegarde n°",
+
+
+    "title_settings": "Paramètres",
+    "log/job_location_button": "Emplacement des logs et travaux de sauvegarde",
+    "encryption_button": "Cryptage",
+    "business_soft_button": "Gestion du logicel métier",
+    "file_priority_button": "Gestion de la priorité des fichiers",
+    "file_size_button": "Gestion de la taille des fichiers",
+    
+    "add_save_title": "Ajouter une sauvegarde",
+    "add_save_button": "Ajouter"
   }
 ]

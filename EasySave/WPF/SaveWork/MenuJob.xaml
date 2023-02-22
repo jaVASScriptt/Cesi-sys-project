@@ -28,7 +28,7 @@
         
         <DataTemplate x:Key="ListBoxDataTemplate">
             <GroupBox Header="{Binding Name}" Style="{StaticResource GroupBoxHeaderStyle}" Margin="30,15,20, 0">
-                <StackPanel>
+                <StackPanel Margin="0,20,0,0">
                     <ItemsControl Name="icTodoList" ItemsSource="{Binding Tests}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
@@ -36,11 +36,9 @@
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition/>
                                         <ColumnDefinition/>
-                                        <ColumnDefinition/>
                                     </Grid.ColumnDefinitions>
-                                    <Label Content="{Binding Name}"/>
+                                    <Label Content="{Binding Name}" Margin="20,0,0,0"/>
                                     <TextBlock Grid.Column="1" Text="{Binding Value}"/>
-                                    <Label Grid.Column="2" Content="{Binding Symbole}"/>
                                 </Grid>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
@@ -48,7 +46,9 @@
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                         <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="doSave"><Image Source="../Images/start.png"/></Button>
                         <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}"><Image Source="../Images/edit.png"/></Button>
-                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="DeleteButton_Click"><Image Source="../Images/del.png"/></Button>
+                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="DeleteButton_Click">
+                            <Image Source="../Images/del.png"/>
+                        </Button>
                     </StackPanel>
                 </StackPanel>
             </GroupBox>
@@ -65,7 +65,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Menu des travaux de sauvegarde" Foreground="White" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Background="{x:Null}" Margin="0,15,0,10"/>
+        <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Name="title_job_menu" Foreground="White" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Background="{x:Null}" Margin="0,15,0,10"/>
         
         <ScrollViewer Grid.Row="1" HorizontalAlignment="Stretch" Margin="0,0,0,0">
                         <ItemsControl Name="Measure"
@@ -79,10 +79,10 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            
-            <Button Grid.Column="0" FontSize="15" Content="Add Job" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C"/>
-            <Button Grid.Column="1" FontSize="15" Content="Delete all jobs" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C" Click="DeleteAllJobs"/>
-        
+
+            <Button Name="add_job_button" Grid.Column="0" FontSize="15" Content="Add Job" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C" Click="Add_job_button_OnClick"/>
+            <Button Name="del_job_button" Grid.Column="1" FontSize="15" Content="Delete all jobs" Foreground="White" Background="#FF07044A" BorderBrush="#FF001A6C" Click="DeleteAllJobs"/>
+
         </Grid>
         
     </Grid>

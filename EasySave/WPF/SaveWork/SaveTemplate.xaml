@@ -1,0 +1,52 @@
+﻿<Page x:Class="Easysave.SaveTemplate"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Easysave"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SaveTemplate">
+        
+            <Grid HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Name="SaveName" Grid.Row="1" HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
+                <TextBox Grid.Row="2" Name="SaveNameEntry" TextAlignment="Center" Foreground="White" FontSize="25" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
+                <TextBlock Name="SourcePath" Grid.Row="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Chemin du dossier/fichier source " Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
+                <TextBox Grid.Row="4" Name="SourcePathEntry" TextAlignment="Center" Foreground="White" FontSize="25" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
+                <TextBlock Name="TargetPath" Grid.Row="5" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Chemin du dossier/fichier cible " Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
+                <TextBox Grid.Row="6" Name="TargetPathEntry" TextAlignment="Center" Foreground="White" FontSize="25" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
+                <TextBlock Name="SaveType" Grid.Row="7" HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}" Margin="0,25,0,0"/>
+                
+                <Grid Grid.Row="8" HorizontalAlignment="Center" Margin="0,15,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Row="0" Name="Complete" Grid.Column="0" Foreground="White" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="180" FontSize="25" Margin="5,0,5,0" Background="#FF07044A" Click="CompleteSelect"/>
+                    <Button Grid.Row="0" Name="Differential" Grid.Column="1" Foreground="White" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="178" FontSize="25" Margin="5,0,5,0" Background="#FF07044A" Click="DifferentialSelect"/>
+                    
+                </Grid>
+                
+            </Grid>
+</Page>

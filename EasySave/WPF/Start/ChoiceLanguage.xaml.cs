@@ -25,21 +25,28 @@ namespace Easysave
         public ChoiceLanguage()
         {
             InitializeComponent();
-            TitleLang.Text = LanguageTool.get("language");
+            TitleLang.Text = LanguageTool.get("language_button");
         }
 
         private void French(object sender, RoutedEventArgs e)
         {
             LanguageTool.setLanguage(1);
-            TitleLang.Text = LanguageTool.get("language");
-            MainWindow.saveChangeLanguage.Content = "coucou";
+            TitleLang.Text = LanguageTool.get("language_button");
+            changeToolBar();
         }
 
         private void English(object sender, RoutedEventArgs e)
         {
             LanguageTool.setLanguage(2);
-            TitleLang.Text = LanguageTool.get("language");
-            MainWindow.saveChangeLanguage.Content = "caca";
+            TitleLang.Text = LanguageTool.get("language_button");
+            changeToolBar();
+        }
+
+        private void changeToolBar()
+        {
+            MainWindow.saveButtonAccess.Content = LanguageTool.get("save_button");
+            MainWindow.LanguageButtonAccess.Content = LanguageTool.get("language_button");
+            MainWindow.SettingButtonAccess.Content = LanguageTool.get("settings_button");
         }
     }
 }

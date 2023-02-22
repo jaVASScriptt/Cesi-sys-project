@@ -13102,5 +13102,302 @@
     "FileSize": 0,
     "FileTransferTime": 13.6107,
     "Time": "22/02/2023 15:15:38"
+  },
+  {
+    "Name": "mouss",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\caca.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\caca.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 8.191,
+    "Time": "22/02/2023 18:42:04"
+  },
+  {
+    "Name": "mouss",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\ncnicsc.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\ncnicsc.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.0748,
+    "Time": "22/02/2023 18:42:04"
+  },
+  {
+    "Name": "mouss",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\prout.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\prout.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.5861,
+    "Time": "22/02/2023 18:42:04"
+  },
+  {
+    "Name": "mouss",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.8969,
+    "Time": "22/02/2023 18:42:04"
+  },
+  {
+    "Name": "mouss",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test2.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test2.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 22.1527,
+    "Time": "22/02/2023 18:42:04"
+  },
+  {
+    "Name": "mouss",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test3.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test3.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.003,
+    "Time": "22/02/2023 18:42:04"
+  },
+  {
+    "Name": "mouss",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\vdvc.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\vdvc.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.2679,
+    "Time": "22/02/2023 18:42:05"
+  },
+  {
+    "Name": "mouss",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\dsdsd.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\dsdsd.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.6808,
+    "Time": "22/02/2023 18:42:05"
+  },
+  {
+    "Name": "mouss",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\vvvv.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\vvvv.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.8014,
+    "Time": "22/02/2023 18:42:05"
+  },
+  {
+    "Name": "mouss",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\xxxx.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\xxxx.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.9047,
+    "Time": "22/02/2023 18:42:05"
+  },
+  {
+    "Name": "mouss",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test2.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test2.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 4.0568,
+    "Time": "22/02/2023 18:42:05"
+  },
+  {
+    "Name": "coco",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\caca.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\caca.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 5.1521,
+    "Time": "22/02/2023 19:14:35"
+  },
+  {
+    "Name": "coco",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\ncnicsc.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\ncnicsc.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.0362,
+    "Time": "22/02/2023 19:14:35"
+  },
+  {
+    "Name": "coco",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\prout.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\prout.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.6484,
+    "Time": "22/02/2023 19:14:35"
+  },
+  {
+    "Name": "coco",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.7869,
+    "Time": "22/02/2023 19:14:35"
+  },
+  {
+    "Name": "coco",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test2.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test2.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.1875,
+    "Time": "22/02/2023 19:14:35"
+  },
+  {
+    "Name": "coco",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test3.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test3.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.7362,
+    "Time": "22/02/2023 19:14:35"
+  },
+  {
+    "Name": "coco",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\vdvc.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\vdvc.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.8183,
+    "Time": "22/02/2023 19:14:35"
+  },
+  {
+    "Name": "coco",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\dsdsd.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\dsdsd.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.6299,
+    "Time": "22/02/2023 19:14:35"
+  },
+  {
+    "Name": "coco",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\vvvv.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\vvvv.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.3414,
+    "Time": "22/02/2023 19:14:35"
+  },
+  {
+    "Name": "coco",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\xxxx.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\xxxx.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.9642,
+    "Time": "22/02/2023 19:14:35"
+  },
+  {
+    "Name": "coco",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test2.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test2.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.7869,
+    "Time": "22/02/2023 19:14:35"
+  },
+  {
+    "Name": "yoyo",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\caca.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\caca.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 4.4929,
+    "Time": "22/02/2023 20:19:10"
+  },
+  {
+    "Name": "yoyo",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\ncnicsc.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\ncnicsc.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.5545,
+    "Time": "22/02/2023 20:19:11"
+  },
+  {
+    "Name": "yoyo",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\prout.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\prout.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.2388,
+    "Time": "22/02/2023 20:19:11"
+  },
+  {
+    "Name": "yoyo",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.674,
+    "Time": "22/02/2023 20:19:11"
+  },
+  {
+    "Name": "yoyo",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test2.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test2.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 13.8259,
+    "Time": "22/02/2023 20:19:11"
+  },
+  {
+    "Name": "yoyo",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test3.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test3.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.8276,
+    "Time": "22/02/2023 20:19:11"
+  },
+  {
+    "Name": "yoyo",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\vdvc.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\vdvc.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.7296,
+    "Time": "22/02/2023 20:19:11"
+  },
+  {
+    "Name": "yoyo",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\dsdsd.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\dsdsd.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.6766,
+    "Time": "22/02/2023 20:19:11"
+  },
+  {
+    "Name": "yoyo",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\vvvv.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\vvvv.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.4075,
+    "Time": "22/02/2023 20:19:11"
+  },
+  {
+    "Name": "yoyo",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\xxxx.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\xxxx.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2.5955,
+    "Time": "22/02/2023 20:19:11"
+  },
+  {
+    "Name": "yoyo",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source\\test2.txt",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target\\test2.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.0731,
+    "Time": "22/02/2023 20:19:11"
   }
 ]

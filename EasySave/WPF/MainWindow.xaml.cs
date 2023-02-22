@@ -22,13 +22,19 @@ namespace EasySave
     public partial class MainWindow : Window
     {
         public static Frame MainFrame { get; set; }
-        public static Button saveChangeLanguage;
+        public static Button saveButtonAccess { get; set; }
+        public static Button LanguageButtonAccess { get; set; }
+        public static Button SettingButtonAccess { get; set; }
+
         public MainWindow()
         {
             LanguageTool.setLanguage(2);
             InitializeComponent();
             MainFrame = Main;
-            saveChangeLanguage = Save;
+            saveButtonAccess = SaveButton;
+            LanguageButtonAccess = LangageButton;
+            SettingButtonAccess = settingButton;
+
             Main.Content = new Home();
         }
 
