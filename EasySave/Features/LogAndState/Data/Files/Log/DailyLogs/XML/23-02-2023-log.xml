@@ -94716,4 +94716,193 @@
     <FileTransferTime>7,7224</FileTransferTime>
     <Time>23/02/2023 17:40:49</Time>
   </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Brawlhalla.exe</SourceFilePath>
+    <TargetFilePath>D:\test\Brawlhalla.exe</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>178728</FileSize>
+    <FileTransferTime>3,6526</FileTransferTime>
+    <Time>23/02/2023 20:25:13</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\BrawlhallaAir.swf</SourceFilePath>
+    <TargetFilePath>D:\test\BrawlhallaAir.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>1292923</FileSize>
+    <FileTransferTime>115,8633</FileTransferTime>
+    <Time>23/02/2023 20:25:13</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\BrawlhallaEAC.exe</SourceFilePath>
+    <TargetFilePath>D:\test\BrawlhallaEAC.exe</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>3518440</FileSize>
+    <FileTransferTime>11,1778</FileTransferTime>
+    <Time>23/02/2023 20:25:14</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\BrawlhallaGame.exe</SourceFilePath>
+    <TargetFilePath>D:\test\BrawlhallaGame.exe</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>151080</FileSize>
+    <FileTransferTime>6,0393</FileTransferTime>
+    <Time>23/02/2023 20:25:14</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Dynamic.swz</SourceFilePath>
+    <TargetFilePath>D:\test\Dynamic.swz</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>149549</FileSize>
+    <FileTransferTime>14,5601</FileTransferTime>
+    <Time>23/02/2023 20:25:15</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Engine.swz</SourceFilePath>
+    <TargetFilePath>D:\test\Engine.swz</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>2715</FileSize>
+    <FileTransferTime>17,7406</FileTransferTime>
+    <Time>23/02/2023 20:25:15</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\EOSSDK-Win32-Shipping.dll</SourceFilePath>
+    <TargetFilePath>D:\test\EOSSDK-Win32-Shipping.dll</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>16805856</FileSize>
+    <FileTransferTime>94,0425</FileTransferTime>
+    <Time>23/02/2023 20:25:16</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Game.swz</SourceFilePath>
+    <TargetFilePath>D:\test\Game.swz</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>668915</FileSize>
+    <FileTransferTime>20,1844</FileTransferTime>
+    <Time>23/02/2023 20:25:16</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_Aang.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_Aang.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>151901</FileSize>
+    <FileTransferTime>26,1963</FileTransferTime>
+    <Time>23/02/2023 20:25:17</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_ActualShark.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_ActualShark.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>962590</FileSize>
+    <FileTransferTime>84,3567</FileTransferTime>
+    <Time>23/02/2023 20:25:18</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_Barbarian.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_Barbarian.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>595519</FileSize>
+    <FileTransferTime>37,8409</FileTransferTime>
+    <Time>23/02/2023 20:25:18</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_BirdBard.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_BirdBard.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>336534</FileSize>
+    <FileTransferTime>50,3314</FileTransferTime>
+    <Time>23/02/2023 20:25:19</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_BountyHunter.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_BountyHunter.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>307185</FileSize>
+    <FileTransferTime>37,1184</FileTransferTime>
+    <Time>23/02/2023 20:25:21</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_ClientThemeLogos.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_ClientThemeLogos.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>372278</FileSize>
+    <FileTransferTime>90,1903</FileTransferTime>
+    <Time>23/02/2023 20:25:23</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_Dragon.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_Dragon.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>1219855</FileSize>
+    <FileTransferTime>149,2263</FileTransferTime>
+    <Time>23/02/2023 20:25:25</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_Dwarf.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_Dwarf.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>703162</FileSize>
+    <FileTransferTime>47,353</FileTransferTime>
+    <Time>23/02/2023 20:25:26</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_Egyptian.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_Egyptian.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>948478</FileSize>
+    <FileTransferTime>49,5036</FileTransferTime>
+    <Time>23/02/2023 20:25:26</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_Emojis.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_Emojis.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>372612</FileSize>
+    <FileTransferTime>32,8129</FileTransferTime>
+    <Time>23/02/2023 20:25:27</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_Ezio.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_Ezio.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>576477</FileSize>
+    <FileTransferTime>54,8679</FileTransferTime>
+    <Time>23/02/2023 20:25:28</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_FairyQueen.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_FairyQueen.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>480816</FileSize>
+    <FileTransferTime>45,3977</FileTransferTime>
+    <Time>23/02/2023 20:25:29</Time>
+  </log>
+  <log>
+    <Name>SteamGames</Name>
+    <SourceFilePath>D:\SteamLibrary\steamapps\common\Gfx_Gargoyle.swf</SourceFilePath>
+    <TargetFilePath>D:\test\Gfx_Gargoyle.swf</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>997451</FileSize>
+    <FileTransferTime>83,5963</FileTransferTime>
+    <Time>23/02/2023 20:25:30</Time>
+  </log>
 </logs>

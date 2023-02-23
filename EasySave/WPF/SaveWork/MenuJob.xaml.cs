@@ -89,7 +89,7 @@ namespace Easysave
             Button btn = sender as Button;
             int buttonId = GetIndexFromButton(btn);
             TaskData task = LogAndStateTool.getTask(buttonId);
-            ISave sauvegarde = FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, (task.Type == "complete") ? "Complete" : "Differential");
+            ISave sauvegarde = FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, (task.Type == "Complete") ? "Complete" : "Differential");
             Thread ezSave = new Thread(() => sauvegarde.saveData(buttonId));
             ezSave.Start();
             //t.Join();

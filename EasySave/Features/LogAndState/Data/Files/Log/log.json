@@ -108223,5 +108223,203 @@
     "FileSize": 0,
     "FileTransferTime": 7.7224,
     "Time": "23/02/2023 17:40:49"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Brawlhalla.exe",
+    "TargetFilePath": "D:\\test\\Brawlhalla.exe",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3.6526,
+    "Time": "23/02/2023 20:25:12"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\BrawlhallaAir.swf",
+    "TargetFilePath": "D:\\test\\BrawlhallaAir.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 115.8633,
+    "Time": "23/02/2023 20:25:13"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\BrawlhallaEAC.exe",
+    "TargetFilePath": "D:\\test\\BrawlhallaEAC.exe",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 11.1778,
+    "Time": "23/02/2023 20:25:14"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\BrawlhallaGame.exe",
+    "TargetFilePath": "D:\\test\\BrawlhallaGame.exe",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 6.0393,
+    "Time": "23/02/2023 20:25:14"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Dynamic.swz",
+    "TargetFilePath": "D:\\test\\Dynamic.swz",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 14.5601,
+    "Time": "23/02/2023 20:25:15"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Engine.swz",
+    "TargetFilePath": "D:\\test\\Engine.swz",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 17.7406,
+    "Time": "23/02/2023 20:25:15"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\EOSSDK-Win32-Shipping.dll",
+    "TargetFilePath": "D:\\test\\EOSSDK-Win32-Shipping.dll",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 94.0425,
+    "Time": "23/02/2023 20:25:16"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Game.swz",
+    "TargetFilePath": "D:\\test\\Game.swz",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 20.1844,
+    "Time": "23/02/2023 20:25:16"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_Aang.swf",
+    "TargetFilePath": "D:\\test\\Gfx_Aang.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 26.1963,
+    "Time": "23/02/2023 20:25:17"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_ActualShark.swf",
+    "TargetFilePath": "D:\\test\\Gfx_ActualShark.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 84.3567,
+    "Time": "23/02/2023 20:25:18"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_Barbarian.swf",
+    "TargetFilePath": "D:\\test\\Gfx_Barbarian.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 37.8409,
+    "Time": "23/02/2023 20:25:18"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_BirdBard.swf",
+    "TargetFilePath": "D:\\test\\Gfx_BirdBard.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 50.3314,
+    "Time": "23/02/2023 20:25:19"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_BountyHunter.swf",
+    "TargetFilePath": "D:\\test\\Gfx_BountyHunter.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 37.1184,
+    "Time": "23/02/2023 20:25:20"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_ClientThemeLogos.swf",
+    "TargetFilePath": "D:\\test\\Gfx_ClientThemeLogos.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 90.1903,
+    "Time": "23/02/2023 20:25:22"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_Dragon.swf",
+    "TargetFilePath": "D:\\test\\Gfx_Dragon.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 149.2263,
+    "Time": "23/02/2023 20:25:24"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_Dwarf.swf",
+    "TargetFilePath": "D:\\test\\Gfx_Dwarf.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 47.353,
+    "Time": "23/02/2023 20:25:26"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_Egyptian.swf",
+    "TargetFilePath": "D:\\test\\Gfx_Egyptian.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 49.5036,
+    "Time": "23/02/2023 20:25:26"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_Emojis.swf",
+    "TargetFilePath": "D:\\test\\Gfx_Emojis.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 32.8129,
+    "Time": "23/02/2023 20:25:27"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_Ezio.swf",
+    "TargetFilePath": "D:\\test\\Gfx_Ezio.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 54.8679,
+    "Time": "23/02/2023 20:25:27"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_FairyQueen.swf",
+    "TargetFilePath": "D:\\test\\Gfx_FairyQueen.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 45.3977,
+    "Time": "23/02/2023 20:25:28"
+  },
+  {
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common\\Gfx_Gargoyle.swf",
+    "TargetFilePath": "D:\\test\\Gfx_Gargoyle.swf",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 83.5963,
+    "Time": "23/02/2023 20:25:29"
+  },
+  {
+    "Name": "Timtest",
+    "SourceFilePath": "C:\\test\\file.txt",
+    "TargetFilePath": "D:\\test\\file.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 10.2021,
+    "Time": "23/02/2023 20:25:30"
   }
 ]

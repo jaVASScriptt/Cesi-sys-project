@@ -15,7 +15,7 @@
     "Name": "Timtest",
     "SourceFilePath": "C:\\test",
     "TargetFilePath": "D:\\test",
-    "State": "END",
+    "State": "RUNNING",
     "TotalFilesToCopy": 1,
     "TotalFilesSize": 32,
     "NbFilesLeftToDo": 1,
@@ -24,27 +24,15 @@
     "LastUsed": "23/02/2023 15:41:19"
   },
   {
-    "Name": "TimGros",
-    "SourceFilePath": "D:\\Genshin Impact",
+    "Name": "SteamGames",
+    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common",
     "TargetFilePath": "D:\\test",
-    "State": "END",
-    "TotalFilesToCopy": 8624,
-    "TotalFilesSize": 69135917363,
-    "NbFilesLeftToDo": 8624,
-    "Progression": 49,
-    "Type": "Differential",
-    "LastUsed": "23/02/2023 17:04:40"
-  },
-  {
-    "Name": "MC",
-    "SourceFilePath": "D:\\XboxGames",
-    "TargetFilePath": "D:\\test2",
-    "State": "END",
-    "TotalFilesToCopy": 1860,
-    "TotalFilesSize": 131521825,
-    "NbFilesLeftToDo": 1860,
-    "Progression": 100,
-    "Type": "Differential",
-    "LastUsed": "23/02/2023 17:40:49"
+    "State": "RUNNING",
+    "TotalFilesToCopy": 1560,
+    "TotalFilesSize": 918724025,
+    "NbFilesLeftToDo": 1539,
+    "Progression": 2,
+    "Type": "Complete",
+    "LastUsed": "23/02/2023 20:25:30"
   }
 ]
