@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logs>
+  <log>
+    <Name>Timtest</Name>
+    <SourceFilePath>C:\test\file.txt</SourceFilePath>
+    <TargetFilePath>D:\test\file.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>32</FileSize>
+    <FileTransferTime>1,2845</FileTransferTime>
+    <Time>23/02/2023 14:59:22</Time>
+  </log>
+  <log>
+    <Name>Timtest</Name>
+    <SourceFilePath>C:\test\file.txt</SourceFilePath>
+    <TargetFilePath>D:\test\file.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>32</FileSize>
+    <FileTransferTime>0,8718</FileTransferTime>
+    <Time>23/02/2023 15:00:51</Time>
+  </log>
+  <log>
+    <Name>Timtest</Name>
+    <SourceFilePath>C:\test\file.txt</SourceFilePath>
+    <TargetFilePath>D:\test\file.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>32</FileSize>
+    <FileTransferTime>0,8758</FileTransferTime>
+    <Time>23/02/2023 15:01:46</Time>
+  </log>
+</logs>

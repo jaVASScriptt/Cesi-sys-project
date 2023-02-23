@@ -14092,5 +14092,32 @@
     "FileSize": 0,
     "FileTransferTime": 6.9093,
     "Time": "23/02/2023 04:46:13"
+  },
+  {
+    "Name": "Timtest",
+    "SourceFilePath": "C:\\test\\file.txt",
+    "TargetFilePath": "D:\\test\\file.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 1.2845,
+    "Time": "23/02/2023 14:59:22"
+  },
+  {
+    "Name": "Timtest",
+    "SourceFilePath": "C:\\test\\file.txt",
+    "TargetFilePath": "D:\\test\\file.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.8718,
+    "Time": "23/02/2023 15:00:51"
+  },
+  {
+    "Name": "Timtest",
+    "SourceFilePath": "C:\\test\\file.txt",
+    "TargetFilePath": "D:\\test\\file.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.8758,
+    "Time": "23/02/2023 15:01:46"
   }
 ]

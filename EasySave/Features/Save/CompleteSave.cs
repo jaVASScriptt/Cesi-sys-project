@@ -39,6 +39,7 @@ namespace Controler
             string savePath = Path.Combine(targetPath, saveName);
             Directory.CreateDirectory(savePath);
             savePath = Path.Combine(savePath, new DirectoryInfo(originPath).Name);
+            Directory.CreateDirectory(savePath);
 
             //Now Create all of the directories
             foreach (string dirPath in Directory.GetDirectories(originPath, "*", SearchOption.AllDirectories))
@@ -47,14 +48,16 @@ namespace Controler
                 //Copy all the files & Replaces any files with the same name
             foreach (string newPath in Directory.GetFiles(originPath, "*.*", SearchOption.AllDirectories))
             {
+                string origin = newPath;
+                string target = newPath.Replace(originPath, savePath);
                 //Measurement of the current time
                 DateTime startTimeFile = DateTime.Now;
 
                 //Measurement of the file size
-                FileInfo fileInfo = new FileInfo(newPath);
+                FileInfo fileInfo = new FileInfo(origin);
                 long size = fileInfo.Length;
 
-                File.Copy(newPath, newPath.Replace(originPath, savePath), true);
+                File.Copy(origin, target, true);
 
                 //Save time: subtract current time - previously measured time
                 DateTime endTimeFile = DateTime.Now;
@@ -62,7 +65,7 @@ namespace Controler
                 Double fileSaveTime = timeSave.TotalMilliseconds;
 
                 //Just take the file name
-                string fileName = Path.GetFileName(newPath);
+                string fileName = Path.GetFileName(target);
 
                 LanguageTool.print(entry: fileName + ": " + fileSaveTime + " ms, " + size + " octet");
 

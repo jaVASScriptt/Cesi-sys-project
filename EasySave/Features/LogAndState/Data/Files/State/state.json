@@ -9,6 +9,18 @@
     "NbFilesLeftToDo": 11,
     "Progression": 0,
     "Type": "Complete",
+    "LastUsed": "23/02/2023 15:01:46"
+  },
+  {
+    "Name": "Timtest",
+    "SourceFilePath": "C:\\test",
+    "TargetFilePath": "D:\\test",
+    "State": "END",
+    "TotalFilesToCopy": 1,
+    "TotalFilesSize": 32,
+    "NbFilesLeftToDo": 1,
+    "Progression": 0,
+    "Type": "Differential",
     "LastUsed": ""
   }
 ]

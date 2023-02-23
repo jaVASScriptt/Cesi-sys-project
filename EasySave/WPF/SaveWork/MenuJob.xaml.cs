@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -87,7 +88,11 @@ namespace Easysave
         {
             Button btn = sender as Button;
             TaskData task = LogAndStateTool.getTask(GetIndexFromButton(btn));
-            FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, task.Type == "complete"? "Complete" : "Differential")?.saveData();
+            ISave sauvegarde = FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, (task.Type == "complete") ? "Complete" : "Differential");
+            Thread t = new Thread(() => sauvegarde.saveData());
+            t.Start();
+            //t.Join();
+            
         }
 
         private void Add_job_button_OnClick(object sender, RoutedEventArgs e)

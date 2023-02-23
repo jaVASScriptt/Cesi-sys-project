@@ -8,9 +8,9 @@ namespace Controler
 {
     public class FactorySave
     {
-        public static ISave? GetSave(string saveName, string originPath, string targetPath, string saveType)
+        public static ISave GetSave(string saveName, string originPath, string targetPath, string saveType)
         {
-            ISave? newSave;
+            ISave newSave;
             switch (saveType) {
                 case "Differential":
                     newSave = new DifferentialSave(saveName, originPath, targetPath);
