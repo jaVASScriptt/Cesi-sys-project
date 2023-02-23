@@ -12,27 +12,27 @@
     "LastUsed": "23/02/2023 15:28:17"
   },
   {
-    "Name": "Timtest",
-    "SourceFilePath": "C:\\test",
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI",
     "TargetFilePath": "D:\\test",
-    "State": "RUNNING",
-    "TotalFilesToCopy": 1,
-    "TotalFilesSize": 32,
-    "NbFilesLeftToDo": 1,
-    "Progression": 0,
-    "Type": "Differential",
-    "LastUsed": "23/02/2023 15:41:19"
+    "State": "END",
+    "TotalFilesToCopy": 92,
+    "TotalFilesSize": 26559689,
+    "NbFilesLeftToDo": 92,
+    "Progression": 99,
+    "Type": "Complete",
+    "LastUsed": "23/02/2023 22:03:45"
   },
   {
-    "Name": "SteamGames",
-    "SourceFilePath": "D:\\SteamLibrary\\steamapps\\common",
-    "TargetFilePath": "D:\\test",
-    "State": "RUNNING",
-    "TotalFilesToCopy": 1560,
-    "TotalFilesSize": 918724025,
-    "NbFilesLeftToDo": 1539,
-    "Progression": 2,
-    "Type": "Complete",
-    "LastUsed": "23/02/2023 20:25:30"
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI",
+    "TargetFilePath": "D:\\test2",
+    "State": "END",
+    "TotalFilesToCopy": 92,
+    "TotalFilesSize": 26559689,
+    "NbFilesLeftToDo": 92,
+    "Progression": 99,
+    "Type": "Differential",
+    "LastUsed": "23/02/2023 22:03:47"
   }
 ]

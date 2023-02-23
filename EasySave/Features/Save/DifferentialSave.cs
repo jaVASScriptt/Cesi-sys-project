@@ -36,7 +36,10 @@ namespace Controler
         public void saveData(int? i = null)
         {
             if (i != null)
+            {
                 LogAndStateTool.changeState((int)i);
+            }
+
 
             string savePath = Path.Combine(targetPath, saveName);
             Directory.CreateDirectory(savePath);
@@ -51,75 +54,76 @@ namespace Controler
             foreach (string newPath in Directory.GetFiles(originPath, "*.*", SearchOption.AllDirectories))
             {
                 string origin = newPath;
+
                 string target = newPath.Replace(originPath, savePath);
-                if ((File.GetAttributes(origin) & FileAttributes.ReadOnly) == FileAttributes.ReadOnly)
+                
+                FileInfo sourceFile = new FileInfo(origin);
+                FileInfo targetFile = new FileInfo(target);
+                //test if files has been updated
+                if (!targetFile.Exists || targetFile.LastWriteTime < sourceFile.LastWriteTime)
                 {
-                    Console.WriteLine("Le fichier est en lecture seule.");
+                        
+                    //Measurement of the current time
+                    DateTime startTimeFile = DateTime.Now;
+
+                    //Measurement of the file size
+                    FileInfo fileInfo = new FileInfo(origin);
+                    long size = fileInfo.Length;
+
+                    try
+                    {
+                        File.Copy(origin, target, true);
+                    }
+                    catch (Exception ex)
+                    {
+
+                    }
+                        
+                    /*
+                    //cryptage
+                    if (Path.GetExtension(newPath) == ".txt")
+                    {
+                        string cryptosoftPath = "chemin/vers/Cryptosoft.exe";
+                        ProcessStartInfo startInfo = new ProcessStartInfo();
+                        startInfo.FileName = cryptosoftPath;
+                        startInfo.Arguments = $"{origin} {target}";
+
+                        Process.Start(startInfo);
+                    }
+                    */
+
+                    //Save time: subtract current time - previously measured time
+                    DateTime endTimeFile = DateTime.Now;
+                    TimeSpan timeSave = endTimeFile - startTimeFile;
+                    Double fileSaveTime = timeSave.TotalMilliseconds;
+
+                    //Just take the file name
+                    string fileName = Path.GetFileName(target);
+
+                    LanguageTool.print(entry: fileName + ": " + fileSaveTime + " ms, " + size + " octet");
+
+                    lock (lockObject)
+                    {
+                        if (i != null)
+                        {
+                            int nbfiles = LogAndStateTool.getTask((int)i).NbFilesLeftToDo;
+                            int nbfilesCopy = LogAndStateTool.getTask((int)i).TotalFilesToCopy;
+
+                            LogAndStateTool.addLog(task: (int)i, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+                            LogAndStateTool.setTask(index: (int)i, NbFilesLeftToDo: nbfiles - 1, Progression: 100 - nbfiles * 100 / nbfilesCopy);
+                        }
+                        else
+                        {
+                            LogAndStateTool.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+                        }
+                    }
+
                 }
                 else
                 {
-                    FileInfo sourceFile = new FileInfo(origin);
-                    FileInfo targetFile = new FileInfo(target);
-                    //test if files has been updated
-                    if (!targetFile.Exists || targetFile.LastWriteTime < sourceFile.LastWriteTime)
-                    {
-                        
-                        //Measurement of the current time
-                        DateTime startTimeFile = DateTime.Now;
-
-                        //Measurement of the file size
-                        FileInfo fileInfo = new FileInfo(origin);
-                        long size = fileInfo.Length;
-
-                        try
-                        {
-                            File.Copy(origin, target, true);
-                        }
-                        catch (Exception ex)
-                        {
-
-                        }
-                        
-                        /*
-                        //cryptage
-                        if (Path.GetExtension(newPath) == ".txt")
-                        {
-                            string cryptosoftPath = "chemin/vers/Cryptosoft.exe";
-                            ProcessStartInfo startInfo = new ProcessStartInfo();
-                            startInfo.FileName = cryptosoftPath;
-                            startInfo.Arguments = $"{origin} {target}";
-
-                            Process.Start(startInfo);
-                        }
-                        */
-
-                        //Save time: subtract current time - previously measured time
-                        DateTime endTimeFile = DateTime.Now;
-                        TimeSpan timeSave = endTimeFile - startTimeFile;
-                        Double fileSaveTime = timeSave.TotalMilliseconds;
-
-                        //Just take the file name
-                        string fileName = Path.GetFileName(target);
-
-                        LanguageTool.print(entry: fileName + ": " + fileSaveTime + " ms, " + size + " octet");
-
-                        lock (lockObject)
-                        {
-                            if (i != null)
-                            {
-                                LogAndStateTool.addLog(task: (int)i, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
-                                LogAndStateTool.setTask(index: (int)i, NbFilesLeftToDo: LogAndStateTool.getTask((int)i).NbFilesLeftToDo - 1, Progression: 100 - LogAndStateTool.getTask((int)i).NbFilesLeftToDo * 100 / LogAndStateTool.getTask((int)i).TotalFilesToCopy);
-                            }
-                            else
-                                LogAndStateTool.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
-                        }
-
-                    }
-                    else
-                    {
-                        Console.WriteLine(origin + " has ALREADY been copied."); 
-                    }
+                    Console.WriteLine(origin + " has ALREADY been copied."); 
                 }
+            
             }
             if (i != null)
             {

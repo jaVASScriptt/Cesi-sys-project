@@ -36,7 +36,10 @@ namespace Controler
         public void saveData(int? i = null)
         {
             if (i != null)
+            {
                 LogAndStateTool.changeState((int)i);
+            }
+                
 
             string savePath = Path.Combine(targetPath, saveName);
             Directory.CreateDirectory(savePath);
@@ -69,6 +72,19 @@ namespace Controler
 
                 }
 
+                /*
+                //cryptage
+                if (Path.GetExtension(newPath) == ".txt")
+                {
+                    string cryptosoftPath = "chemin/vers/Cryptosoft.exe";
+                    ProcessStartInfo startInfo = new ProcessStartInfo();
+                    startInfo.FileName = cryptosoftPath;
+                    startInfo.Arguments = $"{origin} {target}";
+
+                    Process.Start(startInfo);
+                }
+                */
+
                 //Save time: subtract current time - previously measured time
                 DateTime endTimeFile = DateTime.Now;
                 TimeSpan timeSave = endTimeFile - startTimeFile;
@@ -83,11 +99,16 @@ namespace Controler
                 {
                     if (i != null)
                     {
+                        int nbfiles = LogAndStateTool.getTask((int)i).NbFilesLeftToDo;
+                        int nbfilesCopy = LogAndStateTool.getTask((int)i).TotalFilesToCopy;
+
                         LogAndStateTool.addLog(task: (int)i, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
-                        LogAndStateTool.setTask(index: (int)i, NbFilesLeftToDo: LogAndStateTool.getTask((int)i).NbFilesLeftToDo - 1, Progression: 100 - LogAndStateTool.getTask((int)i).NbFilesLeftToDo * 100 / LogAndStateTool.getTask((int)i).TotalFilesToCopy);
+                        LogAndStateTool.setTask(index: (int)i, NbFilesLeftToDo: nbfiles - 1, Progression: 100 - nbfiles * 100 / nbfilesCopy);
                     }
                     else
+                    {
                         LogAndStateTool.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+                    }
                 }
             }
 

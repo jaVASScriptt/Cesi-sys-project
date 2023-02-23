@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
+using System.Threading.Tasks;
 using ConsoleApp2.Features.utils;
 
 namespace EasySafe;
 
 public class StateTool
 {
+
+    private static object lockObject = new object();
+
     private string _statePath;
 
     public StateTool(string path)
@@ -63,11 +67,16 @@ public class StateTool
 
     public TaskData[]? getTasks()
     {
-        string json = File.ReadAllText(_statePath);
-        TaskData[] tasks = JsonSerializer.Deserialize<TaskData[]>(json);
+        TaskData[] tasks;
+        lock (lockObject)
+        {
+            string json = File.ReadAllText(_statePath);
+            tasks = JsonSerializer.Deserialize<TaskData[]>(json);
+        }
         return tasks;
     }
 
+    
     public void showTasks()
     {
         Console.WriteLine("");

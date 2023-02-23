@@ -96,6 +96,18 @@ namespace Easysave
             
         }
 
+        /*
+          public void PauseThread()
+            {
+                resetEvent.Reset();
+            }
+
+            public void ResumeThread()
+            {
+                resetEvent.Set();
+            }
+         */
+
         private void Add_job_button_OnClick(object sender, RoutedEventArgs e)
         {
             MainWindow.MainFrame.Content = new AddWork();
