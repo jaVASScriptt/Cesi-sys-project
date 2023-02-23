@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Controler;
+using System.Windows.Forms;
 
 namespace Easysave
 {
@@ -53,6 +54,59 @@ namespace Easysave
             TypeSave = "Differential";
             Differential.BorderBrush = Brushes.White;
             Complete.BorderBrush = null;
+        }
+        private void BrowserClickSource(object sender, RoutedEventArgs e)
+        {
+            // Créez une instance de la boîte de dialogue de sélection de dossiers
+            var folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
+
+            // Définissez les propriétés de la boîte de dialogue
+            folderBrowserDialog.RootFolder = Environment.SpecialFolder.MyComputer;
+            folderBrowserDialog.SelectedPath = @"C:\";
+            folderBrowserDialog.Description = "Sélectionnez un dossier";
+
+            // Affichez la boîte de dialogue et récupérez le résultat
+            System.Windows.Forms.DialogResult result = folderBrowserDialog.ShowDialog();
+
+            if (result == System.Windows.Forms.DialogResult.OK) // Si l'utilisateur a sélectionné un dossier
+            {
+                string selectedFolderPath = folderBrowserDialog.SelectedPath; // Chemin du dossier sélectionné
+                                                                              // Faites quelque chose avec le dossier sélectionné
+                                                                              // Par exemple, affichez le chemin du dossier dans une zone de texte
+                SourcePathEntry.Text = selectedFolderPath;
+            }
+        }
+
+        private void BrowserClickTarget(object sender, RoutedEventArgs e)
+        {
+            // Créez une instance de la boîte de dialogue de sélection de dossiers
+            var folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
+
+            // Définissez les propriétés de la boîte de dialogue
+            folderBrowserDialog.RootFolder = Environment.SpecialFolder.MyComputer;
+            folderBrowserDialog.SelectedPath = @"C:\";
+            folderBrowserDialog.Description = "Sélectionnez un dossier";
+
+            // Affichez la boîte de dialogue et récupérez le résultat
+            System.Windows.Forms.DialogResult result = folderBrowserDialog.ShowDialog();
+
+            if (result == System.Windows.Forms.DialogResult.OK) // Si l'utilisateur a sélectionné un dossier
+            {
+                string selectedFolderPath = folderBrowserDialog.SelectedPath; // Chemin du dossier sélectionné
+                                                                              // Faites quelque chose avec le dossier sélectionné
+                                                                              // Par exemple, affichez le chemin du dossier dans une zone de texte
+                TargetPathEntry.Text = selectedFolderPath;
+            }
+        }
+
+        private void SourcePathEntry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TargetPathEntry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
