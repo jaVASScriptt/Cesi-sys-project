@@ -18,6 +18,7 @@
     "save_type": "What type of backup do you want to perform?",
     "complete": "Complete",
     "differential": "Differential",
+    "search": "Browse...",
     "validate_button": "Validate",
 
 

@@ -29,6 +29,7 @@
     "target_path_job": "Chemin de destination",
     "type_job": "Type de sauvegarde",
     "state": "Etat",
+    "search": "Parcourir...",
     "total_file": "Nombre total de fichier à copier",
     "file_size": "Taille totale des fichiers",
     "nb_file_left": "Nombre de fichiers restants a sauvegarder",
