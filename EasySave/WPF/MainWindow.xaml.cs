@@ -62,5 +62,10 @@ namespace EasySave
         {
             MainWindow.MainFrame.Content = new ChoiceSave();
         }
+
+        private void BtnClickEasySave(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
