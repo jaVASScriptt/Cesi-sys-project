@@ -46,7 +46,7 @@ namespace Easysave
                          new Test { Name = LanguageTool.get("job_name"), Value = l[i].Name},
                          new Test { Name = LanguageTool.get("source_path_job"), Value = l[i].SourceFilePath },
                          new Test { Name = LanguageTool.get("target_path_job"), Value = l[i].TargetFilePath },
-                         new Test { Name = LanguageTool.get("target_path_job"), Value = l[i].Type },
+                         new Test { Name = LanguageTool.get("type_job"), Value = l[i].Type },
                          new Test { Name = LanguageTool.get("state"), Value = l[i].State },
                          new Test { Name = LanguageTool.get("total_file"), Value = l[i].TotalFilesToCopy.ToString() },
                          new Test { Name = LanguageTool.get("file_size"), Value = l[i].TotalFilesSize.ToString() },
@@ -93,6 +93,11 @@ namespace Easysave
         private void Add_job_button_OnClick(object sender, RoutedEventArgs e)
         {
             MainWindow.MainFrame.Content = new AddWork();
+        }
+
+        private void editSave(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new EditWork(GetIndexFromButton(sender as Button));
         }
     }
 

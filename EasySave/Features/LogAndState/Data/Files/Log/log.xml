@@ -13401,4 +13401,697 @@
     <FileTransferTime>3,0731</FileTransferTime>
     <Time>22/02/2023 20:19:11</Time>
   </log>
+  <log>
+    <Name>hinatéalpb</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,5045</FileTransferTime>
+    <Time>22/02/2023 20:47:40</Time>
+  </log>
+  <log>
+    <Name>hinatéalpb</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,5702</FileTransferTime>
+    <Time>22/02/2023 20:47:40</Time>
+  </log>
+  <log>
+    <Name>hinatéalpb</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,3817</FileTransferTime>
+    <Time>22/02/2023 20:47:40</Time>
+  </log>
+  <log>
+    <Name>hinatéalpb</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,5676</FileTransferTime>
+    <Time>22/02/2023 20:47:40</Time>
+  </log>
+  <log>
+    <Name>hinatéalpb</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,0125</FileTransferTime>
+    <Time>22/02/2023 20:47:40</Time>
+  </log>
+  <log>
+    <Name>hinatéalpb</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,4142</FileTransferTime>
+    <Time>22/02/2023 20:47:40</Time>
+  </log>
+  <log>
+    <Name>hinatéalpb</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,0108</FileTransferTime>
+    <Time>22/02/2023 20:47:40</Time>
+  </log>
+  <log>
+    <Name>hinatéalpb</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,9275</FileTransferTime>
+    <Time>22/02/2023 20:47:40</Time>
+  </log>
+  <log>
+    <Name>hinatéalpb</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,5579</FileTransferTime>
+    <Time>22/02/2023 20:47:40</Time>
+  </log>
+  <log>
+    <Name>hinatéalpb</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,8483</FileTransferTime>
+    <Time>22/02/2023 20:47:40</Time>
+  </log>
+  <log>
+    <Name>hinatéalpb</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,0377</FileTransferTime>
+    <Time>22/02/2023 20:47:40</Time>
+  </log>
+  <log>
+    <Name>mouss</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,7868</FileTransferTime>
+    <Time>22/02/2023 20:50:23</Time>
+  </log>
+  <log>
+    <Name>mouss</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,3469</FileTransferTime>
+    <Time>22/02/2023 20:50:23</Time>
+  </log>
+  <log>
+    <Name>mouss</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,6803</FileTransferTime>
+    <Time>22/02/2023 20:50:23</Time>
+  </log>
+  <log>
+    <Name>mouss</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,3026</FileTransferTime>
+    <Time>22/02/2023 20:50:23</Time>
+  </log>
+  <log>
+    <Name>mouss</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>12,7315</FileTransferTime>
+    <Time>22/02/2023 20:50:23</Time>
+  </log>
+  <log>
+    <Name>mouss</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,0763</FileTransferTime>
+    <Time>22/02/2023 20:50:23</Time>
+  </log>
+  <log>
+    <Name>mouss</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,5448</FileTransferTime>
+    <Time>22/02/2023 20:50:23</Time>
+  </log>
+  <log>
+    <Name>mouss</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,0824</FileTransferTime>
+    <Time>22/02/2023 20:50:23</Time>
+  </log>
+  <log>
+    <Name>mouss</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,3615</FileTransferTime>
+    <Time>22/02/2023 20:50:23</Time>
+  </log>
+  <log>
+    <Name>mouss</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,3212</FileTransferTime>
+    <Time>22/02/2023 20:50:23</Time>
+  </log>
+  <log>
+    <Name>mouss</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,8915</FileTransferTime>
+    <Time>22/02/2023 20:50:23</Time>
+  </log>
+  <log>
+    <Name>yoyo</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,8392</FileTransferTime>
+    <Time>22/02/2023 20:50:43</Time>
+  </log>
+  <log>
+    <Name>yoyo</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,6107</FileTransferTime>
+    <Time>22/02/2023 20:50:43</Time>
+  </log>
+  <log>
+    <Name>yoyo</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,7363</FileTransferTime>
+    <Time>22/02/2023 20:50:43</Time>
+  </log>
+  <log>
+    <Name>yoyo</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,657</FileTransferTime>
+    <Time>22/02/2023 20:50:43</Time>
+  </log>
+  <log>
+    <Name>yoyo</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>13,0391</FileTransferTime>
+    <Time>22/02/2023 20:50:43</Time>
+  </log>
+  <log>
+    <Name>yoyo</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,5286</FileTransferTime>
+    <Time>22/02/2023 20:50:43</Time>
+  </log>
+  <log>
+    <Name>yoyo</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,541</FileTransferTime>
+    <Time>22/02/2023 20:50:43</Time>
+  </log>
+  <log>
+    <Name>yoyo</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,5178</FileTransferTime>
+    <Time>22/02/2023 20:50:44</Time>
+  </log>
+  <log>
+    <Name>yoyo</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,3072</FileTransferTime>
+    <Time>22/02/2023 20:50:44</Time>
+  </log>
+  <log>
+    <Name>yoyo</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,3351</FileTransferTime>
+    <Time>22/02/2023 20:50:44</Time>
+  </log>
+  <log>
+    <Name>yoyo</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,2239</FileTransferTime>
+    <Time>22/02/2023 20:50:44</Time>
+  </log>
+  <log>
+    <Name>voila</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>6,1021</FileTransferTime>
+    <Time>23/02/2023 02:18:31</Time>
+  </log>
+  <log>
+    <Name>voila</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,3383</FileTransferTime>
+    <Time>23/02/2023 02:18:31</Time>
+  </log>
+  <log>
+    <Name>voila</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,0367</FileTransferTime>
+    <Time>23/02/2023 02:18:31</Time>
+  </log>
+  <log>
+    <Name>voila</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,8164</FileTransferTime>
+    <Time>23/02/2023 02:18:31</Time>
+  </log>
+  <log>
+    <Name>voila</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,6887</FileTransferTime>
+    <Time>23/02/2023 02:18:31</Time>
+  </log>
+  <log>
+    <Name>voila</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,1903</FileTransferTime>
+    <Time>23/02/2023 02:18:31</Time>
+  </log>
+  <log>
+    <Name>voila</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,1945</FileTransferTime>
+    <Time>23/02/2023 02:18:31</Time>
+  </log>
+  <log>
+    <Name>voila</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,5737</FileTransferTime>
+    <Time>23/02/2023 02:18:31</Time>
+  </log>
+  <log>
+    <Name>voila</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,2175</FileTransferTime>
+    <Time>23/02/2023 02:18:31</Time>
+  </log>
+  <log>
+    <Name>voila</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,1357</FileTransferTime>
+    <Time>23/02/2023 02:18:32</Time>
+  </log>
+  <log>
+    <Name>voila</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,6115</FileTransferTime>
+    <Time>23/02/2023 02:18:32</Time>
+  </log>
+  <log>
+    <Name>sdzsdzs</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,4871</FileTransferTime>
+    <Time>23/02/2023 02:21:05</Time>
+  </log>
+  <log>
+    <Name>sdzsdzs</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,142</FileTransferTime>
+    <Time>23/02/2023 02:21:05</Time>
+  </log>
+  <log>
+    <Name>sdzsdzs</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,2494</FileTransferTime>
+    <Time>23/02/2023 02:21:06</Time>
+  </log>
+  <log>
+    <Name>sdzsdzs</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,0909</FileTransferTime>
+    <Time>23/02/2023 02:21:06</Time>
+  </log>
+  <log>
+    <Name>sdzsdzs</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>13,362</FileTransferTime>
+    <Time>23/02/2023 02:21:06</Time>
+  </log>
+  <log>
+    <Name>sdzsdzs</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,1355</FileTransferTime>
+    <Time>23/02/2023 02:21:06</Time>
+  </log>
+  <log>
+    <Name>sdzsdzs</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,0018</FileTransferTime>
+    <Time>23/02/2023 02:21:06</Time>
+  </log>
+  <log>
+    <Name>sdzsdzs</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,1434</FileTransferTime>
+    <Time>23/02/2023 02:21:06</Time>
+  </log>
+  <log>
+    <Name>sdzsdzs</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,6134</FileTransferTime>
+    <Time>23/02/2023 02:21:06</Time>
+  </log>
+  <log>
+    <Name>sdzsdzs</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,6799</FileTransferTime>
+    <Time>23/02/2023 02:21:06</Time>
+  </log>
+  <log>
+    <Name>sdzsdzs</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,6667</FileTransferTime>
+    <Time>23/02/2023 02:21:06</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>ho dédé\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>16,6959</FileTransferTime>
+    <Time>23/02/2023 04:43:49</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>ho dédé\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,3982</FileTransferTime>
+    <Time>23/02/2023 04:43:49</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>ho dédé\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,9902</FileTransferTime>
+    <Time>23/02/2023 04:43:49</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>ho dédé\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,9471</FileTransferTime>
+    <Time>23/02/2023 04:43:49</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>ho dédé\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,9827</FileTransferTime>
+    <Time>23/02/2023 04:43:49</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>ho dédé\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,4556</FileTransferTime>
+    <Time>23/02/2023 04:43:49</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>ho dédé\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,7093</FileTransferTime>
+    <Time>23/02/2023 04:43:49</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>ho dédé\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,049</FileTransferTime>
+    <Time>23/02/2023 04:43:49</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>ho dédé\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,3429</FileTransferTime>
+    <Time>23/02/2023 04:43:49</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>ho dédé\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,6784</FileTransferTime>
+    <Time>23/02/2023 04:43:49</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>ho dédé\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>5,3099</FileTransferTime>
+    <Time>23/02/2023 04:43:49</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\caca.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\caca.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>7,3669</FileTransferTime>
+    <Time>23/02/2023 04:46:13</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\ncnicsc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\ncnicsc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,6178</FileTransferTime>
+    <Time>23/02/2023 04:46:13</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\prout.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\prout.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>5,058</FileTransferTime>
+    <Time>23/02/2023 04:46:13</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,5311</FileTransferTime>
+    <Time>23/02/2023 04:46:13</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,822</FileTransferTime>
+    <Time>23/02/2023 04:46:13</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test3.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test3.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,5453</FileTransferTime>
+    <Time>23/02/2023 04:46:13</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vdvc.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vdvc.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>5,5853</FileTransferTime>
+    <Time>23/02/2023 04:46:13</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\dsdsd.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\dsdsd.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,4222</FileTransferTime>
+    <Time>23/02/2023 04:46:13</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\vvvv.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\vvvv.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3,9741</FileTransferTime>
+    <Time>23/02/2023 04:46:13</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\xxxx.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\xxxx.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>4,7687</FileTransferTime>
+    <Time>23/02/2023 04:46:13</Time>
+  </log>
+  <log>
+    <Name>vasstheking</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\source\test2.txt</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\Tests\target\test2.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>6,9093</FileTransferTime>
+    <Time>23/02/2023 04:46:13</Time>
+  </log>
 </logs>

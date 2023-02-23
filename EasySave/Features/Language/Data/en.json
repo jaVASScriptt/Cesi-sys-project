@@ -22,11 +22,12 @@
 
 
     "add_job_button": "Add",
-    "del_job_button": "Delete",
+    "del_job_button": "Delete all jobs",
     "title_job_menu": "Job Save Menu",
     "job_name": "Name",
     "source_path_job": "Source path",
     "target_path_job": "Destination path",
+    "type_job": "Type",
     "state": "Status",
     "total_file": "Total number of files to copy",
     "file_size": "Total size of files",
@@ -43,7 +44,8 @@
     "file_size_button": "File size management",
 
     "add_save_title": "Add a backup job",
-    "add_save_button": "Add"
-
+    "add_save_button": "Add",
+    "edit_save_title": "Edit a backup job",
+    "edit_save_button": "Edit"
   }
 ]
