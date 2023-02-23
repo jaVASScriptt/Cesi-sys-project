@@ -46,7 +46,7 @@ namespace Easysave
                          new Test { Name = LanguageTool.get("job_name"), Value = l[i].Name},
                          new Test { Name = LanguageTool.get("source_path_job"), Value = l[i].SourceFilePath },
                          new Test { Name = LanguageTool.get("target_path_job"), Value = l[i].TargetFilePath },
-                         new Test { Name = LanguageTool.get("target_path_job"), Value = l[i].Type },
+                         new Test { Name = LanguageTool.get("type_job"), Value = l[i].Type },
                          new Test { Name = LanguageTool.get("state"), Value = l[i].State },
                          new Test { Name = LanguageTool.get("total_file"), Value = l[i].TotalFilesToCopy.ToString() },
                          new Test { Name = LanguageTool.get("file_size"), Value = l[i].TotalFilesSize.ToString() },
@@ -57,6 +57,7 @@ namespace Easysave
 
             DataContext = GroupList;
         }
+
 
         private void Refresh()
         {
@@ -94,6 +95,30 @@ namespace Easysave
         {
             MainWindow.MainFrame.Content = new AddWork();
         }
+
+        private void editSave(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new EditWork(GetIndexFromButton(sender as Button));
+        }
+
+        private void setAddTool(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            btn.ToolTip = LanguageTool.get("AddJobTooltip");
+        }
+        
+        private void setEditTool(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            btn.ToolTip = LanguageTool.get("EditJobTooltip");
+        }
+        
+        private void setDelTool(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            btn.ToolTip = LanguageTool.get("DelJobTooltip");
+        }
+        
     }
 
     public class Group

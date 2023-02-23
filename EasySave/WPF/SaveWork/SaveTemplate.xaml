@@ -25,12 +25,30 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <TextBlock Name="SaveName" Grid.Row="1" HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
-                <TextBox Grid.Row="2" Name="SaveNameEntry" TextAlignment="Center" Foreground="White" FontSize="25" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
-                <TextBlock Name="SourcePath" Grid.Row="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Chemin du dossier/fichier source " Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
-                <TextBox Grid.Row="4" Name="SourcePathEntry" TextAlignment="Center" Foreground="White" FontSize="25" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
-                <TextBlock Name="TargetPath" Grid.Row="5" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Chemin du dossier/fichier cible " Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}"/>
-                <TextBox Grid.Row="6" Name="TargetPathEntry" TextAlignment="Center" Foreground="White" FontSize="25" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
+                <TextBlock Name="SaveName" Grid.Row="1" HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,10" Background="{x:Null}"/>
+                <TextBox Grid.Row="2" Name="SaveNameEntry" TextAlignment="Center" Foreground="White" FontSize="15" Height="35" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
+                <TextBlock Name="SourcePath" Grid.Row="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Chemin du dossier/fichier source " Foreground="White" VerticalAlignment="Top" FontSize="20" Margin="0,10,0,10" Background="{x:Null}"/>
+               
+                <Grid Grid.Row="4" HorizontalAlignment="Center" Margin="0,5,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox Name="SourcePathEntry" Grid.Column="0" TextAlignment="Center" Foreground="White" FontSize="15" Height="35" Width="270" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
+                    <Button Grid.Column="1" Name="Search" Background="#FF07044A" Foreground="White" FontSize="15" Margin="5,0,0,0" Padding="5" />
+                </Grid>
+                
+                <TextBlock Name="TargetPath" Grid.Row="5" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Chemin du dossier/fichier cible " Foreground="White" VerticalAlignment="Top" FontSize="20" Margin="0,10,0,10" Background="{x:Null}"/>
+                
+                <Grid Grid.Row="6" HorizontalAlignment="Center" Margin="0,5,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox Name="TargetPathEntry" Grid.Column="0" TextAlignment="Center" Foreground="White" FontSize="15" Height="35" Width="270" Background="#FF07044A" BorderBrush="#FF001A6C" MaxWidth="350"/>
+                    <Button Grid.Column="1" Name="Search2" Background="#FF07044A" Foreground="White" FontSize="15" Margin="5,0,0,0" Padding="5" />
+                </Grid>
+                
                 <TextBlock Name="SaveType" Grid.Row="7" HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Top" FontSize="20" Background="{x:Null}" Margin="0,25,0,0"/>
                 
                 <Grid Grid.Row="8" HorizontalAlignment="Center" Margin="0,15,0,0">

@@ -34,6 +34,8 @@ namespace Easysave
             SaveType.Text = LanguageTool.get("save_type");
             Complete.Content = LanguageTool.get("complete");
             Differential.Content = LanguageTool.get("differential");
+            Search.Content = LanguageTool.get("search");
+            Search2.Content = LanguageTool.get("search");
            
 
             Complete.BorderBrush = Brushes.White;

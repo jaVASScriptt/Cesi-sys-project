@@ -1,18 +1,6 @@
 [
   {
-    "Name": "mouss",
-    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source",
-    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target",
-    "State": "END",
-    "TotalFilesToCopy": 0,
-    "TotalFilesSize": 0,
-    "NbFilesLeftToDo": 0,
-    "Progression": 0,
-    "Type": "complete",
-    "LastUsed": "22/02/2023 20:19:11"
-  },
-  {
-    "Name": "yoyo",
+    "Name": "ff",
     "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source",
     "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target",
     "State": "END",
@@ -21,6 +9,6 @@
     "NbFilesLeftToDo": 11,
     "Progression": 0,
     "Type": "Differential",
-    "LastUsed": ""
+    "LastUsed": "23/02/2023 11:48:32"
   }
 ]

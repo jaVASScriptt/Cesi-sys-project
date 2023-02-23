@@ -22,12 +22,14 @@
 
 
     "add_job_button": "Ajouter",
-    "del_job_button": "Supprimer",
+    "del_job_button": "Supprimer tout les travaux",
     "title_job_menu": "Menu des travaux de sauvegarde",
     "job_name": "Nom",
     "source_path_job": "Chemin source",
     "target_path_job": "Chemin de destination",
+    "type_job": "Type de sauvegarde",
     "state": "Etat",
+    "search": "Parcourir...",
     "total_file": "Nombre total de fichier à copier",
     "file_size": "Taille totale des fichiers",
     "nb_file_left": "Nombre de fichiers restants a sauvegarder",
@@ -43,6 +45,12 @@
     "file_size_button": "Gestion de la taille des fichiers",
     
     "add_save_title": "Ajouter une sauvegarde",
-    "add_save_button": "Ajouter"
+    "add_save_button": "Ajouter",
+    "edit_save_title": "Modifier une sauvegarde",
+    "edit_save_button": "Modifier",
+    
+    "AddJobTooltip": "Ajouter un travail de sauvegarde",
+    "EditJobTooltip": "Modifier le travail de sauvegarde",
+    "DelJobTooltip": "Supprimer le travail de sauvegarde"
   }
 ]

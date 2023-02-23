@@ -14,5 +14,6 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/edit.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/start.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/del.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/return.png")]
 
 
