@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using EasySave;
+using EasySave.WPF.Start;
 
 namespace Easysave
 {
@@ -23,6 +24,10 @@ namespace Easysave
         public Home()
         {
             InitializeComponent();
+        }
+        private void BtnClickRelease(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new Release();
         }
 
     }

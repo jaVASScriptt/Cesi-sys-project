@@ -51,6 +51,12 @@
 
     "AddJobTooltip": "Add a backup job",
     "EditJobTooltip": "Edit a backup job",
-    "DelJobTooltip": "Delete backup job"
+    "DelJobTooltip": "Delete backup job",
+
+    "ReleaseTitle": "Release Notes",
+    "V1Text": "text v1 release",
+    "V1_1Text": "Added .xml format for daily logs /n Fixed English/French translation management /n Added backup jobs location creation functionality\"",
+    "V2Text": "Implementation of the graphical interface /n Management of backups if detection of business software /n Encryption via Cryptosoft",
+    "V3Text": "text v3 release"
   }
 ]
