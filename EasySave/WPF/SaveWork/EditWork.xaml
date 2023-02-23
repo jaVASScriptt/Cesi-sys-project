@@ -18,6 +18,10 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
+        <Button Grid.Row="0" Width="40" Height="40" HorizontalAlignment="Left" Background="{x:Null}" BorderBrush="{x:Null}" Click="BtnClickMenu">
+            <Image Source="../Images/return.png"/>
+        </Button>
+        
         <TextBlock Grid.Row="0" Name="SaveAddTitle" TextWrapping="Wrap" TextAlignment="Center" Foreground="White" VerticalAlignment="Top" Width="641" Height="55" FontSize="30" Margin="0,30,0,0" FontWeight="Bold" Background="{x:Null}"/>
                 
         <Frame Grid.Row="1" x:Name="SaveInfo" NavigationUIVisibility="Hidden"/>

@@ -173,3 +173,4 @@ C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windo
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\SaveWork\AddWork.baml
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\SaveWork\EditWork.g.cs
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\SaveWork\EditWork.baml
+C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\bin\Debug\net7.0-windows\WPF\Images\return.png

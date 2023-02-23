@@ -45,5 +45,10 @@ namespace Easysave
             MainWindow.MainFrame.Content = new MenuJob();
         }
         
+        private void BtnClickMenu(object sender, RoutedEventArgs e)
+        {
+            MainWindow.MainFrame.Content = new MenuJob();
+        }
+        
     }
 }
