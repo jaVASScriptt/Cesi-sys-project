@@ -7,6 +7,8 @@ namespace Controler
 {
     class CompleteSave : ISave
     {
+        private static object lockObject = new object();
+
         private string originPath;
         private string targetPath;
         private string saveName;
@@ -45,10 +47,11 @@ namespace Controler
             foreach (string dirPath in Directory.GetDirectories(originPath, "*", SearchOption.AllDirectories))
                 Directory.CreateDirectory(dirPath.Replace(originPath, savePath));
 
-                //Copy all the files & Replaces any files with the same name
+            //Copy all the files & Replaces any files with the same name
             foreach (string newPath in Directory.GetFiles(originPath, "*.*", SearchOption.AllDirectories))
             {
                 string origin = newPath;
+                
                 string target = newPath.Replace(originPath, savePath);
                 //Measurement of the current time
                 DateTime startTimeFile = DateTime.Now;
@@ -57,7 +60,14 @@ namespace Controler
                 FileInfo fileInfo = new FileInfo(origin);
                 long size = fileInfo.Length;
 
-                File.Copy(origin, target, true);
+                try
+                {
+                    File.Copy(origin, target, true);
+                }
+                catch (Exception ex)
+                {
+
+                }
 
                 //Save time: subtract current time - previously measured time
                 DateTime endTimeFile = DateTime.Now;
@@ -69,13 +79,16 @@ namespace Controler
 
                 LanguageTool.print(entry: fileName + ": " + fileSaveTime + " ms, " + size + " octet");
 
-                if (i != null)
+                lock (lockObject)
                 {
-                    LogAndStateTool.addLog(task:(int)i, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
-                    LogAndStateTool.setTask(index:(int)i,NbFilesLeftToDo: LogAndStateTool.getTask((int)i).NbFilesLeftToDo - 1, Progression: 100 - LogAndStateTool.getTask((int)i).NbFilesLeftToDo*100/LogAndStateTool.getTask((int)i).TotalFilesToCopy);
+                    if (i != null)
+                    {
+                        LogAndStateTool.addLog(task: (int)i, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
+                        LogAndStateTool.setTask(index: (int)i, NbFilesLeftToDo: LogAndStateTool.getTask((int)i).NbFilesLeftToDo - 1, Progression: 100 - LogAndStateTool.getTask((int)i).NbFilesLeftToDo * 100 / LogAndStateTool.getTask((int)i).TotalFilesToCopy);
+                    }
+                    else
+                        LogAndStateTool.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
                 }
-                else
-                    LogAndStateTool.addLog(name: saveName, SourceFilePath: Path.Combine(originPath, fileName), TargetFilePath: Path.Combine(targetPath, fileName), success: "success", FileSize: size, FileTransferTime: fileSaveTime);
             }
 
             if (i != null)

@@ -10,7 +10,14 @@ public class UtilsTool
     public static void modifyJson(List<object> list,  string Path)
     {
         string json = JsonSerializer.Serialize(list, new JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(Path, json);
+        try
+        {
+            File.WriteAllText(Path, json);
+        }
+        catch
+        {
+            //test
+        } 
     }
     
     public static List<object>? getJson(string Path)

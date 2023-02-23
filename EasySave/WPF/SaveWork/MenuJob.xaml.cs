@@ -87,10 +87,11 @@ namespace Easysave
         private void doSave(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
-            TaskData task = LogAndStateTool.getTask(GetIndexFromButton(btn));
+            int buttonId = GetIndexFromButton(btn);
+            TaskData task = LogAndStateTool.getTask(buttonId);
             ISave sauvegarde = FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, (task.Type == "complete") ? "Complete" : "Differential");
-            Thread t = new Thread(() => sauvegarde.saveData());
-            t.Start();
+            Thread ezSave = new Thread(() => sauvegarde.saveData(buttonId));
+            ezSave.Start();
             //t.Join();
             
         }

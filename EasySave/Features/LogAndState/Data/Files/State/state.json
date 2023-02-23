@@ -8,8 +8,8 @@
     "TotalFilesSize": 228,
     "NbFilesLeftToDo": 11,
     "Progression": 0,
-    "Type": "Complete",
-    "LastUsed": "23/02/2023 15:01:46"
+    "Type": "Differential",
+    "LastUsed": "23/02/2023 15:28:17"
   },
   {
     "Name": "Timtest",
@@ -21,6 +21,30 @@
     "NbFilesLeftToDo": 1,
     "Progression": 0,
     "Type": "Differential",
-    "LastUsed": ""
+    "LastUsed": "23/02/2023 15:41:19"
+  },
+  {
+    "Name": "TimGros",
+    "SourceFilePath": "D:\\Genshin Impact",
+    "TargetFilePath": "D:\\test",
+    "State": "END",
+    "TotalFilesToCopy": 8624,
+    "TotalFilesSize": 69135917363,
+    "NbFilesLeftToDo": 8624,
+    "Progression": 49,
+    "Type": "Differential",
+    "LastUsed": "23/02/2023 17:04:40"
+  },
+  {
+    "Name": "MC",
+    "SourceFilePath": "D:\\XboxGames",
+    "TargetFilePath": "D:\\test2",
+    "State": "END",
+    "TotalFilesToCopy": 1860,
+    "TotalFilesSize": 131521825,
+    "NbFilesLeftToDo": 1860,
+    "Progression": 100,
+    "Type": "Differential",
+    "LastUsed": "23/02/2023 17:40:49"
   }
 ]
