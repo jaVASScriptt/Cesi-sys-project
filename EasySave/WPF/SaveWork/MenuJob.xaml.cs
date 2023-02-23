@@ -58,6 +58,7 @@ namespace Easysave
             DataContext = GroupList;
         }
 
+
         private void Refresh()
         {
             MainWindow.MainFrame.Content = new MenuJob();
@@ -99,6 +100,25 @@ namespace Easysave
         {
             MainWindow.MainFrame.Content = new EditWork(GetIndexFromButton(sender as Button));
         }
+
+        private void setAddTool(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            btn.ToolTip = LanguageTool.get("AddJobTooltip");
+        }
+        
+        private void setEditTool(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            btn.ToolTip = LanguageTool.get("EditJobTooltip");
+        }
+        
+        private void setDelTool(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            btn.ToolTip = LanguageTool.get("DelJobTooltip");
+        }
+        
     }
 
     public class Group

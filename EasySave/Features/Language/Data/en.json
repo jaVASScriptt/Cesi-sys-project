@@ -47,6 +47,10 @@
     "add_save_title": "Add a backup job",
     "add_save_button": "Add",
     "edit_save_title": "Edit a backup job",
-    "edit_save_button": "Edit"
+    "edit_save_button": "Edit",
+
+    "AddJobTooltip": "Add a backup job",
+    "EditJobTooltip": "Edit a backup job",
+    "DelJobTooltip": "Delete backup job"
   }
 ]

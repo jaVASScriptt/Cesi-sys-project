@@ -47,6 +47,10 @@
     "add_save_title": "Ajouter une sauvegarde",
     "add_save_button": "Ajouter",
     "edit_save_title": "Modifier une sauvegarde",
-    "edit_save_button": "Modifier"
+    "edit_save_button": "Modifier",
+    
+    "AddJobTooltip": "Ajouter un travail de sauvegarde",
+    "EditJobTooltip": "Modifier le travail de sauvegarde",
+    "DelJobTooltip": "Supprimer le travail de sauvegarde"
   }
 ]

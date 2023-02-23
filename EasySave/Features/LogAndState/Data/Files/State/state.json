@@ -1,6 +1,6 @@
 [
   {
-    "Name": "fdgsfgsfg",
+    "Name": "ff",
     "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source",
     "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target",
     "State": "END",
@@ -8,7 +8,7 @@
     "TotalFilesSize": 228,
     "NbFilesLeftToDo": 11,
     "Progression": 0,
-    "Type": "Complete",
-    "LastUsed": ""
+    "Type": "Differential",
+    "LastUsed": "23/02/2023 11:48:32"
   }
 ]
