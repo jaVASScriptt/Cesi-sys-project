@@ -1,0 +1,24 @@
+﻿<Page x:Class="EasySave.WPF.Start.Release"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:EasySave.WPF.Start"
+      mc:Ignorable="d"
+      Title="Release" Height="450" Width="800">
+    <Grid Background="#FF001A6C">
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Name="ReleaseTitle" Foreground="White" FontSize="30" VerticalAlignment="Top" Height="73" Width="399" />
+        <ScrollViewer Margin="36,104,34,37">
+            <TextBlock Foreground="White"> 
+                Version 1 <LineBreak/>
+                <TextBlock x:Name="V1Text"/> <LineBreak/>
+                Version 1.1 <LineBreak/>
+                <TextBlock x:Name="V1_1Text"/> <LineBreak/>
+                Version 2 <LineBreak/>
+                <TextBlock x:Name="V2Text"/> <LineBreak/>
+                Version 3 <LineBreak/>
+                <TextBlock x:Name="V3Text"/> <LineBreak/>
+            </TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Page>
