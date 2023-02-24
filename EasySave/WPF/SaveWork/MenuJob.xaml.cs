@@ -59,6 +59,7 @@ namespace Easysave
             DataContext = GroupList;
         }
 
+
         private void Refresh()
         {
             MainWindow.MainFrame.Content = new MenuJob();
@@ -77,36 +78,45 @@ namespace Easysave
             return GroupList.IndexOf(group);
         }
         
+        private void doSave(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            int buttonId = GetIndexFromButton(btn);
+            Grid grid = FindParentGrid(btn);
+            TextBlock saveAnnouncement = (TextBlock)grid.FindName("SaveAnnouncement");
+            ProgressBar progressBar = (ProgressBar)grid.FindName("SaveProgress");
+            TextBlock saveProgress = (TextBlock)grid.FindName("Percent");
+            
+            saveAnnouncement.Text = "sauvegarde en cours ...";
+            progressBar.Value = 70;
+            saveProgress.Text = "70%";
+            
+            saveAnnouncement.Visibility = Visibility.Visible;
+            progressBar.Visibility = Visibility.Visible;
+            saveProgress.Visibility = Visibility.Visible;
+            TaskData task = LogAndStateTool.getTask(buttonId);
+            ISave sauvegarde = FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, (task.Type == "Complete") ? "Complete" : "Differential");
+            Thread ezSave = new Thread(() => sauvegarde.saveData(buttonId));
+            ezSave.Start();
+            
+        }
+
+        private Grid FindParentGrid(FrameworkElement element)
+        {
+            FrameworkElement parent = element.Parent as FrameworkElement;
+            while (parent != null && !(parent is Grid))
+            {
+                parent = parent.Parent as FrameworkElement;
+            }
+            return parent as Grid;
+        }
+        
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
             LogAndStateTool.deleteLocation(GetIndexFromButton(btn));
             Refresh();
         }
-
-        private void doSave(object sender, RoutedEventArgs e)
-        {
-            Button btn = sender as Button;
-            int buttonId = GetIndexFromButton(btn);
-            TaskData task = LogAndStateTool.getTask(buttonId);
-            ISave sauvegarde = FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, (task.Type == "Complete") ? "Complete" : "Differential");
-            Thread ezSave = new Thread(() => sauvegarde.saveData(buttonId));
-            ezSave.Start();
-            //t.Join();
-            
-        }
-
-        /*
-          public void PauseThread()
-            {
-                resetEvent.Reset();
-            }
-
-            public void ResumeThread()
-            {
-                resetEvent.Set();
-            }
-         */
 
         private void Add_job_button_OnClick(object sender, RoutedEventArgs e)
         {
@@ -117,12 +127,38 @@ namespace Easysave
         {
             MainWindow.MainFrame.Content = new EditWork(GetIndexFromButton(sender as Button));
         }
+
+        private void setAddTool(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            btn.ToolTip = LanguageTool.get("AddJobTooltip");
+        }
+        
+        private void setEditTool(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            btn.ToolTip = LanguageTool.get("EditJobTooltip");
+        }
+        
+        private void setDelTool(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            btn.ToolTip = LanguageTool.get("DelJobTooltip");
+        }
+        
     }
 
     public class Group
     {
         public string Name { get; set; }
         public List<Test> Tests { get; set; }
+    }
+    
+    public class Progress
+    {
+        public TextBlock Announcement { get; set; }
+        public ProgressBar Progression { get; set; }
+        public TextBlock ProgressionText { get; set; }
     }
 
     public class Test

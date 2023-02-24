@@ -7,15 +7,15 @@
     "TotalFilesToCopy": 11,
     "TotalFilesSize": 228,
     "NbFilesLeftToDo": 11,
-    "Progression": 0,
+    "Progression": 91,
     "Type": "Differential",
-    "LastUsed": "23/02/2023 15:28:17"
+    "LastUsed": "24/02/2023 09:41:15"
   },
   {
     "Name": "TimDocsComp",
     "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI",
     "TargetFilePath": "D:\\test",
-    "State": "END",
+    "State": "RUNNING",
     "TotalFilesToCopy": 92,
     "TotalFilesSize": 26559689,
     "NbFilesLeftToDo": 92,
