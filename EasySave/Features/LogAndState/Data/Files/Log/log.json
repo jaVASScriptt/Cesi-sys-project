@@ -3841,5 +3841,329 @@
     "FileSize": 0,
     "FileTransferTime": 3.0708,
     "Time": "24/02/2023 09:41:15"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\centreon-central-22.10.ova",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\centreon-central-22.10.ova",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 5157.3454,
+    "Time": "24/02/2023 10:26:27"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\debian-11.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\debian-11.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 444.4753,
+    "Time": "24/02/2023 10:26:28"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\kali_linux_2022.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\kali_linux_2022.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 6701.8551,
+    "Time": "24/02/2023 10:26:35"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\pfSense.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\pfSense.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 1503.371,
+    "Time": "24/02/2023 10:26:36"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\centreon-central-22.10.ova",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\centreon-central-22.10.ova",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 6578.5448,
+    "Time": "24/02/2023 10:27:51"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\debian-11.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\debian-11.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 2360.4851,
+    "Time": "24/02/2023 10:27:53"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\kali_linux_2022.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\kali_linux_2022.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 7471.95,
+    "Time": "24/02/2023 10:28:01"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\pfSense.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\pfSense.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 990.8286,
+    "Time": "24/02/2023 10:28:02"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\VM.zip",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\VM.zip",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 80367.5981,
+    "Time": "24/02/2023 10:29:22"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\centreon-central-22.10.ova",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\centreon-central-22.10.ova",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 50839.9727,
+    "Time": "24/02/2023 10:30:10"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\debian-11.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\debian-11.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 3805.777,
+    "Time": "24/02/2023 10:30:14"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\windows_10.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\windows_10.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 57141.5893,
+    "Time": "24/02/2023 10:30:19"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\kali_linux_2022.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\kali_linux_2022.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 17734.3316,
+    "Time": "24/02/2023 10:30:32"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\pfSense.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\pfSense.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 1788.7123,
+    "Time": "24/02/2023 10:30:34"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\windows_server_2019.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\windows_server_2019.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 28092.6492,
+    "Time": "24/02/2023 10:30:47"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\VM.zip",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\VM.zip",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 63370.2017,
+    "Time": "24/02/2023 10:31:37"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\windows_10.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\windows_10.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 16806.109,
+    "Time": "24/02/2023 10:31:54"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\windows_server_2019.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\windows_server_2019.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 9205.0252,
+    "Time": "24/02/2023 10:32:03"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\centreon-central-22.10.ova",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\centreon-central-22.10.ova",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 5070.8278,
+    "Time": "24/02/2023 10:38:23"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\debian-11.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\debian-11.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 857.049,
+    "Time": "24/02/2023 10:38:24"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\kali_linux_2022.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\kali_linux_2022.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 6786.0497,
+    "Time": "24/02/2023 10:38:31"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\pfSense.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\pfSense.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 1635.1853,
+    "Time": "24/02/2023 10:38:33"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\VM.zip",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\VM.zip",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 68516.7544,
+    "Time": "24/02/2023 10:39:41"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\windows_10.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\windows_10.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 23831.3226,
+    "Time": "24/02/2023 10:40:05"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\windows_server_2019.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\windows_server_2019.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 18802.0259,
+    "Time": "24/02/2023 10:40:24"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\centreon-central-22.10.ova",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\centreon-central-22.10.ova",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 5349.2601,
+    "Time": "24/02/2023 10:42:59"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\debian-11.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\debian-11.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 312.4283,
+    "Time": "24/02/2023 10:42:59"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\kali_linux_2022.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\kali_linux_2022.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 6219.1053,
+    "Time": "24/02/2023 10:43:05"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\pfSense.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\pfSense.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 1800.0534,
+    "Time": "24/02/2023 10:43:07"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\VM.zip",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\VM.zip",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 55196.7302,
+    "Time": "24/02/2023 10:44:02"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\windows_10.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\windows_10.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 19156.5293,
+    "Time": "24/02/2023 10:44:21"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\windows_server_2019.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\windows_server_2019.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 16788.412,
+    "Time": "24/02/2023 10:44:38"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\centreon-central-22.10.ova",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\centreon-central-22.10.ova",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 5887.2901,
+    "Time": "24/02/2023 10:45:10"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\debian-11.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\debian-11.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 333.8488,
+    "Time": "24/02/2023 10:45:11"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\kali_linux_2022.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\kali_linux_2022.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 6502.9965,
+    "Time": "24/02/2023 10:45:17"
+  },
+  {
+    "Name": "fullpuissance",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\VM\\pfSense.iso",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\pfSense.iso",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 1517.8968,
+    "Time": "24/02/2023 10:45:19"
   }
 ]

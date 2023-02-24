@@ -87,18 +87,35 @@ namespace Easysave
             ProgressBar progressBar = (ProgressBar)grid.FindName("SaveProgress");
             TextBlock saveProgress = (TextBlock)grid.FindName("Percent");
             
-            saveAnnouncement.Text = "sauvegarde en cours ...";
-            progressBar.Value = 70;
-            saveProgress.Text = "70%";
+            
             
             saveAnnouncement.Visibility = Visibility.Visible;
+            saveAnnouncement.Text = LanguageTool.get("saveAnnouncement");
             progressBar.Visibility = Visibility.Visible;
             saveProgress.Visibility = Visibility.Visible;
             TaskData task = LogAndStateTool.getTask(buttonId);
             ISave sauvegarde = FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, (task.Type == "Complete") ? "Complete" : "Differential");
             Thread ezSave = new Thread(() => sauvegarde.saveData(buttonId));
             ezSave.Start();
+            do
+            {
+                task = LogAndStateTool.getTask(buttonId);
+                progressBar.Value = task.Progression;
+                saveProgress.Text = task.Progression + "%";
+            } while (task.State == "RUNNING");
             
+            //Thread.Sleep(1500);
+            
+            //progressBar.Visibility = Visibility.Hidden;
+            //saveProgress.Visibility = Visibility.Hidden;
+            
+            progressBar.Value = 100;
+            saveProgress.Text = 100 + "%";
+            saveAnnouncement.Text = LanguageTool.get("saveAnnouncementEnd");
+            
+            //Thread.Sleep(3000);
+            
+            //saveAnnouncement.Visibility = Visibility.Hidden;
         }
 
         private Grid FindParentGrid(FrameworkElement element)

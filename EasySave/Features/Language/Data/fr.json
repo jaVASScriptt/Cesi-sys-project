@@ -51,6 +51,9 @@
 
     "AddJobTooltip": "Ajouter un travail de sauvegarde",
     "EditJobTooltip": "Modifier le travail de sauvegarde",
-    "DelJobTooltip": "Supprimer le travail de sauvegarde"
+    "DelJobTooltip": "Supprimer le travail de sauvegarde",
+
+    "saveAnnouncement": "Sauvegarde en cours ...",
+    "saveAnnouncementEnd": "Sauvegarde terminée"
   }
 ]

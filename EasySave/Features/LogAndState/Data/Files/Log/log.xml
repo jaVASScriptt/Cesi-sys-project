@@ -3843,4 +3843,328 @@
     <FileTransferTime>3,0708</FileTransferTime>
     <Time>24/02/2023 09:41:15</Time>
   </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\centreon-central-22.10.ova</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\centreon-central-22.10.ova</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>5157,3454</FileTransferTime>
+    <Time>24/02/2023 10:26:27</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\debian-11.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\debian-11.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>444,4753</FileTransferTime>
+    <Time>24/02/2023 10:26:28</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\kali_linux_2022.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\kali_linux_2022.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>6701,8551</FileTransferTime>
+    <Time>24/02/2023 10:26:35</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\pfSense.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\pfSense.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1503,371</FileTransferTime>
+    <Time>24/02/2023 10:26:36</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\centreon-central-22.10.ova</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\centreon-central-22.10.ova</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>6578,5448</FileTransferTime>
+    <Time>24/02/2023 10:27:51</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\debian-11.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\debian-11.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2360,4851</FileTransferTime>
+    <Time>24/02/2023 10:27:53</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\kali_linux_2022.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\kali_linux_2022.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>7471,95</FileTransferTime>
+    <Time>24/02/2023 10:28:01</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\pfSense.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\pfSense.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>990,8286</FileTransferTime>
+    <Time>24/02/2023 10:28:02</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\VM.zip</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\VM.zip</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>80367,5981</FileTransferTime>
+    <Time>24/02/2023 10:29:22</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\centreon-central-22.10.ova</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\centreon-central-22.10.ova</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>50839,9727</FileTransferTime>
+    <Time>24/02/2023 10:30:10</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\debian-11.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\debian-11.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>3805,777</FileTransferTime>
+    <Time>24/02/2023 10:30:14</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\windows_10.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\windows_10.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>57141,5893</FileTransferTime>
+    <Time>24/02/2023 10:30:19</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\kali_linux_2022.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\kali_linux_2022.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>17734,3316</FileTransferTime>
+    <Time>24/02/2023 10:30:32</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\pfSense.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\pfSense.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1788,7123</FileTransferTime>
+    <Time>24/02/2023 10:30:34</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\windows_server_2019.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\windows_server_2019.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>28092,6492</FileTransferTime>
+    <Time>24/02/2023 10:30:47</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\VM.zip</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\VM.zip</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>63370,2017</FileTransferTime>
+    <Time>24/02/2023 10:31:37</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\windows_10.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\windows_10.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>16806,109</FileTransferTime>
+    <Time>24/02/2023 10:31:54</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\windows_server_2019.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\windows_server_2019.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>9205,0252</FileTransferTime>
+    <Time>24/02/2023 10:32:03</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\centreon-central-22.10.ova</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\centreon-central-22.10.ova</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>5070,8278</FileTransferTime>
+    <Time>24/02/2023 10:38:23</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\debian-11.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\debian-11.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>857,049</FileTransferTime>
+    <Time>24/02/2023 10:38:24</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\kali_linux_2022.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\kali_linux_2022.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>6786,0497</FileTransferTime>
+    <Time>24/02/2023 10:38:31</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\pfSense.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\pfSense.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1635,1853</FileTransferTime>
+    <Time>24/02/2023 10:38:33</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\VM.zip</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\VM.zip</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>68516,7544</FileTransferTime>
+    <Time>24/02/2023 10:39:41</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\windows_10.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\windows_10.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>23831,3226</FileTransferTime>
+    <Time>24/02/2023 10:40:05</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\windows_server_2019.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\windows_server_2019.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>18802,0259</FileTransferTime>
+    <Time>24/02/2023 10:40:24</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\centreon-central-22.10.ova</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\centreon-central-22.10.ova</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>5349,2601</FileTransferTime>
+    <Time>24/02/2023 10:42:59</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\debian-11.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\debian-11.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>312,4283</FileTransferTime>
+    <Time>24/02/2023 10:42:59</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\kali_linux_2022.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\kali_linux_2022.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>6219,1053</FileTransferTime>
+    <Time>24/02/2023 10:43:05</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\pfSense.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\pfSense.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1800,0534</FileTransferTime>
+    <Time>24/02/2023 10:43:07</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\VM.zip</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\VM.zip</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>55196,7302</FileTransferTime>
+    <Time>24/02/2023 10:44:02</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\windows_10.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\windows_10.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>19156,5293</FileTransferTime>
+    <Time>24/02/2023 10:44:21</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\windows_server_2019.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\windows_server_2019.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>16788,412</FileTransferTime>
+    <Time>24/02/2023 10:44:38</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\centreon-central-22.10.ova</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\centreon-central-22.10.ova</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>5887,2901</FileTransferTime>
+    <Time>24/02/2023 10:45:10</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\debian-11.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\debian-11.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>333,8488</FileTransferTime>
+    <Time>24/02/2023 10:45:11</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\kali_linux_2022.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\kali_linux_2022.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>6502,9965</FileTransferTime>
+    <Time>24/02/2023 10:45:17</Time>
+  </log>
+  <log>
+    <Name>fullpuissance</Name>
+    <SourceFilePath>C:\Users\vdelmas\Documents\VM\pfSense.iso</SourceFilePath>
+    <TargetFilePath>C:\Users\vdelmas\Documents\Cesi\pfSense.iso</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>1517,8968</FileTransferTime>
+    <Time>24/02/2023 10:45:19</Time>
+  </log>
 </logs>

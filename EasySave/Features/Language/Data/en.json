@@ -51,6 +51,9 @@
 
     "AddJobTooltip": "Add a backup job",
     "EditJobTooltip": "Edit a backup job",
-    "DelJobTooltip": "Delete backup job"
+    "DelJobTooltip": "Delete backup job",
+    
+    "saveAnnouncement": "Save in progress...",
+    "saveAnnouncementEnd": "Save completed"
   }
 ]
