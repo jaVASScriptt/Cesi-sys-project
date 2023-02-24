@@ -62,11 +62,11 @@
                 </StackPanel>
 
 
-
+                <!--
                 <TextBlock Name="Cryptosoftpath" FontSize="18" Foreground="White" Margin="10"/>
                 <TextBlock Name="CryptosoftpathInput" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left"/>
                 <Button Name="search1" Height="33" Width="105" Click="BrowserLogJobPathClick1"/>
-
+                -->
 
                 <TextBlock Name="EncryptKey" FontSize="18" Foreground="White" Margin="10" Width="598" HorizontalAlignment="Left"/>
                 <TextBlock Name="EncryptKeyInput" FontSize="18" Foreground="Black" Margin="10"/>

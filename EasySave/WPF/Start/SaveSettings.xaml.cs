@@ -32,11 +32,11 @@ namespace EasySave
             ExtensionPriority.Text = LanguageTool.get("ExtensionPriority");
             MaxSize.Text = LanguageTool.get("MaxSize");
             EncryptExtension.Text = LanguageTool.get("EncryptExtension");
-            Cryptosoftpath.Text = LanguageTool.get("Cryptosoftpath");
+            //Cryptosoftpath.Text = LanguageTool.get("Cryptosoftpath");
             EncryptKey.Text = LanguageTool.get("EncryptKey");
             ApplyChanges_button.Content = LanguageTool.get("ApplyChanges_button");
             search.Content = LanguageTool.get("search");
-            search1.Content = LanguageTool.get("search");
+            //search1.Content = LanguageTool.get("search");
 
 
             foreach (var x in SaveTool.getFilesToCrypt())
@@ -68,7 +68,7 @@ namespace EasySave
             }
 
         }
-
+        /*
         private void BrowserLogJobPathClick1(object sender, RoutedEventArgs e)
         {
             //instance de la boîte de dialogue de sélection de dossiers
@@ -87,7 +87,7 @@ namespace EasySave
 
                 CryptosoftpathInput.Text = selectedFolderPath;
             }
-        }
+        }*/
 
         private void AddExtensionButton_Click(object sender, RoutedEventArgs e)
         {
