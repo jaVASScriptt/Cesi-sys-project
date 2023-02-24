@@ -43,13 +43,35 @@
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="doSave" MouseEnter="setAddTool"><Image Source="../Images/start.png"/></Button>
-                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="editSave" MouseEnter="setEditTool"><Image Source="../Images/edit.png"/></Button>
-                        <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="DeleteButton_Click" MouseEnter="setDelTool">
-                            <Image Source="../Images/del.png"/>
-                        </Button>
-                    </StackPanel>
+                    
+                    <Grid Margin="0,10,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <TextBlock Grid.Column="0" Name="SaveAnnouncement" Margin="20,0,0,0" Height="25" Foreground="Green" Text="Sauvegarde en cours" Visibility="Visible"/>
+                        
+                        <ProgressBar Grid.Column="1" Name="SaveProgress" Margin="20,0,0,0" Minimum="0" Maximum="100" Value="0" Visibility="Visible"/>
+                        
+                        <TextBlock Grid.Column="2" Name="Percent" Margin="20,0,0,0" Height="25" Foreground="Green" Text="0%" Visibility="Visible"/>
+                        
+                        <StackPanel Grid.Column="3" Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="doSave" MouseEnter="setAddTool">
+                                <Image Source="../Images/start.png"/>
+                            </Button>
+                            <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="editSave" MouseEnter="setEditTool">
+                                <Image Source="../Images/edit.png"/>
+                            </Button>
+                            <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="DeleteButton_Click" MouseEnter="setDelTool">
+                                <Image Source="../Images/del.png"/>
+                            </Button>
+                        </StackPanel>                    
+                    </Grid>
+                    
+
                 </StackPanel>
             </GroupBox>
         </DataTemplate>

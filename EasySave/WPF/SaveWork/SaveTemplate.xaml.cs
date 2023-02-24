@@ -54,5 +54,42 @@ namespace Easysave
             Differential.BorderBrush = Brushes.White;
             Complete.BorderBrush = null;
         }
+        
+        private void searchClick1(object sender, RoutedEventArgs e)
+        {
+            SearchMethod(1);
+        }
+        
+        private void searchClick2(object sender, RoutedEventArgs e)
+        {
+            SearchMethod(2);
+        }
+
+        private void SearchMethod(int i)
+        {
+            // Créer une instance de la boîte de dialogue pour parcourir les fichiers et les dossiers
+            var dialog = new Microsoft.Win32.OpenFileDialog();
+
+            // Définir les options de la boîte de dialogue
+            dialog.Title = "Sélectionnez un fichier ou un dossier";
+            dialog.Multiselect = false;
+            dialog.ValidateNames = false;
+            dialog.CheckFileExists = false;
+            dialog.CheckPathExists = true;
+
+            // Afficher la boîte de dialogue
+            bool? result = dialog.ShowDialog();
+
+            // Si l'utilisateur a sélectionné un fichier ou un dossier, récupérer le chemin et l'afficher dans la zone de texte appropriée
+            if (result == true)
+            {
+                string path = dialog.FileName;
+                if (i == 1)
+                    SourcePathEntry.Text = path;
+                else
+                    TargetPathEntry.Text = path;
+            }
+        }
+
     }
 }

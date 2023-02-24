@@ -1,14 +1,26 @@
 [
   {
     "Name": "ff",
-    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source",
-    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target",
-    "State": "END",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Downloads\\EASYSAVE",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Downloads\\ChatGPT_For_Windows_Setup_1.0.0",
+    "State": "RUNNING",
     "TotalFilesToCopy": 11,
     "TotalFilesSize": 228,
     "NbFilesLeftToDo": 11,
-    "Progression": 0,
-    "Type": "Differential",
-    "LastUsed": "23/02/2023 11:48:32"
+    "Progression": 91,
+    "Type": "Complete",
+    "LastUsed": "24/02/2023 07:25:30"
+  },
+  {
+    "Name": "oui",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\stock\\Cesi-sys-project\\EasySave\\Tests\\source",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\stock\\Cesi-sys-project\\EasySave\\Tests\\target",
+    "State": "END",
+    "TotalFilesToCopy": 22,
+    "TotalFilesSize": 456,
+    "NbFilesLeftToDo": 22,
+    "Progression": 46,
+    "Type": "Complete",
+    "LastUsed": "24/02/2023 05:54:25"
   }
 ]

@@ -101,4 +101,11 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="WPF\Images\easysave_logo.ico" />
+      <Content Include="WPF\Images\easysave.ico">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

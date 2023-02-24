@@ -6,7 +6,8 @@
         WindowStyle="None"
         xmlns:local="clr-namespace:EasySave"
         mc:Ignorable="d"
-        Title="MainWindow" Height="650" Width="1000">
+        Title="MainWindow" Height="650" Width="1000"
+        Icon="Images/easysave.ico">
         
         <Grid Background="#FF001A6C">
                 <Grid.RowDefinitions>
