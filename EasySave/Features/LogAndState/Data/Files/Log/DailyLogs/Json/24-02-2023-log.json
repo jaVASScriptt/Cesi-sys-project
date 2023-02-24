@@ -5902,5 +5902,14 @@
     "FileSize": 89829,
     "FileTransferTime": 5.8568,
     "Time": "24/02/2023 19:31:34"
+  },
+  {
+    "Name": "Image",
+    "SourceFilePath": "C:\\Users\\theot\\Pictures\\reversecard\\RedReverseCard.png",
+    "TargetFilePath": "D:\\test\\RedReverseCard.png",
+    "success": "success",
+    "FileSize": 89829,
+    "FileTransferTime": 2.6156,
+    "Time": "24/02/2023 19:37:02"
   }
 ]

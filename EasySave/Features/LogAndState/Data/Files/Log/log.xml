@@ -2565,4 +2565,13 @@
     <FileTransferTime>5,8568</FileTransferTime>
     <Time>24/02/2023 19:31:34</Time>
   </log>
+  <log>
+    <Name>Image</Name>
+    <SourceFilePath>C:\Users\theot\Pictures\reversecard\RedReverseCard.png</SourceFilePath>
+    <TargetFilePath>D:\test\RedReverseCard.png</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>2,6156</FileTransferTime>
+    <Time>24/02/2023 19:37:02</Time>
+  </log>
 </logs>
