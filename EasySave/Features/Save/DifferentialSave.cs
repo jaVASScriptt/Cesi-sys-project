@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Windows.Input;
 using EasySave.Features.Language;
+using EasySave.Features.LogAndState.Tools;
 
 namespace Controler
 {

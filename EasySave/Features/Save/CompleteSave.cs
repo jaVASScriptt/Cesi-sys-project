@@ -4,6 +4,7 @@ using EasySafe;
 using System.Security.Cryptography.X509Certificates;
 using System.Diagnostics;
 using EasySave.Features.Language;
+using EasySave.Features.LogAndState.Tools;
 
 
 namespace Controler

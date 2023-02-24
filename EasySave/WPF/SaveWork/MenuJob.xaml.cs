@@ -18,6 +18,7 @@ using EasySafe;
 using EasySave;
 using EasySave.Features.Language;
 using EasySave.Features.LogAndState.Data;
+using EasySave.Features.LogAndState.Tools;
 
 namespace Easysave
 {

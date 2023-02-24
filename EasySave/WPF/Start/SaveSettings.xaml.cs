@@ -16,6 +16,7 @@ using System.Windows.Shapes;
 using Controler;
 using EasySafe;
 using EasySave.Features.Language;
+using EasySave.Features.LogAndState.Tools;
 
 namespace EasySave
 {

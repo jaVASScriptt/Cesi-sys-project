@@ -91,7 +91,7 @@ public class LogTool
             Name = name == ""? tasks[task].Name : name,
             SourceFilePath = SourceFilePath == ""? tasks[task].SourceFilePath : SourceFilePath,
             TargetFilePath = TargetFilePath == ""? tasks[task].TargetFilePath : TargetFilePath,
-            success = success,
+            Success = success,
             FileSize = FileSize,
             FileTransferTime = FileTransferTime,
             Time = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")
@@ -105,7 +105,7 @@ public class LogTool
         log.Add(new XElement("Name", logData.Name));
         log.Add(new XElement("SourceFilePath", logData.SourceFilePath));
         log.Add(new XElement("TargetFilePath", logData.TargetFilePath));
-        log.Add(new XElement("Success", logData.success));
+        log.Add(new XElement("Success", logData.Success));
         log.Add(new XElement("FileSize", logData.FileSize.ToString()));
         log.Add(new XElement("FileTransferTime", logData.FileTransferTime.ToString()));
         log.Add(new XElement("Time", logData.Time));
