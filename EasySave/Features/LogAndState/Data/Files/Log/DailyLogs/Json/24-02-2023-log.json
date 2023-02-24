@@ -16,5 +16,4982 @@
     "FileSize": 32,
     "FileTransferTime": 8.0058,
     "Time": "24/02/2023 11:13:26"
+  },
+  {
+    "Name": "Crypto",
+    "SourceFilePath": "C:\\test\\file.txt",
+    "TargetFilePath": "D:\\test\\file.txt",
+    "success": "success",
+    "FileSize": 32,
+    "FileTransferTime": 8.1866,
+    "Time": "24/02/2023 11:26:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "TargetFilePath": "D:\\test\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "success": "success",
+    "FileSize": 1073612,
+    "FileTransferTime": 49.4369,
+    "Time": "24/02/2023 11:29:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche de confidentialit\u00E9 CESI.docx",
+    "TargetFilePath": "D:\\test\\Fiche de confidentialit\u00E9 CESI.docx",
+    "success": "success",
+    "FileSize": 43963,
+    "FileTransferTime": 17.0083,
+    "Time": "24/02/2023 11:29:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "TargetFilePath": "D:\\test\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "success": "success",
+    "FileSize": 1682542,
+    "FileTransferTime": 20.6209,
+    "Time": "24/02/2023 11:29:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoCesi.png",
+    "TargetFilePath": "D:\\test\\LogoCesi.png",
+    "success": "success",
+    "FileSize": 3644,
+    "FileTransferTime": 5.681,
+    "Time": "24/02/2023 11:29:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoThales.png",
+    "TargetFilePath": "D:\\test\\LogoThales.png",
+    "success": "success",
+    "FileSize": 9666,
+    "FileTransferTime": 1.5817,
+    "Time": "24/02/2023 11:29:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "TargetFilePath": "D:\\test\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 830378,
+    "FileTransferTime": 20.474,
+    "Time": "24/02/2023 11:29:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "TargetFilePath": "D:\\test\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "success": "success",
+    "FileSize": 1631262,
+    "FileTransferTime": 58.8396,
+    "Time": "24/02/2023 11:29:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "TargetFilePath": "D:\\test\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "success": "success",
+    "FileSize": 487923,
+    "FileTransferTime": 37.8209,
+    "Time": "24/02/2023 11:29:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "TargetFilePath": "D:\\test\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "success": "success",
+    "FileSize": 425755,
+    "FileTransferTime": 22.1355,
+    "Time": "24/02/2023 11:29:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "TargetFilePath": "D:\\test\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 1262933,
+    "FileTransferTime": 263.6883,
+    "Time": "24/02/2023 11:29:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "TargetFilePath": "D:\\test\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "success": "success",
+    "FileSize": 14823162,
+    "FileTransferTime": 50.0046,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "TargetFilePath": "D:\\test\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "success": "success",
+    "FileSize": 782060,
+    "FileTransferTime": 302.6832,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "TargetFilePath": "D:\\test\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "success": "success",
+    "FileSize": 825433,
+    "FileTransferTime": 27.8932,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "TargetFilePath": "D:\\test\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "success": "success",
+    "FileSize": 960891,
+    "FileTransferTime": 21.523,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "TargetFilePath": "D:\\test2\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "success": "success",
+    "FileSize": 1073612,
+    "FileTransferTime": 3.8499,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NombresComplexes.docx",
+    "TargetFilePath": "D:\\test\\NombresComplexes.docx",
+    "success": "success",
+    "FileSize": 17550,
+    "FileTransferTime": 11.0064,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche de confidentialit\u00E9 CESI.docx",
+    "TargetFilePath": "D:\\test2\\Fiche de confidentialit\u00E9 CESI.docx",
+    "success": "success",
+    "FileSize": 43963,
+    "FileTransferTime": 4.9541,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled.ipynb",
+    "TargetFilePath": "D:\\test\\Untitled.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 9.0004,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "TargetFilePath": "D:\\test2\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "success": "success",
+    "FileSize": 1682542,
+    "FileTransferTime": 3.6728,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo",
+    "TargetFilePath": "D:\\test\\Projet.zargo",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 10.3123,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoCesi.png",
+    "TargetFilePath": "D:\\test2\\LogoCesi.png",
+    "success": "success",
+    "FileSize": 3644,
+    "FileTransferTime": 1.0605,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoThales.png",
+    "TargetFilePath": "D:\\test2\\LogoThales.png",
+    "success": "success",
+    "FileSize": 9666,
+    "FileTransferTime": 1.091,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo~",
+    "TargetFilePath": "D:\\test\\Projet.zargo~",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 13.871,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "TargetFilePath": "D:\\test2\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 830378,
+    "FileTransferTime": 3.2773,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo",
+    "TargetFilePath": "D:\\test\\Workshop1.zargo",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 7.2808,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "TargetFilePath": "D:\\test2\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "success": "success",
+    "FileSize": 1631262,
+    "FileTransferTime": 3.5538,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo~",
+    "TargetFilePath": "D:\\test\\Workshop1.zargo~",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 9.3881,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "TargetFilePath": "D:\\test2\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "success": "success",
+    "FileSize": 487923,
+    "FileTransferTime": 3.4418,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled-checkpoint.ipynb",
+    "TargetFilePath": "D:\\test\\Untitled-checkpoint.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 14.222,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "TargetFilePath": "D:\\test2\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "success": "success",
+    "FileSize": 425755,
+    "FileTransferTime": 2.7702,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.editorconfig",
+    "TargetFilePath": "D:\\test\\.editorconfig",
+    "success": "success",
+    "FileSize": 98,
+    "FileTransferTime": 10.372,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "TargetFilePath": "D:\\test2\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 1262933,
+    "FileTransferTime": 8.3348,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Controller.cs",
+    "TargetFilePath": "D:\\test\\Controller.cs",
+    "success": "success",
+    "FileSize": 476,
+    "FileTransferTime": 10.8942,
+    "Time": "24/02/2023 11:29:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "TargetFilePath": "D:\\test2\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "success": "success",
+    "FileSize": 14823162,
+    "FileTransferTime": 15.139,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "TargetFilePath": "D:\\test2\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "success": "success",
+    "FileSize": 782060,
+    "FileTransferTime": 3.5349,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Modele.cs",
+    "TargetFilePath": "D:\\test\\Modele.cs",
+    "success": "success",
+    "FileSize": 682,
+    "FileTransferTime": 9.011,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "TargetFilePath": "D:\\test2\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "success": "success",
+    "FileSize": 825433,
+    "FileTransferTime": 7.1367,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\View.cs",
+    "TargetFilePath": "D:\\test\\View.cs",
+    "success": "success",
+    "FileSize": 632,
+    "FileTransferTime": 19.2249,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "TargetFilePath": "D:\\test2\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "success": "success",
+    "FileSize": 960891,
+    "FileTransferTime": 4.1387,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj",
+    "success": "success",
+    "FileSize": 249,
+    "FileTransferTime": 7.2595,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NombresComplexes.docx",
+    "TargetFilePath": "D:\\test2\\NombresComplexes.docx",
+    "success": "success",
+    "FileSize": 17550,
+    "FileTransferTime": 0.8453,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.sln",
+    "TargetFilePath": "D:\\test\\Workshop1.sln",
+    "success": "success",
+    "FileSize": 1363,
+    "FileTransferTime": 15.2151,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled.ipynb",
+    "TargetFilePath": "D:\\test2\\Untitled.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 0.8881,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.config",
+    "TargetFilePath": "D:\\test\\App.config",
+    "success": "success",
+    "FileSize": 187,
+    "FileTransferTime": 10.3855,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo",
+    "TargetFilePath": "D:\\test2\\Projet.zargo",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 1.0972,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml",
+    "TargetFilePath": "D:\\test\\App.xaml",
+    "success": "success",
+    "FileSize": 378,
+    "FileTransferTime": 15.2081,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo~",
+    "TargetFilePath": "D:\\test2\\Projet.zargo~",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 2.6269,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml.cs",
+    "TargetFilePath": "D:\\test\\App.xaml.cs",
+    "success": "success",
+    "FileSize": 350,
+    "FileTransferTime": 14.5338,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo",
+    "TargetFilePath": "D:\\test2\\Workshop1.zargo",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 0.9907,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml",
+    "TargetFilePath": "D:\\test\\MainWindow.xaml",
+    "success": "success",
+    "FileSize": 511,
+    "FileTransferTime": 11.2333,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo~",
+    "TargetFilePath": "D:\\test2\\Workshop1.zargo~",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 2.2849,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml.cs",
+    "TargetFilePath": "D:\\test\\MainWindow.xaml.cs",
+    "success": "success",
+    "FileSize": 669,
+    "FileTransferTime": 17.9253,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled-checkpoint.ipynb",
+    "TargetFilePath": "D:\\test2\\Untitled-checkpoint.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 1.0499,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj",
+    "TargetFilePath": "D:\\test\\Workshop1_V2.csproj",
+    "success": "success",
+    "FileSize": 4185,
+    "FileTransferTime": 20.6065,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.editorconfig",
+    "TargetFilePath": "D:\\test2\\.editorconfig",
+    "success": "success",
+    "FileSize": 98,
+    "FileTransferTime": 1.1285,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.sln",
+    "TargetFilePath": "D:\\test\\Workshop1_V2.sln",
+    "success": "success",
+    "FileSize": 1129,
+    "FileTransferTime": 15.1044,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Controller.cs",
+    "TargetFilePath": "D:\\test2\\Controller.cs",
+    "success": "success",
+    "FileSize": 476,
+    "FileTransferTime": 0.8328,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.assets.json",
+    "TargetFilePath": "D:\\test\\project.assets.json",
+    "success": "success",
+    "FileSize": 2295,
+    "FileTransferTime": 2.1189,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.nuget.cache",
+    "TargetFilePath": "D:\\test\\project.nuget.cache",
+    "success": "success",
+    "FileSize": 292,
+    "FileTransferTime": 8.658,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Modele.cs",
+    "TargetFilePath": "D:\\test2\\Modele.cs",
+    "success": "success",
+    "FileSize": 682,
+    "FileTransferTime": 0.8622,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.dgspec.json",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.nuget.dgspec.json",
+    "success": "success",
+    "FileSize": 2324,
+    "FileTransferTime": 11.7333,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\View.cs",
+    "TargetFilePath": "D:\\test2\\View.cs",
+    "success": "success",
+    "FileSize": 632,
+    "FileTransferTime": 1.3257,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.props",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.nuget.g.props",
+    "success": "success",
+    "FileSize": 1302,
+    "FileTransferTime": 19.4326,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj",
+    "success": "success",
+    "FileSize": 249,
+    "FileTransferTime": 1.0675,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.targets",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.nuget.g.targets",
+    "success": "success",
+    "FileSize": 150,
+    "FileTransferTime": 13.7518,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.sln",
+    "TargetFilePath": "D:\\test2\\Workshop1.sln",
+    "success": "success",
+    "FileSize": 1363,
+    "FileTransferTime": 0.9844,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test\\AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 2705,
+    "FileTransferTime": 19.7276,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.config",
+    "TargetFilePath": "D:\\test2\\App.config",
+    "success": "success",
+    "FileSize": 187,
+    "FileTransferTime": 0.9972,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.Designer.cs",
+    "TargetFilePath": "D:\\test\\Resources.Designer.cs",
+    "success": "success",
+    "FileSize": 3048,
+    "FileTransferTime": 17.7122,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml",
+    "TargetFilePath": "D:\\test2\\App.xaml",
+    "success": "success",
+    "FileSize": 378,
+    "FileTransferTime": 1.1808,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.resx",
+    "TargetFilePath": "D:\\test\\Resources.resx",
+    "success": "success",
+    "FileSize": 5612,
+    "FileTransferTime": 15.4345,
+    "Time": "24/02/2023 11:29:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml.cs",
+    "TargetFilePath": "D:\\test2\\App.xaml.cs",
+    "success": "success",
+    "FileSize": 350,
+    "FileTransferTime": 5.1348,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.Designer.cs",
+    "TargetFilePath": "D:\\test\\Settings.Designer.cs",
+    "success": "success",
+    "FileSize": 1099,
+    "FileTransferTime": 13.1383,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml",
+    "TargetFilePath": "D:\\test2\\MainWindow.xaml",
+    "success": "success",
+    "FileSize": 511,
+    "FileTransferTime": 0.9202,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.settings",
+    "TargetFilePath": "D:\\test\\Settings.settings",
+    "success": "success",
+    "FileSize": 201,
+    "FileTransferTime": 9.2344,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml.cs",
+    "TargetFilePath": "D:\\test2\\MainWindow.xaml.cs",
+    "success": "success",
+    "FileSize": 669,
+    "FileTransferTime": 0.8249,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_aller_3.odt",
+    "TargetFilePath": "D:\\test\\Prosit_aller_3.odt",
+    "success": "success",
+    "FileSize": 81060,
+    "FileTransferTime": 30.0869,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2.csproj",
+    "success": "success",
+    "FileSize": 4185,
+    "FileTransferTime": 0.8683,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.sln",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2.sln",
+    "success": "success",
+    "FileSize": 1129,
+    "FileTransferTime": 0.7915,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_retour_3.odt",
+    "TargetFilePath": "D:\\test\\Prosit_retour_3.odt",
+    "success": "success",
+    "FileSize": 81318,
+    "FileTransferTime": 17.7024,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.assets.json",
+    "TargetFilePath": "D:\\test2\\project.assets.json",
+    "success": "success",
+    "FileSize": 2295,
+    "FileTransferTime": 0.7914,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~$osit_retour_3.odt",
+    "TargetFilePath": "D:\\test\\~$osit_retour_3.odt",
+    "success": "success",
+    "FileSize": 162,
+    "FileTransferTime": 8.9186,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.nuget.cache",
+    "TargetFilePath": "D:\\test2\\project.nuget.cache",
+    "success": "success",
+    "FileSize": 292,
+    "FileTransferTime": 0.7894,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~WRL0004.tmp",
+    "TargetFilePath": "D:\\test\\~WRL0004.tmp",
+    "success": "success",
+    "FileSize": 78462,
+    "FileTransferTime": 25.8895,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.dgspec.json",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.nuget.dgspec.json",
+    "success": "success",
+    "FileSize": 2324,
+    "FileTransferTime": 1.1933,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 115370,
+    "FileTransferTime": 16.9132,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.props",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.nuget.g.props",
+    "success": "success",
+    "FileSize": 1302,
+    "FileTransferTime": 1.0813,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 136429,
+    "FileTransferTime": 10.4021,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.targets",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.nuget.g.targets",
+    "success": "success",
+    "FileSize": 150,
+    "FileTransferTime": 7.0445,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\A3_Seminaire_Prosit_Aller_1.docx",
+    "TargetFilePath": "D:\\test\\A3_Seminaire_Prosit_Aller_1.docx",
+    "success": "success",
+    "FileSize": 17334,
+    "FileTransferTime": 23.1906,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test2\\AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 2705,
+    "FileTransferTime": 0.7625,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.metadata.v5.2",
+    "TargetFilePath": "D:\\test\\workshop1.metadata.v5.2",
+    "success": "success",
+    "FileSize": 163697,
+    "FileTransferTime": 14.552,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.Designer.cs",
+    "TargetFilePath": "D:\\test2\\Resources.Designer.cs",
+    "success": "success",
+    "FileSize": 3048,
+    "FileTransferTime": 1.0533,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.resx",
+    "TargetFilePath": "D:\\test2\\Resources.resx",
+    "success": "success",
+    "FileSize": 5612,
+    "FileTransferTime": 0.9829,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.projects.v5.2",
+    "TargetFilePath": "D:\\test\\workshop1.projects.v5.2",
+    "success": "success",
+    "FileSize": 179861,
+    "FileTransferTime": 35.0946,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.Designer.cs",
+    "TargetFilePath": "D:\\test2\\Settings.Designer.cs",
+    "success": "success",
+    "FileSize": 1099,
+    "FileTransferTime": 1.0492,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 210,
+    "FileTransferTime": 9.1534,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.settings",
+    "TargetFilePath": "D:\\test2\\Settings.settings",
+    "success": "success",
+    "FileSize": 201,
+    "FileTransferTime": 0.867,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.g.i.cs",
+    "TargetFilePath": "D:\\test\\App.g.i.cs",
+    "success": "success",
+    "FileSize": 2400,
+    "FileTransferTime": 15.0968,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_aller_3.odt",
+    "TargetFilePath": "D:\\test2\\Prosit_aller_3.odt",
+    "success": "success",
+    "FileSize": 81060,
+    "FileTransferTime": 1.0514,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "TargetFilePath": "D:\\test\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "success": "success",
+    "FileSize": 7261,
+    "FileTransferTime": 11.9133,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_retour_3.odt",
+    "TargetFilePath": "D:\\test2\\Prosit_retour_3.odt",
+    "success": "success",
+    "FileSize": 81318,
+    "FileTransferTime": 1.1964,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.g.i.cs",
+    "TargetFilePath": "D:\\test\\MainWindow.g.i.cs",
+    "success": "success",
+    "FileSize": 3102,
+    "FileTransferTime": 12.2399,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~$osit_retour_3.odt",
+    "TargetFilePath": "D:\\test2\\~$osit_retour_3.odt",
+    "success": "success",
+    "FileSize": 162,
+    "FileTransferTime": 2.0113,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~WRL0004.tmp",
+    "TargetFilePath": "D:\\test2\\~WRL0004.tmp",
+    "success": "success",
+    "FileSize": 78462,
+    "FileTransferTime": 3.1421,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 7331,
+    "FileTransferTime": 53.4263,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test2\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 115370,
+    "FileTransferTime": 1.0853,
+    "Time": "24/02/2023 11:29:13"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.cache",
+    "TargetFilePath": "D:\\test\\Workshop1_V2_MarkupCompile.i.cache",
+    "success": "success",
+    "FileSize": 270,
+    "FileTransferTime": 13.6362,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test2\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 136429,
+    "FileTransferTime": 1.2487,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.lref",
+    "TargetFilePath": "D:\\test\\Workshop1_V2_MarkupCompile.i.lref",
+    "success": "success",
+    "FileSize": 80,
+    "FileTransferTime": 15.2652,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\A3_Seminaire_Prosit_Aller_1.docx",
+    "TargetFilePath": "D:\\test2\\A3_Seminaire_Prosit_Aller_1.docx",
+    "success": "success",
+    "FileSize": 17334,
+    "FileTransferTime": 3.0225,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.dtbcache.v2",
+    "TargetFilePath": "D:\\test\\.dtbcache.v2",
+    "success": "success",
+    "FileSize": 80718,
+    "FileTransferTime": 11.9561,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.metadata.v5.2",
+    "TargetFilePath": "D:\\test2\\workshop1.metadata.v5.2",
+    "success": "success",
+    "FileSize": 163697,
+    "FileTransferTime": 1.0876,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "TargetFilePath": "D:\\test\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "success": "success",
+    "FileSize": 2755,
+    "FileTransferTime": 8.9786,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.projects.v5.2",
+    "TargetFilePath": "D:\\test2\\workshop1.projects.v5.2",
+    "success": "success",
+    "FileSize": 179861,
+    "FileTransferTime": 1.4537,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "TargetFilePath": "D:\\test\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "success": "success",
+    "FileSize": 5368,
+    "FileTransferTime": 8.3677,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test2\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 210,
+    "FileTransferTime": 1.0541,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.9059,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.futdcache.v2",
+    "TargetFilePath": "D:\\test\\.futdcache.v2",
+    "success": "success",
+    "FileSize": 129,
+    "FileTransferTime": 8.366,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.g.i.cs",
+    "TargetFilePath": "D:\\test2\\App.g.i.cs",
+    "success": "success",
+    "FileSize": 2400,
+    "FileTransferTime": 1.0375,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test\\.suo",
+    "success": "success",
+    "FileSize": 34816,
+    "FileTransferTime": 12.1896,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "TargetFilePath": "D:\\test2\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "success": "success",
+    "FileSize": 7261,
+    "FileTransferTime": 1.2266,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.deps.json",
+    "TargetFilePath": "D:\\test\\Workshop1.deps.json",
+    "success": "success",
+    "FileSize": 419,
+    "FileTransferTime": 12.3176,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.g.i.cs",
+    "TargetFilePath": "D:\\test2\\MainWindow.g.i.cs",
+    "success": "success",
+    "FileSize": 3102,
+    "FileTransferTime": 1.1211,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 7331,
+    "FileTransferTime": 1.2607,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2_MarkupCompile.i.cache",
+    "success": "success",
+    "FileSize": 270,
+    "FileTransferTime": 1.1955,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 40.1851,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.lref",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2_MarkupCompile.i.lref",
+    "success": "success",
+    "FileSize": 80,
+    "FileTransferTime": 1.118,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.exe",
+    "TargetFilePath": "D:\\test\\Workshop1.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 6.6574,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.dtbcache.v2",
+    "TargetFilePath": "D:\\test2\\.dtbcache.v2",
+    "success": "success",
+    "FileSize": 80718,
+    "FileTransferTime": 1.0523,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 8.7445,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "TargetFilePath": "D:\\test2\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "success": "success",
+    "FileSize": 2755,
+    "FileTransferTime": 1.1481,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.runtimeconfig.json",
+    "TargetFilePath": "D:\\test\\Workshop1.runtimeconfig.json",
+    "success": "success",
+    "FileSize": 147,
+    "FileTransferTime": 7.677,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "TargetFilePath": "D:\\test2\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "success": "success",
+    "FileSize": 5368,
+    "FileTransferTime": 1.0414,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 198,
+    "FileTransferTime": 15.4971,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test2\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.6478,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\apphost.exe",
+    "TargetFilePath": "D:\\test\\apphost.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 5.9264,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.futdcache.v2",
+    "TargetFilePath": "D:\\test2\\.futdcache.v2",
+    "success": "success",
+    "FileSize": 129,
+    "FileTransferTime": 0.8216,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test\\Workshop1.AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 1049,
+    "FileTransferTime": 8.5828,
+    "Time": "24/02/2023 11:29:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test2\\.suo",
+    "success": "success",
+    "FileSize": 34816,
+    "FileTransferTime": 0.8434,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfoInputs.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.AssemblyInfoInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 5.9462,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.deps.json",
+    "TargetFilePath": "D:\\test2\\Workshop1.deps.json",
+    "success": "success",
+    "FileSize": 419,
+    "FileTransferTime": 0.9762,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.assets.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.assets.cache",
+    "success": "success",
+    "FileSize": 224,
+    "FileTransferTime": 13.1675,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 0.7864,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 91258,
+    "FileTransferTime": 13.9967,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.exe",
+    "TargetFilePath": "D:\\test2\\Workshop1.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 0.9107,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.7839,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test2\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 0.8056,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.CoreCompileInputs.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.CoreCompileInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 9.2531,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.runtimeconfig.json",
+    "TargetFilePath": "D:\\test2\\Workshop1.runtimeconfig.json",
+    "success": "success",
+    "FileSize": 147,
+    "FileTransferTime": 3.2479,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test2\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 198,
+    "FileTransferTime": 1.0269,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.FileListAbsolute.txt",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.FileListAbsolute.txt",
+    "success": "success",
+    "FileSize": 1376,
+    "FileTransferTime": 20.4143,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\apphost.exe",
+    "TargetFilePath": "D:\\test2\\apphost.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 1.2465,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 6.4319,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test2\\Workshop1.AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 1049,
+    "FileTransferTime": 1.5994,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "TargetFilePath": "D:\\test\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "success": "success",
+    "FileSize": 496,
+    "FileTransferTime": 66.9944,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfoInputs.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.AssemblyInfoInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 5.7162,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.genruntimeconfig.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.genruntimeconfig.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 8.8143,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.assets.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.assets.cache",
+    "success": "success",
+    "FileSize": 224,
+    "FileTransferTime": 0.9054,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GlobalUsings.g.cs",
+    "TargetFilePath": "D:\\test\\Workshop1.GlobalUsings.g.cs",
+    "success": "success",
+    "FileSize": 295,
+    "FileTransferTime": 11.4165,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 91258,
+    "FileTransferTime": 1.1171,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 12.9711,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\_IsIncrementalBuild",
+    "TargetFilePath": "D:\\test\\_IsIncrementalBuild",
+    "success": "success",
+    "FileSize": 39,
+    "FileTransferTime": 10.8974,
+    "Time": "24/02/2023 11:29:15"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.8745,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.CoreCompileInputs.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.CoreCompileInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 1.322,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "TargetFilePath": "D:\\test\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "success": "success",
+    "FileSize": 36004,
+    "FileTransferTime": 15.0929,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.FileListAbsolute.txt",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.FileListAbsolute.txt",
+    "success": "success",
+    "FileSize": 1376,
+    "FileTransferTime": 9.8424,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.8024,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.2043,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "TargetFilePath": "D:\\test2\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "success": "success",
+    "FileSize": 496,
+    "FileTransferTime": 1.9807,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test\\.suo",
+    "success": "success",
+    "FileSize": 52736,
+    "FileTransferTime": 32.7688,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.genruntimeconfig.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.genruntimeconfig.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 0.91,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Properties.Resources.Designer.cs.dll",
+    "TargetFilePath": "D:\\test\\Properties.Resources.Designer.cs.dll",
+    "success": "success",
+    "FileSize": 4096,
+    "FileTransferTime": 35.8885,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GlobalUsings.g.cs",
+    "TargetFilePath": "D:\\test2\\Workshop1.GlobalUsings.g.cs",
+    "success": "success",
+    "FileSize": 295,
+    "FileTransferTime": 0.8141,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 32.1347,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test2\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 1.5638,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\_IsIncrementalBuild",
+    "TargetFilePath": "D:\\test2\\_IsIncrementalBuild",
+    "success": "success",
+    "FileSize": 39,
+    "FileTransferTime": 1.0609,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.8441,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "TargetFilePath": "D:\\test2\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "success": "success",
+    "FileSize": 36004,
+    "FileTransferTime": 1.2056,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test2\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.8906,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test2\\.suo",
+    "success": "success",
+    "FileSize": 52736,
+    "FileTransferTime": 1.0112,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Properties.Resources.Designer.cs.dll",
+    "TargetFilePath": "D:\\test2\\Properties.Resources.Designer.cs.dll",
+    "success": "success",
+    "FileSize": 4096,
+    "FileTransferTime": 0.9636,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 0.8352,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.0773,
+    "Time": "24/02/2023 11:29:16"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "TargetFilePath": "D:\\test\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "success": "success",
+    "FileSize": 1073612,
+    "FileTransferTime": 3.6205,
+    "Time": "24/02/2023 11:31:06"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche de confidentialit\u00E9 CESI.docx",
+    "TargetFilePath": "D:\\test\\Fiche de confidentialit\u00E9 CESI.docx",
+    "success": "success",
+    "FileSize": 43963,
+    "FileTransferTime": 5.4258,
+    "Time": "24/02/2023 11:31:06"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "TargetFilePath": "D:\\test\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "success": "success",
+    "FileSize": 1682542,
+    "FileTransferTime": 3.5243,
+    "Time": "24/02/2023 11:31:06"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoCesi.png",
+    "TargetFilePath": "D:\\test\\LogoCesi.png",
+    "success": "success",
+    "FileSize": 3644,
+    "FileTransferTime": 1.0234,
+    "Time": "24/02/2023 11:31:06"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoThales.png",
+    "TargetFilePath": "D:\\test\\LogoThales.png",
+    "success": "success",
+    "FileSize": 9666,
+    "FileTransferTime": 1.021,
+    "Time": "24/02/2023 11:31:06"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "TargetFilePath": "D:\\test\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 830378,
+    "FileTransferTime": 2.8806,
+    "Time": "24/02/2023 11:31:06"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "TargetFilePath": "D:\\test\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "success": "success",
+    "FileSize": 1631262,
+    "FileTransferTime": 4.1093,
+    "Time": "24/02/2023 11:31:06"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "TargetFilePath": "D:\\test\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "success": "success",
+    "FileSize": 487923,
+    "FileTransferTime": 3.4138,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "TargetFilePath": "D:\\test\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "success": "success",
+    "FileSize": 425755,
+    "FileTransferTime": 3.4032,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "TargetFilePath": "D:\\test\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 1262933,
+    "FileTransferTime": 8.2559,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "TargetFilePath": "D:\\test\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "success": "success",
+    "FileSize": 14823162,
+    "FileTransferTime": 13.8312,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "TargetFilePath": "D:\\test\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "success": "success",
+    "FileSize": 782060,
+    "FileTransferTime": 3.6902,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "TargetFilePath": "D:\\test\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "success": "success",
+    "FileSize": 825433,
+    "FileTransferTime": 3.2666,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "TargetFilePath": "D:\\test\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "success": "success",
+    "FileSize": 960891,
+    "FileTransferTime": 2.6842,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NombresComplexes.docx",
+    "TargetFilePath": "D:\\test\\NombresComplexes.docx",
+    "success": "success",
+    "FileSize": 17550,
+    "FileTransferTime": 1.2205,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled.ipynb",
+    "TargetFilePath": "D:\\test\\Untitled.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 1.0929,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo",
+    "TargetFilePath": "D:\\test\\Projet.zargo",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 1.0174,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo~",
+    "TargetFilePath": "D:\\test\\Projet.zargo~",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 2.6796,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo",
+    "TargetFilePath": "D:\\test\\Workshop1.zargo",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 1.2765,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo~",
+    "TargetFilePath": "D:\\test\\Workshop1.zargo~",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 2.7546,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled-checkpoint.ipynb",
+    "TargetFilePath": "D:\\test\\Untitled-checkpoint.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 1.1895,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.editorconfig",
+    "TargetFilePath": "D:\\test\\.editorconfig",
+    "success": "success",
+    "FileSize": 98,
+    "FileTransferTime": 0.8433,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Controller.cs",
+    "TargetFilePath": "D:\\test\\Controller.cs",
+    "success": "success",
+    "FileSize": 476,
+    "FileTransferTime": 0.9515,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Modele.cs",
+    "TargetFilePath": "D:\\test\\Modele.cs",
+    "success": "success",
+    "FileSize": 682,
+    "FileTransferTime": 1.1115,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\View.cs",
+    "TargetFilePath": "D:\\test\\View.cs",
+    "success": "success",
+    "FileSize": 632,
+    "FileTransferTime": 5.1778,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj",
+    "success": "success",
+    "FileSize": 249,
+    "FileTransferTime": 1.0784,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.sln",
+    "TargetFilePath": "D:\\test\\Workshop1.sln",
+    "success": "success",
+    "FileSize": 1363,
+    "FileTransferTime": 1.2468,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.config",
+    "TargetFilePath": "D:\\test\\App.config",
+    "success": "success",
+    "FileSize": 187,
+    "FileTransferTime": 0.9462,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml",
+    "TargetFilePath": "D:\\test\\App.xaml",
+    "success": "success",
+    "FileSize": 378,
+    "FileTransferTime": 0.9576,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml.cs",
+    "TargetFilePath": "D:\\test\\App.xaml.cs",
+    "success": "success",
+    "FileSize": 350,
+    "FileTransferTime": 5.2512,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml",
+    "TargetFilePath": "D:\\test\\MainWindow.xaml",
+    "success": "success",
+    "FileSize": 511,
+    "FileTransferTime": 1.0092,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml.cs",
+    "TargetFilePath": "D:\\test\\MainWindow.xaml.cs",
+    "success": "success",
+    "FileSize": 669,
+    "FileTransferTime": 0.9421,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj",
+    "TargetFilePath": "D:\\test\\Workshop1_V2.csproj",
+    "success": "success",
+    "FileSize": 4185,
+    "FileTransferTime": 1.0664,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.sln",
+    "TargetFilePath": "D:\\test\\Workshop1_V2.sln",
+    "success": "success",
+    "FileSize": 1129,
+    "FileTransferTime": 1.1064,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.assets.json",
+    "TargetFilePath": "D:\\test\\project.assets.json",
+    "success": "success",
+    "FileSize": 2295,
+    "FileTransferTime": 1.0388,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.nuget.cache",
+    "TargetFilePath": "D:\\test\\project.nuget.cache",
+    "success": "success",
+    "FileSize": 292,
+    "FileTransferTime": 1.1358,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.dgspec.json",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.nuget.dgspec.json",
+    "success": "success",
+    "FileSize": 2324,
+    "FileTransferTime": 1.1151,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.props",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.nuget.g.props",
+    "success": "success",
+    "FileSize": 1302,
+    "FileTransferTime": 1.0563,
+    "Time": "24/02/2023 11:31:07"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.targets",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.nuget.g.targets",
+    "success": "success",
+    "FileSize": 150,
+    "FileTransferTime": 1.0788,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test\\AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 2705,
+    "FileTransferTime": 1.1698,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.Designer.cs",
+    "TargetFilePath": "D:\\test\\Resources.Designer.cs",
+    "success": "success",
+    "FileSize": 3048,
+    "FileTransferTime": 1.033,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "TargetFilePath": "D:\\test2\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "success": "success",
+    "FileSize": 1073612,
+    "FileTransferTime": 2.52,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.resx",
+    "TargetFilePath": "D:\\test\\Resources.resx",
+    "success": "success",
+    "FileSize": 5612,
+    "FileTransferTime": 0.9646,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche de confidentialit\u00E9 CESI.docx",
+    "TargetFilePath": "D:\\test2\\Fiche de confidentialit\u00E9 CESI.docx",
+    "success": "success",
+    "FileSize": 43963,
+    "FileTransferTime": 1.2266,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.Designer.cs",
+    "TargetFilePath": "D:\\test\\Settings.Designer.cs",
+    "success": "success",
+    "FileSize": 1099,
+    "FileTransferTime": 1.0335,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "TargetFilePath": "D:\\test2\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "success": "success",
+    "FileSize": 1682542,
+    "FileTransferTime": 4.3821,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.settings",
+    "TargetFilePath": "D:\\test\\Settings.settings",
+    "success": "success",
+    "FileSize": 201,
+    "FileTransferTime": 1.1584,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoCesi.png",
+    "TargetFilePath": "D:\\test2\\LogoCesi.png",
+    "success": "success",
+    "FileSize": 3644,
+    "FileTransferTime": 0.9947,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_aller_3.odt",
+    "TargetFilePath": "D:\\test\\Prosit_aller_3.odt",
+    "success": "success",
+    "FileSize": 81060,
+    "FileTransferTime": 1.1217,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoThales.png",
+    "TargetFilePath": "D:\\test2\\LogoThales.png",
+    "success": "success",
+    "FileSize": 9666,
+    "FileTransferTime": 0.8911,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_retour_3.odt",
+    "TargetFilePath": "D:\\test\\Prosit_retour_3.odt",
+    "success": "success",
+    "FileSize": 81318,
+    "FileTransferTime": 0.9761,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "TargetFilePath": "D:\\test2\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 830378,
+    "FileTransferTime": 3.1057,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~$osit_retour_3.odt",
+    "TargetFilePath": "D:\\test\\~$osit_retour_3.odt",
+    "success": "success",
+    "FileSize": 162,
+    "FileTransferTime": 2.8434,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "TargetFilePath": "D:\\test2\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "success": "success",
+    "FileSize": 1631262,
+    "FileTransferTime": 3.9535,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~WRL0004.tmp",
+    "TargetFilePath": "D:\\test\\~WRL0004.tmp",
+    "success": "success",
+    "FileSize": 78462,
+    "FileTransferTime": 2.3433,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "TargetFilePath": "D:\\test2\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "success": "success",
+    "FileSize": 487923,
+    "FileTransferTime": 3.4031,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 115370,
+    "FileTransferTime": 1.0248,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "TargetFilePath": "D:\\test2\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "success": "success",
+    "FileSize": 425755,
+    "FileTransferTime": 3.0701,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 136429,
+    "FileTransferTime": 1.1955,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "TargetFilePath": "D:\\test2\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 1262933,
+    "FileTransferTime": 10.5462,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\A3_Seminaire_Prosit_Aller_1.docx",
+    "TargetFilePath": "D:\\test\\A3_Seminaire_Prosit_Aller_1.docx",
+    "success": "success",
+    "FileSize": 17334,
+    "FileTransferTime": 3.3487,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "TargetFilePath": "D:\\test2\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "success": "success",
+    "FileSize": 14823162,
+    "FileTransferTime": 16.5658,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.metadata.v5.2",
+    "TargetFilePath": "D:\\test\\workshop1.metadata.v5.2",
+    "success": "success",
+    "FileSize": 163697,
+    "FileTransferTime": 1.138,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "TargetFilePath": "D:\\test2\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "success": "success",
+    "FileSize": 782060,
+    "FileTransferTime": 3.1796,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.projects.v5.2",
+    "TargetFilePath": "D:\\test\\workshop1.projects.v5.2",
+    "success": "success",
+    "FileSize": 179861,
+    "FileTransferTime": 0.9408,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "TargetFilePath": "D:\\test2\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "success": "success",
+    "FileSize": 825433,
+    "FileTransferTime": 2.941,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 210,
+    "FileTransferTime": 1.6975,
+    "Time": "24/02/2023 11:31:08"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "TargetFilePath": "D:\\test2\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "success": "success",
+    "FileSize": 960891,
+    "FileTransferTime": 13.592,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NombresComplexes.docx",
+    "TargetFilePath": "D:\\test2\\NombresComplexes.docx",
+    "success": "success",
+    "FileSize": 17550,
+    "FileTransferTime": 1.147,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.g.i.cs",
+    "TargetFilePath": "D:\\test\\App.g.i.cs",
+    "success": "success",
+    "FileSize": 2400,
+    "FileTransferTime": 1.2936,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled.ipynb",
+    "TargetFilePath": "D:\\test2\\Untitled.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 2.613,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "TargetFilePath": "D:\\test\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "success": "success",
+    "FileSize": 7261,
+    "FileTransferTime": 0.9894,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo",
+    "TargetFilePath": "D:\\test2\\Projet.zargo",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 0.7652,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo~",
+    "TargetFilePath": "D:\\test2\\Projet.zargo~",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 2.3978,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.g.i.cs",
+    "TargetFilePath": "D:\\test\\MainWindow.g.i.cs",
+    "success": "success",
+    "FileSize": 3102,
+    "FileTransferTime": 0.8187,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo",
+    "TargetFilePath": "D:\\test2\\Workshop1.zargo",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 0.9802,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 7331,
+    "FileTransferTime": 1.1199,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.cache",
+    "TargetFilePath": "D:\\test\\Workshop1_V2_MarkupCompile.i.cache",
+    "success": "success",
+    "FileSize": 270,
+    "FileTransferTime": 1.1275,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo~",
+    "TargetFilePath": "D:\\test2\\Workshop1.zargo~",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 2.5814,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled-checkpoint.ipynb",
+    "TargetFilePath": "D:\\test2\\Untitled-checkpoint.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 2.5825,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.lref",
+    "TargetFilePath": "D:\\test\\Workshop1_V2_MarkupCompile.i.lref",
+    "success": "success",
+    "FileSize": 80,
+    "FileTransferTime": 1.256,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.editorconfig",
+    "TargetFilePath": "D:\\test2\\.editorconfig",
+    "success": "success",
+    "FileSize": 98,
+    "FileTransferTime": 1.0795,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.dtbcache.v2",
+    "TargetFilePath": "D:\\test\\.dtbcache.v2",
+    "success": "success",
+    "FileSize": 80718,
+    "FileTransferTime": 1.3099,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Controller.cs",
+    "TargetFilePath": "D:\\test2\\Controller.cs",
+    "success": "success",
+    "FileSize": 476,
+    "FileTransferTime": 0.863,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "TargetFilePath": "D:\\test\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "success": "success",
+    "FileSize": 2755,
+    "FileTransferTime": 0.9816,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Modele.cs",
+    "TargetFilePath": "D:\\test2\\Modele.cs",
+    "success": "success",
+    "FileSize": 682,
+    "FileTransferTime": 1.4187,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "TargetFilePath": "D:\\test\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "success": "success",
+    "FileSize": 5368,
+    "FileTransferTime": 1.1922,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\View.cs",
+    "TargetFilePath": "D:\\test2\\View.cs",
+    "success": "success",
+    "FileSize": 632,
+    "FileTransferTime": 5.0106,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.7518,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj",
+    "success": "success",
+    "FileSize": 249,
+    "FileTransferTime": 1.0659,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.futdcache.v2",
+    "TargetFilePath": "D:\\test\\.futdcache.v2",
+    "success": "success",
+    "FileSize": 129,
+    "FileTransferTime": 1.0199,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.sln",
+    "TargetFilePath": "D:\\test2\\Workshop1.sln",
+    "success": "success",
+    "FileSize": 1363,
+    "FileTransferTime": 1.5565,
+    "Time": "24/02/2023 11:31:09"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test\\.suo",
+    "success": "success",
+    "FileSize": 34816,
+    "FileTransferTime": 1.0401,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.config",
+    "TargetFilePath": "D:\\test2\\App.config",
+    "success": "success",
+    "FileSize": 187,
+    "FileTransferTime": 0.9541,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.deps.json",
+    "TargetFilePath": "D:\\test\\Workshop1.deps.json",
+    "success": "success",
+    "FileSize": 419,
+    "FileTransferTime": 1.1825,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml",
+    "TargetFilePath": "D:\\test2\\App.xaml",
+    "success": "success",
+    "FileSize": 378,
+    "FileTransferTime": 1.1028,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml.cs",
+    "TargetFilePath": "D:\\test2\\App.xaml.cs",
+    "success": "success",
+    "FileSize": 350,
+    "FileTransferTime": 1.8664,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.4709,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml",
+    "TargetFilePath": "D:\\test2\\MainWindow.xaml",
+    "success": "success",
+    "FileSize": 511,
+    "FileTransferTime": 1.057,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.exe",
+    "TargetFilePath": "D:\\test\\Workshop1.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 1.0257,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml.cs",
+    "TargetFilePath": "D:\\test2\\MainWindow.xaml.cs",
+    "success": "success",
+    "FileSize": 669,
+    "FileTransferTime": 1.0439,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 0.8723,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2.csproj",
+    "success": "success",
+    "FileSize": 4185,
+    "FileTransferTime": 1.0889,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.runtimeconfig.json",
+    "TargetFilePath": "D:\\test\\Workshop1.runtimeconfig.json",
+    "success": "success",
+    "FileSize": 147,
+    "FileTransferTime": 1.061,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.sln",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2.sln",
+    "success": "success",
+    "FileSize": 1129,
+    "FileTransferTime": 1.1169,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 198,
+    "FileTransferTime": 1.1506,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.assets.json",
+    "TargetFilePath": "D:\\test2\\project.assets.json",
+    "success": "success",
+    "FileSize": 2295,
+    "FileTransferTime": 0.9342,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\apphost.exe",
+    "TargetFilePath": "D:\\test\\apphost.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 1.352,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.nuget.cache",
+    "TargetFilePath": "D:\\test2\\project.nuget.cache",
+    "success": "success",
+    "FileSize": 292,
+    "FileTransferTime": 1.0155,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test\\Workshop1.AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 1049,
+    "FileTransferTime": 1.1986,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.dgspec.json",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.nuget.dgspec.json",
+    "success": "success",
+    "FileSize": 2324,
+    "FileTransferTime": 1.0604,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfoInputs.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.AssemblyInfoInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 3.6424,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.props",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.nuget.g.props",
+    "success": "success",
+    "FileSize": 1302,
+    "FileTransferTime": 1.1444,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.assets.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.assets.cache",
+    "success": "success",
+    "FileSize": 224,
+    "FileTransferTime": 1.0966,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 91258,
+    "FileTransferTime": 1.7156,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.targets",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.nuget.g.targets",
+    "success": "success",
+    "FileSize": 150,
+    "FileTransferTime": 1.311,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 1.0472,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test2\\AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 2705,
+    "FileTransferTime": 1.0584,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.CoreCompileInputs.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.CoreCompileInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 1.4171,
+    "Time": "24/02/2023 11:31:10"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.Designer.cs",
+    "TargetFilePath": "D:\\test2\\Resources.Designer.cs",
+    "success": "success",
+    "FileSize": 3048,
+    "FileTransferTime": 1.1134,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.FileListAbsolute.txt",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.FileListAbsolute.txt",
+    "success": "success",
+    "FileSize": 1376,
+    "FileTransferTime": 11.5169,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.resx",
+    "TargetFilePath": "D:\\test2\\Resources.resx",
+    "success": "success",
+    "FileSize": 5612,
+    "FileTransferTime": 0.8459,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.6675,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.Designer.cs",
+    "TargetFilePath": "D:\\test2\\Settings.Designer.cs",
+    "success": "success",
+    "FileSize": 1099,
+    "FileTransferTime": 9.6092,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "TargetFilePath": "D:\\test\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "success": "success",
+    "FileSize": 496,
+    "FileTransferTime": 1.489,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.settings",
+    "TargetFilePath": "D:\\test2\\Settings.settings",
+    "success": "success",
+    "FileSize": 201,
+    "FileTransferTime": 0.8981,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.genruntimeconfig.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.genruntimeconfig.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 1.0707,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_aller_3.odt",
+    "TargetFilePath": "D:\\test2\\Prosit_aller_3.odt",
+    "success": "success",
+    "FileSize": 81060,
+    "FileTransferTime": 1.4437,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_retour_3.odt",
+    "TargetFilePath": "D:\\test2\\Prosit_retour_3.odt",
+    "success": "success",
+    "FileSize": 81318,
+    "FileTransferTime": 1.1164,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GlobalUsings.g.cs",
+    "TargetFilePath": "D:\\test\\Workshop1.GlobalUsings.g.cs",
+    "success": "success",
+    "FileSize": 295,
+    "FileTransferTime": 1.0272,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 1.2601,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~$osit_retour_3.odt",
+    "TargetFilePath": "D:\\test2\\~$osit_retour_3.odt",
+    "success": "success",
+    "FileSize": 162,
+    "FileTransferTime": 1.9921,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\_IsIncrementalBuild",
+    "TargetFilePath": "D:\\test\\_IsIncrementalBuild",
+    "success": "success",
+    "FileSize": 39,
+    "FileTransferTime": 0.9072,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~WRL0004.tmp",
+    "TargetFilePath": "D:\\test2\\~WRL0004.tmp",
+    "success": "success",
+    "FileSize": 78462,
+    "FileTransferTime": 3.0145,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "TargetFilePath": "D:\\test\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "success": "success",
+    "FileSize": 36004,
+    "FileTransferTime": 2.1706,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test2\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 115370,
+    "FileTransferTime": 1.0529,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.8507,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test2\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 136429,
+    "FileTransferTime": 1.252,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test\\.suo",
+    "success": "success",
+    "FileSize": 52736,
+    "FileTransferTime": 1.0834,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\A3_Seminaire_Prosit_Aller_1.docx",
+    "TargetFilePath": "D:\\test2\\A3_Seminaire_Prosit_Aller_1.docx",
+    "success": "success",
+    "FileSize": 17334,
+    "FileTransferTime": 3.8462,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Properties.Resources.Designer.cs.dll",
+    "TargetFilePath": "D:\\test\\Properties.Resources.Designer.cs.dll",
+    "success": "success",
+    "FileSize": 4096,
+    "FileTransferTime": 1.0625,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.metadata.v5.2",
+    "TargetFilePath": "D:\\test2\\workshop1.metadata.v5.2",
+    "success": "success",
+    "FileSize": 163697,
+    "FileTransferTime": 1.2143,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 0.9975,
+    "Time": "24/02/2023 11:31:11"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.projects.v5.2",
+    "TargetFilePath": "D:\\test2\\workshop1.projects.v5.2",
+    "success": "success",
+    "FileSize": 179861,
+    "FileTransferTime": 4.7395,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 0.9167,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test2\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 210,
+    "FileTransferTime": 3.4004,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.g.i.cs",
+    "TargetFilePath": "D:\\test2\\App.g.i.cs",
+    "success": "success",
+    "FileSize": 2400,
+    "FileTransferTime": 1.1806,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "TargetFilePath": "D:\\test2\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "success": "success",
+    "FileSize": 7261,
+    "FileTransferTime": 1.2848,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.g.i.cs",
+    "TargetFilePath": "D:\\test2\\MainWindow.g.i.cs",
+    "success": "success",
+    "FileSize": 3102,
+    "FileTransferTime": 0.9587,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 7331,
+    "FileTransferTime": 1.5281,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2_MarkupCompile.i.cache",
+    "success": "success",
+    "FileSize": 270,
+    "FileTransferTime": 1.0322,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.lref",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2_MarkupCompile.i.lref",
+    "success": "success",
+    "FileSize": 80,
+    "FileTransferTime": 1.0239,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.dtbcache.v2",
+    "TargetFilePath": "D:\\test2\\.dtbcache.v2",
+    "success": "success",
+    "FileSize": 80718,
+    "FileTransferTime": 1.0353,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "TargetFilePath": "D:\\test2\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "success": "success",
+    "FileSize": 2755,
+    "FileTransferTime": 1.0666,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "TargetFilePath": "D:\\test2\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "success": "success",
+    "FileSize": 5368,
+    "FileTransferTime": 2.0398,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test2\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.7599,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.futdcache.v2",
+    "TargetFilePath": "D:\\test2\\.futdcache.v2",
+    "success": "success",
+    "FileSize": 129,
+    "FileTransferTime": 0.9561,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test2\\.suo",
+    "success": "success",
+    "FileSize": 34816,
+    "FileTransferTime": 1.172,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.deps.json",
+    "TargetFilePath": "D:\\test2\\Workshop1.deps.json",
+    "success": "success",
+    "FileSize": 419,
+    "FileTransferTime": 1.2199,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 0.9652,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.exe",
+    "TargetFilePath": "D:\\test2\\Workshop1.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 1.1571,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test2\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 1.0383,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.runtimeconfig.json",
+    "TargetFilePath": "D:\\test2\\Workshop1.runtimeconfig.json",
+    "success": "success",
+    "FileSize": 147,
+    "FileTransferTime": 0.9825,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test2\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 198,
+    "FileTransferTime": 1.0668,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\apphost.exe",
+    "TargetFilePath": "D:\\test2\\apphost.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 1.4727,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test2\\Workshop1.AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 1049,
+    "FileTransferTime": 1.2319,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfoInputs.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.AssemblyInfoInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 5.2772,
+    "Time": "24/02/2023 11:31:12"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.assets.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.assets.cache",
+    "success": "success",
+    "FileSize": 224,
+    "FileTransferTime": 1.0561,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 91258,
+    "FileTransferTime": 1.2309,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 1.3309,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.CoreCompileInputs.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.CoreCompileInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 1.2211,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.FileListAbsolute.txt",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.FileListAbsolute.txt",
+    "success": "success",
+    "FileSize": 1376,
+    "FileTransferTime": 8.065,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.0047,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "TargetFilePath": "D:\\test2\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "success": "success",
+    "FileSize": 496,
+    "FileTransferTime": 1.7671,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.genruntimeconfig.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.genruntimeconfig.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 1.4014,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GlobalUsings.g.cs",
+    "TargetFilePath": "D:\\test2\\Workshop1.GlobalUsings.g.cs",
+    "success": "success",
+    "FileSize": 295,
+    "FileTransferTime": 1.7669,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test2\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 1.3092,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\_IsIncrementalBuild",
+    "TargetFilePath": "D:\\test2\\_IsIncrementalBuild",
+    "success": "success",
+    "FileSize": 39,
+    "FileTransferTime": 1.142,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "TargetFilePath": "D:\\test2\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "success": "success",
+    "FileSize": 36004,
+    "FileTransferTime": 4.5557,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test2\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.9911,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test2\\.suo",
+    "success": "success",
+    "FileSize": 52736,
+    "FileTransferTime": 1.2042,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Properties.Resources.Designer.cs.dll",
+    "TargetFilePath": "D:\\test2\\Properties.Resources.Designer.cs.dll",
+    "success": "success",
+    "FileSize": 4096,
+    "FileTransferTime": 1.1348,
+    "Time": "24/02/2023 11:31:13"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 5.9929,
+    "Time": "24/02/2023 11:31:14"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 0.9953,
+    "Time": "24/02/2023 11:31:14"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "TargetFilePath": "D:\\test\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "success": "success",
+    "FileSize": 1073612,
+    "FileTransferTime": 3.9412,
+    "Time": "24/02/2023 11:34:32"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche de confidentialit\u00E9 CESI.docx",
+    "TargetFilePath": "D:\\test\\Fiche de confidentialit\u00E9 CESI.docx",
+    "success": "success",
+    "FileSize": 43963,
+    "FileTransferTime": 5.0588,
+    "Time": "24/02/2023 11:34:32"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "TargetFilePath": "D:\\test\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "success": "success",
+    "FileSize": 1682542,
+    "FileTransferTime": 3.0782,
+    "Time": "24/02/2023 11:34:32"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoCesi.png",
+    "TargetFilePath": "D:\\test\\LogoCesi.png",
+    "success": "success",
+    "FileSize": 3644,
+    "FileTransferTime": 1.0652,
+    "Time": "24/02/2023 11:34:32"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoThales.png",
+    "TargetFilePath": "D:\\test\\LogoThales.png",
+    "success": "success",
+    "FileSize": 9666,
+    "FileTransferTime": 74.78,
+    "Time": "24/02/2023 11:34:32"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "TargetFilePath": "D:\\test\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 830378,
+    "FileTransferTime": 3.4216,
+    "Time": "24/02/2023 11:34:32"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "TargetFilePath": "D:\\test\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "success": "success",
+    "FileSize": 1631262,
+    "FileTransferTime": 3.7407,
+    "Time": "24/02/2023 11:34:32"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "TargetFilePath": "D:\\test\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "success": "success",
+    "FileSize": 487923,
+    "FileTransferTime": 5.0682,
+    "Time": "24/02/2023 11:34:32"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "TargetFilePath": "D:\\test\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "success": "success",
+    "FileSize": 425755,
+    "FileTransferTime": 3.2021,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "TargetFilePath": "D:\\test\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 1262933,
+    "FileTransferTime": 7.9359,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "TargetFilePath": "D:\\test\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "success": "success",
+    "FileSize": 14823162,
+    "FileTransferTime": 14.6428,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "TargetFilePath": "D:\\test\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "success": "success",
+    "FileSize": 782060,
+    "FileTransferTime": 2.742,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "TargetFilePath": "D:\\test\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "success": "success",
+    "FileSize": 825433,
+    "FileTransferTime": 4.5214,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "TargetFilePath": "D:\\test\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "success": "success",
+    "FileSize": 960891,
+    "FileTransferTime": 4.0122,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NombresComplexes.docx",
+    "TargetFilePath": "D:\\test\\NombresComplexes.docx",
+    "success": "success",
+    "FileSize": 17550,
+    "FileTransferTime": 1.6119,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled.ipynb",
+    "TargetFilePath": "D:\\test\\Untitled.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 1.1892,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo",
+    "TargetFilePath": "D:\\test\\Projet.zargo",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 1.1041,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo~",
+    "TargetFilePath": "D:\\test\\Projet.zargo~",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 3.0759,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo",
+    "TargetFilePath": "D:\\test\\Workshop1.zargo",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 0.9663,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo~",
+    "TargetFilePath": "D:\\test\\Workshop1.zargo~",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 2.9717,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled-checkpoint.ipynb",
+    "TargetFilePath": "D:\\test\\Untitled-checkpoint.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 0.8399,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.editorconfig",
+    "TargetFilePath": "D:\\test\\.editorconfig",
+    "success": "success",
+    "FileSize": 98,
+    "FileTransferTime": 1,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Controller.cs",
+    "TargetFilePath": "D:\\test\\Controller.cs",
+    "success": "success",
+    "FileSize": 476,
+    "FileTransferTime": 0.8945,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Modele.cs",
+    "TargetFilePath": "D:\\test\\Modele.cs",
+    "success": "success",
+    "FileSize": 682,
+    "FileTransferTime": 1.0757,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\View.cs",
+    "TargetFilePath": "D:\\test\\View.cs",
+    "success": "success",
+    "FileSize": 632,
+    "FileTransferTime": 1.5071,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj",
+    "success": "success",
+    "FileSize": 249,
+    "FileTransferTime": 0.8704,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.sln",
+    "TargetFilePath": "D:\\test\\Workshop1.sln",
+    "success": "success",
+    "FileSize": 1363,
+    "FileTransferTime": 0.8974,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.config",
+    "TargetFilePath": "D:\\test\\App.config",
+    "success": "success",
+    "FileSize": 187,
+    "FileTransferTime": 0.9,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml",
+    "TargetFilePath": "D:\\test\\App.xaml",
+    "success": "success",
+    "FileSize": 378,
+    "FileTransferTime": 1.0288,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml.cs",
+    "TargetFilePath": "D:\\test\\App.xaml.cs",
+    "success": "success",
+    "FileSize": 350,
+    "FileTransferTime": 1.0708,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml",
+    "TargetFilePath": "D:\\test\\MainWindow.xaml",
+    "success": "success",
+    "FileSize": 511,
+    "FileTransferTime": 1.0115,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml.cs",
+    "TargetFilePath": "D:\\test\\MainWindow.xaml.cs",
+    "success": "success",
+    "FileSize": 669,
+    "FileTransferTime": 1.0258,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj",
+    "TargetFilePath": "D:\\test\\Workshop1_V2.csproj",
+    "success": "success",
+    "FileSize": 4185,
+    "FileTransferTime": 1.2565,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.sln",
+    "TargetFilePath": "D:\\test\\Workshop1_V2.sln",
+    "success": "success",
+    "FileSize": 1129,
+    "FileTransferTime": 0.9988,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.assets.json",
+    "TargetFilePath": "D:\\test\\project.assets.json",
+    "success": "success",
+    "FileSize": 2295,
+    "FileTransferTime": 0.8788,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.nuget.cache",
+    "TargetFilePath": "D:\\test\\project.nuget.cache",
+    "success": "success",
+    "FileSize": 292,
+    "FileTransferTime": 1.0156,
+    "Time": "24/02/2023 11:34:33"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.dgspec.json",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.nuget.dgspec.json",
+    "success": "success",
+    "FileSize": 2324,
+    "FileTransferTime": 1.4512,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.props",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.nuget.g.props",
+    "success": "success",
+    "FileSize": 1302,
+    "FileTransferTime": 1.0365,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.targets",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.nuget.g.targets",
+    "success": "success",
+    "FileSize": 150,
+    "FileTransferTime": 5.0708,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "TargetFilePath": "D:\\test2\\Fiche 1 - Avant projet de formation CESI \u00C9cole d ing\u00E9nieurs 2020 V01.pdf",
+    "success": "success",
+    "FileSize": 1073612,
+    "FileTransferTime": 3.0335,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test\\AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 2705,
+    "FileTransferTime": 0.8881,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Fiche de confidentialit\u00E9 CESI.docx",
+    "TargetFilePath": "D:\\test2\\Fiche de confidentialit\u00E9 CESI.docx",
+    "success": "success",
+    "FileSize": 43963,
+    "FileTransferTime": 5.041,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.Designer.cs",
+    "TargetFilePath": "D:\\test\\Resources.Designer.cs",
+    "success": "success",
+    "FileSize": 3048,
+    "FileTransferTime": 1.1059,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "TargetFilePath": "D:\\test2\\fiche-3-bilan-semestre-5-cesi-ecole-d-ingenieurs-2019-v01_1570695827096-.pdf",
+    "success": "success",
+    "FileSize": 1682542,
+    "FileTransferTime": 4.3349,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.resx",
+    "TargetFilePath": "D:\\test\\Resources.resx",
+    "success": "success",
+    "FileSize": 5612,
+    "FileTransferTime": 1.1171,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoCesi.png",
+    "TargetFilePath": "D:\\test2\\LogoCesi.png",
+    "success": "success",
+    "FileSize": 3644,
+    "FileTransferTime": 1.0491,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.Designer.cs",
+    "TargetFilePath": "D:\\test\\Settings.Designer.cs",
+    "success": "success",
+    "FileSize": 1099,
+    "FileTransferTime": 0.829,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\LogoThales.png",
+    "TargetFilePath": "D:\\test2\\LogoThales.png",
+    "success": "success",
+    "FileSize": 9666,
+    "FileTransferTime": 0.8455,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.settings",
+    "TargetFilePath": "D:\\test\\Settings.settings",
+    "success": "success",
+    "FileSize": 201,
+    "FileTransferTime": 1.0634,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "TargetFilePath": "D:\\test2\\NP Rapport \u00E9tonnement 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 830378,
+    "FileTransferTime": 3.4378,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_aller_3.odt",
+    "TargetFilePath": "D:\\test\\Prosit_aller_3.odt",
+    "success": "success",
+    "FileSize": 81060,
+    "FileTransferTime": 1.3216,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "TargetFilePath": "D:\\test2\\2022 - R\u00E8glement des \u00E9tudes PG - 2022 v01.pdf",
+    "success": "success",
+    "FileSize": 1631262,
+    "FileTransferTime": 4.5217,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_retour_3.odt",
+    "TargetFilePath": "D:\\test\\Prosit_retour_3.odt",
+    "success": "success",
+    "FileSize": 81318,
+    "FileTransferTime": 1.0235,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "TargetFilePath": "D:\\test2\\Charte du bon usage des ressources p\u00E9dagogiques de CESI - CESI Ecole d\u0027Ing\u00E9nieurs 2020 V02.docx",
+    "success": "success",
+    "FileSize": 487923,
+    "FileTransferTime": 2.8486,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~$osit_retour_3.odt",
+    "TargetFilePath": "D:\\test\\~$osit_retour_3.odt",
+    "success": "success",
+    "FileSize": 162,
+    "FileTransferTime": 2.5244,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "TargetFilePath": "D:\\test2\\DroitsDevoirs_apprentis_mars2022.pdf",
+    "success": "success",
+    "FileSize": 425755,
+    "FileTransferTime": 3.1721,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~WRL0004.tmp",
+    "TargetFilePath": "D:\\test\\~WRL0004.tmp",
+    "success": "success",
+    "FileSize": 78462,
+    "FileTransferTime": 2.7558,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "TargetFilePath": "D:\\test2\\Journal de bord FISA 21-24 - CESI \u00C9cole d\u0027Ing\u00E9nieurs - 2021 V01.pdf",
+    "success": "success",
+    "FileSize": 1262933,
+    "FileTransferTime": 7.8635,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 115370,
+    "FileTransferTime": 1.4297,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "TargetFilePath": "D:\\test2\\rentr\u00E9eFISA A3_INFO_2020_V7.pptx",
+    "success": "success",
+    "FileSize": 14823162,
+    "FileTransferTime": 14.8932,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 136429,
+    "FileTransferTime": 1.2186,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "TargetFilePath": "D:\\test2\\SI 03 Doc 00a - Charte informatique CESI - V04.pdf",
+    "success": "success",
+    "FileSize": 782060,
+    "FileTransferTime": 3.5718,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\A3_Seminaire_Prosit_Aller_1.docx",
+    "TargetFilePath": "D:\\test\\A3_Seminaire_Prosit_Aller_1.docx",
+    "success": "success",
+    "FileSize": 17334,
+    "FileTransferTime": 3.2554,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "TargetFilePath": "D:\\test2\\SI 03 Doc00b - Charte d\u0027usage Office 365 - 03.pdf",
+    "success": "success",
+    "FileSize": 825433,
+    "FileTransferTime": 3.3148,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.metadata.v5.2",
+    "TargetFilePath": "D:\\test\\workshop1.metadata.v5.2",
+    "success": "success",
+    "FileSize": 163697,
+    "FileTransferTime": 1.06,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "TargetFilePath": "D:\\test2\\Toulouse R\u00E8glement int\u00E9rieur stagiaires - avril 2022.pdf",
+    "success": "success",
+    "FileSize": 960891,
+    "FileTransferTime": 4.1648,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.projects.v5.2",
+    "TargetFilePath": "D:\\test\\workshop1.projects.v5.2",
+    "success": "success",
+    "FileSize": 179861,
+    "FileTransferTime": 1.37,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\NombresComplexes.docx",
+    "TargetFilePath": "D:\\test2\\NombresComplexes.docx",
+    "success": "success",
+    "FileSize": 17550,
+    "FileTransferTime": 1.2143,
+    "Time": "24/02/2023 11:34:34"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled.ipynb",
+    "TargetFilePath": "D:\\test2\\Untitled.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 1.0608,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 210,
+    "FileTransferTime": 0.9769,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo",
+    "TargetFilePath": "D:\\test2\\Projet.zargo",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 1.3667,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Projet.zargo~",
+    "TargetFilePath": "D:\\test2\\Projet.zargo~",
+    "success": "success",
+    "FileSize": 6133,
+    "FileTransferTime": 3.0717,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.g.i.cs",
+    "TargetFilePath": "D:\\test\\App.g.i.cs",
+    "success": "success",
+    "FileSize": 2400,
+    "FileTransferTime": 1.0912,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo",
+    "TargetFilePath": "D:\\test2\\Workshop1.zargo",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 1.0665,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "TargetFilePath": "D:\\test\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "success": "success",
+    "FileSize": 7261,
+    "FileTransferTime": 0.9531,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.zargo~",
+    "TargetFilePath": "D:\\test2\\Workshop1.zargo~",
+    "success": "success",
+    "FileSize": 4455,
+    "FileTransferTime": 2.4976,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.g.i.cs",
+    "TargetFilePath": "D:\\test\\MainWindow.g.i.cs",
+    "success": "success",
+    "FileSize": 3102,
+    "FileTransferTime": 1.0977,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Untitled-checkpoint.ipynb",
+    "TargetFilePath": "D:\\test2\\Untitled-checkpoint.ipynb",
+    "success": "success",
+    "FileSize": 58275,
+    "FileTransferTime": 1.4832,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 7331,
+    "FileTransferTime": 1.5178,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.editorconfig",
+    "TargetFilePath": "D:\\test2\\.editorconfig",
+    "success": "success",
+    "FileSize": 98,
+    "FileTransferTime": 1.0663,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.cache",
+    "TargetFilePath": "D:\\test\\Workshop1_V2_MarkupCompile.i.cache",
+    "success": "success",
+    "FileSize": 270,
+    "FileTransferTime": 1.0496,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Controller.cs",
+    "TargetFilePath": "D:\\test2\\Controller.cs",
+    "success": "success",
+    "FileSize": 476,
+    "FileTransferTime": 1.1733,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.lref",
+    "TargetFilePath": "D:\\test\\Workshop1_V2_MarkupCompile.i.lref",
+    "success": "success",
+    "FileSize": 80,
+    "FileTransferTime": 2.3125,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Modele.cs",
+    "TargetFilePath": "D:\\test2\\Modele.cs",
+    "success": "success",
+    "FileSize": 682,
+    "FileTransferTime": 1.0809,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.dtbcache.v2",
+    "TargetFilePath": "D:\\test\\.dtbcache.v2",
+    "success": "success",
+    "FileSize": 80718,
+    "FileTransferTime": 1.0919,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\View.cs",
+    "TargetFilePath": "D:\\test2\\View.cs",
+    "success": "success",
+    "FileSize": 632,
+    "FileTransferTime": 5.2723,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "TargetFilePath": "D:\\test\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "success": "success",
+    "FileSize": 2755,
+    "FileTransferTime": 0.9269,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj",
+    "success": "success",
+    "FileSize": 249,
+    "FileTransferTime": 1.1984,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.sln",
+    "TargetFilePath": "D:\\test2\\Workshop1.sln",
+    "success": "success",
+    "FileSize": 1363,
+    "FileTransferTime": 1.1448,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "TargetFilePath": "D:\\test\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "success": "success",
+    "FileSize": 5368,
+    "FileTransferTime": 1.0623,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.config",
+    "TargetFilePath": "D:\\test2\\App.config",
+    "success": "success",
+    "FileSize": 187,
+    "FileTransferTime": 1.094,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.6487,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml",
+    "TargetFilePath": "D:\\test2\\App.xaml",
+    "success": "success",
+    "FileSize": 378,
+    "FileTransferTime": 1.0113,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.futdcache.v2",
+    "TargetFilePath": "D:\\test\\.futdcache.v2",
+    "success": "success",
+    "FileSize": 129,
+    "FileTransferTime": 0.9229,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.xaml.cs",
+    "TargetFilePath": "D:\\test2\\App.xaml.cs",
+    "success": "success",
+    "FileSize": 350,
+    "FileTransferTime": 5.4716,
+    "Time": "24/02/2023 11:34:35"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test\\.suo",
+    "success": "success",
+    "FileSize": 34816,
+    "FileTransferTime": 2.7038,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml",
+    "TargetFilePath": "D:\\test2\\MainWindow.xaml",
+    "success": "success",
+    "FileSize": 511,
+    "FileTransferTime": 0.9142,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.deps.json",
+    "TargetFilePath": "D:\\test\\Workshop1.deps.json",
+    "success": "success",
+    "FileSize": 419,
+    "FileTransferTime": 1.1157,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.xaml.cs",
+    "TargetFilePath": "D:\\test2\\MainWindow.xaml.cs",
+    "success": "success",
+    "FileSize": 669,
+    "FileTransferTime": 1.0055,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.0578,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2.csproj",
+    "success": "success",
+    "FileSize": 4185,
+    "FileTransferTime": 1.0429,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.exe",
+    "TargetFilePath": "D:\\test\\Workshop1.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 0.912,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.sln",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2.sln",
+    "success": "success",
+    "FileSize": 1129,
+    "FileTransferTime": 1.1579,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 0.999,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.assets.json",
+    "TargetFilePath": "D:\\test2\\project.assets.json",
+    "success": "success",
+    "FileSize": 2295,
+    "FileTransferTime": 0.9638,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\project.nuget.cache",
+    "TargetFilePath": "D:\\test2\\project.nuget.cache",
+    "success": "success",
+    "FileSize": 292,
+    "FileTransferTime": 1.0759,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.runtimeconfig.json",
+    "TargetFilePath": "D:\\test\\Workshop1.runtimeconfig.json",
+    "success": "success",
+    "FileSize": 147,
+    "FileTransferTime": 0.9623,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.dgspec.json",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.nuget.dgspec.json",
+    "success": "success",
+    "FileSize": 2324,
+    "FileTransferTime": 1.2305,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 198,
+    "FileTransferTime": 1.4441,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.props",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.nuget.g.props",
+    "success": "success",
+    "FileSize": 1302,
+    "FileTransferTime": 1.0656,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\apphost.exe",
+    "TargetFilePath": "D:\\test\\apphost.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 1.4251,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.nuget.g.targets",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.nuget.g.targets",
+    "success": "success",
+    "FileSize": 150,
+    "FileTransferTime": 1.1281,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test2\\AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 2705,
+    "FileTransferTime": 1.4751,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test\\Workshop1.AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 1049,
+    "FileTransferTime": 1.7365,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.Designer.cs",
+    "TargetFilePath": "D:\\test2\\Resources.Designer.cs",
+    "success": "success",
+    "FileSize": 3048,
+    "FileTransferTime": 0.8815,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Resources.resx",
+    "TargetFilePath": "D:\\test2\\Resources.resx",
+    "success": "success",
+    "FileSize": 5612,
+    "FileTransferTime": 10.0868,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfoInputs.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.AssemblyInfoInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 5.8095,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.Designer.cs",
+    "TargetFilePath": "D:\\test2\\Settings.Designer.cs",
+    "success": "success",
+    "FileSize": 1099,
+    "FileTransferTime": 0.9694,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.assets.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.assets.cache",
+    "success": "success",
+    "FileSize": 224,
+    "FileTransferTime": 0.9802,
+    "Time": "24/02/2023 11:34:36"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Settings.settings",
+    "TargetFilePath": "D:\\test2\\Settings.settings",
+    "success": "success",
+    "FileSize": 201,
+    "FileTransferTime": 0.9405,
+    "Time": "24/02/2023 11:34:37"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 91258,
+    "FileTransferTime": 1.2903,
+    "Time": "24/02/2023 11:34:37"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_aller_3.odt",
+    "TargetFilePath": "D:\\test2\\Prosit_aller_3.odt",
+    "success": "success",
+    "FileSize": 81060,
+    "FileTransferTime": 1.2025,
+    "Time": "24/02/2023 11:34:37"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.8422,
+    "Time": "24/02/2023 11:34:37"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Prosit_retour_3.odt",
+    "TargetFilePath": "D:\\test2\\Prosit_retour_3.odt",
+    "success": "success",
+    "FileSize": 81318,
+    "FileTransferTime": 1.172,
+    "Time": "24/02/2023 11:34:37"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.CoreCompileInputs.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.CoreCompileInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 1.3336,
+    "Time": "24/02/2023 11:34:37"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~$osit_retour_3.odt",
+    "TargetFilePath": "D:\\test2\\~$osit_retour_3.odt",
+    "success": "success",
+    "FileSize": 162,
+    "FileTransferTime": 2.6601,
+    "Time": "24/02/2023 11:34:37"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.FileListAbsolute.txt",
+    "TargetFilePath": "D:\\test\\Workshop1.csproj.FileListAbsolute.txt",
+    "success": "success",
+    "FileSize": 1376,
+    "FileTransferTime": 10.8608,
+    "Time": "24/02/2023 11:34:37"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\~WRL0004.tmp",
+    "TargetFilePath": "D:\\test2\\~WRL0004.tmp",
+    "success": "success",
+    "FileSize": 78462,
+    "FileTransferTime": 2.1848,
+    "Time": "24/02/2023 11:34:37"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.1516,
+    "Time": "24/02/2023 11:34:37"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test2\\PrositAller_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 115370,
+    "FileTransferTime": 2.3232,
+    "Time": "24/02/2023 11:34:37"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "TargetFilePath": "D:\\test\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "success": "success",
+    "FileSize": 496,
+    "FileTransferTime": 1.1075,
+    "Time": "24/02/2023 11:34:38"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "TargetFilePath": "D:\\test2\\PrositRetour_AdministrationSyst\u00E8me_7.docx",
+    "success": "success",
+    "FileSize": 136429,
+    "FileTransferTime": 1.1955,
+    "Time": "24/02/2023 11:34:38"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\A3_Seminaire_Prosit_Aller_1.docx",
+    "TargetFilePath": "D:\\test2\\A3_Seminaire_Prosit_Aller_1.docx",
+    "success": "success",
+    "FileSize": 17334,
+    "FileTransferTime": 3.5402,
+    "Time": "24/02/2023 11:34:38"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.genruntimeconfig.cache",
+    "TargetFilePath": "D:\\test\\Workshop1.genruntimeconfig.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 1.1547,
+    "Time": "24/02/2023 11:34:38"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.metadata.v5.2",
+    "TargetFilePath": "D:\\test2\\workshop1.metadata.v5.2",
+    "success": "success",
+    "FileSize": 163697,
+    "FileTransferTime": 1.2717,
+    "Time": "24/02/2023 11:34:38"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GlobalUsings.g.cs",
+    "TargetFilePath": "D:\\test\\Workshop1.GlobalUsings.g.cs",
+    "success": "success",
+    "FileSize": 295,
+    "FileTransferTime": 1.2355,
+    "Time": "24/02/2023 11:34:38"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\workshop1.projects.v5.2",
+    "TargetFilePath": "D:\\test2\\workshop1.projects.v5.2",
+    "success": "success",
+    "FileSize": 179861,
+    "FileTransferTime": 1.2959,
+    "Time": "24/02/2023 11:34:38"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test2\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 210,
+    "FileTransferTime": 1.0877,
+    "Time": "24/02/2023 11:34:39"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 2.3771,
+    "Time": "24/02/2023 11:34:39"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\App.g.i.cs",
+    "TargetFilePath": "D:\\test2\\App.g.i.cs",
+    "success": "success",
+    "FileSize": 2400,
+    "FileTransferTime": 9.2372,
+    "Time": "24/02/2023 11:34:39"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\_IsIncrementalBuild",
+    "TargetFilePath": "D:\\test\\_IsIncrementalBuild",
+    "success": "success",
+    "FileSize": 39,
+    "FileTransferTime": 13.4841,
+    "Time": "24/02/2023 11:34:39"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "TargetFilePath": "D:\\test2\\DesignTimeResolveAssemblyReferencesInput.cache",
+    "success": "success",
+    "FileSize": 7261,
+    "FileTransferTime": 1.0644,
+    "Time": "24/02/2023 11:34:39"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\MainWindow.g.i.cs",
+    "TargetFilePath": "D:\\test2\\MainWindow.g.i.cs",
+    "success": "success",
+    "FileSize": 3102,
+    "FileTransferTime": 0.9795,
+    "Time": "24/02/2023 11:34:39"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 7331,
+    "FileTransferTime": 5.594,
+    "Time": "24/02/2023 11:34:39"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2_MarkupCompile.i.cache",
+    "success": "success",
+    "FileSize": 270,
+    "FileTransferTime": 2.3202,
+    "Time": "24/02/2023 11:34:39"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "TargetFilePath": "D:\\test\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "success": "success",
+    "FileSize": 36004,
+    "FileTransferTime": 1.8135,
+    "Time": "24/02/2023 11:34:40"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1_V2_MarkupCompile.i.lref",
+    "TargetFilePath": "D:\\test2\\Workshop1_V2_MarkupCompile.i.lref",
+    "success": "success",
+    "FileSize": 80,
+    "FileTransferTime": 1.2166,
+    "Time": "24/02/2023 11:34:40"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.dtbcache.v2",
+    "TargetFilePath": "D:\\test2\\.dtbcache.v2",
+    "success": "success",
+    "FileSize": 80718,
+    "FileTransferTime": 1.0914,
+    "Time": "24/02/2023 11:34:40"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 1.0779,
+    "Time": "24/02/2023 11:34:40"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "TargetFilePath": "D:\\test2\\640cbe17-e60e-4d26-afbd-74a5fd064df0.vsidx",
+    "success": "success",
+    "FileSize": 2755,
+    "FileTransferTime": 1.0553,
+    "Time": "24/02/2023 11:34:40"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test\\.suo",
+    "success": "success",
+    "FileSize": 52736,
+    "FileTransferTime": 8.0763,
+    "Time": "24/02/2023 11:34:40"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "TargetFilePath": "D:\\test2\\f552c9aa-8dd6-4fd5-9329-88ff6f34adaa.vsidx",
+    "success": "success",
+    "FileSize": 5368,
+    "FileTransferTime": 1.0545,
+    "Time": "24/02/2023 11:34:40"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Properties.Resources.Designer.cs.dll",
+    "TargetFilePath": "D:\\test\\Properties.Resources.Designer.cs.dll",
+    "success": "success",
+    "FileSize": 4096,
+    "FileTransferTime": 1.7988,
+    "Time": "24/02/2023 11:34:41"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test2\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.8283,
+    "Time": "24/02/2023 11:34:41"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.futdcache.v2",
+    "TargetFilePath": "D:\\test2\\.futdcache.v2",
+    "success": "success",
+    "FileSize": 129,
+    "FileTransferTime": 3.5365,
+    "Time": "24/02/2023 11:34:41"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.1335,
+    "Time": "24/02/2023 11:34:41"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test2\\.suo",
+    "success": "success",
+    "FileSize": 34816,
+    "FileTransferTime": 1.1138,
+    "Time": "24/02/2023 11:34:41"
+  },
+  {
+    "Name": "TimDocsComp",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.0806,
+    "Time": "24/02/2023 11:34:41"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.deps.json",
+    "TargetFilePath": "D:\\test2\\Workshop1.deps.json",
+    "success": "success",
+    "FileSize": 419,
+    "FileTransferTime": 1.0326,
+    "Time": "24/02/2023 11:34:41"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.0297,
+    "Time": "24/02/2023 11:34:42"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.exe",
+    "TargetFilePath": "D:\\test2\\Workshop1.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 1.4463,
+    "Time": "24/02/2023 11:34:42"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test2\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 1.1236,
+    "Time": "24/02/2023 11:34:42"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.runtimeconfig.json",
+    "TargetFilePath": "D:\\test2\\Workshop1.runtimeconfig.json",
+    "success": "success",
+    "FileSize": 147,
+    "FileTransferTime": 1.1336,
+    "Time": "24/02/2023 11:34:42"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "TargetFilePath": "D:\\test2\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+    "success": "success",
+    "FileSize": 198,
+    "FileTransferTime": 1.208,
+    "Time": "24/02/2023 11:34:42"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\apphost.exe",
+    "TargetFilePath": "D:\\test2\\apphost.exe",
+    "success": "success",
+    "FileSize": 147968,
+    "FileTransferTime": 1.2779,
+    "Time": "24/02/2023 11:34:42"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfo.cs",
+    "TargetFilePath": "D:\\test2\\Workshop1.AssemblyInfo.cs",
+    "success": "success",
+    "FileSize": 1049,
+    "FileTransferTime": 1.2078,
+    "Time": "24/02/2023 11:34:42"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.AssemblyInfoInputs.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.AssemblyInfoInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 1.3301,
+    "Time": "24/02/2023 11:34:43"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.assets.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.assets.cache",
+    "success": "success",
+    "FileSize": 224,
+    "FileTransferTime": 1.0701,
+    "Time": "24/02/2023 11:34:43"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.AssemblyReference.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.AssemblyReference.cache",
+    "success": "success",
+    "FileSize": 91258,
+    "FileTransferTime": 1.0605,
+    "Time": "24/02/2023 11:34:43"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.BuildWithSkipAnalyzers",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.7829,
+    "Time": "24/02/2023 11:34:43"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.CoreCompileInputs.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.CoreCompileInputs.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 1.0827,
+    "Time": "24/02/2023 11:34:43"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.csproj.FileListAbsolute.txt",
+    "TargetFilePath": "D:\\test2\\Workshop1.csproj.FileListAbsolute.txt",
+    "success": "success",
+    "FileSize": 1376,
+    "FileTransferTime": 10.8511,
+    "Time": "24/02/2023 11:34:43"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.7142,
+    "Time": "24/02/2023 11:34:43"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "TargetFilePath": "D:\\test2\\Workshop1.GeneratedMSBuildEditorConfig.editorconfig",
+    "success": "success",
+    "FileSize": 496,
+    "FileTransferTime": 1.0827,
+    "Time": "24/02/2023 11:34:43"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.genruntimeconfig.cache",
+    "TargetFilePath": "D:\\test2\\Workshop1.genruntimeconfig.cache",
+    "success": "success",
+    "FileSize": 42,
+    "FileTransferTime": 10.8297,
+    "Time": "24/02/2023 11:34:44"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.GlobalUsings.g.cs",
+    "TargetFilePath": "D:\\test2\\Workshop1.GlobalUsings.g.cs",
+    "success": "success",
+    "FileSize": 295,
+    "FileTransferTime": 1.1278,
+    "Time": "24/02/2023 11:34:44"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.pdb",
+    "TargetFilePath": "D:\\test2\\Workshop1.pdb",
+    "success": "success",
+    "FileSize": 11048,
+    "FileTransferTime": 1.151,
+    "Time": "24/02/2023 11:34:44"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\_IsIncrementalBuild",
+    "TargetFilePath": "D:\\test2\\_IsIncrementalBuild",
+    "success": "success",
+    "FileSize": 39,
+    "FileTransferTime": 1.0456,
+    "Time": "24/02/2023 11:34:44"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "TargetFilePath": "D:\\test2\\4e84d86d-e8db-483d-8d58-33a812a4497d.vsidx",
+    "success": "success",
+    "FileSize": 36004,
+    "FileTransferTime": 1.2613,
+    "Time": "24/02/2023 11:34:44"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\read.lock",
+    "TargetFilePath": "D:\\test2\\read.lock",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 0.8224,
+    "Time": "24/02/2023 11:34:45"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\.suo",
+    "TargetFilePath": "D:\\test2\\.suo",
+    "success": "success",
+    "FileSize": 52736,
+    "FileTransferTime": 1.2814,
+    "Time": "24/02/2023 11:34:45"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Properties.Resources.Designer.cs.dll",
+    "TargetFilePath": "D:\\test2\\Properties.Resources.Designer.cs.dll",
+    "success": "success",
+    "FileSize": 4096,
+    "FileTransferTime": 0.9992,
+    "Time": "24/02/2023 11:34:45"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.0617,
+    "Time": "24/02/2023 11:34:45"
+  },
+  {
+    "Name": "TimDocsDiff",
+    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI\\Workshop1.dll",
+    "TargetFilePath": "D:\\test2\\Workshop1.dll",
+    "success": "success",
+    "FileSize": 6656,
+    "FileTransferTime": 1.2119,
+    "Time": "24/02/2023 11:34:45"
   }
 ]

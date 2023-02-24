@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "40YEzQEMnySvowEdOBVEtgBzVoP+9u7IA8czMLWo5a1EWzxeBZS7N0jdSOgyzshePF196bavPESDb7NPOVjq8w==",
   "success": true,
   "projectFilePath": "D:\\Projets\\VisualStudio\\ProjetCESICSharp\\EasySave\\EasySave.csproj",
-=======
-  "dgSpecHash": "HmdAB5kPIw5M3pUdrQyrpLFnuW49/MQoeYqWV7+KsGLbJG49dPxtkUy8+kLmhnDUtPTpYvcBxbmfm7tZaTN5HQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\EasySave.csproj",
->>>>>>> 9ef406434ef877527240e406e8c96ab4f0e52a87
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Projets\\VisualStudio\\ProjetCESICSharp\\EasySave\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

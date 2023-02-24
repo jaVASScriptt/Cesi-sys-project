@@ -276,3 +276,9 @@ C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windo
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\Start\ReleaseNote.baml
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\Start\SaveSettings.g.cs
 C:\Users\vdelmas\Documents\Cesi\Cesi-sys-project\EasySave\obj\Debug\net7.0-windows\WPF\Start\SaveSettings.baml
+D:\Projets\VisualStudio\ProjetCESICSharp\EasySave\bin\Debug\net7.0-windows\WPF\Images\easysave-v1-logo_color-dark-1.png
+D:\Projets\VisualStudio\ProjetCESICSharp\EasySave\bin\Debug\net7.0-windows\WPF\Images\easysave - v1 - icon color.png
+D:\Projets\VisualStudio\ProjetCESICSharp\EasySave\obj\Debug\net7.0-windows\WPF\Start\ReleaseNote.g.cs
+D:\Projets\VisualStudio\ProjetCESICSharp\EasySave\obj\Debug\net7.0-windows\WPF\Start\SaveSettings.g.cs
+D:\Projets\VisualStudio\ProjetCESICSharp\EasySave\obj\Debug\net7.0-windows\WPF\Start\ReleaseNote.baml
+D:\Projets\VisualStudio\ProjetCESICSharp\EasySave\obj\Debug\net7.0-windows\WPF\Start\SaveSettings.baml

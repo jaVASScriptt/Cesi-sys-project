@@ -12,7 +12,7 @@
     "LastUsed": "24/02/2023 09:41:15"
   },
   {
-    "Name": "jm",
+    "Name": "TimDocsComp",
     "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI",
     "TargetFilePath": "D:\\test",
     "State": "RUNNING",
@@ -21,7 +21,7 @@
     "NbFilesLeftToDo": 92,
     "Progression": 99,
     "Type": "Complete",
-    "LastUsed": "23/02/2023 22:03:45"
+    "LastUsed": "24/02/2023 11:34:41"
   },
   {
     "Name": "TimDocsDiff",
@@ -33,7 +33,7 @@
     "NbFilesLeftToDo": 92,
     "Progression": 99,
     "Type": "Differential",
-    "LastUsed": "23/02/2023 22:03:47"
+    "LastUsed": "24/02/2023 11:34:45"
   },
   {
     "Name": "Crypto",
@@ -45,6 +45,6 @@
     "NbFilesLeftToDo": 1,
     "Progression": 0,
     "Type": "Complete",
-    "LastUsed": "24/02/2023 11:13:26"
+    "LastUsed": "24/02/2023 11:26:35"
   }
 ]
