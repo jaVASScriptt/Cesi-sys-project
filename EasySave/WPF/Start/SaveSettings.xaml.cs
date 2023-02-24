@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Controler;
 
 namespace EasySave
 {
@@ -21,7 +22,7 @@ namespace EasySave
     /// </summary>
     public partial class SaveSettings : Page
     {
-        
+
         public SaveSettings()
         {
             InitializeComponent();
@@ -36,10 +37,10 @@ namespace EasySave
             ApplyChanges_button.Content = LanguageTool.get("ApplyChanges_button");
             search.Content = LanguageTool.get("search");
             search1.Content = LanguageTool.get("search");
-            
-            
+
+
             ExtensionPEncryptList.Items.Add(".txt");
-            
+
         }
 
         private void BrowserLogJobPathClick(object sender, RoutedEventArgs e)
@@ -90,7 +91,7 @@ namespace EasySave
             string newExtension = NewExtensionTextBox.Text;
             ExtensionPEncryptList.Items.Add(newExtension);
         }
-        
+
         private void DeleteExtensionButton_Click(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
@@ -98,7 +99,7 @@ namespace EasySave
             ExtensionPEncryptList.Items.Remove(extension);
         }
 
-        public String[] GetListBoxItems()
+        public void GetListBoxItems()
         {
             List<string> items = new List<string>();
 
@@ -107,9 +108,10 @@ namespace EasySave
                 items.Add(item);
             }
 
-            return items.ToArray();
+            DifferentialSave.setFilesToCrypt(items.ToArray());
+            CompleteSave.setFilesToCrypt(items.ToArray());
         }
-        
+
         private void ApplyAllChangeClick(object sender, RoutedEventArgs e)
         {
             //EXTENSION PRIORITY
@@ -127,28 +129,28 @@ namespace EasySave
             //BUSINESS SOFTWARE 
             string softwareName = Choicesoftbox.SelectedItem.ToString(); // Récupérer le nom du processus depuis la combobox
 
-                while (true)
-                {
-                    Process[] processes = Process.GetProcessesByName(softwareName);
-
-                    if (processes.Length > 0)
-                    {
-                        Console.WriteLine("Le logiciel est en cours d'exécution. La sauvegarde suivante est mise en pause.");
-                        // Ajouter ici le code pour mettre en pause la sauvegarde suivante
-
-                        foreach (Process process in processes)
-                        {
-                            process.WaitForExit();
-                        }
-
-                        Console.WriteLine("Le logiciel s'est terminé. La sauvegarde suivante peut être reprise.");
-                        // Ajouter ici le code pour reprendre la sauvegarde suivante
-                    }
-                    //temps d'attente avant nouvelle vérification d'exécution du processus
-                    System.Threading.Thread.Sleep(5000);
-                }
             
+            //while true
+            Process[] processes = Process.GetProcessesByName(softwareName);
+
+            if (processes.Length > 0)
+            {
+                Console.WriteLine("Le logiciel est en cours d'exécution. La sauvegarde suivante est mise en pause.");
+                // Ajouter ici le code pour mettre en pause la sauvegarde suivante
+
+                foreach (Process process in processes)
+                {
+                    process.WaitForExit();
+                }
+
+                Console.WriteLine("Le logiciel s'est terminé. La sauvegarde suivante peut être reprise.");
+                // Ajouter ici le code pour reprendre la sauvegarde suivante
+            }
+            //temps d'attente avant nouvelle vérification d'exécution du processus
+            System.Threading.Thread.Sleep(5000);
+            
+
         }
-        
-    }   
+
+    }
 }

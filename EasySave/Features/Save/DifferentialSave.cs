@@ -8,7 +8,15 @@ namespace Controler
     class DifferentialSave : ISave
     {
         private static object lockObject = new object();
-        
+
+        private static string[] fileToCrypt = { ".txt" };
+
+        public static void setFilesToCrypt(string[] files)
+        {
+            fileToCrypt = files;
+        }
+
+
         private string originPath;        
         private string targetPath;
         private string saveName;
@@ -37,8 +45,7 @@ namespace Controler
         public bool CryptedExtension(string extension)
         {
             bool crypt = false;
-            string[] cryptedExtension = { ".txt" };
-            foreach (string ext in cryptedExtension)
+            foreach (string ext in fileToCrypt)
             {
                 if (!crypt)
                 {
