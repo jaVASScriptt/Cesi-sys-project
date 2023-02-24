@@ -5884,5 +5884,23 @@
     "FileSize": 18,
     "FileTransferTime": 17.3271,
     "Time": "24/02/2023 13:51:45"
+  },
+  {
+    "Name": "Image",
+    "SourceFilePath": "C:\\Users\\theot\\Pictures\\reversecard\\RedReverseCard.png",
+    "TargetFilePath": "D:\\test\\RedReverseCard.png",
+    "success": "success",
+    "FileSize": 89829,
+    "FileTransferTime": 11.1711,
+    "Time": "24/02/2023 19:30:25"
+  },
+  {
+    "Name": "aaaa",
+    "SourceFilePath": "D:\\test\\Image\\reversecard\\RedReverseCard.png",
+    "TargetFilePath": "D:\\test2\\RedReverseCard.png",
+    "success": "success",
+    "FileSize": 89829,
+    "FileTransferTime": 5.8568,
+    "Time": "24/02/2023 19:31:34"
   }
 ]

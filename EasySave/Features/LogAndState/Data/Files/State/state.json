@@ -9,7 +9,7 @@
     "NbFilesLeftToDo": 11,
     "Progression": 91,
     "Type": "Differential",
-    "LastUsed": "24/02/2023 13:51:45"
+    "LastUsed": "24/02/2023 19:31:34"
   },
   {
     "Name": "bbbb",
@@ -22,5 +22,17 @@
     "Progression": 91,
     "Type": "Differential",
     "LastUsed": "24/02/2023 13:51:45"
+  },
+  {
+    "Name": "Image",
+    "SourceFilePath": "C:\\Users\\theot\\Pictures\\reversecard",
+    "TargetFilePath": "D:\\test",
+    "State": "END",
+    "TotalFilesToCopy": 1,
+    "TotalFilesSize": 89829,
+    "NbFilesLeftToDo": 1,
+    "Progression": 0,
+    "Type": "Complete",
+    "LastUsed": "24/02/2023 19:30:25"
   }
 ]
