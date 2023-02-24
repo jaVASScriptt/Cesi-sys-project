@@ -23,7 +23,6 @@ namespace EasySave
     public partial class SaveSettings : Page
     {
         
-        public static List listCrypt { get; set; }
         public SaveSettings()
         {
             InitializeComponent();
@@ -40,7 +39,7 @@ namespace EasySave
             search1.Content = LanguageTool.get("search");
 
 
-            foreach (var x in CompleteSave.getFilesToCrypt())
+            foreach (var x in SaveTool.getFilesToCrypt())
             {
                 ExtensionPEncryptList.Items.Add(x);
             }
@@ -112,8 +111,7 @@ namespace EasySave
                 items.Add(item);
             }
 
-            DifferentialSave.setFilesToCrypt(items.ToArray());
-            CompleteSave.setFilesToCrypt(items.ToArray());
+            SaveTool.setFilesToCrypt(items.ToArray());
         }
 
         private void ApplyAllChangeClick(object sender, RoutedEventArgs e)

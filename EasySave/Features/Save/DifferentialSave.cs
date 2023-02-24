@@ -2,20 +2,13 @@
 using EasySafe;
 using System.Diagnostics;
 using System.IO;
+using System.Windows.Input;
 
 namespace Controler
 {
     class DifferentialSave : ISave
     {
         private static object lockObject = new object();
-
-        private static string[] fileToCrypt = { ".txt" };
-
-        public static void setFilesToCrypt(string[] files)
-        {
-            fileToCrypt = files;
-        }
-
 
         private string originPath;        
         private string targetPath;
@@ -41,19 +34,6 @@ namespace Controler
             return targetPath;
         }
 
-
-        public bool CryptedExtension(string extension)
-        {
-            bool crypt = false;
-            foreach (string ext in fileToCrypt)
-            {
-                if (!crypt)
-                {
-                    crypt = (extension == ext);
-                }
-            }
-            return crypt;
-        }
 
         public void saveData(int? i = null)
         {
@@ -102,12 +82,12 @@ namespace Controler
                     }
 
                     //cryptage
-                    if (CryptedExtension(Path.GetExtension(newPath)))
+                    if (SaveTool.CryptedExtension(Path.GetExtension(newPath)))
                     {
                         string cryptosoftPath = AppDomain.CurrentDomain.BaseDirectory + "../../../Features/Cryptosoft/Cryptosoft.exe";
                         ProcessStartInfo startInfo = new ProcessStartInfo();
                         startInfo.FileName = cryptosoftPath;
-                        startInfo.Arguments = $"{origin} {target}";
+                        startInfo.Arguments = $"{origin} {target} {SaveTool.getKey()}";
 
                         Process.Start(startInfo);
                     }
