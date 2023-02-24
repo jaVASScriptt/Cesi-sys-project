@@ -117,6 +117,7 @@ namespace EasySave
         private void ApplyAllChangeClick(object sender, RoutedEventArgs e)
         {
             updateList();
+            SaveTool.setKey(EncryptKeyInput.Text);
         }
 
     }
