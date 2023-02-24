@@ -50,11 +50,13 @@ namespace Controler
             savePath = Path.Combine(savePath, new DirectoryInfo(originPath).Name);
             Directory.CreateDirectory(savePath);
 
-            //Now Create all of the directories
+         
+            //Création des tous les répertoires
+            
             foreach (string dirPath in Directory.GetDirectories(originPath, "*", SearchOption.AllDirectories))
                 Directory.CreateDirectory(dirPath.Replace(originPath, savePath));
 
-            //Copy all the files & Replaces any files with the same name
+            //Copiez tous les fichiers et remplacez tous les fichiers portant le même nom
             foreach (string newPath in Directory.GetFiles(originPath, "*.*", SearchOption.AllDirectories))
             {
                 string origin = newPath;
@@ -63,14 +65,14 @@ namespace Controler
                 
                 FileInfo sourceFile = new FileInfo(origin);
                 FileInfo targetFile = new FileInfo(target);
-                //test if files has been updated
+                // teste si les fichiers ont été mis à jour
                 if (!targetFile.Exists || targetFile.LastWriteTime < sourceFile.LastWriteTime)
                 {
                         
-                    //Measurement of the current time
+                    //Mesure de l'heure courante
                     DateTime startTimeFile = DateTime.Now;
 
-                    //Measurement of the file size
+                    //Mesure de la taille de fichier
                     FileInfo fileInfo = new FileInfo(origin);
                     long size = fileInfo.Length;
 
@@ -94,12 +96,12 @@ namespace Controler
                         Process.Start(startInfo);
                     }
 
-                    //Save time: subtract current time - previously measured time
+                    //Calcul du temp de sauvegarde
                     DateTime endTimeFile = DateTime.Now;
                     TimeSpan timeSave = endTimeFile - startTimeFile;
                     Double fileSaveTime = timeSave.TotalMilliseconds;
 
-                    //Just take the file name
+                    //Prend le nom de fichier
                     string fileName = Path.GetFileName(target);
 
                     lock (lockObject)

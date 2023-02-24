@@ -155,18 +155,18 @@ public class StateTool
 
         
             
-            
-            //Count all the files in the directory and its subdirectories
+            //Compte tous les fichiers dans le répertoire indiqué et les sous-répertoires
             int filesCountCase1 = 0;
 
-            //Measurement of the file size
+            
+            //Ici on mesure la taille des fichiers
             long filesSizeCase1 = 0;
 
             foreach (string filePath in Directory.GetFiles(SourceFilePath, "*.*", SearchOption.AllDirectories))
             {
                 filesCountCase1++;
-
-                //Get the file size and add it to the total size
+                
+                //Récupére les tailles de fichier et l'ajoute dans le total size
                 FileInfo fileInfo = new FileInfo(filePath);
                 filesSizeCase1 += fileInfo.Length;
             }
