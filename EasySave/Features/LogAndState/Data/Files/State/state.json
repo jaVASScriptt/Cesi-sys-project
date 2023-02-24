@@ -22,17 +22,5 @@
     "Progression": 99,
     "Type": "Complete",
     "LastUsed": "23/02/2023 22:03:45"
-  },
-  {
-    "Name": "TimDocsDiff",
-    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI",
-    "TargetFilePath": "D:\\test2",
-    "State": "END",
-    "TotalFilesToCopy": 92,
-    "TotalFilesSize": 26559689,
-    "NbFilesLeftToDo": 92,
-    "Progression": 99,
-    "Type": "Differential",
-    "LastUsed": "23/02/2023 22:03:47"
   }
 ]

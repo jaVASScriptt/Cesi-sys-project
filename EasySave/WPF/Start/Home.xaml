@@ -8,13 +8,16 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="menu_general">
     
-        <Grid>
+        <Grid HorizontalAlignment="Center" Margin="50 0 0 0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             
-            <Button Grid.Column="1" Content="Version 2.0" FontSize="24" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="148" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Margin="0 0 10 10"/>
+            <Image Grid.Column="1" Source="../Images/easysave - v1 - icon color.png" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            
+            <Button Grid.Column="2" Content="Version 2.0" FontSize="15" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="148" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Margin="0 0 0 0"/>
         </Grid>
     
 </Page>
