@@ -2,6 +2,8 @@
 using System.IO;
 using EasySafe;
 using System.Security.Cryptography.X509Certificates;
+using System.Diagnostics;
+
 
 namespace Controler
 {
@@ -31,6 +33,20 @@ namespace Controler
         public string getTargetPath()
         {
             return targetPath;
+        }
+
+        public bool CryptedExtension(string extension)
+        {
+            bool crypt = false;
+            string[] cryptedExtension = { ".txt" };
+            foreach (string ext in cryptedExtension)
+            {
+                if (!crypt)
+                {
+                    crypt = (extension == ext);
+                }
+            }
+            return crypt;
         }
 
         public void saveData(int? i = null)
@@ -72,18 +88,16 @@ namespace Controler
 
                 }
 
-                /*
                 //cryptage
-                if (Path.GetExtension(newPath) == ".txt")
+                if (CryptedExtension(Path.GetExtension(newPath)))
                 {
-                    string cryptosoftPath = "chemin/vers/Cryptosoft.exe";
+                    string cryptosoftPath = AppDomain.CurrentDomain.BaseDirectory + "../../../Features/Cryptosoft/Cryptosoft.exe";
                     ProcessStartInfo startInfo = new ProcessStartInfo();
                     startInfo.FileName = cryptosoftPath;
                     startInfo.Arguments = $"{origin} {target}";
 
                     Process.Start(startInfo);
                 }
-                */
 
                 //Save time: subtract current time - previously measured time
                 DateTime endTimeFile = DateTime.Now;

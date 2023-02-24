@@ -34,5 +34,17 @@
     "Progression": 99,
     "Type": "Differential",
     "LastUsed": "23/02/2023 22:03:47"
+  },
+  {
+    "Name": "Crypto",
+    "SourceFilePath": "C:\\test",
+    "TargetFilePath": "D:\\test",
+    "State": "END",
+    "TotalFilesToCopy": 1,
+    "TotalFilesSize": 32,
+    "NbFilesLeftToDo": 1,
+    "Progression": 0,
+    "Type": "Complete",
+    "LastUsed": "24/02/2023 11:13:26"
   }
 ]

@@ -3742,5 +3742,23 @@
     "FileSize": 0,
     "FileTransferTime": 1.2877,
     "Time": "23/02/2023 22:03:46"
+  },
+  {
+    "Name": "Crypto",
+    "SourceFilePath": "C:\\test\\file.txt",
+    "TargetFilePath": "D:\\test\\file.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 14.884,
+    "Time": "24/02/2023 10:52:44"
+  },
+  {
+    "Name": "Crypto",
+    "SourceFilePath": "C:\\test\\file.txt",
+    "TargetFilePath": "D:\\test\\file.txt",
+    "success": "success",
+    "FileSize": 0,
+    "FileTransferTime": 8.0058,
+    "Time": "24/02/2023 11:13:26"
   }
 ]

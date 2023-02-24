@@ -3744,4 +3744,22 @@
     <FileTransferTime>1,2877</FileTransferTime>
     <Time>23/02/2023 22:03:46</Time>
   </log>
+  <log>
+    <Name>Crypto</Name>
+    <SourceFilePath>C:\test\file.txt</SourceFilePath>
+    <TargetFilePath>D:\test\file.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>14,884</FileTransferTime>
+    <Time>24/02/2023 10:52:44</Time>
+  </log>
+  <log>
+    <Name>Crypto</Name>
+    <SourceFilePath>C:\test\file.txt</SourceFilePath>
+    <TargetFilePath>D:\test\file.txt</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>0</FileSize>
+    <FileTransferTime>8,0058</FileTransferTime>
+    <Time>24/02/2023 11:13:26</Time>
+  </log>
 </logs>
