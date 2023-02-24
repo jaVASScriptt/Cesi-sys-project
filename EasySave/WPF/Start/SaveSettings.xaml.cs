@@ -38,7 +38,7 @@ namespace EasySave
             search.Content = LanguageTool.get("search");
             //search1.Content = LanguageTool.get("search");
 
-
+            EncryptKeyInput.Text = SaveTool.getKey();
             foreach (var x in SaveTool.getFilesToCrypt())
             {
                 ExtensionPEncryptList.Items.Add(x);

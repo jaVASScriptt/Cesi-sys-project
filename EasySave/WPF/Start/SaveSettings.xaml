@@ -69,7 +69,7 @@
                 -->
 
                 <TextBlock Name="EncryptKey" FontSize="18" Foreground="White" Margin="10" Width="598" HorizontalAlignment="Left"/>
-                <TextBlock Name="EncryptKeyInput" FontSize="18" Foreground="Black" Margin="10"/>
+                <TextBox Name="EncryptKeyInput" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left"/>
 
                 <Button Name="ApplyChanges_button" Height="33" Width="106" Click="ApplyAllChangeClick"/>
 
