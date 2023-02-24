@@ -17,6 +17,11 @@ namespace Controler
         {
             fileToCrypt = files;
         }
+        
+        public static string[] getFilesToCrypt()
+        {
+            return fileToCrypt;
+        }
 
         private string originPath;
         private string targetPath;

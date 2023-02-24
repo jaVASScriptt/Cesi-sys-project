@@ -107,20 +107,18 @@ namespace Easysave
                 progressBar.Value = task.Progression;
                 saveProgress.Text = task.Progression + "%";
             } while (task.State == "RUNNING");
-            
-            //Thread.Sleep(1500);
-            
-            //progressBar.Visibility = Visibility.Hidden;
-            //saveProgress.Visibility = Visibility.Hidden;
-            
+
+            Task.Delay(3000);
             progressBar.Value = 100;
             saveProgress.Text = 100 + "%";
             saveAnnouncement.Text = LanguageTool.get("saveAnnouncementEnd");
             
-            //Thread.Sleep(3000);
+            Button2Image.Source = new BitmapImage(new Uri("../Images/edit.png", UriKind.Relative));
+            Button3Image.Source = new BitmapImage(new Uri("../Images/del.png", UriKind.Relative));
             
-            //saveAnnouncement.Visibility = Visibility.Hidden;
         }
+        
+        
 
         private Grid FindParentGrid(FrameworkElement element)
         {

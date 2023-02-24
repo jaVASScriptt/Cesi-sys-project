@@ -17,12 +17,13 @@ using Controler;
 
 namespace EasySave
 {
-    /// <summary>
-    /// Logique d'interaction pour settings.xaml
-    /// </summary>
+
+    
+
     public partial class SaveSettings : Page
     {
-
+        
+        public static List listCrypt { get; set; }
         public SaveSettings()
         {
             InitializeComponent();
@@ -39,7 +40,10 @@ namespace EasySave
             search1.Content = LanguageTool.get("search");
 
 
-            ExtensionPEncryptList.Items.Add(".txt");
+            foreach (var x in CompleteSave.getFilesToCrypt())
+            {
+                ExtensionPEncryptList.Items.Add(x);
+            }
 
         }
 
@@ -99,7 +103,7 @@ namespace EasySave
             ExtensionPEncryptList.Items.Remove(extension);
         }
 
-        public void GetListBoxItems()
+        public void updateList()
         {
             List<string> items = new List<string>();
 
@@ -114,42 +118,7 @@ namespace EasySave
 
         private void ApplyAllChangeClick(object sender, RoutedEventArgs e)
         {
-            //EXTENSION PRIORITY
-            string fileTypesText = ExtensionPriorityList.Text;
-            if (!string.IsNullOrWhiteSpace(fileTypesText))
-            {
-                List<string> fileTypesList = fileTypesText.Split(',').Select(s => s.Trim()).ToList();
-                foreach (string fileType in fileTypesList)
-                {
-                    ExtensionPEncryptList.Items.Add(fileType);
-                }
-                //ExtensionPriorityList.Clear();
-            }
-
-            //BUSINESS SOFTWARE 
-            string softwareName = Choicesoftbox.SelectedItem.ToString(); // Récupérer le nom du processus depuis la combobox
-
-            
-            //while true
-            Process[] processes = Process.GetProcessesByName(softwareName);
-
-            if (processes.Length > 0)
-            {
-                Console.WriteLine("Le logiciel est en cours d'exécution. La sauvegarde suivante est mise en pause.");
-                // Ajouter ici le code pour mettre en pause la sauvegarde suivante
-
-                foreach (Process process in processes)
-                {
-                    process.WaitForExit();
-                }
-
-                Console.WriteLine("Le logiciel s'est terminé. La sauvegarde suivante peut être reprise.");
-                // Ajouter ici le code pour reprendre la sauvegarde suivante
-            }
-            //temps d'attente avant nouvelle vérification d'exécution du processus
-            System.Threading.Thread.Sleep(5000);
-            
-
+            updateList();
         }
 
     }

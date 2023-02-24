@@ -1,50 +1,26 @@
 [
   {
-    "Name": "fdgsfgsfg",
-    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\source",
-    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\Cesi-sys-project\\EasySave\\Tests\\target",
+    "Name": "aaaa",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\stock\\Cesi-sys-project\\EasySave\\Tests\\source",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\stock\\Cesi-sys-project\\EasySave\\Tests\\target",
     "State": "END",
     "TotalFilesToCopy": 11,
     "TotalFilesSize": 228,
     "NbFilesLeftToDo": 11,
     "Progression": 91,
     "Type": "Differential",
-    "LastUsed": "24/02/2023 09:41:15"
+    "LastUsed": "24/02/2023 13:51:45"
   },
   {
-    "Name": "TimDocsComp",
-    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI",
-    "TargetFilePath": "D:\\test",
-    "State": "RUNNING",
-    "TotalFilesToCopy": 92,
-    "TotalFilesSize": 26559689,
-    "NbFilesLeftToDo": 92,
-    "Progression": 99,
-    "Type": "Complete",
-    "LastUsed": "24/02/2023 11:34:41"
-  },
-  {
-    "Name": "TimDocsDiff",
-    "SourceFilePath": "C:\\Users\\theot\\Documents\\CESI",
-    "TargetFilePath": "D:\\test2",
+    "Name": "bbbb",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\stock\\Cesi-sys-project\\EasySave\\Tests\\source",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\stock\\Cesi-sys-project\\EasySave\\Tests\\target",
     "State": "END",
-    "TotalFilesToCopy": 92,
-    "TotalFilesSize": 26559689,
-    "NbFilesLeftToDo": 92,
-    "Progression": 99,
+    "TotalFilesToCopy": 11,
+    "TotalFilesSize": 228,
+    "NbFilesLeftToDo": 11,
+    "Progression": 91,
     "Type": "Differential",
-    "LastUsed": "24/02/2023 11:34:45"
-  },
-  {
-    "Name": "Crypto",
-    "SourceFilePath": "C:\\test",
-    "TargetFilePath": "D:\\test",
-    "State": "END",
-    "TotalFilesToCopy": 1,
-    "TotalFilesSize": 32,
-    "NbFilesLeftToDo": 1,
-    "Progression": 0,
-    "Type": "Complete",
-    "LastUsed": "24/02/2023 11:26:35"
+    "LastUsed": "24/02/2023 13:51:45"
   }
 ]
