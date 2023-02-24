@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Controler;
+using EasySafe;
 
 namespace EasySave
 {
@@ -113,10 +114,17 @@ namespace EasySave
 
             SaveTool.setFilesToCrypt(items.ToArray());
         }
+        
+        private void setLogAndStatePath()
+        {
+            string NewPath = Log_JobInputPath.Text;
+            LogAndStateTool.changePath(NewPath);
+        }
 
         private void ApplyAllChangeClick(object sender, RoutedEventArgs e)
         {
             updateList();
+            setLogAndStatePath();
             SaveTool.setKey(EncryptKeyInput.Text);
         }
 
