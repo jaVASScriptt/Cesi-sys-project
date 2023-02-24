@@ -1,4 +1,4 @@
-﻿namespace EasySafe;
+﻿namespace EasySave.Features.LogAndState.Data;
 
 public class TaskData
 {

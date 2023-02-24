@@ -2,6 +2,7 @@
 using System.IO;
 using System.Text.RegularExpressions;
 using EasySafe;
+using EasySave.Features.LogAndState.Data;
 
 namespace ConsoleApp2.Features.utils;
 

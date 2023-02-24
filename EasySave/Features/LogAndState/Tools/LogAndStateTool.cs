@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using EasySave.Features.LogAndState.Data;
 
 namespace EasySafe;
 

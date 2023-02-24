@@ -24,7 +24,7 @@ static class LanguageTool
             }
     }
 
-    public static string Get(string key)
+    public static string? Get(string key)
     {
         try
         {

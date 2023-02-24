@@ -6,6 +6,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using ConsoleApp2.Features.utils;
 using EasySave.Features.Language;
+using EasySave.Features.LogAndState.Data;
 
 namespace EasySafe;
 

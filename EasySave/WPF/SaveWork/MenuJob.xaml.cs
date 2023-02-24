@@ -17,6 +17,7 @@ using Controler;
 using EasySafe;
 using EasySave;
 using EasySave.Features.Language;
+using EasySave.Features.LogAndState.Data;
 
 namespace Easysave
 {

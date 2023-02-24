@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml.Linq;
 using ConsoleApp2.Features.utils;
+using EasySave.Features.LogAndState.Data;
 
 namespace EasySafe;
 
