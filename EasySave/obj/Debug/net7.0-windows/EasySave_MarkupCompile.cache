@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\Projets\VisualStudio\ProjetCESICSharp\EasySave\App.xaml
-10-1246787541
-8586088936
-25-174443047
+12568279892
+101719635705
+27-1415940571
 207634024511
-WPF\MainWindow.xaml;WPF\SaveWork\AddWork.xaml;WPF\SaveWork\EditWork.xaml;WPF\SaveWork\MenuJob.xaml;WPF\SaveWork\SaveTemplate.xaml;WPF\Start\ChoiceLanguage.xaml;WPF\Start\ChoiceLogAndState.xaml;WPF\Start\ChoiceSave.xaml;WPF\Start\FastSave.xaml;WPF\Start\Home.xaml;
+WPF\MainWindow.xaml;WPF\SaveWork\AddWork.xaml;WPF\SaveWork\EditWork.xaml;WPF\SaveWork\MenuJob.xaml;WPF\SaveWork\SaveTemplate.xaml;WPF\Start\ChoiceLanguage.xaml;WPF\Start\ChoiceLogAndState.xaml;WPF\Start\ChoiceSave.xaml;WPF\Start\FastSave.xaml;WPF\Start\Home.xaml;WPF\Start\ReleaseNote.xaml;WPF\Start\SaveSettings.xaml;
 
-False
+True
 

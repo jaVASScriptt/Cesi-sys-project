@@ -16,5 +16,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/start.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/del.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/return.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/easysave-v1-logo_color-dark-1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/easysave%20-%20v1%20-%20icon%20color.png")]
 
 

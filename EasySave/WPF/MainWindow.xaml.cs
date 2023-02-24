@@ -50,17 +50,17 @@ namespace EasySave
         
         private void BtnClickLanguage(object sender, RoutedEventArgs e)
         {
-            MainWindow.MainFrame.Content = new ChoiceLanguage();
+            MainFrame.Content = new ChoiceLanguage();
         }
         
-        private void BtnClickLogsAndState(object sender, RoutedEventArgs e)
+        private void BtnSetting(object sender, RoutedEventArgs e)
         {
-            MainWindow.MainFrame.Content = new ChoiceLog();
+            MainFrame.Content = new SaveSettings();
         }
 
         private void BtnClickSave(object sender, RoutedEventArgs e)
         {
-            MainWindow.MainFrame.Content = new ChoiceSave();
+            MainFrame.Content = new ChoiceSave();
         }
 
         private void BtnClickEasySave(object sender, RoutedEventArgs e)

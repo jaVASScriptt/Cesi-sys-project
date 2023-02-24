@@ -3,22 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        WindowStyle="None"
         xmlns:local="clr-namespace:EasySave"
         mc:Ignorable="d"
-        Title="MainWindow" Height="650" Width="1000">
+        Title="MainWindow" Height="650" Width="1000"
+        Icon="Images/easysave.ico">
         
         <Grid Background="#FF001A6C">
                 <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-
-        <!--<Button Grid.Row="0" Width="249" Height="50" HorizontalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" Click="BtnClickEasySave">
-            <Image Source="Images\easysave-v1-logo_color-dark-1.png"/>
-        </Button>-->
-        <TextBlock Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="EasySave" FontSize="72" FontWeight="Bold" Foreground="White" FontFamily="Rockwell Extra Bold"/>
                 
+                <Image Source="Images\easysave-v1-logo_color-dark-1.png" Grid.Row="0" Width="249" Height="50" HorizontalAlignment="Center"/>
+        
                 <Button Grid.Row="0" Width="50" Height="50" HorizontalAlignment="Right" Background="{x:Null}" BorderBrush="{x:Null}" Click="BtnClickExit">
                         <Image Source="Images\exit_logo.png"/>
                 </Button>
@@ -36,7 +33,7 @@
                         <Rectangle Grid.Column="0" Fill="#FF07044A"/>
                         <Button Grid.Column="0" Name="SaveButton" Content="Save" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Height="85" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 0 0 0" Click="BtnClickSave"/>
                         <Button Grid.Column="0" Name="LangageButton" Content="Language" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Height="85" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 100 0 0" RenderTransformOrigin="0.521,-0.061" Click="BtnClickLanguage"/>
-                        <Button Grid.Column="0" Name="settingButton" Content="Settings" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Height="85" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 200 0 0" Click="BtnClickLogsAndState"/> 
+                        <Button Grid.Column="0" Name="settingButton" Content="Settings" FontSize="30" Foreground="White" VerticalAlignment="Top" Width="175" Height="85" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0 200 0 0" Click="BtnSetting"/> 
 
                 <Frame Grid.Column="1" x:Name="Main" NavigationUIVisibility="Hidden"/>
                 </Grid>

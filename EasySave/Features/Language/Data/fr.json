@@ -43,10 +43,33 @@
     "business_soft_button": "Gestion du logicel métier",
     "file_priority_button": "Gestion de la priorité des fichiers",
     "file_size_button": "Gestion de la taille des fichiers",
-    
+
     "add_save_title": "Ajouter une sauvegarde",
     "add_save_button": "Ajouter",
     "edit_save_title": "Modifier une sauvegarde",
-    "edit_save_button": "Modifier"
+    "edit_save_button": "Modifier",
+
+    "AddJobTooltip": "Ajouter un travail de sauvegarde",
+    "EditJobTooltip": "Modifier le travail de sauvegarde",
+    "DelJobTooltip": "Supprimer le travail de sauvegarde",
+
+    "saveAnnouncement": "Sauvegarde en cours ...",
+    "saveAnnouncementEnd": "Sauvegarde terminée",
+
+    "ReleaseTitle": "Notes de publications",
+    "V1Text": "text v1 release",
+    "V1_1Text": "Ajout du format.xml pour les logs journaliers &#10; Correction de la gestion de traduction Anglais/Francais /n Ajout de la fonctionnalité de création d'emplacement de travaux de sauvegarde",
+    "V2Text": "Mise en place de l'interface graphique /n Gestion des sauvegardes si détection du logiciel métier /n Cryptage via Cryptosoft",
+    "V3Text": "text v3 release",
+
+    "SettingsTitle": "Paramètres",
+    "Log_JobPath": "Emplacement des logs/travaux de sauvegarde :",
+    "ChooseSoftBusiness": "Définir le logiciel métier :",
+    "ExtensionPriority": "Définir les extensions des fichiers prioritaires :",
+    "MaxSize": "Définir la taille maximale de sauvegarde simultanée :",
+    "EncryptExtension": "Extensions des fichiers à crypter :",
+    "Cryptosoftpath": "Emplacement du logiciel de cryptage :",
+    "EncryptKey": "Clé de cryptage :",
+    "ApplyChanges_button": "Valider les changements"
   }
 ]
