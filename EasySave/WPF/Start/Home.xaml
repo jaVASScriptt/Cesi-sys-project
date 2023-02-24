@@ -17,7 +17,7 @@
             
             <Image Grid.Column="1" Source="../Images/easysave - v1 - icon color.png" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             
-            <Button Grid.Column="2" Content="Version 2.0" FontSize="15" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="148" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Margin="0 0 0 0"/>
+            <Button Grid.Column="2" Content="Version 2.0" FontSize="15" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="148" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Margin="0 0 0 0" Click="ReleaseNoteButton"/>
         </Grid>
     
 </Page>

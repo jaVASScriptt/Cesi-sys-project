@@ -12,22 +12,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using EasySave;
 
-namespace Easysave
+namespace EasySave
 {
     /// <summary>
-    /// Logique d'interaction pour menu_general.xam
-    public partial class Home : Page
+    /// Logique d'interaction pour release_note.xaml
+    /// </summary>
+    public partial class ReleaseNote : Page
     {
-        public Home()
+        public ReleaseNote()
         {
             InitializeComponent();
-        }
-
-        private void ReleaseNoteButton(object sender, RoutedEventArgs e)
-        {
-            MainWindow.MainFrame.Content = new ReleaseNote();
+            ReleaseTitle.Text = LanguageTool.get("ReleaseTitle");
+            V1Text.Text = LanguageTool.get("V1Text");
+            V1_1Text.Text = LanguageTool.get("V1_1Text");
+            V2Text.Text = LanguageTool.get("V2Text");
+            V3Text.Text = LanguageTool.get("V3Text");
         }
     }
 }

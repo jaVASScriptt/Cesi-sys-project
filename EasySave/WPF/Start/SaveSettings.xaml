@@ -1,0 +1,62 @@
+﻿<Page x:Class="EasySave.SaveSettings"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EasySave"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="settings">
+
+    <Grid Background="#FF001A6C">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Titre en haut au milieu -->
+        <TextBlock Grid.Row="0" Name="SettingsTitle" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="30" FontWeight="Bold"/>
+
+        <!-- Contenu de la page avec barre de défilement -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Center">
+            <StackPanel>
+                <!--mettre bouton sur meme ligne-->
+
+
+                <TextBlock Name="Log_JobPath" FontSize="18" Foreground="White" Margin="10"/>
+                <TextBlock Name="Log_JobInputPath" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left"/>
+                <Button x:Name="search" Height="33" Width="105" Click="BrowserLogJobPathClick"/>
+
+                <TextBlock Name="ChooseSoftBusiness" FontSize="18" Foreground="White" Margin="10"/>
+                <ComboBox Name="Choicesoftbox" Margin="10" HorizontalAlignment="Left" Width="598">
+                    <!--liste logiciel métier-->
+                    <ComboBoxItem Content="Discord"/>
+                    <ComboBoxItem Content="notepad++"/>
+                    <ComboBoxItem Content="CalculatorApp"/>
+                </ComboBox>
+
+                <TextBlock Name="ExtensionPriority" FontSize="18" Foreground="White" Margin="10"/>
+                <TextBlock Name="ExtensionPriorityList" FontSize="18" Foreground="Black" Margin="10" Background="White" HorizontalAlignment="Left" Width="598"/>
+                <!--recuperer liste extensions prioritaire-->
+
+                <TextBlock Name="MaxSize" FontSize="18" Foreground="White" Margin="10"/>
+                <TextBlock Name="MaxSizeInput" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left"/>
+
+                <TextBlock Name="EncryptExtension" FontSize="18" Foreground="White" Margin="10"/>
+                <ListBox Name="ExtensionPEncryptList" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left"/>
+                <!--recuperer liste extensions a crypter-->
+
+                <TextBlock Name="Cryptosoftpath" FontSize="18" Foreground="White" Margin="10"/>
+                <TextBlock Name="CryptosoftpathInput" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left"/>
+                <Button Name="search1" Height="33" Width="105" Click="BrowserLogJobPathClick1"/>
+
+
+                <TextBlock Name="EncryptKey" FontSize="18" Foreground="White" Margin="10" Width="598" HorizontalAlignment="Left"/>
+                <TextBlock Name="EncryptKeyInput" FontSize="18" Foreground="Black" Margin="10"/>
+
+                <Button Name="ApplyChanges_button" Height="33" Width="106" Click="ApplyAllChangeClick"/>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
