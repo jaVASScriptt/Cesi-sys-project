@@ -62,12 +62,12 @@
                                 <Image Source="../Images/start.png"/>
                             </Button>
                             <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="editSave" MouseEnter="setEditTool">
-                                <Image Source="../Images/edit.png"/>
+                                <Image Name="Button2img" Source="../Images/edit.png"/>
                             </Button>
                             <Button Margin="5" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="DeleteButton_Click" MouseEnter="setDelTool">
-                                <Image Source="../Images/del.png"/>
+                                <Image Name="Button3img" Source="../Images/del.png"/>
                             </Button>
-                        </StackPanel>                    
+                        </StackPanel>                     
                     </Grid>
                 </StackPanel>
             </GroupBox>

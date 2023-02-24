@@ -108,6 +108,14 @@
       <Content Include="WPF\Images\easysave - v1 - icon color.png">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
+      <None Remove="WPF\Images\pause.png" />
+      <Content Include="WPF\Images\pause.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="WPF\Images\carre_rouge.png" />
+      <Content Include="WPF\Images\carre_rouge.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
     <ItemGroup>

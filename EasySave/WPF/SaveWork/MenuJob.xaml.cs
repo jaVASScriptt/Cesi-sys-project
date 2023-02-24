@@ -78,21 +78,25 @@ namespace Easysave
             return GroupList.IndexOf(group);
         }
         
-        private void doSave(object sender, RoutedEventArgs e)
-        {
+         private void doSave(object sender, RoutedEventArgs e)
+         {
             Button btn = sender as Button;
             int buttonId = GetIndexFromButton(btn);
             Grid grid = FindParentGrid(btn);
             TextBlock saveAnnouncement = (TextBlock)grid.FindName("SaveAnnouncement");
             ProgressBar progressBar = (ProgressBar)grid.FindName("SaveProgress");
             TextBlock saveProgress = (TextBlock)grid.FindName("Percent");
-            
-            
+            Image Button2Image = (Image)grid.FindName("Button2img");
+            Image Button3Image = (Image)grid.FindName("Button3img");
             
             saveAnnouncement.Visibility = Visibility.Visible;
             saveAnnouncement.Text = LanguageTool.get("saveAnnouncement");
             progressBar.Visibility = Visibility.Visible;
             saveProgress.Visibility = Visibility.Visible;
+            
+            Button2Image.Source = new BitmapImage(new Uri("../Images/pause.png", UriKind.Relative));
+            Button3Image.Source = new BitmapImage(new Uri("../Images/carre_rouge.png", UriKind.Relative));
+
             TaskData task = LogAndStateTool.getTask(buttonId);
             ISave sauvegarde = FactorySave.GetSave(task.Name, task.SourceFilePath, task.TargetFilePath, (task.Type == "Complete") ? "Complete" : "Differential");
             Thread ezSave = new Thread(() => sauvegarde.saveData(buttonId));
