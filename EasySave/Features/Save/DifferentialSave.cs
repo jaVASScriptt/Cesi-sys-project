@@ -3,6 +3,7 @@ using EasySafe;
 using System.Diagnostics;
 using System.IO;
 using System.Windows.Input;
+using EasySave.Features.Language;
 
 namespace Controler
 {
@@ -99,8 +100,6 @@ namespace Controler
 
                     //Just take the file name
                     string fileName = Path.GetFileName(target);
-
-                    LanguageTool.print(entry: fileName + ": " + fileSaveTime + " ms, " + size + " octet");
 
                     lock (lockObject)
                     {

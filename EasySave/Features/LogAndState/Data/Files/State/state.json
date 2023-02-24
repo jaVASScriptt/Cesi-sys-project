@@ -34,5 +34,17 @@
     "Progression": 0,
     "Type": "Complete",
     "LastUsed": "24/02/2023 19:37:02"
+  },
+  {
+    "Name": "ouioui",
+    "SourceFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\stock\\Cesi-sys-project\\EasySave\\Tests\\source",
+    "TargetFilePath": "C:\\Users\\vdelmas\\Documents\\Cesi\\stock\\Cesi-sys-project\\EasySave\\Tests\\target",
+    "State": "END",
+    "TotalFilesToCopy": 11,
+    "TotalFilesSize": 228,
+    "NbFilesLeftToDo": 11,
+    "Progression": 91,
+    "Type": "Complete",
+    "LastUsed": "24/02/2023 21:23:03"
   }
 ]

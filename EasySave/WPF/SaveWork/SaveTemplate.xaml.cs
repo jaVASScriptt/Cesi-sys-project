@@ -15,6 +15,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Controler;
 using System.Windows.Forms;
+using EasySave.Features.Language;
 
 namespace Easysave
 {
@@ -29,14 +30,14 @@ namespace Easysave
         {
             InitializeComponent();
             
-            SaveName.Text = LanguageTool.get("save_name");
-            SourcePath.Text = LanguageTool.get("source_path");
-            TargetPath.Text = LanguageTool.get("destination_path");
-            SaveType.Text = LanguageTool.get("save_type");
-            Complete.Content = LanguageTool.get("complete");
-            Differential.Content = LanguageTool.get("differential");
-            Search.Content = LanguageTool.get("search");
-            Search2.Content = LanguageTool.get("search");
+            SaveName.Text = LanguageTool.Get("save_name");
+            SourcePath.Text = LanguageTool.Get("source_path");
+            TargetPath.Text = LanguageTool.Get("destination_path");
+            SaveType.Text = LanguageTool.Get("save_type");
+            Complete.Content = LanguageTool.Get("complete");
+            Differential.Content = LanguageTool.Get("differential");
+            Search.Content = LanguageTool.Get("search");
+            Search2.Content = LanguageTool.Get("search");
            
 
             Complete.BorderBrush = Brushes.White;

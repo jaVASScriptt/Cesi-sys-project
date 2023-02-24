@@ -16,7 +16,6 @@ public sealed class LogAndStateTool
     {
         stateTool = new StateTool(path);
         logTool = new LogTool(path, stateTool);
-        LanguageTool.print("logPathChanged");
     }
 
     public static void addLog(int task = 0, string name = "", string SourceFilePath = "", string TargetFilePath = "", string success = "", long FileSize = 0, double FileTransferTime = 0)

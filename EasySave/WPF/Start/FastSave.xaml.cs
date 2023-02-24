@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Controler;
+using EasySave.Features.Language;
 
 namespace Easysave
 {
@@ -28,8 +29,8 @@ namespace Easysave
             InitializeComponent();
             
             SaveInfo.Content = s;
-            SaveFastTitle.Text = LanguageTool.get("save_fast_title");
-            ValidateButton.Content = LanguageTool.get("validate_button");
+            SaveFastTitle.Text = LanguageTool.Get("save_fast_title");
+            ValidateButton.Content = LanguageTool.Get("validate_button");
         }
         
         private void BtnClickSave(object sender, RoutedEventArgs e)

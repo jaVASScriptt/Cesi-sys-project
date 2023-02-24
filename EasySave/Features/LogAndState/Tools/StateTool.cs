@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 using ConsoleApp2.Features.utils;
+using EasySave.Features.Language;
 
 namespace EasySafe;
 
@@ -60,7 +61,6 @@ public class StateTool
             tasks[index] = new TaskData();
 
             UtilsTool.modifyJson(tasks.Cast<object>().ToList(), _statePath);
-            LanguageTool.print("saveDeleted");
         }
 
     }
@@ -80,7 +80,7 @@ public class StateTool
     public void showTasks()
     {
         Console.WriteLine("");
-        Console.WriteLine(LanguageTool.get("taskConfig"));
+        Console.WriteLine(LanguageTool.Get("taskConfig"));
         TaskData[] tasks = getTasks();
 
         for (int i = 0; i < tasks.Length; i++)
@@ -89,7 +89,7 @@ public class StateTool
                 Console.WriteLine(i + "] Name : " + tasks[i].Name + " --- origin: " + tasks[i].SourceFilePath +
                                   " / target: " + tasks[i].TargetFilePath + " / type : " + tasks[i].Type + " / state: " + tasks[i].State);
             else
-                Console.WriteLine(i + LanguageTool.get("noTask"));
+                Console.WriteLine(i + LanguageTool.Get("noTask"));
         }
         Console.WriteLine("");
     }
