@@ -43,8 +43,25 @@
                 <TextBlock Name="MaxSizeInput" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left"/>
 
                 <TextBlock Name="EncryptExtension" FontSize="18" Foreground="White" Margin="10"/>
-                <ListBox Name="ExtensionPEncryptList" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left"/>
-                <!--recuperer liste extensions a crypter-->
+                <StackPanel>
+                    <ListBox x:Name="ExtensionPEncryptList" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                                    <Button Content="Supprimer" Margin="10 0 0 0" Click="DeleteExtensionButton_Click"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <TextBox x:Name="NewExtensionTextBox" Width="200" Margin="0 0 10 0"/>
+                        <Button Content="Valider" Click="AddExtensionButton_Click"/>
+                    </StackPanel>
+                </StackPanel>
+
+
 
                 <TextBlock Name="Cryptosoftpath" FontSize="18" Foreground="White" Margin="10"/>
                 <TextBlock Name="CryptosoftpathInput" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left"/>

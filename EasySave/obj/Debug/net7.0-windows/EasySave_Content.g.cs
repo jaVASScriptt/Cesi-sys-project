@@ -17,5 +17,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/return.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/easysave-v1-logo_color-dark-1.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/easysave%20-%20v1%20-%20icon%20color.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/pause.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpf/images/carre_rouge.png")]
 
 

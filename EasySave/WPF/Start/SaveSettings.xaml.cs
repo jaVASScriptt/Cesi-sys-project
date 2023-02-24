@@ -21,6 +21,7 @@ namespace EasySave
     /// </summary>
     public partial class SaveSettings : Page
     {
+        
         public SaveSettings()
         {
             InitializeComponent();
@@ -35,6 +36,10 @@ namespace EasySave
             ApplyChanges_button.Content = LanguageTool.get("ApplyChanges_button");
             search.Content = LanguageTool.get("search");
             search1.Content = LanguageTool.get("search");
+            
+            
+            ExtensionPEncryptList.Items.Add(".txt");
+            
         }
 
         private void BrowserLogJobPathClick(object sender, RoutedEventArgs e)
@@ -80,6 +85,31 @@ namespace EasySave
             }
         }
 
+        private void AddExtensionButton_Click(object sender, RoutedEventArgs e)
+        {
+            string newExtension = NewExtensionTextBox.Text;
+            ExtensionPEncryptList.Items.Add(newExtension);
+        }
+        
+        private void DeleteExtensionButton_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)sender;
+            string extension = (string)button.DataContext;
+            ExtensionPEncryptList.Items.Remove(extension);
+        }
+
+        public String[] GetListBoxItems()
+        {
+            List<string> items = new List<string>();
+
+            foreach (string item in ExtensionPEncryptList.Items)
+            {
+                items.Add(item);
+            }
+
+            return items.ToArray();
+        }
+        
         private void ApplyAllChangeClick(object sender, RoutedEventArgs e)
         {
             //EXTENSION PRIORITY
