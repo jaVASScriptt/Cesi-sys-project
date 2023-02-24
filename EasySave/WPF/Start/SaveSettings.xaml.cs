@@ -38,10 +38,15 @@ namespace EasySave
             search.Content = LanguageTool.get("search");
             //search1.Content = LanguageTool.get("search");
 
+            //set values
             EncryptKeyInput.Text = SaveTool.getKey();
             foreach (var x in SaveTool.getFilesToCrypt())
             {
                 ExtensionPEncryptList.Items.Add(x);
+            }
+            foreach (var x in JobStop.getSoftwareName())
+            {
+                ChooseSoftBusinessList.Items.Add(x);
             }
 
         }
@@ -102,6 +107,22 @@ namespace EasySave
             ExtensionPEncryptList.Items.Remove(extension);
         }
 
+        private void AddSoftwareButton_Click(object sender, RoutedEventArgs e)
+        {
+            string newExtension = NewSoftwareTextBox.Text;
+            ChooseSoftBusinessList.Items.Add(newExtension);
+        }
+        private void DeleteSoftwareButton_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)sender;
+            string extension = (string)button.DataContext;
+            ChooseSoftBusinessList.Items.Remove(extension);
+        }
+
+        
+
+        
+
         public void updateList()
         {
             List<string> items = new List<string>();
@@ -114,10 +135,26 @@ namespace EasySave
             SaveTool.setFilesToCrypt(items.ToArray());
         }
 
+        public void updateJobs()
+        {
+            List<string> items = new List<string>();
+
+            foreach (string item in ChooseSoftBusinessList.Items)
+            {
+                items.Add(item);
+            }
+
+            JobStop.setSoftwareName(items.ToArray());
+            JobStop.startProcess();
+        }
+
+
+
         private void ApplyAllChangeClick(object sender, RoutedEventArgs e)
         {
             updateList();
             SaveTool.setKey(EncryptKeyInput.Text);
+            updateJobs();
         }
 
     }

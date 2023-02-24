@@ -27,13 +27,41 @@
                 <TextBlock Name="Log_JobInputPath" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left"/>
                 <Button x:Name="search" Height="33" Width="105" Click="BrowserLogJobPathClick"/>
 
+                <!--
                 <TextBlock Name="ChooseSoftBusiness" FontSize="18" Foreground="White" Margin="10"/>
                 <ComboBox Name="Choicesoftbox" Margin="10" HorizontalAlignment="Left" Width="598">
-                    <!--liste logiciel métier-->
+                    liste logiciel métier
                     <ComboBoxItem Content="Discord"/>
                     <ComboBoxItem Content="notepad++"/>
                     <ComboBoxItem Content="CalculatorApp"/>
-                </ComboBox>
+                </ComboBox>-->
+
+
+
+
+
+                <TextBlock Name="ChooseSoftBusiness" FontSize="18" Foreground="White" Margin="10"/>
+                <StackPanel>
+                    <ListBox x:Name="ChooseSoftBusinessList" FontSize="18" Foreground="Black" Margin="10" Background="White" Width="598" HorizontalAlignment="Left">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                                    <Button Content="Supprimer" Margin="10 0 0 0" Click="DeleteSoftwareButton_Click"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <TextBox x:Name="NewSoftwareTextBox" Width="200" Margin="0 0 10 0"/>
+                        <Button Content="Valider" Click="AddSoftwareButton_Click"/>
+                    </StackPanel>
+                </StackPanel>
+                
+                
+                
+                
 
                 <TextBlock Name="ExtensionPriority" FontSize="18" Foreground="White" Margin="10"/>
                 <TextBlock Name="ExtensionPriorityList" FontSize="18" Foreground="Black" Margin="10" Background="White" HorizontalAlignment="Left" Width="598"/>

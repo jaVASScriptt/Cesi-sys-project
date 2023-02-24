@@ -5913,4 +5913,22 @@
     <FileTransferTime>2,6156</FileTransferTime>
     <Time>24/02/2023 19:37:02</Time>
   </log>
+  <log>
+    <Name>Image</Name>
+    <SourceFilePath>C:\Users\theot\Pictures\reversecard\RedReverseCard.png</SourceFilePath>
+    <TargetFilePath>D:\test\RedReverseCard.png</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>89829</FileSize>
+    <FileTransferTime>6,8809</FileTransferTime>
+    <Time>24/02/2023 22:57:20</Time>
+  </log>
+  <log>
+    <Name>Image</Name>
+    <SourceFilePath>C:\Users\theot\Pictures\reversecard\RedReverseCard.png</SourceFilePath>
+    <TargetFilePath>D:\test\RedReverseCard.png</TargetFilePath>
+    <Success>success</Success>
+    <FileSize>89829</FileSize>
+    <FileTransferTime>1,3456</FileTransferTime>
+    <Time>24/02/2023 22:57:55</Time>
+  </log>
 </logs>

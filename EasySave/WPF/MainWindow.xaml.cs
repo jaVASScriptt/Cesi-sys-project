@@ -40,6 +40,10 @@ namespace EasySave
 
         private void BtnClickExit(object sender, RoutedEventArgs e)
         {
+            string[] t = { "" };
+            JobStop.setSoftwareName(t);
+            t[0] = "a";
+            JobStop.setSoftwareName(t);
             Application.Current.Shutdown();
         }
         
