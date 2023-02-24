@@ -14,6 +14,9 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using EasySafe;
 using EasySave;
+using EasySave.Features.Language;
+using EasySave.Features.LogAndState.Data;
+using EasySave.Features.LogAndState.Tools;
 
 namespace Easysave
 {
@@ -31,8 +34,8 @@ namespace Easysave
             SaveInfo.Content = s;
             index = i;
             TaskData t = LogAndStateTool.getTask(i);
-            SaveAddTitle.Text = LanguageTool.get("edit_save_title");
-            ValidateButton.Content = LanguageTool.get("edit_save_button");
+            SaveAddTitle.Text = LanguageTool.Get("edit_save_title");
+            ValidateButton.Content = LanguageTool.Get("edit_save_button");
             s.SaveNameEntry.Text = t.Name;
             s.SourcePathEntry.Text = t.SourceFilePath;
             s.TargetPathEntry.Text = t.TargetFilePath;

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using EasySave.Features.Language;
 
 namespace EasySave
 {
@@ -23,11 +24,11 @@ namespace EasySave
         public ReleaseNote()
         {
             InitializeComponent();
-            ReleaseTitle.Text = LanguageTool.get("ReleaseTitle");
-            V1Text.Text = LanguageTool.get("V1Text");
-            V1_1Text.Text = LanguageTool.get("V1_1Text");
-            V2Text.Text = LanguageTool.get("V2Text");
-            V3Text.Text = LanguageTool.get("V3Text");
+            ReleaseTitle.Text = LanguageTool.Get("ReleaseTitle");
+            V1Text.Text = LanguageTool.Get("V1Text");
+            V1_1Text.Text = LanguageTool.Get("V1_1Text");
+            V2Text.Text = LanguageTool.Get("V2Text");
+            V3Text.Text = LanguageTool.Get("V3Text");
         }
     }
 }

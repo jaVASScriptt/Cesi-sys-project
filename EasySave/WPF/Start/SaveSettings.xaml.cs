@@ -14,6 +14,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Controler;
+using EasySafe;
+using EasySave.Features.Language;
+using EasySave.Features.LogAndState.Tools;
 
 namespace EasySave
 {
@@ -26,16 +29,16 @@ namespace EasySave
         public SaveSettings()
         {
             InitializeComponent();
-            SettingsTitle.Text = LanguageTool.get("SettingsTitle");
-            Log_JobPath.Text = LanguageTool.get("Log_JobPath");
-            ChooseSoftBusiness.Text = LanguageTool.get("ChooseSoftBusiness");
-            ExtensionPriority.Text = LanguageTool.get("ExtensionPriority");
-            MaxSize.Text = LanguageTool.get("MaxSize");
-            EncryptExtension.Text = LanguageTool.get("EncryptExtension");
+            SettingsTitle.Text = LanguageTool.Get("SettingsTitle");
+            Log_JobPath.Text = LanguageTool.Get("Log_JobPath");
+            ChooseSoftBusiness.Text = LanguageTool.Get("ChooseSoftBusiness");
+            ExtensionPriority.Text = LanguageTool.Get("ExtensionPriority");
+            MaxSize.Text = LanguageTool.Get("MaxSize");
+            EncryptExtension.Text = LanguageTool.Get("EncryptExtension");
             //Cryptosoftpath.Text = LanguageTool.get("Cryptosoftpath");
-            EncryptKey.Text = LanguageTool.get("EncryptKey");
-            ApplyChanges_button.Content = LanguageTool.get("ApplyChanges_button");
-            search.Content = LanguageTool.get("search");
+            EncryptKey.Text = LanguageTool.Get("EncryptKey");
+            ApplyChanges_button.Content = LanguageTool.Get("ApplyChanges_button");
+            search.Content = LanguageTool.Get("search");
             //search1.Content = LanguageTool.get("search");
 
             //set values
@@ -134,6 +137,12 @@ namespace EasySave
 
             SaveTool.setFilesToCrypt(items.ToArray());
         }
+        
+        private void setLogAndStatePath()
+        {
+            string NewPath = Log_JobInputPath.Text;
+            LogAndStateTool.changePath(NewPath);
+        }
 
         public void updateJobs()
         {
@@ -153,6 +162,7 @@ namespace EasySave
         private void ApplyAllChangeClick(object sender, RoutedEventArgs e)
         {
             updateList();
+            setLogAndStatePath();
             SaveTool.setKey(EncryptKeyInput.Text);
             updateJobs();
         }

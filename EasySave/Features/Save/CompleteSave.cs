@@ -3,7 +3,8 @@ using System.IO;
 using EasySafe;
 using System.Security.Cryptography.X509Certificates;
 using System.Diagnostics;
-
+using EasySave.Features.Language;
+using EasySave.Features.LogAndState.Tools;
 
 namespace Controler
 {
@@ -48,20 +49,21 @@ namespace Controler
             savePath = Path.Combine(savePath, new DirectoryInfo(originPath).Name);
             Directory.CreateDirectory(savePath);
 
-            //Now Create all of the directories
+            //Créez maintenant tous les répertoires
             foreach (string dirPath in Directory.GetDirectories(originPath, "*", SearchOption.AllDirectories))
                 Directory.CreateDirectory(dirPath.Replace(originPath, savePath));
 
-            //Copy all the files & Replaces any files with the same name
+        
+            //Sauvegarde tous les fichiers et écrase n'importe quel fichier qui a le même nom
             foreach (string newPath in Directory.GetFiles(originPath, "*.*", SearchOption.AllDirectories))
             {
                 string origin = newPath;
                 
                 string target = newPath.Replace(originPath, savePath);
-                //Measurement of the current time
+                //Mesure de l'heure actuelle
                 DateTime startTimeFile = DateTime.Now;
 
-                //Measurement of the file size
+                //Mesure de la taille du fichier
                 FileInfo fileInfo = new FileInfo(origin);
                 long size = fileInfo.Length;
 
@@ -85,15 +87,14 @@ namespace Controler
                     Process.Start(startInfo);
                 }
 
-                //Save time: subtract current time - previously measured time
+                //Calcul du temp de sauvegarde
+                
                 DateTime endTimeFile = DateTime.Now;
                 TimeSpan timeSave = endTimeFile - startTimeFile;
                 Double fileSaveTime = timeSave.TotalMilliseconds;
 
-                //Just take the file name
+                //Prend le nom de fichier
                 string fileName = Path.GetFileName(target);
-
-                LanguageTool.print(entry: fileName + ": " + fileSaveTime + " ms, " + size + " octet");
 
                 lock (lockObject)
                 {

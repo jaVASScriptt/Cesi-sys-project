@@ -14,6 +14,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using EasySafe;
 using EasySave;
+using EasySave.Features.Language;
+using EasySave.Features.LogAndState.Tools;
 
 namespace Easysave
 {
@@ -27,8 +29,8 @@ namespace Easysave
         {
             InitializeComponent();
             SaveInfo.Content = s;
-            SaveAddTitle.Text = LanguageTool.get("add_save_title");
-            ValidateButton.Content = LanguageTool.get("add_save_button");
+            SaveAddTitle.Text = LanguageTool.Get("add_save_title");
+            ValidateButton.Content = LanguageTool.Get("add_save_button");
         }
         
         private void BtnClickAddSave(object sender, RoutedEventArgs e)

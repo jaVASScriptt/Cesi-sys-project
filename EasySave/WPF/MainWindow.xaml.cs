@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Easysave;
+using EasySave.Features.Language;
 
 namespace EasySave
 {
@@ -28,7 +29,7 @@ namespace EasySave
 
         public MainWindow()
         {
-            LanguageTool.setLanguage(2);
+            LanguageTool.SetLanguage(2);
             InitializeComponent();
             MainFrame = Main;
             saveButtonAccess = SaveButton;

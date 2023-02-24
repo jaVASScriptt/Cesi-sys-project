@@ -16,6 +16,9 @@ using System.Windows.Shapes;
 using Controler;
 using EasySafe;
 using EasySave;
+using EasySave.Features.Language;
+using EasySave.Features.LogAndState.Data;
+using EasySave.Features.LogAndState.Tools;
 
 namespace Easysave
 {
@@ -28,9 +31,9 @@ namespace Easysave
         public MenuJob()
         {
             InitializeComponent();
-            title_job_menu.Text = LanguageTool.get("title_job_menu");
-            add_job_button.Content = LanguageTool.get("add_job_button");
-            del_job_button.Content = LanguageTool.get("del_job_button");
+            title_job_menu.Text = LanguageTool.Get("title_job_menu");
+            add_job_button.Content = LanguageTool.Get("add_job_button");
+            del_job_button.Content = LanguageTool.Get("del_job_button");
 
             GroupList = new List<Group>();
 
@@ -41,17 +44,17 @@ namespace Easysave
             {
                 GroupList.Add(new Group
                  {
-                     Name = LanguageTool.get("job_number") + i,
+                     Name = LanguageTool.Get("job_number") + i,
                      Tests = new List<Test>
                      {
-                         new Test { Name = LanguageTool.get("job_name"), Value = l[i].Name},
-                         new Test { Name = LanguageTool.get("source_path_job"), Value = l[i].SourceFilePath },
-                         new Test { Name = LanguageTool.get("target_path_job"), Value = l[i].TargetFilePath },
-                         new Test { Name = LanguageTool.get("type_job"), Value = l[i].Type },
-                         new Test { Name = LanguageTool.get("state"), Value = l[i].State },
-                         new Test { Name = LanguageTool.get("total_file"), Value = l[i].TotalFilesToCopy.ToString() },
-                         new Test { Name = LanguageTool.get("file_size"), Value = l[i].TotalFilesSize.ToString() },
-                         new Test { Name = LanguageTool.get("nb_file_left"), Value = l[i].NbFilesLeftToDo.ToString() },
+                         new Test { Name = LanguageTool.Get("job_name"), Value = l[i].Name},
+                         new Test { Name = LanguageTool.Get("source_path_job"), Value = l[i].SourceFilePath },
+                         new Test { Name = LanguageTool.Get("target_path_job"), Value = l[i].TargetFilePath },
+                         new Test { Name = LanguageTool.Get("type_job"), Value = l[i].Type },
+                         new Test { Name = LanguageTool.Get("state"), Value = l[i].State },
+                         new Test { Name = LanguageTool.Get("total_file"), Value = l[i].TotalFilesToCopy.ToString() },
+                         new Test { Name = LanguageTool.Get("file_size"), Value = l[i].TotalFilesSize.ToString() },
+                         new Test { Name = LanguageTool.Get("nb_file_left"), Value = l[i].NbFilesLeftToDo.ToString() },
                      }
                  });
             }
@@ -90,7 +93,7 @@ namespace Easysave
             Image Button3Image = (Image)grid.FindName("Button3img");
             
             saveAnnouncement.Visibility = Visibility.Visible;
-            saveAnnouncement.Text = LanguageTool.get("saveAnnouncement");
+            saveAnnouncement.Text = LanguageTool.Get("saveAnnouncement");
             progressBar.Visibility = Visibility.Visible;
             saveProgress.Visibility = Visibility.Visible;
             
@@ -111,7 +114,7 @@ namespace Easysave
             Task.Delay(3000);
             progressBar.Value = 100;
             saveProgress.Text = 100 + "%";
-            saveAnnouncement.Text = LanguageTool.get("saveAnnouncementEnd");
+            saveAnnouncement.Text = LanguageTool.Get("saveAnnouncementEnd");
             
             Button2Image.Source = new BitmapImage(new Uri("../Images/edit.png", UriKind.Relative));
             Button3Image.Source = new BitmapImage(new Uri("../Images/del.png", UriKind.Relative));
@@ -150,19 +153,19 @@ namespace Easysave
         private void setAddTool(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
-            btn.ToolTip = LanguageTool.get("AddJobTooltip");
+            btn.ToolTip = LanguageTool.Get("AddJobTooltip");
         }
         
         private void setEditTool(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
-            btn.ToolTip = LanguageTool.get("EditJobTooltip");
+            btn.ToolTip = LanguageTool.Get("EditJobTooltip");
         }
         
         private void setDelTool(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
-            btn.ToolTip = LanguageTool.get("DelJobTooltip");
+            btn.ToolTip = LanguageTool.Get("DelJobTooltip");
         }
         
     }

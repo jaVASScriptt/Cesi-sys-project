@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using EasySave;
+using EasySave.Features.Language;
 
 namespace Easysave
 {
@@ -24,9 +25,9 @@ namespace Easysave
         public ChoiceSave()
         {
             InitializeComponent();
-            save_choice.Text = LanguageTool.get("save_choice");
-            fast_save_button.Content = LanguageTool.get("fast_save_button");
-            job_save_button.Content = LanguageTool.get("job_save_button");
+            save_choice.Text = LanguageTool.Get("save_choice");
+            fast_save_button.Content = LanguageTool.Get("fast_save_button");
+            job_save_button.Content = LanguageTool.Get("job_save_button");
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)

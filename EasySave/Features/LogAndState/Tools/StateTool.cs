@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 using ConsoleApp2.Features.utils;
+using EasySave.Features.Language;
+using EasySave.Features.LogAndState.Data;
 
 namespace EasySafe;
 
@@ -60,7 +62,6 @@ public class StateTool
             tasks[index] = new TaskData();
 
             UtilsTool.modifyJson(tasks.Cast<object>().ToList(), _statePath);
-            LanguageTool.print("saveDeleted");
         }
 
     }
@@ -80,7 +81,7 @@ public class StateTool
     public void showTasks()
     {
         Console.WriteLine("");
-        Console.WriteLine(LanguageTool.get("taskConfig"));
+        Console.WriteLine(LanguageTool.Get("taskConfig"));
         TaskData[] tasks = getTasks();
 
         for (int i = 0; i < tasks.Length; i++)
@@ -89,7 +90,7 @@ public class StateTool
                 Console.WriteLine(i + "] Name : " + tasks[i].Name + " --- origin: " + tasks[i].SourceFilePath +
                                   " / target: " + tasks[i].TargetFilePath + " / type : " + tasks[i].Type + " / state: " + tasks[i].State);
             else
-                Console.WriteLine(i + LanguageTool.get("noTask"));
+                Console.WriteLine(i + LanguageTool.Get("noTask"));
         }
         Console.WriteLine("");
     }
@@ -154,18 +155,18 @@ public class StateTool
 
         
             
-            
-            //Count all the files in the directory and its subdirectories
+            //Compte tous les fichiers dans le répertoire indiqué et les sous-répertoires
             int filesCountCase1 = 0;
 
-            //Measurement of the file size
+            
+            //Ici on mesure la taille des fichiers
             long filesSizeCase1 = 0;
 
             foreach (string filePath in Directory.GetFiles(SourceFilePath, "*.*", SearchOption.AllDirectories))
             {
                 filesCountCase1++;
-
-                //Get the file size and add it to the total size
+                
+                //Récupére les tailles de fichier et l'ajoute dans le total size
                 FileInfo fileInfo = new FileInfo(filePath);
                 filesSizeCase1 += fileInfo.Length;
             }
