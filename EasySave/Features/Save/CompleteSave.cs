@@ -6,7 +6,6 @@ using System.Diagnostics;
 using EasySave.Features.Language;
 using EasySave.Features.LogAndState.Tools;
 
-
 namespace Controler
 {
     class CompleteSave : ISave
